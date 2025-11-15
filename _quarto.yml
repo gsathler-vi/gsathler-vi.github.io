@@ -5,10 +5,11 @@ execute:
   freeze: auto
 
 website:
+  twitter-card: true
+  open-graph: true
   favicon: arquivos/logo.png
   site-url: "https://gsathler-vi.github.io/"
   site-path: "/"
-  open-graph: true
   image: "preview-image.png"
   page-footer:
     background: "#578cd7"

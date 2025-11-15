@@ -9,6 +9,13 @@
 <link>https://gsathler-vi.github.io/posts.html</link>
 <atom:link href="https://gsathler-vi.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
+<image>
+<url>https://gsathler-vi.github.io/preview-image.png</url>
+<title>Gabriel Sathler</title>
+<link>https://gsathler-vi.github.io/posts.html</link>
+<height>80</height>
+<width>144</width>
+</image>
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Fri, 31 Oct 2025 03:00:00 GMT</lastBuildDate>
 <item>
