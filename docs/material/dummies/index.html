@@ -303,7 +303,7 @@ window.Quarto = {
 <section id="preparação-do-ambiente-e-dos-dados" class="level3">
 <h3 class="anchored" data-anchor-id="preparação-do-ambiente-e-dos-dados">1.2. Preparação do Ambiente e dos Dados</h3>
 <p>Primeiro, carregamos as bibliotecas necessárias e filtramos nossa base de dados para focar no nosso público de interesse.</p>
-<div id="2f2eeb44" class="cell" data-execution_count="1">
+<div id="dc653dfb" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -581,7 +581,7 @@ Nota_i = \beta_0 &amp; + \alpha_1 \text{PessoasRes}_i \\
 <section id="modelo-1-a-abordagem-correta-com-dummies" class="level3">
 <h3 class="anchored" data-anchor-id="modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</h3>
 <p>Primeiro, estimamos o modelo de regressão utilizando o conjunto completo de dummies.</p>
-<div id="d07fb1e5" class="cell" data-execution_count="2">
+<div id="6554c454" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preparação dos Dados</span></span>
@@ -612,7 +612,7 @@ Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.090
 Method:                 Least Squares   F-statistic:                     93.19
 Date:                Sat, 15 Nov 2025   Prob (F-statistic):               0.00
-Time:                        19:48:35   Log-Likelihood:            -1.0054e+05
+Time:                        20:36:38   Log-Likelihood:            -1.0054e+05
 No. Observations:               25077   AIC:                         2.011e+05
 Df Residuals:                   25049   BIC:                         2.014e+05
 Df Model:                          27                                         
@@ -677,7 +677,7 @@ Notes:
 <section id="interpretando-os-coeficientes-de-renda" class="level4">
 <h4 class="anchored" data-anchor-id="interpretando-os-coeficientes-de-renda">4.2.2 Interpretando os Coeficientes de Renda</h4>
 <p>O gráfico abaixo mostra o valor do coeficiente para cada dummy de renda.</p>
-<div id="f81989f1" class="cell" data-execution_count="3">
+<div id="815d8942" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>coefs_renda <span class="op">=</span> resultados_ols.params.<span class="bu">filter</span>(like<span class="op">=</span><span class="st">'renda_fx'</span>) </span>
@@ -735,7 +735,7 @@ Notes:
 <h3 class="anchored" data-anchor-id="modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</h3>
 <p>Um erro comum é pensar que as variáveis por apresntarem um comportamento aparentemente ordinal, podem ser analisada como uma variável ordinal conforme feito anteriormente com a vaariável <code>cod_renda</code>. Porém isto é um metódo errado que explicaremos a seguir.</p>
 <p>Para fins de comparação, estimamos o modelo incorreto utilizando variáveis de forma ordinal.</p>
-<div id="3707abfc" class="cell" data-execution_count="4">
+<div id="cc53b3a7" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Variáveis para Modelo Ordinal</span></span>
@@ -767,7 +767,7 @@ Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.091
 Method:                 Least Squares   F-statistic:                     189.1
 Date:                Sat, 15 Nov 2025   Prob (F-statistic):               0.00
-Time:                        19:48:35   Log-Likelihood:                -97921.
+Time:                        20:36:38   Log-Likelihood:                -97921.
 No. Observations:               24448   AIC:                         1.959e+05
 Df Residuals:                   24434   BIC:                         1.960e+05
 Df Model:                          13                                         
@@ -825,7 +825,7 @@ Notes:
 <section id="o-veredito-comparando-os-modelos" class="level2">
 <h2 class="anchored" data-anchor-id="o-veredito-comparando-os-modelos"><strong>5. O Veredito: Comparando os Modelos</strong></h2>
 <p>Os gráficos a seguir ilustram a diferença fundamental entre as duas abordagens, agora empilhados verticalmente para melhor visualização.</p>
-<div id="1c0ce76e" class="cell" data-execution_count="5">
+<div id="34dcaa27" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">8</span>))</span>

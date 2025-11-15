@@ -7,6 +7,7 @@ execute:
 website:
   favicon: arquivos/logo.png
   site-url: "https://gsathler-vi.github.io/"
+  site-path: "/"
   page-footer:
     background: "#578cd7"
     left: "2025, Gabriel Sathler" 
