@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gsathler-vi.github.io/index.html</loc>
-    <lastmod>2025-11-15T23:36:27.324Z</lastmod>
-  </url>
-  <url>
     <loc>https://gsathler-vi.github.io/posts.html</loc>
     <lastmod>2025-11-15T22:06:06.794Z</lastmod>
   </url>
@@ -13,16 +9,20 @@
     <lastmod>2025-11-15T22:11:27.528Z</lastmod>
   </url>
   <url>
-    <loc>https://gsathler-vi.github.io/experiencia.html</loc>
-    <lastmod>2025-11-15T17:36:17.900Z</lastmod>
+    <loc>https://gsathler-vi.github.io/index.html</loc>
+    <lastmod>2025-11-15T23:47:14.015Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/competencias.html</loc>
+    <lastmod>2025-11-15T16:28:47.660Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/certificacoes.html</loc>
     <lastmod>2025-11-15T19:15:05.673Z</lastmod>
   </url>
   <url>
-    <loc>https://gsathler-vi.github.io/competencias.html</loc>
-    <lastmod>2025-11-15T16:28:47.660Z</lastmod>
+    <loc>https://gsathler-vi.github.io/experiencia.html</loc>
+    <lastmod>2025-11-15T17:36:17.900Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/listing.html</loc>

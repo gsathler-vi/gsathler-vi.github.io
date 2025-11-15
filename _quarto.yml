@@ -8,6 +8,8 @@ website:
   favicon: arquivos/logo.png
   site-url: "https://gsathler-vi.github.io/"
   site-path: "/"
+  open-graph: true
+  image: "preview-image.png"
   page-footer:
     background: "#578cd7"
     left: "2025, Gabriel Sathler" 
