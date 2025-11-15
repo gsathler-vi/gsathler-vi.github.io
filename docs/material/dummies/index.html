@@ -66,6 +66,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<link href="../../arquivos/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -141,7 +142,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -149,8 +150,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../logo.png" alt="" class="navbar-logo light-content">
-    <img src="../../logo.png" alt="" class="navbar-logo dark-content">
+    <img src="../../arquivos\logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../arquivos\logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Gabriel Sathler</span>
@@ -208,7 +209,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Aplicação de Dummies: Desvendando o Desempenho no ENADE com Regressão Múltipla</h1>
@@ -239,34 +240,49 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
   <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><strong>1. Introdução</strong></a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#o-problema-o-que-explica-a-nota-no-enade" id="toc-o-problema-o-que-explica-a-nota-no-enade" class="nav-link" data-scroll-target="#o-problema-o-que-explica-a-nota-no-enade">1.1. O Problema: O que explica a nota no ENADE?</a></li>
   <li><a href="#preparação-do-ambiente-e-dos-dados" id="toc-preparação-do-ambiente-e-dos-dados" class="nav-link" data-scroll-target="#preparação-do-ambiente-e-dos-dados">1.2. Preparação do Ambiente e dos Dados</a></li>
   </ul></li>
   <li><a href="#o-desafio-das-variáveis-categóricas" id="toc-o-desafio-das-variáveis-categóricas" class="nav-link" data-scroll-target="#o-desafio-das-variáveis-categóricas"><strong>2. O Desafio das Variáveis Categóricas</strong></a></li>
   <li><a href="#a-solução-variáveis-dummy" id="toc-a-solução-variáveis-dummy" class="nav-link" data-scroll-target="#a-solução-variáveis-dummy"><strong>3. A Solução: Variáveis Dummy</strong></a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#o-que-são-dummies" id="toc-o-que-são-dummies" class="nav-link" data-scroll-target="#o-que-são-dummies">3.1. O que são Dummies?</a></li>
-  <li><a href="#exemplo-prático-transformando-variáveis" id="toc-exemplo-prático-transformando-variáveis" class="nav-link" data-scroll-target="#exemplo-prático-transformando-variáveis">3.2. Exemplo Prático: Transformando Variáveis</a></li>
+  <li><a href="#exemplo-prático-transformando-variáveis" id="toc-exemplo-prático-transformando-variáveis" class="nav-link" data-scroll-target="#exemplo-prático-transformando-variáveis">3.2. Exemplo Prático: Transformando Variáveis</a>
+  <ul class="collapse">
+  <li><a href="#exemplo-tabela-original-retirada-do-questionário" id="toc-exemplo-tabela-original-retirada-do-questionário" class="nav-link" data-scroll-target="#exemplo-tabela-original-retirada-do-questionário">3.2.1. Exemplo tabela original retirada do questionário:</a></li>
+  <li><a href="#transformação-do-questionário-para-variáveis-numericas-ordinais" id="toc-transformação-do-questionário-para-variáveis-numericas-ordinais" class="nav-link" data-scroll-target="#transformação-do-questionário-para-variáveis-numericas-ordinais">3.2.2. Transformação do questionário para variáveis numericas ordinais:</a></li>
+  <li><a href="#criação-de-dummies" id="toc-criação-de-dummies" class="nav-link" data-scroll-target="#criação-de-dummies">3.2.3. Criação de Dummies</a></li>
+  </ul></li>
   <li><a href="#a-armadilha-da-multicolinearidade" id="toc-a-armadilha-da-multicolinearidade" class="nav-link" data-scroll-target="#a-armadilha-da-multicolinearidade">3.3. A Armadilha da Multicolinearidade</a></li>
   </ul></li>
   <li><a href="#construção-e-análise-dos-modelos" id="toc-construção-e-análise-dos-modelos" class="nav-link" data-scroll-target="#construção-e-análise-dos-modelos"><strong>4. Construção e Análise dos Modelos</strong></a>
-  <ul class="collapse">
+  <ul>
   <li><a href="#o-modelo-teórico-completo" id="toc-o-modelo-teórico-completo" class="nav-link" data-scroll-target="#o-modelo-teórico-completo">4.1. O Modelo Teórico Completo</a></li>
-  <li><a href="#modelo-1-a-abordagem-correta-com-dummies" id="toc-modelo-1-a-abordagem-correta-com-dummies" class="nav-link" data-scroll-target="#modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</a></li>
-  <li><a href="#modelo-2-um-erro-didático-renda-como-variável-ordinal" id="toc-modelo-2-um-erro-didático-renda-como-variável-ordinal" class="nav-link" data-scroll-target="#modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</a></li>
+  <li><a href="#modelo-1-a-abordagem-correta-com-dummies" id="toc-modelo-1-a-abordagem-correta-com-dummies" class="nav-link" data-scroll-target="#modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</a>
+  <ul class="collapse">
+  <li><a href="#o-modelo-estimado-com-coeficientes" id="toc-o-modelo-estimado-com-coeficientes" class="nav-link" data-scroll-target="#o-modelo-estimado-com-coeficientes">4.2.1 O Modelo Estimado com Coeficientes</a></li>
+  <li><a href="#interpretando-os-coeficientes-de-renda" id="toc-interpretando-os-coeficientes-de-renda" class="nav-link" data-scroll-target="#interpretando-os-coeficientes-de-renda">4.2.2 Interpretando os Coeficientes de Renda</a></li>
+  </ul></li>
+  <li><a href="#modelo-2-um-erro-didático-renda-como-variável-ordinal" id="toc-modelo-2-um-erro-didático-renda-como-variável-ordinal" class="nav-link" data-scroll-target="#modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</a>
+  <ul class="collapse">
+  <li><a href="#o-modelo-estimado-com-coeficientes-1" id="toc-o-modelo-estimado-com-coeficientes-1" class="nav-link" data-scroll-target="#o-modelo-estimado-com-coeficientes-1">4.2.1 O Modelo Estimado com Coeficientes</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#o-veredito-comparando-os-modelos" id="toc-o-veredito-comparando-os-modelos" class="nav-link" data-scroll-target="#o-veredito-comparando-os-modelos"><strong>5. O Veredito: Comparando os Modelos</strong></a></li>
   <li><a href="#conclusões" id="toc-conclusões" class="nav-link" data-scroll-target="#conclusões">6. Conclusões</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -287,7 +303,9 @@ window.Quarto = {
 <section id="preparação-do-ambiente-e-dos-dados" class="level3">
 <h3 class="anchored" data-anchor-id="preparação-do-ambiente-e-dos-dados">1.2. Preparação do Ambiente e dos Dados</h3>
 <p>Primeiro, carregamos as bibliotecas necessárias e filtramos nossa base de dados para focar no nosso público de interesse.</p>
-<div id="9f26c738" class="cell" data-execution_count="1">
+<div id="2f2eeb44" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -309,6 +327,7 @@ window.Quarto = {
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"O DataFrame final contém </span><span class="sc">{</span>df<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> observações para nossa investigação."</span>)</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">FileNotFoundError</span>:</span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Erro: Arquivo 'dataset/01_enade.parquet' não foi encontrado."</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>O DataFrame final contém 28191 observações para nossa investigação.</code></pre>
 </div>
@@ -562,7 +581,9 @@ Nota_i = \beta_0 &amp; + \alpha_1 \text{PessoasRes}_i \\
 <section id="modelo-1-a-abordagem-correta-com-dummies" class="level3">
 <h3 class="anchored" data-anchor-id="modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</h3>
 <p>Primeiro, estimamos o modelo de regressão utilizando o conjunto completo de dummies.</p>
-<div id="3ad7ec56" class="cell" data-execution_count="2">
+<div id="d07fb1e5" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preparação dos Dados</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>y_var <span class="op">=</span> <span class="st">'nt_ger'</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x_vars_dummies <span class="op">=</span> [</span>
@@ -583,6 +604,7 @@ Nota_i = \beta_0 &amp; + \alpha_1 \text{PessoasRes}_i \\
 <span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>modelo_ols <span class="op">=</span> sm.OLS(y, X_dummies)</span>
 <span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>resultados_ols <span class="op">=</span> modelo_ols.fit()</span>
 <span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(resultados_ols.summary())</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>                            OLS Regression Results                            
 ==============================================================================
@@ -590,7 +612,7 @@ Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.090
 Method:                 Least Squares   F-statistic:                     93.19
 Date:                Sat, 15 Nov 2025   Prob (F-statistic):               0.00
-Time:                        18:13:18   Log-Likelihood:            -1.0054e+05
+Time:                        19:48:35   Log-Likelihood:            -1.0054e+05
 No. Observations:               25077   AIC:                         2.011e+05
 Df Residuals:                   25049   BIC:                         2.014e+05
 Df Model:                          27                                         
@@ -655,7 +677,9 @@ Notes:
 <section id="interpretando-os-coeficientes-de-renda" class="level4">
 <h4 class="anchored" data-anchor-id="interpretando-os-coeficientes-de-renda">4.2.2 Interpretando os Coeficientes de Renda</h4>
 <p>O gráfico abaixo mostra o valor do coeficiente para cada dummy de renda.</p>
-<div id="d4e70297" class="cell" data-execution_count="3">
+<div id="f81989f1" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>coefs_renda <span class="op">=</span> resultados_ols.params.<span class="bu">filter</span>(like<span class="op">=</span><span class="st">'renda_fx'</span>) </span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>coefs_renda.index <span class="op">=</span> [<span class="st">'1.5 a 3 SM'</span>, <span class="st">'3 a 4.5 SM'</span>, <span class="st">'4.5 a 6 SM'</span>, <span class="st">'6 a 10 SM'</span>, <span class="st">'10 a 30 SM'</span>, <span class="st">'&gt; 30 SM'</span>]</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -686,6 +710,7 @@ Notes:
 <span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>plt.tight_layout() <span class="co"># Ajusta o layout para evitar que os rótulos sejam cortados</span></span>
 <span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -710,7 +735,9 @@ Notes:
 <h3 class="anchored" data-anchor-id="modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</h3>
 <p>Um erro comum é pensar que as variáveis por apresntarem um comportamento aparentemente ordinal, podem ser analisada como uma variável ordinal conforme feito anteriormente com a vaariável <code>cod_renda</code>. Porém isto é um metódo errado que explicaremos a seguir.</p>
 <p>Para fins de comparação, estimamos o modelo incorreto utilizando variáveis de forma ordinal.</p>
-<div id="a5dc33e6" class="cell" data-execution_count="4">
+<div id="3707abfc" class="cell" data-execution_count="4">
+<details class="code-fold">
+<summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Variáveis para Modelo Ordinal</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>x_vars_ordinal <span class="op">=</span> [</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_pessoas_res'</span>, </span>
@@ -732,6 +759,7 @@ Notes:
 <span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>modelo_ols_ordinal <span class="op">=</span> sm.OLS(y_ord, X_ordinal)</span>
 <span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>resultados_ols_ordinal <span class="op">=</span> modelo_ols_ordinal.fit()</span>
 <span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(resultados_ols_ordinal.summary())</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>                            OLS Regression Results                            
 ==============================================================================
@@ -739,7 +767,7 @@ Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.091
 Method:                 Least Squares   F-statistic:                     189.1
 Date:                Sat, 15 Nov 2025   Prob (F-statistic):               0.00
-Time:                        18:13:18   Log-Likelihood:                -97921.
+Time:                        19:48:35   Log-Likelihood:                -97921.
 No. Observations:               24448   AIC:                         1.959e+05
 Df Residuals:                   24434   BIC:                         1.960e+05
 Df Model:                          13                                         
@@ -797,7 +825,9 @@ Notes:
 <section id="o-veredito-comparando-os-modelos" class="level2">
 <h2 class="anchored" data-anchor-id="o-veredito-comparando-os-modelos"><strong>5. O Veredito: Comparando os Modelos</strong></h2>
 <p>Os gráficos a seguir ilustram a diferença fundamental entre as duas abordagens, agora empilhados verticalmente para melhor visualização.</p>
-<div id="f3177f88" class="cell" data-execution_count="5">
+<div id="1c0ce76e" class="cell" data-execution_count="5">
+<details class="code-fold">
+<summary>Exibir código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">8</span>))</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Gráfico 1: Realidade (Dummies)</span></span>
@@ -821,6 +851,7 @@ Notes:
 <span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
 <span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -1255,35 +1286,29 @@ Notes:
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/gabriel-sathler/">
-<p>LinkedIn</p>
-</a>
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
   </li>  
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/gsathler-vi">
-<p>Github</p>
-</a>
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
   </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="http://lattes.cnpq.br/9000859452095941">
-<p>Lattes</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0009-0006-0754-4213">
-<p>ORCID</p>
-</a>
-  </li>  
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://wa.me/5531998912831">
-<p>Whatsapp</p>
-</a>
+      <i class="bi bi-whatsapp" role="img">
+</i> 
+    </a>
   </li>  
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="mailto:gabrielsathler.vi@gmail.com">
-<p>E-mail</p>
-</a>
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
   </li>  
 </ul>
     </div>

@@ -24,6 +24,9 @@ about:
     - icon: envelope
       text: E-mail
       href: "mailto:gabrielsathler.vi@gmail.com"
+format: 
+  html:
+    page-layout: full
 ---
 <h1 class="display-5">GABRIEL SATHLER</h1>
 <p class="text-primary-emphasis lead">Economia e Políticas Públicas</p>
@@ -59,16 +62,14 @@ Possui experiência em análise de dados com Python e R, condução de diagnóst
 
 #### **PRINCIPAIS COMPETÊNCIAS**
 
-<button type="button" class="btn btn-light">Análise de Dados (Python, R)</button>
-<button type="button" class="btn btn-light">Business Intelligence (Power BI)</button>
-<button type="button" class="btn btn-light">Análise Estatística</button>
-<button type="button" class="btn btn-light">Gestão Estratégica</button>
-<button type="button" class="btn btn-light">Economia & Políticas Públicas</button>
-
-<button type="button" class="btn btn-light">Gestão de Projetos (PDCA)</button>
-<button type="button" class="btn btn-light">Design Thinking</button>
-<button type="button" class="btn btn-light">Pesquisa Quantitativa</button>
-<button type="button" class="btn btn-light">Liderança e Articulação</button>
-<button type="button" class="btn btn-light">Diagnóstico Organizacional</button>
-
+  <button type="button" class="btn btn-light">Análise de Dados (Python, R)</button>
+  <button type="button" class="btn btn-light">Business Intelligence (Power BI)</button>
+  <button type="button" class="btn btn-light">Análise Estatística</button>
+  <button type="button" class="btn btn-light">Gestão Estratégica</button>
+  <button type="button" class="btn btn-light">Economia & Políticas Públicas</button>
+  <button type="button" class="btn btn-light">Gestão de Projetos (PDCA)</button>
+  <button type="button" class="btn btn-light">Design Thinking</button>
+  <button type="button" class="btn btn-light">Pesquisa Quantitativa</button>
+  <button type="button" class="btn btn-light">Liderança e Articulação</button>
+  <button type="button" class="btn btn-light">Diagnóstico Organizacional</button>
 

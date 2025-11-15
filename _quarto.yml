@@ -1,8 +1,11 @@
 project:
   type: website
   output-dir: docs
+execute:
+  freeze: auto
 
 website:
+  favicon: arquivos/logo.png
   site-url: "https://gsathler-vi.github.io/"
   page-footer:
     background: "#578cd7"
@@ -10,22 +13,12 @@ website:
     center: Feito com [Quarto](https://quarto.org/)
     right: 
       - icon: linkedin
-        text: LinkedIn
         href: "https://www.linkedin.com/in/gabriel-sathler/"
       - icon: github
-        text: Github
         href: "https://github.com/gsathler-vi"
-      - icon: link
-        text: Lattes
-        href: "http://lattes.cnpq.br/9000859452095941"
-      - icon: link
-        text: ORCID
-        href: "https://orcid.org/0009-0006-0754-4213"
       - icon: whatsapp
-        text: Whatsapp
         href: "https://wa.me/5531998912831"
       - icon: envelope
-        text: E-mail
         href: "mailto:gabrielsathler.vi@gmail.com" 
   title: "Gabriel Sathler"
   navbar:
@@ -56,9 +49,9 @@ website:
 
 format:
   html:
+    respect-user-color-scheme: true
     theme:
       - cosmo
-    toc: True
 
 
 
