@@ -1,0 +1,6 @@
+---
+title: "Materiais e Documentos"
+listing:
+  contents: material
+  type: grid
+---

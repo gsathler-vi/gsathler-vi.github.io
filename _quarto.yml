@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  site-url: "https://gsathler-vi.github.io/"
+  page-footer:
+    background: "#578cd7"
+    left: "2025, Gabriel Sathler" 
+    center: Feito com [Quarto](https://quarto.org/)
+    right: 
+      - icon: linkedin
+        text: LinkedIn
+        href: "https://www.linkedin.com/in/gabriel-sathler/"
+      - icon: github
+        text: Github
+        href: "https://github.com/gsathler-vi"
+      - icon: link
+        text: Lattes
+        href: "http://lattes.cnpq.br/9000859452095941"
+      - icon: link
+        text: ORCID
+        href: "https://orcid.org/0009-0006-0754-4213"
+      - icon: whatsapp
+        text: Whatsapp
+        href: "https://wa.me/5531998912831"
+      - icon: envelope
+        text: E-mail
+        href: "mailto:gabrielsathler.vi@gmail.com" 
+  title: "Gabriel Sathler"
+  navbar:
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/gabriel-sathler/
+      - icon: whatsapp
+        href: https://wa.me/5531998912831
+      - icon: envelope
+        href: mailto:gabrielsathler.vi@gmail.com
+      - icon: three-dots
+        menu:
+          - text: Lattes
+            href:  http://lattes.cnpq.br/9000859452095941
+          - text: ORCID
+            href:  https://orcid.org/0009-0006-0754-4213
+    left:
+      - href: index.qmd
+        text: Sobre
+      - href: experiencia.qmd
+        text: Experiência
+      - href: certificacoes.qmd
+        text: Certificações
+      - href: posts.qmd
+        text: Trabalhos e Apresentações
+      - href: listing.qmd
+        text: Materiais e Documentos
+
+format:
+  html:
+    theme:
+      - cosmo
+    toc: True
+
+
+

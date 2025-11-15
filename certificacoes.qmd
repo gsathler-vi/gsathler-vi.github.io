@@ -1,0 +1,93 @@
+---
+title: "Certificações e Prêmios"
+---
+
+
+<h4><strong>PRÊMIOS E TÍTULOS</strong></h4>
+
+<figure>
+  <blockquote class="blockquote">
+    <p class="mb-0">Empenho e Dedicação nas Ações Extensionistas</p>
+  
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Pessoa proativa com muita vontade de aprender e de ser útil. Jovem talento com grande potencial. <cite title="Source Title">Carolina Resende | Pró-Reitora de Extensão - PUC Minas</cite>
+  </figcaption>
+</figure>
+
+---
+<br>
+<h4><strong>CERTIFICAÇÕES E CURSOS</strong></h4>
+
+
+<h4>
+  <strong>Certificado Publicação Anais - I CACES</strong>
+</h4>
+<p><small>Even3 | 2024</small>         </small>             <a href="blob:https://www.even3.com.br/a308808b-c5f9-4b4a-b0db-ebd6a0db83e8" target="_blank" class="badge bg-light" role="button">
+    Publicação
+</a></p>
+
+
+
+<h4>
+  <strong>Macroeconomia & Microeconomia</strong>
+</h4>
+<p><small>Enap | 2023         </small>             <a href="https://drive.google.com/file/d/1XGBAHm3LB5sdfvh7Bb8v_8LZkz3wkH2m/view" target="_blank" class="badge bg-light" role="button">
+    Macroeconomia
+</a>       <a href="https://drive.google.com/file/d/1zyn4aJWfDNLVoe7ja1vvIG8zPT-Z5n1d/view" target="_blank" class="badge bg-light" role="button">
+    Microeconomia
+</a></p>
+
+
+
+
+<h4>
+  <strong>Introdução à Análise de Dados - Power BI</strong>
+</h4>
+<p><small>Fundação Bradesco | 2023</small>         </small>             <a href="blob:https://www.even3.com.br/a308808b-c5f9-4b4a-b0db-ebd6a0db83e8" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+
+
+<h4>
+  <strong>Visualização de Dados Aplicada</strong>
+</h4>
+<p><small>Enap | 2023</small>         </small>             <a href="https://drive.google.com/file/d/12nCf7QOAw90zyKttUoUzPpt1_6iiZMb8/view" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+
+
+<h4>
+  <strong>O que é Design Thinking?</strong></h4>
+<p><small>IBM | 2023</small>         </small>             <a href="https://students.yourlearning.ibm.com/certificate/share/e6eb3f7dd2ewogICJvYmplY3RJZCIgOiAiSUxCLUtYV1dOWFFYS1hNRzJNODciLAogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI3OTE5MTFSRUciCn0c3ef64b322-10" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+
+
+<h4>
+  <strong>ESG: um novo jeito de investir</strong>
+</h4>
+<p><small>B3 | 2022</small>         </small>             <a href="https://drive.google.com/file/d/1kCPKYTv2w49ZMoa0bRPr0IJx7NKrjogX/view" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+<h4>
+  <strong>Soft Skills na Transformação Digital</strong>
+</h4>
+<p><small>Enap | 2022</small>         </small>             <a href="https://drive.google.com/file/d/1eeymtoWFC4saXb7GhG3RAgIcoqMepDUq/view" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+
+
+<h4>
+  <strong>Resolvendo problemas com pensamento crítico</strong>
+</h4>
+<p><small>IBM | 2022</small>         </small>             <a href="https://students.yourlearning.ibm.com/certificate/share/8e0ee026c2ewogICJvYmplY3RJZCIgOiAiSUxCLVJLRVpaSkpRWFBWVjFENE4iLAogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI3OTE5MTFSRUciCn076a07d5634-10" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+
+<h4>
+  <strong>Workshop: Ecossistemas de inovação social</strong>
+</h4>
+<p><small>PUC Minas | 2022</small>         </small>             <a href="https://drive.google.com/file/d/11qZhDBdcdd_BBOpbRfJ7ilX8TfbUL3Gz/view" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+
+<h4>
+  <strong>Assessor de tomada de decisão</strong>
+</h4>
+<p><small>Centro Universitário Una | 2021</small>         </small>             <a href="https://drive.google.com/file/d/17-LkCowphqRMHBUdBVyoRQcNXuVtDAYn/view" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+
+<br>
