@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./arquivos/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -144,8 +145,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.png" alt="" class="navbar-logo light-content">
-    <img src="./logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./arquivos\logo.png" alt="" class="navbar-logo light-content">
+    <img src="./arquivos\logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Gabriel Sathler</span>
@@ -237,6 +238,31 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="VmlkZW8lMkNBcHJlc2VudGElQzMlQTclQzMlQTNvJTJDWW91dHViZQ==" data-listing-date-sort="1761879600000" data-listing-file-modified-sort="1763235963787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="281">
 <div class="thumbnail"><a href="./posts/apresentacao_pesquisa/index.html" class="no-external">
@@ -686,35 +712,29 @@ Gabriel Sathler Victer Itaborahy, Julia Leite de Carvalho Fernandes
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/gabriel-sathler/">
-<p>LinkedIn</p>
-</a>
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
   </li>  
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/gsathler-vi">
-<p>Github</p>
-</a>
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
   </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="http://lattes.cnpq.br/9000859452095941">
-<p>Lattes</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0009-0006-0754-4213">
-<p>ORCID</p>
-</a>
-  </li>  
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://wa.me/5531998912831">
-<p>Whatsapp</p>
-</a>
+      <i class="bi bi-whatsapp" role="img">
+</i> 
+    </a>
   </li>  
-    <li class="nav-item">
+    <li class="nav-item compact">
     <a class="nav-link" href="mailto:gabrielsathler.vi@gmail.com">
-<p>E-mail</p>
-</a>
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
   </li>  
 </ul>
     </div>
