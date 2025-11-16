@@ -1,0 +1,84 @@
+---
+title: "FUNDAMENTOS DE MARKETING"
+subtitle: "Nota: 81 | Extracurricular"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Jose Chequer Neto (Mestrado)."
+categories: ["PUC Minas", "Marketing", "Administracao"]
+carga_horaria: 40
+nota: 81
+periodo: 100
+toc: true
+---
+
+## Ementa
+Histórico e evolução do marketing. Diferentes orientações e conceitos centrais: necessidades, desejos, demandas, trocas, valor, satisfação e diferenciação. Análise do ambiente de marketing e prospecção de mercado. Análises do Consumidor: individual e organizacional. Segmentação de mercado e posicionamento. Introdução ao composto de marketing.
+
+## Objetivos
+Desenvolver a percepção global do aluno em relação ao marketing, como opção estratégica para a diferenciação competitiva, permitindo dotar-lhe de uma visão sistêmica sobre as funções mercadológicas e os elementos do composto mercadológico; apresentar e discutir os conceitos de marketing e os instrumentos disponíveis para o desempenho das funções mercadológicas de forma empreendedora nas organizações.
+
+## Métodos Didáticos
+Aulas expositivas, exercícios em sala, estudos de casos, trabalhos práticos, exibição de vídeos, fóruns.
+
+## Unidades de Ensino
+1.  **Desenvolvimento do conceito de marketing**
+    1.1 A evolução das relações de comércio;
+    1.2 A importância e o conceito de marketing;
+    1.3 Os conceitos relacionados ao marketing;
+    1.4 O marketing e a sociedade;
+    1.5 As orientações das empresas em relação ao mercado;
+    1.6 Os quatro p´s;
+    1.7 As funções mercadológicas.
+2.  **O ambiente mercadológico**
+    2.1 A empresa e a ambiência;
+    2.2 Os extratos da ambiência mercadológica.
+3.  **O relacionamento com o cliente em busca da sua fidelidade**
+    3.1 Construção e mensuração do valor para o cliente;
+    3.2 A satisfação do cliente;
+    3.3 O valor vitalício do cliente e sua maximização;
+    3.4 O relacionamento com o cliente e a construção de banco de dados.
+4.  **Análise dos mercados consumidores**
+    4.1 As teorias diversas que buscam explicar o comportamento do consumidor;
+    4.2 Os fatores diversos que impactam no comportamento do consumidor;
+    4.3 O conceito de persona e sua aplicabilidade;
+    4.4 O processo de decisão de compra do consumidor;
+    4.5 Os mercados B2B, B2C, C2B e C2C.
+5.  **Análise dos mercados organizacionais**
+    5.1 Bens, serviços e outros aspectos essenciais no mercado organizacional;
+    5.2 As compras organizacionais, seus participantes e suas tipologias;
+    5.3 O comportamento do comprador e o processo de escolha e de compra organizacional;
+    5.4 Fatores que influenciam o comportamento do comprador empresarial.
+    5.5 O relacionamento com o mercado organizacional.
+6.  **Segmentação de mercado e mercado-alvo**
+    6.1 O conceito e a aplicabilidade da segmentação;
+    6.2. A justificativa para a adoção da segmentação;
+    6.3 Tipologias de segmentação;
+    6.4. Seleção de mercados-alvo ou personas.
+7.  **O posicionamento da marca**
+    7.1 O conceito de posicionamento;
+    7.2 A estrutura competitiva como referência para o posicionamento da marca;
+    7.3 Identificação e escolha dos pontos de diferença e de paridade;
+    7.4 As estratégias de diferenciação e posicionamento;
+    7.5 Posicionamento e branding para pequenos negócios.
+8.  **A dinâmica competitiva**
+    8.1 Os conceitos e os tipos de concorrência;
+    8.2 A coopetição;
+    8.3 Estratégias competitivas para líderes, desafiantes, seguidores e ocupantes de nichos;
+    8.4 As diferentes estratégias em cada ciclo de vida do produto.
+
+## Processo de Avaliação
+*   2 Provas parciais de 25 pontos = 50 pontos
+*   Trabalhos diversos = 20 pontos
+*   Avaliação global: 30 pontos
+*   Reavaliação = 30 pontos
+
+## Descrição da Bibliografia Básica
+*   KOTLER, Philip; ARMSTRONG, Gary. Princípios de marketing. 15. ed. São Paulo: Pearson Education do Brasil, 2015. xix, 780 p. ISBN 9788543004471., Nº de Exemplares: 8.
+*   KOTLER, Philip; KELLER, Kevin Lane. Marketing essencial. 5.ed. São Paulo: Pearson, 2013. ISBN 9788576059820.
+*   KOTLER, Philip; KELLER, Kevin Lane. Administração de marketing. 14. ed. São Paulo: Pearson Education do Brasil, 2012. xxvi, 765 p. ISBN 9788581430003., Nº de Exemplares: 15.
+*   REMARK : revista Brasileira de Marketing. São Paulo, SP: Centro Universitário Nove de Julho,2002-. Trimestral (de 3 em 3 meses). ISSN 2177-5184. Disponível em: <http://www.revistabrasileiramarketing.org/ojs-2.2.4/index.php/remark/index>
+
+## Descrição da Bibliografia Complementar
+*   CHURCHILL, Gilbert A.; PETER, J. Paul. Marketing: criando valor para clientes. 3. ed. São Paulo: Saraiva, 2012. E-book. ISBN 9788502183605.
+*   CPMARK - CADERNO PROFISSIONAL DE MARKETING. Piracicaba, SP: Universidade Metodista de Piracicaba,2013-. Trimestral (de 3 em 3 meses). ISSN 2317-6466. Disponível em: <https://www.cadernomarketingunimep.com.br/ojs/index.php/cadprofmkt/index>
+*   DIAS, Sérgio Roberto (Org.). Gestão de marketing. 2. ed. São Paulo: Saraiva, 2011. E-book ISBN 9788502126725.
+*   KOTLER, Philip. Marketing para o século XXI: como criar, conquistar e dominar mercados. São Paulo: Ediouro, 2009. 303 p. ISBN 9788500023958., Nº de Exemplares: 4.
+*   YANAZE, Mitsuru Higuchi. Gestão de marketing e comunicação: avanços e aplicações. 3. ed. rev. e ampl. São Paulo: Saraiva Uni, 2020. *E-book*. ISBN 9788571441095.

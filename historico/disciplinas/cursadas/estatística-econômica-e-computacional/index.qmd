@@ -1,0 +1,291 @@
+---
+title: "ESTATÍSTICA ECONÔMICA E COMPUTACIONAL"
+subtitle: "Nota: 78 | Período: 3"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Otaviano Francisco Neves (Doutorado)."
+categories: ["PUC Minas", "Quantitativo", "Economia"]
+carga_horaria: 80
+nota: 78
+periodo: 3
+toc: true
+---
+
+## Ementa
+Estatística matemática: estimadores, função de verossimilhança, estimadores de máxima verossimilhança; Método de Monte Carlo: simulações, estimação de parâmetros e intervalos de confiança; Aplicações da estatística em economia: modelos de regressão, o problema da classificação: algoritmo Expectativa-Maximização.
+
+## Objetivos
+**Objetivos Gerais:**
+*   Complementar o estudo dos modelos de probabilidade e da inferência estatística, fundamentais para a formação do economista;
+*   Possibilitar o uso de métodos estatísticos nas demais disciplinas do curso.
+
+**Objetivos Específicos:**
+*   Identificar o modelo de probabilidade a ser usado;
+*   Reconhecer variáveis aleatórias independentes;
+*   Estabelecer a esperança e a variância de somas e diferenças de variáveis aleatórias;
+*   Analisar as probabilidades de erro em um teste de hipóteses;
+*   Identificar o tipo de planejamento e comparar as médias de duas populações.
+
+## Métodos Didáticos
+*   Apresentação do cronograma da disciplina no primeiro dia de aula;
+*   Material escrito disponível ao aluno para o acompanhamento das aulas;
+*   Elaboração de atividades avaliativas (ou não) para fixação do conteúdo, com esclarecimento de dúvidas;
+*   Aulas expositivas dialogadas; trabalhos individuais e em grupo;
+*   Aulas em laboratório: Estatística com Python.
+
+## Unidades de Ensino
+**======================== Conteúdo da Parte Teórica ========================**
+
+**0 (Nivelamento). Variáveis aleatórias (02 horas/aula)**
+0.1. Variáveis aleatórias Discretas
+0.2. Variáveis aleatórias Contínuas
+
+**1. Modelos de Distribuições de Probabilidades (06 horas/aula)**
+1.1. Distribuição de Poisson
+1.2. Distribuição de Poisson como uma aproximação da Distribuição Binomial
+1.3. Distribuição Geométrica
+1.4. Valor esperado e variância de uma distribuição geométrica
+1.5. Distribuição Uniforme ou Distribuição Continua
+    1.5.1. Esperança Matemática da Distribuição Uniforme
+    1.5.2. Variância da Distribuição Uniforme
+1.6. Distribuição Exponencial
+
+**2. Variáveis Aleatórias (04 horas/aula)**
+2.1. Introdução
+2.2. Função Distribuição de Probabilidade
+    2.2.1. Função Repartição
+2.3. Função Densidade de Probabilidade
+    2.3.1. Função Repartição de uma Variável Aleatória Contínua
+2.4. Variáveis Aleatórias Multidimensionais
+    2.4.1. Distribuições de Probabilidades Marginais
+    2.4.2. Probabilidades Condicionais
+2.5. Variáveis Aleatórias Independentes
+2.6. Medidas de Posição
+    2.6.1. Esperança Matemática
+2.7. Medidas de Dispersão
+    2.7.1. Desvio Padrão
+    2.7.2. Variância
+    2.7.3. Covariância e Coeficiente de Correlação
+
+**3. Estimação (04 horas/aula)**
+3.1. Conceitos
+3.2. Distribuições Amostrais
+3.3. Amostragem Com e Sem Reposição
+3.4. Distribuição por Amostragem da Média
+    3.4.1. Distribuição Amostral da Média com Amostragem com Reposição
+    3.4.2. Distribuição Amostral da Média com Amostragem Sem Reposição
+3.5. Propriedades dos Estimadores
+    3.5.1. Estimador Viesado e Não Viesado
+    3.5.2. Estimador Consistente
+    3.5.3. Estimador Eficaz
+    3.5.4. Estimador de Verossimilhança
+3.6. Estimação Pontual
+3.7. Intervalos de Confiança
+    3.7.1. Intervalos de Confiança para a Média Populacional Quando a Variância Populacional é Conhecida.
+    3.7.2. Distribuição de t - Student e Intervalos de Confiança para a Média Populacional Quando a Variância Populacional é Desconhecida
+    3.7.3. Intervalos de Confiança para Proporções
+    3.7.4. Determinação do Tamanho da Amostra
+    3.7.5. Intervalo de Confiança para a Variância e o Desvio Padrão Populacionais
+
+**4. Teste de hipóteses (04 horas/aula)**
+4.1. Introdução
+4.2. Hipóteses Nula e Alternativa
+4.3. Estatística de Teste e Valor Crítico
+4.4. Tipos de Testes
+4.5. Métodos para um Teste de Hipóteses
+    4.5.1. Teste de Hipótese pelo Método Tradicional
+    4.5.2. Teste de Hipótese pelo Método do Intervalo de Confiança
+    4.5.3. Teste de Hipóteses pelo Método do Valor P
+4.6. Erro Tipo I e Erro Tipo II
+4.7. Poder do teste
+
+**5. Comparação da Variação em Duas Amostras (02 horas/aula)**
+5.1. Objetivo
+5.2. Simbologia
+5.3. Requisitos
+5.4. Estatística de Teste e Valores Críticos
+5.5. Intervalo de Confiança
+5.6. Teste de Hipóteses
+
+**6. Inferência Sobre Duas Amostras (04 horas/aula)**
+6.1. Conceitos:
+6.2. Inferência para Duas Proporções
+    6.2.1. Simbologia
+    6.2.2. Requisitos Necessários
+    6.2.3. Estimativa Combinada de p1 e p2.
+    6.2.4. Hipóteses Nula e Alternativa
+    6.2.5. Estatística de Teste para Afirmações do Tipo p1 = p2
+    6.2.6. Intervalo de Confiança para a Diferença de Duas Proporções
+6.3. Inferência para Duas Médias: Amostras Independentes
+    6.3.1. Simbologia
+    6.3.2. Hipóteses Nula e Alternativa
+    6.3.3. Inferência para Duas Médias: Amostras Independentes e Desvios Padrões Populacionais Conhecidos
+    6.3.4. Inferência para Duas Médias: Amostras Independentes e Desvios Padrões Populacionais Desconhecidos e Diferentes
+    6.3.5. Inferência para Duas Médias: Amostras Independentes e Desvios Padrões Populacionais Desconhecidos e Iguais
+6.4. Inferência para Duas Médias: Amostras Dependentes
+    6.4.1. Simbologia
+    6.4.2. Requisitos Necessários
+    6.4.3. Estatística de Teste
+    6.4.4. Intervalo de Confiança Média das diferenças entre duas médias amostrais
+
+**7. Correlação (04 horas/aula)**
+7.1. Conceitos
+7.2. Simbologias Utilizadas
+7.3. Diagramas de Dispersão
+7.4. Requisitos Necessários
+7.5. Cálculo do Coeficiente de Correlação
+7.6. Propriedades do Coeficiente de Correlação Linear
+7.7. Teste de Hipóteses para o Coeficiente de Correlação
+    7.7.1. Hipóteses Nula e Alternativa
+    7.7.2. Estatística de Teste t para Correlação Linear
+    7.7.3. Cálculo dos Valores Críticos do Coeficiente de Correlação
+
+**8. Regressão (04 horas/aula)**
+8.1. Conceitos
+8.2. Simbologia
+8.3. Cálculo dos Coeficientes da Reta de Regressão
+8.4. Considerações para uso da Equação de Regressão para Predições
+8.5. Variação Marginal
+8.6. Valores Atípicos e Ponto Influente
+8.7. Resíduo e Propriedade dos Mínimos Quadrados
+8.8. Variação e Intervalos de Predição
+    8.8.1. Variação Explicada e Não Explicada
+    8.8.2. Intervalos de Predição
+
+**======================== Conteúdo Parte Prática:========================**
+
+**1 Bibliotecas do Python (01 horas/aula)**
+1.1 Instalando as Bibliotecas - Pip no Python
+1.2 Prompt de comando
+1.3 Três Comandos do pip
+    1.3.1 Checando a versão do pip
+    1.3.2 Listando as Bibliotecas Instaladas
+    1.3.3 Instalando Novas Bibliotecas
+
+**2 Python Packaging User Guide (01 horas/aula)**
+2.1 Lista de Pacotes Python para Ciência de Dados Pandas
+    2.1.1 Pandas
+    2.1.2 NumPy
+    2.1.3 Matplotlib
+    2.1.4 SciPy
+    2.1.5 Tabulate
+    2.1.6 Statistics
+
+**3 Trabalhando com Tabelas (04 horas/aula)**
+3.1 Primeiros Passos
+3.2 Criando Índices para as Linhas
+3.3 Outros Formatos de Tabelas
+3.4 Alinhamento das colunas
+3.5 Alinhamento de coluna personalizado
+3.6 Formatação de Números
+3.7 Células multilinhas
+3.8 Automatizando Multilinhas
+
+**4 Importando Excel no Python com Pandas (04 horas/aula)**
+4.1 Importando o arquivo
+4.2 Argumentos da função Read
+    4.2.1 Sheet_name
+    4.2.2 Nrows
+    4.2.3 Usecols
+
+**5 Gráficos no Python (06 horas/aula)**
+5.1 Plotagem básica com Matplotlib
+5.2 Personalização de plotagens
+5.3 Gráfico de Barras com matplotlib
+5.4 Gráfico de Dispersão com Matplotlib
+5.5 Gráfico de Pizza com Matplotlib
+5.6 Histograma com Python
+
+**6 Medidas Estatísticas com Python (04 horas/aula)**
+6.1 Revisão das Medidas Estatísticas
+    6.1.1 Média Aritmética
+    6.1.2 Média Quadrática
+    6.1.3 Moda
+    6.1.4 Mediana
+    6.1.5 Desvio-Padrão
+    6.1.6 Variância
+6.2 Cálculo de Estatísticas com Numpy e Statistics
+
+**7 Distribuições de Probabilidade com Python (06 horas/aula)**
+7.1 Distribuição Binomial
+7.2 Distribuição de Poisson
+7.3 Distribuição Normal
+
+**8 Intervalos de Confiança com Python (06 horas/aula)**
+8.1 Intervalo de Confiança para Média Populacional
+8.2 Gerando Amostras aleatórias
+8.3 Intervalos de Confiança para Média Populacional
+    8.3.1 Intervalo de Confiança através das Fórmulas e Distribuição Normal
+    8.3.2 Intervalo de Confiança através das Fórmulas e Distribuição t-Student
+    8.3.3 Intervalos de Confiança Utilizando o Método interval
+8.4 Intervalo de Confiança para Proporção Populacional
+
+**9 Teste de Hipóteses com Python (04 horas/aula)**
+9.1 Teste para a Média Populacional
+9.2 Teste para a Proporção Populacional
+
+## Processo de Avaliação
+**Teoria**
+*   1ª Avaliação: 30 pontos
+*   Trabalhos: 20 pontos
+*   Prova Final: 30 pontos
+
+**Laboratório**
+*   Trabalhos: 20 pontos
+
+**Reavaliação:** 30 pontos
+
+O aluno que não obtiver um mínimo de 60 pontos e tiver pelo menos 30 pontos poderá fazer a prova de Reavaliação. A nota da prova de Reavaliação substituirá a nota da Prova Final.
+
+Serão reservadas 06 horas aula teóricas para aplicação das Avaliações
+
+## Observações
+**Complementação de Carga horária:** Caso o período letivo não seja suficiente para integralizar a carga-horária da disciplina, os alunos participarão de atividades visando a complementação da respectiva carga horária.
+
+**Justificativa das Bibliografias**
+
+**Bibliografia Básica**
+
+*   LARSON, Ron. Estatística aplicada: retratando o mundo. 8. ed. São Paulo: Pearson; Porto Alegre: Bookman, 2023. E-book. ISBN 9788582606155.
+    *Este livro apresenta os temas essenciais da estatística, como probabilidade, intervalos de confiança e testes de hipóteses. A edição foi totalmente revista e atualizada, principalmente os tópicos sobre coleta de dados, medidas de variação, medidas de posição e, em especial, o uso e a definição da distribuição normal e a distribuição T. A obra conta com mais de 200 exemplos e 2.300 exercícios propostos. Obra fundamental para alunos dos cursos de administração, ciências contábeis, economia e de graduação tecnológica em gestão.*
+
+*   LEVINE, David M.; STEPHAN, David; SZABAT, Kathryn A. Estatística: teoria e aplicações usando Microsoft Excel em português. 7. ed. Rio de Janeiro, RJ: LTC - Livros Técnicos e Científicos, c2016. E-book. ISBN 9788521631972.
+    *É uma obra fundamental para estudantes que desejam ingressar em pesquisa e análise, pois apresenta ferramentas, conceitos e práticas para ajudá-los a montar e compreender gráficos e os dados coletados, ou mesmo para os executivos de ponta que desejam analisar a fundo o mercado em que atuam e os resultados obtidos pelo setor e pela empresa em que trabalham. O livro apresenta uma grande quantidade de exercícios e temas extraídos do mundo real, mostrando o quão relevante é entender e analisar o resultado obtido com mapeamentos de dados. Entre as inovações desta obra estão tutoriais para uso do Excel e do plugin PHStat. Dicas rápidas, novos estudos de casos nos finais dos capítulos, mais exemplos e problemas, apêndices revisados, ênfase na análise e interpretação de dados obtidos nos resultados de planilhas em Excel também são apresentados ao longo de todo o livro. É uma obra plural, de uma disciplina que permite aos estudantes e empresários, em todas as áreas, analisar a empresa e o mercado com bases seguras e confiáveis. Além das temáticas e dos exercícios, há, ainda, diversos recursos suplementares on-line, em inglês e português, acessíveis mediante cadastro no site da LTC Editora. Tais recursos são voltados para o estímulo de habilidades e de conhecimentos internalizados.*
+
+*   TRIOLA, Mario F. Introdução à estatística. 14. ed. Rio de Janeiro, RJ: LTC, 2024. E-book. ISBN 9788521638780.
+    *A obra foi completamente revista e atualizada. O vasto conteúdo teórico e o grande número de exemplos, exercícios e atividades em grupo baseadas em dados reais são oriundos da iniciativa do autor em aprimorar o ensino e o aprendizado de estatística. Ao invés de métodos e fórmulas decorados pelos estudantes, o autor visa a plena compreensão e aplicação das técnicas e conceitos nos mais variados contextos reais, o que ainda pode ser melhorado pelo correto apoio nas ferramentas tecnológicas adequadas.*
+
+**Bibliografia Complementar**
+
+*   ANDERSON, David Ray et al. Estatística aplicada a administração e economia. 5. ed. São Paulo: Cengage Learning, c2021. E-book. ISBN 9786555583991.
+    *A obra apresenta uma introdução conceitual da estatística e de suas aplicações. Orientado à análise de dados e de metodologia estatística, o texto oferece uma boa preparação para o estudo de material estatístico. Apresenta didática muito bem estruturada, com exercícios que exigem que os alunos utilizem fórmulas e material do capítulo em situações reais.*
+
+*   FREUND, John E. Estatística aplicada: economia, administração e contabilidade. 11. ed. Porto Alegre: Bookman, 2007. E-book. ISBN 9788577800636.
+    *A obra trata a Estatística de forma profunda e completa. Traz casos reais interessantes na análise de dados e exercícios de diversos graus de dificuldade. O aumento da quantidade de dados coletados, processados e fornecidos atualmente reforçou a importância do estudo dessa matéria de extrema abrangência e tão presente no dia-a-dia de todos.*
+
+*   MANN, Prem S. Introdução à estatística. Rio de Janeiro: LTC - Livros Técnicos e Científicos, c2006. 758 p. ISBN 852161506X
+    *O livro é planejado para alunos que não possuam um profundo conhecimento em matemática. O único pré-requisito para este livro é um conhecimento sobre álgebra elementar. Três importantes características deste livro contribuem para a consecução deste objetivo: o conteúdo realista de seus exemplos e exercícios que se estendem por uma abrangente gama de aplicações oriundas de todas as facetas da vida; a clareza e concisão da apresentação; e a eficiência da abordagem pedagógica. Essas características são apresentadas por meio da interação de uma variedade de recursos significativos do livro. Algumas das muitas alterações significativas feitas em relação à edição anterior são um novo projeto gráfico ao longo de todo o livro destacando as características pedagógicas, tornando o livro ainda mais amigável ao aluno; novas vinhetas de abertura dos capítulos incorporam dados reais apresentados em situações passíveis de ser familiares aos alunos e a utilização da tecnologia reunida em uma seção ao final de cada capítulo com subseções separadas cobrindo a utilização do Excel, do MINITAB e da TI-83.*
+
+*   BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. Estatística básica. 10. ed. rev. e ampl. São Paulo. Saraiva Uni, 2023. E-book. ISBN 9788571441484.
+    *Esta obra passou por extenso trabalho de revisão, atualização e ampliação, e contou com sugestões de professores e leitores enriquecendo ainda mais o conteúdo por meio de discussões sobre roteiros apropriados para cursos de diferentes níveis. O livro é dividido em três partes. A primeira trata da análise de dados unidimensionais e bidimensionais, com atenção especial para métodos gráficos. A segunda parte traz os conceitos básicos de probabilidades e variáveis aleatórias. Por fim, a terceira parte estuda os tópicos principais da inferência estatística, além de alguns temas especiais, como regressão linear simples. Completo e didático, o livro é o mais adequado para alunos e profissionais de diversas áreas do conhecimento e se destaca por ser a única obra com uma seção em todos os capítulos que ensina a aplicar a teoria por meio dos pacotes computacionais Minitab, Excel, Splus e o pacote do Repositório livre R.*
+
+*   VAINGAST, Shai. Beginning Python visualization: crafting visual transformation scripts. 2nd ed. New York: Apress, c2014. E-book. ISBN 9781484200520
+    *A obra discute a transformação de muitos tipos de fontes de dados, grandes e pequenas, em dados visuais úteis. E você aprenderá Python como parte do acordo. Na obra o estudante aprenderá sobre o Spyder, que é um IDE Python com recursos semelhantes ao MATLAB. Aqui e ao longo do livro, você terá uma exposição detalhada do crescente projeto IPython para visualização interativa. Além disso, o estudante aprenderá sobre as mudanças no NumPy e no Scipy que ocorreram desde a primeira edição. O livro ainda possibilita ao estudante aprender detalhadamente sobre o matplotlib; incluindo a criação de gráficos 3D e o uso do basemap package que permite renderizar mapas geográficos. Por fim, o etudante aprenderá sobre processamento, anotação e filtragem de imagens, bem como como fazer filmes usando Python (edição/acesso a arquivos de vídeo e criação de seu próprio filme, tudo com scripts Python).*
+
+*   CADERNOS DO IME: série estatística. Rio de Janeiro, RJ: Universidade do Estado do Rio de Janeiro, Semestral. ISSN 2317-4536. Versão online. Disponível em: https://www.e-publicacoes.uerj.br/index.php/cadest/index
+    *Esta publicação acadêmica, editada pela Universidade do Estado do Rio de Janeiro (UERJ), é uma fonte valiosa de artigos científicos sobre estatística, com foco em aplicações relevantes para a economia. A série oferece aos alunos de Economia acesso a pesquisas atualizadas e metodologias estatísticas avançadas, essenciais para a análise de dados econômicos e a modelagem computacional.*
+
+*   MOORE, David S.; NOTZ, William; FLIGNER, Michael A.. A estatística básica e sua prática. 7. ed. Rio de Janeiro: LTC, c2017. E-book. ISBN 9788521634294
+    *A obra alinha o conhecimento técnico à prática da resolução de problemas. O conteúdo cumpre o importante papel de apresentar a teoria ao mesmo tempo que promove a autonomia e o olhar criativo dos estudantes em seu primeiro contato com a Estatística. Ao seguir o raciocínio estatístico, tanto no meio acadêmico como no mercado de trabalho, é possível construir uma base sólida para futuros profissionais e pesquisadores. Considerando-se o crescente número de informações e dados que circulam por todo o mundo, acessá-los, decifrá-los e utilizá-los em prol da sociedade é tarefa cada vez mais essencial. Nesse contexto, é importante ressaltar que esta obra também se destaca pela versatilidade do conteúdo e pela possibilidade de ser utilizada com qualquer tipo de tecnologia para a produção de cálculos e gráficos.*
+
+## Descrição da Bibliografia Básica
+*   LARSON, Ron. Estatística aplicada: retratando o mundo. 8. ed. São Paulo: Pearson; Porto Alegre: Bookman, 2023. *E-book*. ISBN 9788582606155.
+*   LEVINE, David M.; STEPHAN, David; SZABAT, Kathryn A. Estatística: teoria e aplicações usando Microsoft Excel em português. 7. ed. Rio de Janeiro, RJ: LTC - Livros Técnicos e Científicos, c2016. *E-book*. ISBN 9788521631972.
+*   MATEMÁTICA E ESTATÍSTICA EM FOCO. Uberlândia: Universidade Federal de Uberlândia, 2013-. Semestral. ISSN 2318-0552 versão on-line. Disponível em: https://seer.ufu.br/index.php/matematicaeestatisticaemfoco. Acesso em: 10 set. 2018.
+*   TRIOLA, Mario F.. Introdução à estatística. 14. ed. Rio de Janeiro, RJ: LTC, 2024. *E-book*. ISBN 9788521638780.
+
+## Descrição da Bibliografia Complementar
+*   ANDERSON, David Ray *et al.* Estatística aplicada a administração e economia. 5. ed. São Paulo: Cengage Learning, c2021. *E-book*. ISBN 9786555583991.
+*   BUSSAB, Wilton de Oliveira; MORETTIN, Pedro Alberto. Estatística básica. 10. ed. rev. e ampl. São Paulo. Saraiva Uni, 2023. *E-book*. ISBN 9788571441484.
+*   CADERNOS DO IME: série estatística. Rio de Janeiro, RJ: Universidade do Estado do Rio de Janeiro, Semestral. ISSN 2317-4536 versão on-line. Disponível em: https://www.e-publicacoes.uerj.br/index.php/cadest/index. Acesso em: 30 abr. 2019.
+*   FREUND, John E.. Estatística aplicada: economia, administração e contabilidade. 11. ed. Porto Alegre: Bookman, 2007. *E-book*. ISBN 9788577800636.
+*   MANN, Prem S. Introdução à estatística. Rio de Janeiro: LTC - Livros Técnicos e Científicos, c2006. 758 p. ISBN 852161506X, Nº de Exemplares: 3.
+*   VAINGAST, Shai. Beginning Python visualization: crafting visual transformation scripts. 2nd ed. New York: Apress, c2014. *E-book*. ISBN 9781484200520., Nº de Exemplares: 0.

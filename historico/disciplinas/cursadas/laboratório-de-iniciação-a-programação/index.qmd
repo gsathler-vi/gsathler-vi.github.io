@@ -1,0 +1,88 @@
+---
+title: "LABORATÓRIO DE INICIAÇÃO A PROGRAMAÇÃO"
+subtitle: "Nota: 94 | Período: 1"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Carlos Alberto Marques Pietrobon (Doutorado)."
+categories: ["PUC Minas", "Quantitativo", "Economia"]
+carga_horaria: 40
+nota: 94
+periodo: 1
+toc: true
+---
+
+## Ementa
+Introdução à programação de computadores. Introdução a uma linguagem de programação estruturada. Requisitos de software.
+
+## Objetivos
+**Objetivos Gerais**
+Levar o aluno a desenvolver programas utilizando plataformas de programação. Incentivar a criação de programas identificando além dos elementos fundamentais dos algoritmos, as estruturas de dados primitivos e agrupados, modularização, armazenamento de informações em arquivos e visualização gráfica de dados.
+
+**Objetivos específicos**
+*   Fornecer ao aluno condições de expressar soluções de forma algorítmica, para problemas voltados para administração, e as implementá-las em uma linguagem de programação.
+*   Levar o aluno a entender os principais conceitos e usos de linguagens de programação.
+*   Permitir que o aluno desenvolva técnicas para construção e documentação de programas iterativos.
+*   Apresentar e exercitar tipos de dados primitivos e agrupados (homogêneos e heterogêneos), resgatando conceitos e construindo uma base matemática necessária para dar suporte às atividades propostas.
+*   Capacitar o aluno no uso de pacotes aplicados à administração.
+*   Apresentação gráfica de resultados.
+*   Capacitar o aluno a utilizar linguagens de programação em resoluções de problemas na área de Administração com o uso do computador, usando linguagens adequadas a esta tarefa.
+
+## Métodos Didáticos
+Aulas práticas em laboratório de Informática ministradas pelo professor. Atividades individuais e em grupo, com o uso de projetores de vídeo, apresentações usando quadro e computadores digitais, em laboratório de informática. Desafios individuais e em grupo com problemas relacionados à Administração. Atividades individuais ou em grupo com trabalhos, listas de exercícios e atividades em grupo envolvendo projetos de computação aplicada a Administração.
+
+## Unidades de Ensino
+**UNIDADE I - Apresentação da disciplina (06 horas/aula)**
+*   Apresentação do Plano de Ensino;
+*   Explanação sobre a importância da informática na área de administração
+*   Conceitos Básicos em Computação
+*   Computador Eletrônico.
+*   Representação das informações em um computador digital
+*   Algoritmos e linguagens de programação
+*   Introdução à linguagem Python
+
+**UNIDADE II - Conceitos Básicos em Algoritmos e Linguagens de Programação (08 horas/aula)**
+*   Tipos primitivos de variáveis;
+*   Operadores Aritméticos, lógicos e relacionais;
+*   Funções pré-definidas
+*   Sequência simples
+*   Entrada e saída
+*   Estruturas de teste e decisão
+*   Repetições
+*   Mapeamento de algoritmos para linguagem de programação Python
+
+**UNIDADE III - Estruturas de dados (06 horas/aula)**
+*   Listas
+*   Tuplas
+*   Strings
+*   Dicionários
+
+**UNIDADE IV Modularização (04 horas/aula)**
+*   Funções
+*   Passagem de parâmetro
+*   Funções recursivas
+
+**UNIDADE V - Arquivos (04 horas/aula)**
+*   Leitura
+*   Escrita
+*   Integração com outras ferramentas usando arquivos
+
+**UNIDADE VI - Apresentação gráfica de resultados (06 horas/aula)**
+*   Pacotes para visualização de dados em Python
+
+**UNIDADE VII - Aplicações em Ciências Gerenciais (06 horas/aula)**
+
+## Processo de Avaliação
+*   01 Avaliação global (presencial e individual) no valor de 30 pontos.
+*   01 Elaboração e apresentação de um produto envolvendo tratamento, análise e apresentação de dados (em grupo) interdisciplinar, 20 pontos
+*   Listas de exercícios e trabalhos (individuais ou em grupo), no valor total de 50 pontos.
+*   01 Reavaliação, no valor de 30 pontos, para aqueles alunos com nota entre 30 e 59 pontos, substituindo a avaliação global.
+
+## Descrição da Bibliografia Básica
+*   CAETANO, Marco Antonio Leonel. Python e mercado financeiro: programação para estudantes, investidores e analistas. Editora Blucher - 2021 533. ISBN 9786555062410.
+*   FORBELLONE, André Luiz Villar; Eberspacher, Henri Frederico. Lógica de programação: A construção de algoritmos e estruturas de dados com aplicações em Python. Pearson_GrupoA, 2022. 331 p. ISBN 9788582605721.
+*   MANZANO, José Augusto N. G; OLIVEIRA, Jayr Figueiredo de. Algoritmos: lógica para desenvolvimento de programação de computadores. 29. ed. São Paulo: Érica, 2019. *E-book*. ISBN 9788536531472.
+
+## Descrição da Bibliografia Complementar
+*   ALVES, William Pereira. Programação Python: aprenda de forma rápida. São Paulo: Expressa, 2021. 1 recurso online. ISBN 9786558110149.
+*   BARRY, Paul. Pyton:. use a cabeça! Rio de Janeiro: Alta Books, 2018. 1 recurso online. ISBN 9786555207842.
+*   GRUS, Joel. Data Science do Zero. 1st edition. 2016. 1 online resource (336 pages).
+*   MUELLER, John Paul. Começando a programar em Python para leigos. 2. Rio de Janeiro Alta Books 2020 1 recurso online ISBN 9786555202298.
+*   PASKHAVER, Boris. Data Analysis with Pandas and Python. 1st edition. 2017. 1 online resource (1 video file, approximately 18 hr., 47 min.).

@@ -1,0 +1,84 @@
+---
+title: "MODELAGEM DE NEGÓCIOS"
+subtitle: "Nota: 86 | Extracurricular"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Soraya Cardoso Pongelupe Lopes (Mestrado)."
+categories: ["PUC Minas", "Marketing", "Administracao"]
+carga_horaria: 80
+nota: 86
+periodo: 100
+toc: true
+---
+
+## Ementa
+Modelo de negócio X Plano de Negócio. Introdução à modelagem de negócio. Negócios inovadores: startup, spin-off e outros. Business Model Canvas: conceitos, tipologias e elementos constituintes. Ferramentas para construção do canvas (Design Thinking, Mapa de Empatia). Comparação do modelo de negócios com a concorrência; A Estratégia do Oceano Azul. Escalabilidade no Modelo. Validação do Modelo de Negócio: construção de hipóteses testáveis; estratégias para realização dos testes. Aplicação do Lean Startup. Captação de recursos. Construção de Pitch. Elementos do Plano de Negócios. Tópicos emergentes em modelagem de negócios.
+
+## Carga Externa
+A carga horária externa registrada na disciplina compreende o trabalho acadêmico efetivo realizado pelo discente, sob a supervisão do professor, realizado no próprio âmbito da disciplina, na forma de: atividades em biblioteca, iniciação científica, trabalhos individuais e em grupo, práticas de ensino, práticas de extensão, laboratórios, entre outras. Nessa perspectiva, ao professor caberá estabelecer os termos da operacionalização dessas atividades, assim como as necessárias formas de avaliação, no âmbito de suas atividades normais e rotineiras em sala de aula.
+(Resolução CNE/CES Nº 3, de 02 de Julho de 2007, art. 2º, item II)
+
+## Objetivos
+**Objetivo geral**
+Os alunos serão capazes de identificar e definir as tecnologias e elaborar as estratégias de construção modelagem de negócios inovadores, permitindo a promoção do desenvolvimento de competências requeridas pelo mercado profissional nessa área do empreendedorismo.
+
+**Objetivos Específicos**
+*   Aplicar a criatividade e os conceitos de inovação em situações problema.
+*   Aplicar os conhecimentos adquiridos em situações problema.
+*   Realizar atividades colaborativas e o trabalhos em equipe.
+*   Identificar e decidir sobre novas tecnologias de modelagem de negócios de acordo com etapas e processos de modelagem de negócios.
+*   Contribuir para o desenvolvimento econômico e social do ecossistema empreendedor local auxiliando no processo de ideação, criação de times multidisciplinares, validação da ideia e desenvolvimento do MVP.
+*   Incentivar a criação de negócios inovadores bem como auxiliar os já existentes, contextualizado com os fatores socioeconômicos e culturais locais -com visão global - e as características dos empreendedores de forma a minimizar a mortalidade dos negócios.
+*   Desenvolver e aplicar estratégias mercadológica para escalabilidade e sustentabilidade do modelo de negócio;
+*   Identificar fontes de captação de recursos para viabilizar investimentos em novos modelos de negócios.
+
+## Métodos Didáticos
+A metodologia da disciplina de Modelagem de Negócios tem como pressuposto trazer os conceitos e ferramentas usados na modelagem de negócios para serem aplicados em empresas reais no trabalho interdisciplinar. A metodologia de ensino adotada será dinâmica, valendo-se de aulas expositivas dialogadas; estudo de caso; análise de filmes e textos; exercícios de fixação; atividades de pesquisa pelos alunos.
+
+## Unidades de Ensino
+**Unidade 1- Modelos de Negócios Inovadores - 6h**
+*   Apresentação da Disciplina e Alinhamento de Expectativas
+*   O Mundo, Negócios e Inovação
+*   Estudo de Mercado - Conceitos e Desenvolvimento Exposição dialogada mais exercício com ferramentas de buscas.
+
+**Unidade 2- Aplicação de ferramentas do Design para Negócios -8h**
+*   Mapa de Empatia e Persona - Apresentação e Desenvolvimento
+*   Mapa da Proposta de Valor
+*   Análise da Concorrência e Canais de Aquisição
+
+**Unidade 3- Construção do Modelo de Negócio -12h**
+*   A Estratégia do Oceano Azul
+*   Modelos de Negócios e o Busines Model Generation
+*   Business Model Canvas - Apresentação e Estudo de caso
+
+**Unidade 4 e 5- Validação da ideia, desenho do MVP e testagem do MVP - 4h**
+*   MVP - Produto Mínimo Viável - Conceitos e Tipos MVP
+*   MVP- Produto Mínimo Viável - Desenvolvimento e Testes
+
+**Unidade 6. Mecanismos de investimentos e Captação de recursos.- 10h**
+*   Modelo de Negócio e Plano de Negócios
+*   Tipos de Investimentos
+*   Elaboração do PITCHs
+
+## Processo de Avaliação
+O sistema de avaliação será processual, de forma que os alunos irão trabalhando os conteúdos nos estudos de casos e exercícios aplicados; e ao mesmo tempo, sendo avaliados. Além disso, essa disciplina contribuirá com a elaboração do trabalho interdisciplinar e a avaliação ocorrerá por etapas de execução, seguido de avaliação formal. As atividades avaliativas a serem realizadas são:
+*   Atividades realizadas em sala de aula pontuação individual: 5 pts
+*   Estudo de caso Mapa de empatia, proposta de valor: 10 pts
+*   Estudo de Artigo - Business Model Canvas: 15 pts
+*   Avaliação Parcial 1: 20 pts
+*   Trabalho Interdisciplinar de Design e Modelagem de Negócio: 20 pts
+*   Avaliação Global: 30 pts
+*   Reavaliação: 30 pts
+
+## Descrição da Bibliografia Básica
+*   CADERNOS DE GESTÃO E EMPREENDEDORISMO. Rio de Janeiro, RJ: Universidade Federal Fluminense ,2013-. Quadrimestral (4 em 4 meses). ISSN 2318-9231 versão on-line. Disponível em: https://periodicos.uff.br/cge. Acesso em: 10 set. 2018.
+*   CASE, Steve. A terceira onda da Internet como reinventar os negócios na era digital. Rio de Janeiro Alta Books 2019 1 recurso online. ISBN 9788550816869.
+*   DORNELAS, José Carlos Assis. Dicas essenciais de empreendedorismo: sugestões práticas para quem quer empreender. 2. ed. Barueri, SP: Atlas, 2023. *E-book*. ISBN 9786559773688.
+*   ELAINE HOBMEIR. Gesta~o de Startups. Contentus 122 ISBN 9786557451380.
+*   MODELOS de negócios. Porto Alegre SAGAH 2020 1 recurso online ISBN 9786556900438.
+
+## Descrição da Bibliografia Complementar
+*   REVISTA DE EMPREENDEDORISMO E GESTÃO DE PEQUENAS EMPRESAS . São Paulo, SP: ANEGEPE , Quadrimestral (4 em 4 meses). ISSN 2316-2058 versão on-line. Disponível em: http://www.regepe.org.br/regepe/index. Acesso em: 10 set. 2018.
+*   ANA CRISTINA MARTINS ALESSI. Gestão de startups: desafios e oportunidades. Editora Intersaberes, 2022. 266 p. ISBN 9786555173574.
+*   BIAGIO, Luiz Arnaldo. Plano de negócios estratégia para micro e pequenas empresas. 3. São Paulo Manole 2018 1 recurso online ISBN 9786555760897.
+*   CORREIA, Leandro Cupertino. Empreendedorismo e gestão de projetos: planejamento, orçamento e acompanhamento da obra. São Paulo: Platos Soluções Educacionais, 2021. 1 recurso online. ISBN 9786589881667.
+*   JOÃO AMATO NETO; JOÃO AMATO NETO; JOÃO AMATO NETO. ESG Investing: um novo paradigma de investimentos?. Editora Blucher, 2022. 17 p. ISBN 9786555065619.
+*   KURATKO, Donald F. Empreendedorismo: teoria, processo, prática. São Paulo: Cengage Learning, c2017. *E-book*. ISBN 9788522125715.

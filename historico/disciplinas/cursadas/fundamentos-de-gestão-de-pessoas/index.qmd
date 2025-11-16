@@ -1,0 +1,100 @@
+---
+title: "FUNDAMENTOS DE GESTÃO DE PESSOAS"
+subtitle: "Nota: 74 | Extracurricular"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Nelio Oliveira (Mestrado)."
+categories: ["PUC Minas", "Gestao", "Administracao"]
+carga_horaria: 80
+nota: 74
+periodo: 100
+toc: true
+---
+
+## Ementa
+Comportamento Organizacional: o mundo do trabalho, objetivos pessoais e objetivos organizacionais, comunicação, liderança, motivação, socialização. Evolução da Gestão de Pessoas no Brasil: fundamentos, modelos, gestão por competências. Gestão estratégica e gestão de pessoas.
+
+## Objetivos
+**Geral:**
+Capacitar o aluno para o reconhecimento da importância das bases históricas, do papel e das práticas da Gestão de Pessoas, bem como, de seu aspecto estratégico na consolidação do diferencial competitivo das organizações, construindo uma perspectiva crítica das contribuições e tendências da área.
+
+**Específicos:**
+*   Capacitar o aluno para compreender os conceitos principais da Gestão de Pessoas e o reconhecimento e aplicação destes nas práticas em organizações;
+*   Analisar a trajetória histórica da Gestão de Pessoas e Relações de Trabalho;
+*   Formar competências de planejamento, diagnóstico, implementação e avaliação de programas relativos à Gestão de Pessoas;
+*   Discutir e problematizar os principais conceitos que balizam o trabalho do gestor de pessoas no âmbito de uma organização;
+*   Perceber, de modo vivencial, limites e possibilidades do ser humano imerso no mundo do trabalho;
+*   Habilitar o aluno ao trabalho em equipe interdisciplinar, identificando e solucionando conflitos;
+*   Apresentar e discutir as melhores práticas de suprimento e remuneração de pessoas, bem como, a sua contribuição para a sustentabilidade dos negócios.
+*   Formar uma percepção crítica da relação de trabalho estabelecida entre organizações e pessoas.
+
+## Métodos Didáticos
+Exposição de conteúdo, baseados na bibliografia, em pesquisas e na realidade do campo profissional. Leitura de textos dirigidos. Discussões em grupo, debates, desenvolvimento de reflexões. Problematização da realidade por meio de estudos de casos, pesquisas bibliográficas e de campo, vídeos de curta duração e práticas de extensão universitária.
+
+## Unidades de Ensino
+**Unidade 1 Conceitos Fundamentais**
+1.1 O mundo do trabalho
+1.2 Organizações e Estruturas Organizacionais
+1.3 Relações de Trabalho e Negociação Coletiva
+1.4 Direitos Humanos e diversidade no mundo do trabalho
+1.5 Qualidade de Vida, Saúde e Segurança no Trabalho
+
+**Unidade 2 Comportamento Organizacional**
+2.1 Introdução ao Comportamento Organizacional
+2.2 Cultura Organizacional
+    2.2.1 Objetivos Pessoais e Objetivos Organizacionais
+    2.2.2 A Comunicação Interna
+    2.2.3 Socialização
+2.3 Liderança
+    2.3.1 Conceitos, modelos e abordagem de liderança
+    2.3.2 Grupos e Equipes de Trabalho
+    2.3.3 Desenvolvimento de Lideranças
+2.4 Motivação
+    2.4.1 Teorias e principais conceitos
+    2.4.2 Programas de Incentivo
+
+**Unidade 3 Evolução Histórica da Gestão de Pessoas**
+3.1 Fundamentos: Evolução das Concepções gerenciais e da Gestão de Pessoas
+3.2 Gestão Estratégica de Pessoas e Indicadores de Resultados
+    3.2.1 People Analytics
+3.3 Gestão por Competências
+
+**Unidade 4 A Gestão de Pessoas em Diferentes Configurações Organizacionais**
+4.1 Inovação em Gestão de Pessoas
+    4.1.1 A Gestão de Pessoas em modelos de negócios ágeis: startup
+    4.1.2 A Gestão de Pessoas em modelos de negócios colaborativos: setor 2,5; cooperativas,
+    4.1.3 A Gestão de Pessoas em modelos de negócios de economia circular
+
+## Processo de Avaliação
+**1ª etapa**
+*   Trabalho em grupo: 5 pontos
+*   Trabalho em grupo: 5 pontos
+*   Prova Individual: 15 pontos
+
+**2ª etapa**
+*   Trabalho em grupo: 5 pontos
+*   Trabalho em grupo: 5 pontos
+*   Trabalho em grupo: 5 pontos
+*   Prova Individual: 20 pontos
+
+**3ª etapa**
+*   Trabalho Interdisciplinar: 10 pontos
+*   Prova Global: 30 pontos
+
+**TOTAL: 100 pontos**
+Reavaliação: 30 pontos. Substitui a Global.
+
+## Observações
+Poderá Haver trabalho interdisciplinar ou prática curricular de extensão com orientações estabelecidas no início do semestre. Neste caso, será trabalhado no lugar do Seminário.
+
+## Descrição da Bibliografia Básica
+*   DUTRA, Joel Souza. Gestão de pessoas: modelo, processos, tendências e perspectivas. 2. ed. São Paulo: Atlas, 2016. *E-book*. ISBN 9788597005196.
+*   GRIFFIN, Ricky W.; MOORHEAD, Gregory. Comportamento organizacional: gestão de pessoas e organizações. São Paulo: Cengage Learning, 2015. *E-book*. ISBN 9788522120970.
+*   ZANELLI, José Carlos; BORGES-ANDRADE, Jairo Eduardo; BASTOS, Antônio Virgílio Bittencourt (org.). Psicologia, organizações e trabalho no Brasil. 2. ed. Porto Alegre: Artmed, 2014. *E-book*. ISBN 9788582710852.
+
+## Descrição da Bibliografia Complementar
+*   CODA, Roberto. Competências comportamentais. Rio de Janeiro Atlas 2016 1 recurso online ISBN 9788597008746.
+*   DAVEL, Eduardo; VERGARA, Sylvia Constant (org.). Gestão com pessoas e subjetividade. 7. ed. São Paulo: Atlas, 2014. *E-book*. ISBN 9788522494194.
+*   MAXIMIANO, Antonio César Amaru. ADM por competências: você gestor. São Paulo: Atlas, 2019. *E-book*. ISBN 9788597022148.
+*   READ: revista eletrônica de administração. Rio Grande do Sul: UFRGS - Escola de Administração , 2001. ISSN 1413-2311 versão on-line. Disponível em: http://seer.ufrgs.br/read. Acesso em: 21 ago. 2018.
+*   RECADM: revista eletrônica de ciência administrativa. Campo Largo: Instituto Brasileiro de Estudos e Pesquisas Sociais, 2002-. Quadrimestral (4 em 4 meses). ISSN 1677-7387 versão on-line. Disponível em: http://www.periodicosibepes.org.br/index.php/recadm/index. Acesso em: 10 set. 2018.
+*   RESENDE, Carolina Costa. O mundo do trabalho na era organizacional: história, crítica e perspectivas. Belo Horizonte, MG: PSI Edições Acadêmicas, 2019. 85 p. ISBN 9786550610203., Nº de Exemplares: 12.
+*   SIQUEIRA, Mirlene Maria Matias (org.). Novas medidas do comportamento organizacional: ferramentas de diagnóstico e de gestão. Porto Alegre: Artmed, 2014. *E-book*. ISBN 9788582710227.

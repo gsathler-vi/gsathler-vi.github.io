@@ -1,0 +1,114 @@
+---
+title: "HISTÓRIA ECONÔMICA GERAL"
+subtitle: "Nota: 71 | Período: 2"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Flavius Marcus Lana de Vasconcelos (Mestrado)."
+categories: ["PUC Minas", "Historia", "Economia"]
+carga_horaria: 80
+nota: 71
+periodo: 2
+toc: true
+---
+
+## Ementa
+Gênese do Capitalismo; Estados nacionais e revoluções burguesas; Revolução Industrial Inglesa; Industrialização atrasada; Imperialismo. A ruptura do capitalismo clássico. Alternativas ao capitalismo clássico: o surgimento da URSS. A Grande Depressão econômica dos anos 30 e seus desdobramentos.
+
+## Objetivos
+**OBJETIVO GERAL:**
+Descrever o processo lógico e histórico que engendrou a gênese, a consolidação, a evolução e as mutações do capitalismo como modo de produção dominante a partir de uma trajetória de longa duração (BRAUDEL,1996) que se inicia no século XV e se estende até o primeiro decênio do século XXI.
+
+**OBJETIVOS ESPECÍFICOS:**
+*   Estabelecer as relações e as rupturas entre o capitalismo e os modos de produção que o antecederam, quais sejam, o escravista e o feudal.
+*   Identificar os fatores econômicos e políticos que engendraram a gênese do capitalismo a partir do processo multifacetado da denominada acumulação primitiva.
+*   Sintetizar a trajetória de consolidação do capitalismo como modo de produção dominante, sob a sua forma concorrencial, levando-se em consideração as rupturas políticas desencadeadas pelas revoluções burguesas e a consolidação econômica do capital no âmbito da Primeira Revolução Industrial.
+*   Descrever a transição do capitalismo concorrencial para o capitalismo monopolista a partir da Segunda Revolução Industrial e todos os fatores instabilizadores que desembocaram na Depressão do século XIX e nos conflitos imperialistas e neocoloniais que engendraram a Primeira Guerra Mundial.
+*   Identificar os processos econômicos e políticos que, já sob o domínio do capitalismo monopolista, criaram as condições objetivas para a Grande Depressão (1929-1939) e para um novo conflito mundial.
+*   Apresentar a reconfiguração econômica e política internacional realizada no âmbito dos acordos de Bretton Woods (1944) e de Yalta (1945) e a consolidação da hegemonia estadunidense.
+*   Discutir os elementos definidores da prosperidade material do período 1950-72, quais sejam, a vantagem competitiva do modelo estadunidense de grandes corporações empresariais com integração vertical; o rearranjo das relações capital-trabalho diante da presença da URSS e a conformação do Estado de Bem-Estar Social; a consolidação da ciência no núcleo do progresso técnico com a articulação entre o Estado e as grandes corporações desde a II Guerra Mundial.
+*   Apresentar a trajetória histórica que auxilia na compreensão da crise que assola o Sistema Internacional ao longo dos anos 1970 com o fim de Bretton Woods e a desaceleração do crescimento econômico nos países capitalistas avançados, processos que se realizaram simultaneamente ao esgotamento da industrialização por substituição de importações na América Latina e à ascensão da Ásia como zona dinâmica de expansão numa economia mundial estagnada.
+*   Abordar o crescente poder das grandes corporações, dos grandes bancos e instituições financeiras onde a interdependência entre dinheiro e política são enfatizados na discussão da crise financeira de 2008, do declínio do investimento e da produtividade, e do aumento da desigualdade no âmbito do sistema internacional.
+*   Discutir a ascensão econômica da China e as suas implicações para o futuro do capitalismo.
+
+## Métodos Didáticos
+*   Aulas expositivas.
+*   Pesquisas bibliográficas orientadas.
+*   Estudos dirigidos individuais e em grupo.
+*   Apresentação de seminários.
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento: As conexões entre a História e a Ciência Econômica. Por que estudar História Econômica? (2 horas-aula)**
+0.1- Exposição dialogada a respeito dos temas de História estudados durante o segundo grau.
+0.2- Orientação a respeito de como pesquisar "papers" no âmbito dos periódicos recomendados, a saber, "Revista da Sociedade Brasileira de Economia Política" (bibliografia básica) e "História e Economia" (bibliografia complementar).
+
+**Unidade I- A gênese do capitalismo e o processo de acumulação primitiva. (10 horas-aula)**
+1.1- As formas de organização social pré-capitalistas: A transição entre o modo de produção escravista e o feudalismo.
+1.2- A sociedade feudal: Da origem à crise no século XIV.
+1.3- Os primeiros movimentos antifeudais: As cidades-estado da península italiana e a retomada do comércio.
+1.4- A reorganização dos Estados Nacionais: As monarquias absolutas.
+1.5- Mercantilismo, colonialismo e a reimplantação da escravidão: O movimento de remonetização das economias europeias.
+1.6- A ascensão da burguesia e os processos de transição econômica no campo: Os processos de cercamento ("enclosure").
+1.7- A ascensão da burguesia e os processos de transição nos centros urbanos: Das corporações de ofício (guildas) às primeiras empresas industriais capitalistas.
+1.8- As revoluções burguesas no Reino Unido: da guerra civil (1640-1650) à Revolução Gloriosa (1688-1689).
+1.9- O iluminismo, a independência americana e a Revolução Francesa.
+1.10- A transição entre o feudalismo e o capitalismo constitui-se em fenômeno econômico e político.
+
+**Unidade II- A consolidação do capitalismo como modo de produção dominante: A Primeira Revolução Industrial. (8 horas-aula)**
+2.1- Inovações no âmbito da indústria de transformação e dos transportes: Por que a primeira revolução industrial ocorreu no Reino Unido?
+2.2- As características gerais do capitalismo concorrencial.
+
+**Unidade III- Do capitalismo concorrencial ao capitalismo monopolista: A Segunda Revolução Industrial; a instabilidade do sistema e os conflitos interestatais (1850-1918). (16 horas-aula)**
+3.1- Inovações, destruição criativa e instabilidade: A abrangência mundial da Segunda Revolução Industrial.
+3.2- O surgimento de novos atores nacionais no âmbito das industrializações retardatárias: Os processos de industrialização da Alemanha, dos EUA e do Japão.
+3.3- As trajetórias nacionais de concentração industrial e o capitalismo monopolista: O papel das Sociedades Anônimas.
+3.4- A ruptura estrutural no sistema econômico mundial: Desenvolvimento versus subdesenvolvimento.
+3.5- A Depressão do século XIX (1873 a 1896).
+3.6- Hegemonia, imperialismo e neocolonialismo: As disputas interestatais que engendraram a I Guerra Mundial.
+
+**Unidade IV- A economia mundial pós primeira guerra e a Grande Depressão. (10 horas-aula)**
+4.1- A reconstrução europeia e o capitalismo mundial na década de 1920.
+4.2- A Revolução Russa de 1917.
+4.3- O fascismo italiano e o nazismo alemão.
+4.4- A Grande Depressão (1929-1939).
+
+**Unidade V- A consolidação da hegemonia estadunidense e a invenção da guerra fria. (4 horas-aula)**
+5.1- O arranjo institucional do "New Deal" e a consolidação da hegemonia econômica dos EUA.
+5.2- O tratado de Bretton Woods e o acordo de Yalta: Hegemonia econômica, política e militar em um mundo bipolar.
+5.3- O arsenal da democracia burguesa, a invenção da guerra fria e a consolidação do Estado empresarial nos Estados Unidos.
+
+**Unidade VI: Tecnologia e finanças na idade de ouro do capitalismo global do pós-guerra (1946-1970) (10 horas-aula)**
+6.1- A presença da União Soviética e a gênese e consolidação do Estado do Bem Estar ("Welfare State") no âmbito do espaço europeu.
+6.2- Inovações, sistemas de financiamento e instituições sociais: A gênese e consolidação de Sistemas Nacionais de Inovação localizados.
+6.3- Descolonização, expansão do mundo socialista e desenvolvimento desigual na periferia do Sistema Interestatal capitalista.
+
+**Unidade VII: A crise sistêmica do regime de acumulação estadunidense (10 horas-aula)**
+7.1- A ascensão do Japão e a ameaça à hegemonia econômica dos EUA.
+7.2- O fim da conversibilidade dólar-ouro (1971) e o início da crise sistêmica do sistema internacional capitalista: Os choques do petróleo (1973 e 1979).
+7.3- A ascensão do neoliberalismo no âmbito da década de 1980 e a concentração da renda e riqueza nos EUA.
+7.4- A disseminação das tecnologias da informação e das comunicações nos anos 90 e a perda de dinamismo ao início do século XXI.
+7.5- O aquecimento global e a restrição ambiental ao processo econômico.
+
+**Unidade VIII: Considerações a respeito do sistema econômico internacional no início do século XXI. (10 horas-aula)**
+8.1- A natureza da crise de 2008
+8.2- A ascensão da China e as implicações para o futuro do capitalismo.
+
+## Processo de Avaliação
+*   Uma prova parcial envolvendo as unidades I, II, III e IV do Plano de Ensino: 25 pontos.
+*   Uma prova parcial envolvendo as unidades V, VI, VII e VIII do Plano de Ensino: 25 pontos.
+*   Uma prova substitutiva destinada aos alunos que perderam uma das provas parciais: 25 pontos
+*   Uma prova global envolvendo todas as unidades do Plano de Ensino: 30 pontos.
+*   Um trabalho interdisciplinar: 10 pontos.
+*   Estudos dirigidos: 10 pontos
+*   Uma prova de reavaliação que substitui a nota da prova global: 30 pontos.
+
+## Descrição da Bibliografia Básica
+*   ARRIGHI, Giovanni. O longo século XX: dinheiro, poder e as origens de nosso tempo. Rio de Janeiro: Contraponto, São Paulo: UNESP, 1996. xiv, 393 p. ISBN 8571391084., Nº de Exemplares: 5.
+*   DOBB, Maurice. A evolução do Capitalismo. 9. Rio de Janeiro LTC 1981 1 recurso online ISBN 9788521637660.
+*   REVISTA DA SOCIEDADE BRASILEIRA DE ECONOMIA POLÍTICA. Rio de Janeiro: 7 Letras ,1997-. 2010-. ISSN 1415-1979. Disponível em: http://www.revistasep.org.br/index.php/SEP. Acesso em: 15 jul. 2020.
+*   SAES, Flávio Azevedo Marques de. História econômica geral. São Paulo Saraiva 2013 1 recurso online ISBN 9788502212565.
+
+## Descrição da Bibliografia Complementar
+*   ARRIGHI, Giovanni; MEDINA, Beatriz; SANTOS, Theotônio dos. Adam Smith em Pequim: origens e fundamentos do século XXI. São Paulo: Boitempo, 2008. 428 p. ISBN 9788575591123., Nº de Exemplares: 1., Nº de Exemplares: 1.
+*   BARBOSA, Alexandre de Freitas; Ricardo Musse; Alexis Dantas; Bruno Hendler; Elias Marco Khalil Jabbour; Francisco Foot Hardman; Luiz Enrique Vieira de Souza; Wladimir Pomar. China contemporânea: Seis interpretações. Autêntica Editora - 2021 208. ISBN 9786559280490.
+*   DICKEN, Peter. Mudança global: mapeando as novas fronteiras da economia mundial. 5. ed. Porto Alegre: Bookman, 2010. E-book. ISBN 9788577806515.
+*   FIORI, José Luís. Estados e moedas no desenvolvimento das nações. 3. ed. Petropólis: Vozes, 2000. 492p. ISBN 8532622348, Nº de Exemplares: 4.
+*   HISTÓRIA ECONÔMICA & HISTÓRIA DE EMPRESAS. São Paulo: Hucitec ,1998-. Semestral. ISSN 1519-3314. Disponível em: https://www.hehe.org.br/index.php/rabphe. Acesso em: 2 jul. 2020.
+*   HOBSBAWM, E. J. Era dos extremos: o breve século XX : 1914-1991. 2. ed. São Paulo: Companhia das Letras, 1995. 598 p. ISBN 8571644683., Nº de Exemplares: 33.

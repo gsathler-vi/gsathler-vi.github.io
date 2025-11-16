@@ -24,7 +24,7 @@ image: "preview-cert.png"
 <h4>
   <strong>Certificado Publicação Anais - I CACES</strong>
 </h4>
-<p><small>Even3 | 2024</small>         </small>             <a href="blob:https://www.even3.com.br/a308808b-c5f9-4b4a-b0db-ebd6a0db83e8" target="_blank" class="badge bg-light" role="button">
+<p><small>Even3 | 2024</small>         </small>             <a href="https://www.even3.com.br/a308808b-c5f9-4b4a-b0db-ebd6a0db83e8" target="_blank" class="badge bg-light" role="button">
     Publicação
 </a></p>
 
@@ -45,7 +45,7 @@ image: "preview-cert.png"
 <h4>
   <strong>Introdução à Análise de Dados - Power BI</strong>
 </h4>
-<p><small>Fundação Bradesco | 2023</small>         </small>             <a href="blob:https://www.even3.com.br/a308808b-c5f9-4b4a-b0db-ebd6a0db83e8" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
+<p><small>Fundação Bradesco | 2023</small>         </small>             <a href="https://www.even3.com.br/a308808b-c5f9-4b4a-b0db-ebd6a0db83e8" target="_blank" class="badge bg-light" role="button">Certificado</a></p>
 
 
 

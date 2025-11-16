@@ -1,0 +1,69 @@
+---
+title: "TEORIAS DA ADMINISTRAÇÃO"
+subtitle: "Nota: 95 | Extracurricular"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Wanda Cristina Rocha Wenceslau (Mestrado)."
+categories: ["PUC Minas", "Gestao", "Administracao"]
+carga_horaria: 40
+nota: 95
+periodo: 100
+toc: true
+---
+
+## Ementa
+Teoria Geral dos Sistemas; Abordagens Contingenciais; Modelos de Gestão Pós-Fordistas e Contemporâneos; Transformações tecnológicas e impactos nas organizações; Arranjos de gestão baseados em redes, cooperação e criatividade.
+
+## Objetivos
+**OBJETIVO GERAL:**
+Reconhecer a importância e os significados das Teorias Contemporâneas da Administração e seus desdobramentos nos modelos e na prática de gestão das organizações.
+
+**OBJETIVOS ESPECÍFICOS:**
+*   Identificar os aportes conceituais das Teorias da Administração diante do contexto histórico da sociedade tecnológica e de seus formatos em rede;
+*   Desenvolver competências e habilidades de análise organizacional, estabelecendo, relações entre os modelos de gestão das organizações e as tendências do ambiente econômico, social, político e institucional em que estão inseridas;
+*   Pensar criticamente as contribuições das Teorias da Administração para a prática gerencial na contemporaneidade.
+
+## Métodos Didáticos
+**Estratégias didáticas:**
+*   Discussão de casos
+*   Vídeos e filmes
+*   Leitura orientada
+*   Aulas expositivo-dialogadas
+
+**Recursos didáticos:**
+*   Casos de ensino
+*   Vídeos e filmes
+*   Textos e artigos
+*   PowerPoint.
+
+## Unidades de Ensino
+**Unidade I - A dinâmica das organizações a partir da perspectiva sistêmica**
+1.1 A teoria dos sistemas abertos como compreensão das organizações
+1.2 A Teoria ator-rede.
+
+**Unidade II - O papel do ambiente no processo de adaptação e das mudanças organizacionais**
+2.1 A teoria contingencial e o impacto na estruturação das organizações
+2.2 Teoria institucional e os efeitos miméticos entre organizações
+2.3 A competitividade e os modelos estratégicos de gestão.
+
+**Unidade III - Redes, Cooperação e Inovação**
+3.1 A lógica de funcionamento das redes e seus atores
+3.2 Redes, economia criativa e empresas sustentáveis.
+
+## Processo de Avaliação
+*   Avaliações individuais = 25,0 pontos
+*   Avaliação Global = 30,0 pontos
+*   Casos = 32,50
+*   Debates, projeção e debates de vídeos = 12,50
+
+## Descrição da Bibliografia Básica
+*   BALESTRIN, Alsones. Redes de cooperação empresarial estratégias de gestão na nova economia. 2. Porto Alegre Bookman 2016 1 recurso online ISBN 9788582603987.
+*   CHIAVENATO, Idalberto. Administração de empresas: uma abordagem contingencial. São Paulo, SP: McGraw-Hill, 1982. xv, 606 p., Nº de Exemplares: 5.
+*   MORGAN, Gareth. Imagens da organização. São Paulo, SP: Atlas, 1996. 421 p. ISBN 852241341X., Nº de Exemplares: 17.
+*   REVISTA DE ADMINISTRAÇÃO DE EMPRESAS. São Paulo: FGV, Escola de Administração de Empresas ,1961-. 2011-. ISSN 2178-938X versão on-line. Disponível em: https://www.scielo.br/j/rae/grid. Acesso em: 21 ago. 2018.
+
+## Descrição da Bibliografia Complementar
+*   CADERNOS EBAPE.BR. Rio de Janeiro, RJ: FGV, 2003-. Trimestral (de 3 em 3 meses). ISSN 1679-3951 versão on-line. Disponível em: https://www.scielo.br/j/cebape/grid. Acesso em: 8 jun. 2021.
+*   CASTELLS, Manuel. A galáxia da Internet: reflexões sobre a Internet, os negócios e a sociedade. Rio de Janeiro, RJ: J. Zahar, c2003. 243 p. ISBN 9788571107403., Nº de Exemplares: 8.
+*   GALBRAITH, Jay. Projeto de organizações dinâmicas um guia prático para líderes de todos os níveis. Porto Alegre Bookman 2010 1 recurso online ISBN 9788577807949.
+*   LATOUR, Bruno. Reagregando o social: uma introdução à teoria do ator-rede. Salvador: EDUFBA, Bauru: EDUSC, 2012. 399 p. ISBN 9788523208646., Nº de Exemplares: 1.
+*   MINTZBERG, Henry. Managing. Porto Alegre Bookman 2017 1 recurso online ISBN 9788582603116.
+*   OLIVEIRA, Nélio. Organizações automatizadas: desenvolvimento e estrutura da empresa moderna. Rio de Janeiro: LTC - Livros Técnicos e Científicos, c2007. xviii, 208 p. ISBN 8521614985., Nº de Exemplares: 11.

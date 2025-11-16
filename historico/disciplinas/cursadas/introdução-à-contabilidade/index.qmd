@@ -1,0 +1,99 @@
+---
+title: "INTRODUÇÃO À CONTABILIDADE"
+subtitle: "Nota: 98 | Período: 1"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Ângela Maria Marques Cupertino (Mestrado)."
+categories: ["PUC Minas", "Gestao", "Economia"]
+carga_horaria: 80
+nota: 98
+periodo: 1
+toc: true
+---
+
+## Ementa
+Conceituação, objetivos e campo de aplicação da contabilidade; conceituação do patrimônio e elementos constitutivos de acordo com a estrutura conceitual básica da contabilidade; configurações patrimoniais; equação fundamental. Dinâmica patrimonial variações do patrimônio líquido. Lógica das operações contábeis para a linguagem dos negócios. Regimes de caixa e competência; balancete de verificação, apuração do resultado. Introdução ao estudo das demonstrações contábeis obrigatórias e Gestão da Informação Contábil.
+
+## Objetivos
+**OBJETIVO GERAL**
+Conhecer o objeto de estudo, o objetivo e método da ciência contábil e os fundamentos da técnica contábil para registro e interpretação de situações patrimoniais, financeiras e econômicas das entidades.
+
+**OBJETIVOS ESPECÍFICOS**
+*   Identificar conceitos, objeto, campo de aplicação e usuários da contabilidade
+*   Compreender e aplicar os fundamentos contábeis
+*   Conhecer e identificar situações relacionadas às características qualitativas em informações e relatórios contábeis
+*   Identificar e aplicar conceitos de patrimônio, ativo, passivo e patrimônio líquido
+*   Desenvolver a dinâmica patrimonial movimentada pelas receitas, despesas e custos
+*   Compreender e aplicar a equação básica do patrimônio
+*   Conhecer e aplicar o Regime de Competência
+*   Conhecer e aplicar o método das partidas dobradas
+*   Registrar, em razonetes, fatos contábeis, utilizando conceitos de conta, débito e crédito
+*   Elaborar balancete de verificação após contabilização de fatos contábeis
+*   Apurar o resultado do exercício contabilmente
+*   Conhecer a estrutura conceitual do Balanço Patrimonial e aplica-la na elaboração do Balanço Patrimonial
+*   Compreender a estrutura conceitual da DRE e aplicá-la na elaboração da DRE
+
+## Métodos Didáticos
+Aulas expositivas, Estudo de casos, Estudo dirigido, Trabalhos em grupo.
+
+## Unidades de Ensino
+**Unidade 1 Contabilidade: Conceitos Básicos (14 h/a)**
+1.1. Conceito, objeto, campo de aplicação e usuários da contabilidade
+1.2. Princípios de contabilidade
+    1.2.1. Entidade
+    1.2.2. Continuidade
+1.3. Estrutura conceitual básica da contabilidade
+    1.3.1. Objetivo da elaboração e divulgação de relatório contábil-financeiro
+    1.3.2. Características qualitativas da informação contábil-financeira útil.
+
+**Unidade 2 Estrutura contábil dos elementos do patrimônio (14h/a)**
+2.1. Estática patrimonial conceitos
+    2.1.1. Patrimônio
+    2.1.2. Ativo
+    2.1.3. Passivo
+    2.1.4. Patrimônio Líquido
+2.2. Equação fundamental do patrimônio
+    2.2.1. Configurações do estado patrimonial
+2.3. Dinâmica patrimonial e variações do PL
+    2.3.1. Receitas
+    2.3.2. Despesas
+    2.3.3. Custos
+
+**Unidade 3 Procedimentos contábeis básicos segundo o método das partidas dobradas (18h/a)**
+3.1. Contas
+3.2. Razão
+3.3. Débito e crédito ou origem e aplicação
+3.4. Mecanismo de débito e crédito
+3.5. Método das partidas dobradas
+
+**Unidade 4 Técnica contábil e Relatórios Básicos (18h/a)**
+4.1. Livros obrigatórios
+4.2. Registro contábil de operações normais do exercício
+4.3. Registro contábil de operações decorrentes do regime de competência
+4.4. Encerramento de contas de despesas e receitas
+4.5. Balancete de Verificação
+
+**Unidade 5 Estudo das Demonstrações Contábeis Obrigatórias (16h/a)**
+5.1. Demonstrações contábeis básicas
+    5.1.1. Balanço Patrimonial: estrutura e elaboração após registro de eventos econômicos
+    5.1.2. Demonstração do Resultado do Exercício estrutura e elaboração após apuração do resultado.
+5.2. Demonstrações contábeis complementares
+    5.2.1. Outras demonstrações exigidas pelos artigos 175 a 188 da Lei 6.404/76, com alterações das Leis 11.638/07 e 11.941/09.
+
+## Processo de Avaliação
+1.  1ª prova escrita: 20 créditos
+2.  2ª prova escrita: 20 créditos
+3.  3ª prova escrita: 20 créditos
+4.  4ª prova escrita: 30 créditos
+5.  Reavaliação: 30 créditos (substituirá a 4ª prova quando o aluno não atingir 60 créditos)
+6.  Trabalho Integrado e multidisciplinar: 10 créditos
+
+## Descrição da Bibliografia Básica
+*   EQUIPE DE PROFESSORES DA FEA-USP.. Contabilidade introdutória. 12. Rio de Janeiro Atlas 2019 1 recurso online ISBN 9788597021011.
+*   PADOVEZE, Clóvis Luís. Manual de contabilidade básica : contabilidade introdutória e intermediária: texto e exercícios. 10. ed. São Paulo: Atlas, 2017. 1 recurso online ISBN 9788597010091.
+*   SZUSTER, Natan et al. Contabilidade geral : introdução à contabilidade societária. 4. ed. São Paulo: Atlas, 2013. E-book ISBN 9788522476848.
+
+## Descrição da Bibliografia Complementar
+*   MANUAL de contabilidade societária. 3. ed. São Paulo: Atlas, 2018. E-book (xxxii, 825p.) ISBN 9788597016161.
+*   MARION, José Carlos. Contabilidade básica. 12. Rio de Janeiro Atlas 2018 1 recurso online ISBN 9788597018103.
+*   RIBEIRO, Osni Moura. Contabilidade básica. 4. São Paulo Saraiva 2017 1 recurso online ISBN 9788547224806.
+*   SILVA, César Augusto Tibúrcio; TRISTÃO, Gilberto. Contabilidade básica. 4. ed. São Paulo: Atlas, 2009. ix, 252 p. ISBN 9788522454983, Nº de Exemplares: 2.
+*   YAMAMOTO, Marina Mitiyo; PACCEZ, João Domiraci; MALACRIDA, Mara Jane Contrera. Fundamentos da contabilidade: a nova contabilidade no contexto global. São Paulo: Saraiva, 2011. 315 p. ISBN 9788502107489., Nº de Exemplares: 6.

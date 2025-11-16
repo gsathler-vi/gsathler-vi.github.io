@@ -1,0 +1,27 @@
+---
+title: "ASPECTOS LEGAIS DA GESTÃO PÚBLICA A"
+subtitle: "Nota: 90 | Período: 1"
+description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor(a) Mateus Morais Araujo (Doutorado)."
+categories: ["UFMG", "Direito", "Gestao Publica"]
+carga_horaria: 60
+nota: 90
+periodo: 1
+toc: true
+---
+
+## Ementa
+Estado e Sociedade. Estado e Direito. Origem e formação do Estado Moderno. Elementos do Estado: soberania, povo, território. Cidadania Moderna. Direitos e Garantias Fundamentais. Paradigmas Constitucionais. Estado e Democracia: participação direita e representação política, sufrágio, sistema partidário e sistema eleitoral. Organização do Estado: formas e sistemas de governo. Organização dos Poderes: Executivo, Legislativo e Judiciário. Federalismo: repartição de competências.
+
+## Descrição da Bibliografia Básica
+*   BARROSO, Luis Roberto. Curso de Direito Constitucional Contemporâneo. Cap. I. 9ª ed. Editora Saraiva. São Paulo. 2020.
+*   BOBBIO, Norberto. Liberalismo e Democracia. Caps. 1 – 8. São Paulo, Brasiliense, 1988.
+*   BONAVIDES, Paulo. Ciência Política. 10ª ed. Malheiros Editores. São Paulo. 2000, Caps. 3-9.
+*   FERREIRA FILHO, Manoel Gonçalves. Curso de Direito Constitucional. 38ª ed. São Paulo. Editora Saraiva. 2012. Caps. 1 - 6.
+*   LENZA, Pedro. Direito Constitucional Esquematizado. 23ª ed. Editora Saraiva. São Paulo. 2019.
+*   MENDES, Gilmar e BRANCO, Paulo Gustavo Gonet. Curso de Direito Constitucional. 9ª ed. Editora Saraiva. São Paulo. 2014. Cap. I.
+*   SOUZA NETO, Cláudio Pereira de e SARMENTO, Daniel. Direito constitucional: teoria, história e métodos de trabalho. Belo Horizonte, Editora Forum, 2012. Caps. 1 e 2.
+
+## Descrição da Bibliografia Complementar
+*   MENDES, Gilmar e BRANCO, Paulo Gustavo Gonet. Curso de Direito Constitucional. 9ª ed. Editora Saraiva. 2014.
+*   MORAES, Alexandre de. Direito Constitucional. 33ª ed. Editora Atlas. São Paulo. 2016.
+*   SCHIERA, Pierangelo. Estado Moderno. In: BOBBIO, Norberto et all. Dicionário de Política. Editora UNB. 4ª ed. Brasília. 1992.

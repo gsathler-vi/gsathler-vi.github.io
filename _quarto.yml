@@ -46,6 +46,14 @@ website:
         text: Experiência
       - href: certificacoes.qmd
         text: Certificações
+      - text: Histórico Escolar
+        menu:
+          - text: Visão Geral
+            href: historico.qmd
+          - text: Disciplinas Cursadas
+            href: historico_cursadas.qmd
+          - text: Disciplinas em Curso
+            href: historico_em_curso.qmd
       - href: posts.qmd
         text: Trabalhos e Apresentações
       - href: listing.qmd
