@@ -1,5 +1,6 @@
 ---
 title: "Certificações e Prêmios"
+image: "preview-cert.png"
 ---
 
 

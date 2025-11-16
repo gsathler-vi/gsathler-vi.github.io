@@ -1,5 +1,6 @@
 ---
 title: "Materiais e Documentos"
+image: "preview-mat.png"
 listing:
   contents: material
   type: grid

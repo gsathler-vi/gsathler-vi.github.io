@@ -1,5 +1,6 @@
 ---
 title: "Trabalhos e Apresentações"
+image: "preview-trab.png"
 listing:
   contents: posts
   feed: true

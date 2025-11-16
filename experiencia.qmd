@@ -1,5 +1,6 @@
 ---
 title: "Experiência Profissional"
+image: "preview-exp.png"
 ---
 
 <h4>
