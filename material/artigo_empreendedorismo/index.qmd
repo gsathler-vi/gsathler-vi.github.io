@@ -1,0 +1,19 @@
+---
+title: "EMPREENDEDORISMO UNIVERSITÁRIO"
+subtitle: "atividades empreendedoras de estudantes de graduação em uma universidade privada comunitária"
+date: 08-19-2024
+author: [Gabriel Sathler Victer Itaborahy, Brenda Santa Rosa Silva, João Paulo Moreira Silva, Liliane de Oliveira Guimarães, Osvaldo de Oliveira]
+categories: [Artigo, Empreendedorismo, Aministração]
+lang: pt-BR
+image: "image.png"
+---
+
+<a href="https://doi.org/10.29327/caces.804728" class="btn btn-secondary text-capitalize" data-original-href="https://doi.org/10.29327/caces.804728"><i class="bi bi-file-richtext-fill me-1"></i> Link da Publicação</a>
+
+
+# **RESUMO**
+---
+O Brasil é um país empreendedor. Entretanto, inúmeras barreiras contextuais apresentam-se a empreendedores e potenciais empreendedores, como aspectos socioeconômicos negativos. Nesse cenário, a universidade surge como importante ator na oferta de programas de fomento ao empreendedorismo, impactando positivamente o ambiente. Nesse sentido, estudantes de graduação de uma universidade privada comunitária são o objeto de pesquisa deste relato técnico, que descreve os resultados preliminares de um levantamento censitário para conhecimento das atividades empreendedoras realizadas pelos estudantes. Os dados demonstram que o perfil do empreendimento comum é o de uma pequena empresa, gerenciada/operada pelo próprio empreendedor. Entretanto, uma parcela considerável é formalizada. A relação dos estudantes com os programas da universidade, por sua vez, é mais complexa. Os dados demonstram oportunidades importantes para que gestores da universidade ampliem o apoio e, por conseguinte, o impacto das ações empreendedoras universitárias.
+
+>**Palavras Chave:**  Empreendedorismo. Universidade. Desenvolvimento socioeconômico.
+

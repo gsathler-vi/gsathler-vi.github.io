@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/apresentacao_pesquisa/index.html",
+      "/posts/apresentacao_caces/index.html"
+    ]
+  },
+  {
+    "listing": "/listing.html",
+    "items": [
+      "/material/dummies/index.html",
+      "/material/artigo_empreendedorismo/index.html"
+    ]
+  }
+]

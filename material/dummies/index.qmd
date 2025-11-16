@@ -9,6 +9,7 @@ author: "Gabriel Sathler Victer Itaborahy"
 lang: pt-BR
 section-divs: true
 image: "image.png"
+categories: [Aula, Material Didático, Econometria]
 format:
   html:
     code-fold: true
