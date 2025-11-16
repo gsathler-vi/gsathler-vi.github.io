@@ -1,0 +1,10 @@
+---
+title: "Materiais e Documentos"
+image: "preview-mat.png"
+listing:
+  contents: material
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+---

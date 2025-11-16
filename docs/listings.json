@@ -1,0 +1,69 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/apresentacao_pesquisa/index.html",
+      "/posts/apresentacao_caces/index.html"
+    ]
+  },
+  {
+    "listing": "/historico_em_curso.html",
+    "items": [
+      "/historico/disciplinas/em_curso/aspectos-legais-da-gestão-pública-b/index.html",
+      "/historico/disciplinas/em_curso/instituicoes-politicas-comparadas/index.html",
+      "/historico/disciplinas/em_curso/politicaeconomia-e-sociedade-no-brasil/index.html",
+      "/historico/disciplinas/em_curso/sociologia-das-organizacoes-publicas/index.html",
+      "/historico/disciplinas/em_curso/microeconomia-contemporânea/index.html",
+      "/historico/disciplinas/em_curso/econometria/index.html",
+      "/historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/index.html",
+      "/historico/disciplinas/em_curso/estatística-multivariada/index.html"
+    ]
+  },
+  {
+    "listing": "/historico_cursadas.html",
+    "items": [
+      "/historico/disciplinas/cursadas/fundamentos-de-analise-sociologica/index.html",
+      "/historico/disciplinas/cursadas/introdução-à-contabilidade/index.html",
+      "/historico/disciplinas/cursadas/laboratório-de-iniciação-a-programação/index.html",
+      "/historico/disciplinas/cursadas/fundamentos-da-analise-politica/index.html",
+      "/historico/disciplinas/cursadas/gestão-pública-a/index.html",
+      "/historico/disciplinas/cursadas/aspectos-legais-da-gestão-pública-a/index.html",
+      "/historico/disciplinas/cursadas/metodologia/index.html",
+      "/historico/disciplinas/cursadas/introdução-a-economia/index.html",
+      "/historico/disciplinas/cursadas/fundamentos-de-administração/index.html",
+      "/historico/disciplinas/cursadas/cálculo-aplicado-i/index.html",
+      "/historico/disciplinas/cursadas/filosofia-razão-e-modernidade/index.html",
+      "/historico/disciplinas/cursadas/estatística/index.html",
+      "/historico/disciplinas/cursadas/sociologia-das-organizações/index.html",
+      "/historico/disciplinas/cursadas/cálculo-aplicado-ii/index.html",
+      "/historico/disciplinas/cursadas/impactos-ambientais-e-alterações-climáticas-globais/index.html",
+      "/historico/disciplinas/cursadas/macroeconomia-e-contabilidade-social/index.html",
+      "/historico/disciplinas/cursadas/história-econômica-geral/index.html",
+      "/historico/disciplinas/cursadas/microeconomia/index.html",
+      "/historico/disciplinas/cursadas/economia-financeira-operações-e-estrutura/index.html",
+      "/historico/disciplinas/cursadas/pesquisa-em-economia/index.html",
+      "/historico/disciplinas/cursadas/economia-brasileira-contemporânea/index.html",
+      "/historico/disciplinas/cursadas/estatística-econômica-e-computacional/index.html",
+      "/historico/disciplinas/cursadas/macroeconomia/index.html",
+      "/historico/disciplinas/cursadas/crescimento-e-desenvolvimento-econômico/index.html",
+      "/historico/disciplinas/cursadas/teorias-da-administração/index.html",
+      "/historico/disciplinas/cursadas/projeto-inteligência-de-mercado/index.html",
+      "/historico/disciplinas/cursadas/modelagem-de-negócios/index.html",
+      "/historico/disciplinas/cursadas/metodologia-e-pesquisa-em-ciências-gerenciais/index.html",
+      "/historico/disciplinas/cursadas/negociação-e-tomada-de-decisão/index.html",
+      "/historico/disciplinas/cursadas/direito-empresarial-e-compliance/index.html",
+      "/historico/disciplinas/cursadas/fundamentos-de-marketing/index.html",
+      "/historico/disciplinas/cursadas/empreendedorismo-e-inovação/index.html",
+      "/historico/disciplinas/cursadas/gestão-de-processos/index.html",
+      "/historico/disciplinas/cursadas/fundamentos-de-gestão-de-pessoas/index.html",
+      "/historico/disciplinas/cursadas/projeto-design-de-negócios/index.html"
+    ]
+  },
+  {
+    "listing": "/listing.html",
+    "items": [
+      "/material/dummies/index.html",
+      "/material/artigo_empreendedorismo/index.html"
+    ]
+  }
+]

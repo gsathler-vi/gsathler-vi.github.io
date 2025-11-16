@@ -1,0 +1,15 @@
+---
+title: "Disciplinas em Curso"
+listing:
+   contents: "historico/disciplinas/em_curso"
+   categories: true
+   sort:
+    - "periodo"
+    - "nota"
+    - "title"
+    - "instituicao"
+   type: grid
+   grid-columns: 4
+   fields: [title, carga_horaria, categories] 
+---
+
