@@ -1,6 +1,6 @@
 ---
 title: "Sobre Mim"
-description: "“Filho” de Políticas Públicas viciado em utilizar do pensamento critico e dados para pensar na resolução de problemas complexos da sociedade/mercado, construindo pontes entre a teoria e a aplicação técnica prática. Com dupla formação em andamento em Ciências Econômicas com bolsa (PUC Minas) e Gestão Pública (UFMG). Possui experiência em análise de dados com Python e R, condução de diagnósticos organizacionais e avaliação de impacto de políticas públicas, com especial interesse na área educacional."
+description: "“Filho” de Políticas Públicas ama se utilizar do pensamento critico e dados para pensar na resolução de problemas complexos da sociedade/mercado, construindo pontes entre a teoria e a aplicação técnica prática. Com dupla formação em andamento em Ciências Econômicas com bolsa (PUC Minas) e Gestão Pública (UFMG). Possui experiência em análise de dados com Python e R, condução de diagnósticos organizacionais e avaliação de impacto de políticas públicas, com especial interesse na área educacional."
 image: "preview-image.png"
 about:
   template: trestles
