@@ -2,9 +2,6 @@
 title: "Histórico Escolar"
 description: "Visão geral do histórico escolar com o resumo de disciplinas `Cursadas`, `Em Curso` e `A Cursar` nos cursos de Ciências Economicas (PUC Minas) e Gestão Pública (UFMG)."
 toc: false
-format: 
-  html:
-    page-layout: full
 ---
 
 :::::::::::: grid
