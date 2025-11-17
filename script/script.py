@@ -43,7 +43,7 @@ def processar_disciplinas(caminho_csv, pasta_destino, status_cursada=True):
                 # --- LÓGICA ATUALIZADA PARA O CABEÇALHO YAML E CORPO ---
                 
                 # Define a lista de categorias, agora incluindo a instituição
-                categories = f'["{row["Instituição"]}", "{row["Nucleo"]}", "{row["Curso"]}"]'
+                categories = f'["{row["Instituição"]}", "{row["Curso"]}", "{row["Nucleo"]}"]'
 
                 if status_cursada:
                     if row['Periodo'] == '100':
@@ -51,7 +51,7 @@ def processar_disciplinas(caminho_csv, pasta_destino, status_cursada=True):
                     else:
                         periodo_texto = f"Período: {row['Periodo']}"
                     
-                    subtitle = f"Nota: {row['Nota']} | {periodo_texto}"
+                    subtitle = f"{periodo_texto} | Nota: {row['Nota']}"
                     # A nova descrição detalhada vai para o cabeçalho YAML
                     description = f"Disciplina cursada na {row['Instituição']} como parte do currículo de {row['Curso']}, sob a orientação do(a) professor(a) {row['Docente']} ({row['Titulação']})."
                     

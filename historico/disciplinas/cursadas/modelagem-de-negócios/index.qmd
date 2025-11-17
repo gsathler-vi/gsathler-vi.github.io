@@ -1,8 +1,8 @@
 ---
 title: "MODELAGEM DE NEGÓCIOS"
-subtitle: "Nota: 86 | Extracurricular"
+subtitle: "Extracurricular | Nota: 86"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Soraya Cardoso Pongelupe Lopes (Mestrado)."
-categories: ["PUC Minas", "Marketing", "Administracao"]
+categories: ["PUC Minas", "Administracao", "Marketing"]
 carga_horaria: 80
 nota: 86
 periodo: 100

@@ -1,8 +1,8 @@
 ---
 title: "ESTATÍSTICA"
-subtitle: "Nota: 89 | Período: 2"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Denise Pimenta Nacle Silva (Mestrado)."
-categories: ["PUC Minas", "Quantitativo", "Economia"]
+subtitle: "Período: 2 | Nota: 89"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Denise Pimenta Nacle Silva (Mestrado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Quantitativo"]
 carga_horaria: 80
 nota: 89
 periodo: 2

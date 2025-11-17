@@ -1,8 +1,8 @@
 ---
 title: "METODOLOGIA E PESQUISA EM CIÊNCIAS GERENCIAIS"
-subtitle: "Nota: 83 | Extracurricular"
+subtitle: "Extracurricular | Nota: 83"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Maria Luiza Fatima Costa de Proenca Doyle (Doutorado)."
-categories: ["PUC Minas", "Academico", "Administracao"]
+categories: ["PUC Minas", "Administracao", "Academico"]
 carga_horaria: 40
 nota: 83
 periodo: 100

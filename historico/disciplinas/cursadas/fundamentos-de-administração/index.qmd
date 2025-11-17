@@ -1,8 +1,8 @@
 ---
 title: "FUNDAMENTOS DE ADMINISTRAÇÃO"
-subtitle: "Nota: 78 | Período: 1"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Liliane de Oliveira Guimaraes (Doutorado)."
-categories: ["PUC Minas", "Gestao", "Economia"]
+subtitle: "Período: 1 | Nota: 78"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Liliane de Oliveira Guimaraes (Doutorado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Gestao"]
 carga_horaria: 80
 nota: 78
 periodo: 1

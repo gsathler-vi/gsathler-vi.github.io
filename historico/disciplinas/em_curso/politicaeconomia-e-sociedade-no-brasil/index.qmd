@@ -2,7 +2,7 @@
 title: "POLITICA,ECONOMIA E SOCIEDADE NO BRASIL"
 subtitle: "Período: 2"
 description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Geralda Luiza de Miranda (Doutorado)."
-categories: ["UFMG", "Historia", "Gestao Publica"]
+categories: ["UFMG", "Gestao Publica", "Historia"]
 carga_horaria: 60
 periodo: 2
 toc: true

@@ -5,9 +5,9 @@ listing:
    categories: true
    sort:
     - "periodo"
-    - "nota"
-    - "title"
     - "instituicao"
+    - "title"
+
    type: grid
    grid-columns: 4
    fields: [title, subtitle, carga_horaria, categories] 

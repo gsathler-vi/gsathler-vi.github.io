@@ -1,8 +1,8 @@
 ---
 title: "DIREITO EMPRESARIAL E COMPLIANCE"
-subtitle: "Nota: 81 | Extracurricular"
+subtitle: "Extracurricular | Nota: 81"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Renato Luiz Vieira Magalhaes (Doutorado)."
-categories: ["PUC Minas", "Direito", "Administracao"]
+categories: ["PUC Minas", "Administracao", "Direito"]
 carga_horaria: 80
 nota: 81
 periodo: 100

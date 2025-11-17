@@ -1,8 +1,8 @@
 ---
 title: "ESTATÍSTICA ECONÔMICA E COMPUTACIONAL"
-subtitle: "Nota: 78 | Período: 3"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Otaviano Francisco Neves (Doutorado)."
-categories: ["PUC Minas", "Quantitativo", "Economia"]
+subtitle: "Período: 3 | Nota: 78"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Otaviano Francisco Neves (Doutorado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Quantitativo"]
 carga_horaria: 80
 nota: 78
 periodo: 3

@@ -1,8 +1,8 @@
 ---
 title: "ECONOMIA FINANCEIRA: OPERAÇÕES E ESTRUTURA"
-subtitle: "Nota: 95 | Período: 3"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Frederico Sande Viana (Mestrado)."
-categories: ["PUC Minas", "Microeconomia", "Economia"]
+subtitle: "Período: 3 | Nota: 95"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Frederico Sande Viana (Mestrado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Microeconomia"]
 carga_horaria: 80
 nota: 95
 periodo: 3

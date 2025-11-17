@@ -6,6 +6,12 @@
     ]
   },
   {
+    "listing": "/material.html",
+    "items": [
+      "/material/dummies/index.html"
+    ]
+  },
+  {
     "listing": "/historico_cursadas.html",
     "items": [
       "/historico/disciplinas/cursadas/fundamentos-de-analise-sociologica/index.html",
@@ -56,12 +62,6 @@
       "/historico/disciplinas/em_curso/econometria/index.html",
       "/historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/index.html",
       "/historico/disciplinas/em_curso/estatística-multivariada/index.html"
-    ]
-  },
-  {
-    "listing": "/listing.html",
-    "items": [
-      "/material/dummies/index.html"
     ]
   }
 ]

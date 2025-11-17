@@ -1,8 +1,8 @@
 ---
 title: "FILOSOFIA: RAZÃO E MODERNIDADE"
-subtitle: "Nota: 90 | Período: 2"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Angelo José Salvador (Mestrado)."
-categories: ["PUC Minas", "Sociologia", "Economia"]
+subtitle: "Período: 2 | Nota: 90"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Angelo José Salvador (Mestrado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Sociologia"]
 carga_horaria: 40
 nota: 90
 periodo: 2

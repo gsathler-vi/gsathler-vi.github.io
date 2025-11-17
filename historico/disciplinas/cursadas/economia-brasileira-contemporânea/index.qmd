@@ -1,8 +1,8 @@
 ---
 title: "ECONOMIA BRASILEIRA CONTEMPORÂNEA"
-subtitle: "Nota: 86 | Período: 3"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Duval Magalhaes Fernandes (Doutorado)."
-categories: ["PUC Minas", "Historia", "Economia"]
+subtitle: "Período: 3 | Nota: 86"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Duval Magalhaes Fernandes (Doutorado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Historia"]
 carga_horaria: 80
 nota: 86
 periodo: 3

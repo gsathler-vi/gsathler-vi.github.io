@@ -1,8 +1,8 @@
 ---
 title: "FUNDAMENTOS DE GESTÃO DE PESSOAS"
-subtitle: "Nota: 74 | Extracurricular"
+subtitle: "Extracurricular | Nota: 74"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Nelio Oliveira (Mestrado)."
-categories: ["PUC Minas", "Gestao", "Administracao"]
+categories: ["PUC Minas", "Administracao", "Gestao"]
 carga_horaria: 80
 nota: 74
 periodo: 100

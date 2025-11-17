@@ -1,8 +1,8 @@
 ---
 title: "SOCIOLOGIA DAS ORGANIZAÇÕES"
-subtitle: "Nota: 87 | Período: 2"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Rogério Pádua Cavalcanti (Mestrado)."
-categories: ["PUC Minas", "Sociologia", "Economia"]
+subtitle: "Período: 2 | Nota: 87"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Rogério Pádua Cavalcanti (Mestrado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Sociologia"]
 carga_horaria: 40
 nota: 87
 periodo: 2

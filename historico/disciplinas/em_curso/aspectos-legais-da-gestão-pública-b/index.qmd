@@ -2,7 +2,7 @@
 title: "ASPECTOS LEGAIS DA GESTÃO PÚBLICA B"
 subtitle: "Período: 2"
 description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Lucas Gelape (Doutorado)."
-categories: ["UFMG", "Direito", "Gestao Publica"]
+categories: ["UFMG", "Gestao Publica", "Direito"]
 carga_horaria: 60
 periodo: 2
 toc: true

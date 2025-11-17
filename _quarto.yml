@@ -56,7 +56,7 @@ website:
             href: historico_em_curso.qmd
       - href: posts.qmd
         text: Trabalhos e Apresentações
-      - href: listing.qmd
+      - href: material.qmd
         text: Materiais e Documentos
 
 format:

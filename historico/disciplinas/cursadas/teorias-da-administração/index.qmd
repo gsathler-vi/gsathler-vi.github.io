@@ -1,8 +1,8 @@
 ---
 title: "TEORIAS DA ADMINISTRAÇÃO"
-subtitle: "Nota: 95 | Extracurricular"
+subtitle: "Extracurricular | Nota: 95"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Wanda Cristina Rocha Wenceslau (Mestrado)."
-categories: ["PUC Minas", "Gestao", "Administracao"]
+categories: ["PUC Minas", "Administracao", "Gestao"]
 carga_horaria: 40
 nota: 95
 periodo: 100
