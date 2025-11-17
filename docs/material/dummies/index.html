@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gabriel Sathler Victer Itaborahy">
+
+<title>Aplicação de Dummies: Desvendando o Desempenho no ENADE com Regressão Múltipla – Gabriel Sathler</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../arquivos/logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-87f8a03d693b8b23203d6889fb8714ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-87f8a03d693b8b23203d6889fb8714ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-87f8a03d693b8b23203d6889fb8714ca.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Aplicação de Dummies: Desvendando o Desempenho no ENADE com Regressão Múltipla – Gabriel Sathler">
+<meta property="og:description" content="Um Guia Prático para Modelagem Econométrica">
+<meta property="og:image" content="https://gsathler-vi.github.io/material/dummies/image.png">
+<meta property="og:site_name" content="Gabriel Sathler">
+<meta property="og:image:height" content="480">
+<meta property="og:image:width" content="958">
+<meta name="twitter:title" content="Aplicação de Dummies: Desvendando o Desempenho no ENADE com Regressão Múltipla – Gabriel Sathler">
+<meta name="twitter:description" content="Um Guia Prático para Modelagem Econométrica">
+<meta name="twitter:image" content="https://gsathler-vi.github.io/material/dummies/image.png">
+<meta name="twitter:image-height" content="480">
+<meta name="twitter:image-width" content="958">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../arquivos\logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../arquivos\logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Gabriel Sathler</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../experiencia.html"> 
+<span class="menu-text">Experiência</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../certificacoes.html"> 
+<span class="menu-text">Certificações</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../historico.html"> 
+<span class="menu-text">Histórico Academico</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Trabalhos e Apresentações</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../material.html"> 
+<span class="menu-text">Materiais e Documentos</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://www.linkedin.com/in/gabriel-sathler/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://wa.me/5531998912831" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-whatsapp"></i></a>
+    <a href="mailto:gabrielsathler.vi@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-three-dots"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="http://lattes.cnpq.br/9000859452095941">
+            Lattes
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://orcid.org/0009-0006-0754-4213">
+            ORCID
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Aplicação de Dummies: Desvendando o Desempenho no ENADE com Regressão Múltipla</h1>
+            <p class="subtitle lead">Um Guia Prático para Modelagem Econométrica</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>Gabriel Sathler Victer Itaborahy </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Data de Publicação</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">12 de novembro de 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><strong>1. Introdução</strong></a>
+  <ul class="collapse">
+  <li><a href="#o-problema-o-que-explica-a-nota-no-enade" id="toc-o-problema-o-que-explica-a-nota-no-enade" class="nav-link" data-scroll-target="#o-problema-o-que-explica-a-nota-no-enade">1.1. O Problema: O que explica a nota no ENADE?</a></li>
+  <li><a href="#preparação-do-ambiente-e-dos-dados" id="toc-preparação-do-ambiente-e-dos-dados" class="nav-link" data-scroll-target="#preparação-do-ambiente-e-dos-dados">1.2. Preparação do Ambiente e dos Dados</a></li>
+  </ul></li>
+  <li><a href="#o-desafio-das-variáveis-categóricas" id="toc-o-desafio-das-variáveis-categóricas" class="nav-link" data-scroll-target="#o-desafio-das-variáveis-categóricas"><strong>2. O Desafio das Variáveis Categóricas</strong></a></li>
+  <li><a href="#a-solução-variáveis-dummy" id="toc-a-solução-variáveis-dummy" class="nav-link" data-scroll-target="#a-solução-variáveis-dummy"><strong>3. A Solução: Variáveis Dummy</strong></a>
+  <ul class="collapse">
+  <li><a href="#o-que-são-dummies" id="toc-o-que-são-dummies" class="nav-link" data-scroll-target="#o-que-são-dummies">3.1. O que são Dummies?</a></li>
+  <li><a href="#exemplo-prático-transformando-variáveis" id="toc-exemplo-prático-transformando-variáveis" class="nav-link" data-scroll-target="#exemplo-prático-transformando-variáveis">3.2. Exemplo Prático: Transformando Variáveis</a></li>
+  <li><a href="#a-armadilha-da-multicolinearidade" id="toc-a-armadilha-da-multicolinearidade" class="nav-link" data-scroll-target="#a-armadilha-da-multicolinearidade">3.3. A Armadilha da Multicolinearidade</a></li>
+  </ul></li>
+  <li><a href="#construção-e-análise-dos-modelos" id="toc-construção-e-análise-dos-modelos" class="nav-link" data-scroll-target="#construção-e-análise-dos-modelos"><strong>4. Construção e Análise dos Modelos</strong></a>
+  <ul class="collapse">
+  <li><a href="#o-modelo-teórico-completo" id="toc-o-modelo-teórico-completo" class="nav-link" data-scroll-target="#o-modelo-teórico-completo">4.1. O Modelo Teórico Completo</a></li>
+  <li><a href="#modelo-1-a-abordagem-correta-com-dummies" id="toc-modelo-1-a-abordagem-correta-com-dummies" class="nav-link" data-scroll-target="#modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</a></li>
+  <li><a href="#modelo-2-um-erro-didático-renda-como-variável-ordinal" id="toc-modelo-2-um-erro-didático-renda-como-variável-ordinal" class="nav-link" data-scroll-target="#modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</a></li>
+  </ul></li>
+  <li><a href="#o-veredito-comparando-os-modelos" id="toc-o-veredito-comparando-os-modelos" class="nav-link" data-scroll-target="#o-veredito-comparando-os-modelos"><strong>5. O Veredito: Comparando os Modelos</strong></a></li>
+  <li><a href="#conclusões" id="toc-conclusões" class="nav-link" data-scroll-target="#conclusões">6. Conclusões</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>Material apresentado na disciplina de Econometria do Curso de Ciencias Econômicas - PUC Minas</p>
+<p><a href="https://linktr.ee/gabrielsathler"><strong>LINK: Currículo e demais redes</strong></a></p>
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução"><strong>1. Introdução</strong></h2>
+<p>Este material didático foi criado com objetivo de dar um exemplo prático aos alunos de econometria a respeito a utilização de variáveis <strong><code>DUMMY</code></strong></p>
+<section id="o-problema-o-que-explica-a-nota-no-enade" class="level3">
+<h3 class="anchored" data-anchor-id="o-problema-o-que-explica-a-nota-no-enade">1.1. O Problema: O que explica a nota no ENADE?</h3>
+<p>Neste guia, investigaremos quais fatores socioeconômicos e comportamentais influenciam a nota dos estudantes de <strong>Ciências Econômicas</strong> em <strong>Universidades</strong> no Exame Nacional de Desempenho dos Estudantes (ENADE) derivado de um projeto de Iniciação Cientifica de própria autoria. Para isso, utilizaremos um modelo de regressão múltipla, com um foco especial na correta especificação de variáveis categóricas.</p>
+</section>
+<section id="preparação-do-ambiente-e-dos-dados" class="level3">
+<h3 class="anchored" data-anchor-id="preparação-do-ambiente-e-dos-dados">1.2. Preparação do Ambiente e dos Dados</h3>
+<p>Primeiro, carregamos as bibliotecas necessárias e filtramos nossa base de dados para focar no nosso público de interesse.</p>
+<div id="eae60718" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Ignora warnings para uma saída mais limpa</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>warnings.simplefilter(<span class="st">"ignore"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Configura o estilo dos gráficos</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>sns.set_theme(style<span class="op">=</span><span class="st">"whitegrid"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Carrega e filtra os dados</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    df_completo <span class="op">=</span> pd.read_parquet(<span class="st">'dataset/01_enade.parquet'</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    df_eco <span class="op">=</span> df_completo[df_completo[<span class="st">'cod_grupo'</span>] <span class="op">==</span> <span class="dv">13</span>].copy()</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df_eco[df_eco[<span class="st">'cod_ies_org'</span>] <span class="op">==</span> <span class="dv">1</span>].copy()</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"O DataFrame final contém </span><span class="sc">{</span>df<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> observações para nossa investigação."</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">FileNotFoundError</span>:</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Erro: Arquivo 'dataset/01_enade.parquet' não foi encontrado."</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>O DataFrame final contém 28191 observações para nossa investigação.</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="o-desafio-das-variáveis-categóricas" class="level2">
+<h2 class="anchored" data-anchor-id="o-desafio-das-variáveis-categóricas"><strong>2. O Desafio das Variáveis Categóricas</strong></h2>
+<p>Modelos de regressão, como o de Mínimos Quadrados Ordinários (OLS), requerem que todas as variáveis sejam numéricas. No entanto, muitas informações socioeconômicas importantes são, por natureza, categóricas. Simplesmente atribuir números sequenciais (e.g., 1 para a primeira faixa de renda, 2 para a segunda) é uma abordagem incorreta, pois impõe uma relação linear que raramente existe na realidade.</p>
+</section>
+<section id="a-solução-variáveis-dummy" class="level2">
+<h2 class="anchored" data-anchor-id="a-solução-variáveis-dummy"><strong>3. A Solução: Variáveis Dummy</strong></h2>
+<p><strong>Obs.: Focaremos o exemplo na variável de <code>Faixa de Renda</code> neste material mas se aplica as demais variáveis.</strong></p>
+<section id="o-que-são-dummies" class="level3">
+<h3 class="anchored" data-anchor-id="o-que-são-dummies">3.1. O que são Dummies?</h3>
+<p>A solução correta é transformar cada categoria em uma <strong>variável dummy</strong> (ou indicadora). Uma dummy é uma variável binária que assume o valor <code>1</code> se uma característica está presente e <code>0</code> caso contrário.</p>
+<p><span class="math inline">\(D_i = \begin{cases} 1 &amp; \text{se o indivíduo } i \text{ possui a característica} \\ 0 &amp; \text{caso contrário} \end{cases}\)</span></p>
+</section>
+<section id="exemplo-prático-transformando-variáveis" class="level3">
+<h3 class="anchored" data-anchor-id="exemplo-prático-transformando-variáveis">3.2. Exemplo Prático: Transformando Variáveis</h3>
+<section id="exemplo-tabela-original-retirada-do-questionário" class="level4">
+<h4 class="anchored" data-anchor-id="exemplo-tabela-original-retirada-do-questionário">3.2.1. Exemplo tabela original retirada do questionário:</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Aluno</th>
+<th style="text-align: left;">Faixa de Renda</th>
+<th>Descrição ‘Faixa de Renda’</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gabriel</td>
+<td style="text-align: left;">A</td>
+<td><strong>Até 1,5 SM</strong></td>
+</tr>
+<tr class="even">
+<td>Henrique</td>
+<td style="text-align: left;">B</td>
+<td>De 1,5 a 3 SM</td>
+</tr>
+<tr class="odd">
+<td>João Marcelo</td>
+<td style="text-align: left;">B</td>
+<td>De 1,5 a 3 SM</td>
+</tr>
+<tr class="even">
+<td>Mylla</td>
+<td style="text-align: left;">D</td>
+<td>De 4,5 a 6 SM</td>
+</tr>
+<tr class="odd">
+<td>Thiago</td>
+<td style="text-align: left;">E</td>
+<td>De 6 a 10 SM</td>
+</tr>
+<tr class="even">
+<td>Caroline</td>
+<td style="text-align: left;">F</td>
+<td>De 10 a 30 SM</td>
+</tr>
+<tr class="odd">
+<td>Pedro</td>
+<td style="text-align: left;">G</td>
+<td>Acima de 30 SM</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="transformação-do-questionário-para-variáveis-numericas-ordinais" class="level4">
+<h4 class="anchored" data-anchor-id="transformação-do-questionário-para-variáveis-numericas-ordinais">3.2.2. Transformação do questionário para variáveis numericas ordinais:</h4>
+<p>Utilizaremos esta variável para fins didáticos posteriormente.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Aluno</th>
+<th style="text-align: left;">cod_renda</th>
+<th>Descrição ‘cod_renda’</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gabriel</td>
+<td style="text-align: left;">1</td>
+<td><strong>Até 1,5 SM</strong></td>
+</tr>
+<tr class="even">
+<td>Henrique</td>
+<td style="text-align: left;">2</td>
+<td>De 1,5 a 3 SM</td>
+</tr>
+<tr class="odd">
+<td>João Marcelo</td>
+<td style="text-align: left;">2</td>
+<td>De 1,5 a 3 SM</td>
+</tr>
+<tr class="even">
+<td>Mylla</td>
+<td style="text-align: left;">4</td>
+<td>De 4,5 a 6 SM</td>
+</tr>
+<tr class="odd">
+<td>Thiago</td>
+<td style="text-align: left;">5</td>
+<td>De 6 a 10 SM</td>
+</tr>
+<tr class="even">
+<td>Caroline</td>
+<td style="text-align: left;">6</td>
+<td>De 10 a 30 SM</td>
+</tr>
+<tr class="odd">
+<td>Pedro</td>
+<td style="text-align: left;">7</td>
+<td>Acima de 30 SM</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="criação-de-dummies" class="level4">
+<h4 class="anchored" data-anchor-id="criação-de-dummies">3.2.3. Criação de Dummies</h4>
+<p>Para ilustrar, vamos ver como as variáveis <strong>Renda Familiar</strong> (7 categorias) e <strong>Situação de Trabalho</strong> (5 categorias) são transformadas.</p>
+<ul>
+<li><strong>Renda:</strong> Ref: “Até 1,5 SM”. Criamos 6 dummies (<code>renda_fx2</code> a <code>renda_fx7</code>).</li>
+<li><strong>Trabalho:</strong> Ref: “Não trabalha”. Criamos 4 dummies (<code>trab_eventual</code> a <code>trab_40h_mais</code>).</li>
+</ul>
+<p>A tabela abaixo mostra como a transformação funciona para estudantes hipotéticos:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aluno</th>
+<th style="text-align: left;">Renda Original (Categoria)</th>
+<th style="text-align: left;">renda_fx2</th>
+<th style="text-align: left;">renda_fx3</th>
+<th style="text-align: left;">renda_fx4</th>
+<th style="text-align: left;">renda_fx5</th>
+<th style="text-align: left;">renda_fx6</th>
+<th style="text-align: left;">renda_fx7</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gabriel</td>
+<td style="text-align: left;"><strong>Até 1,5 SM (Ref.)</strong></td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td>Henrique</td>
+<td style="text-align: left;">De 1,5 a 3 SM</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="odd">
+<td>João Marcelo</td>
+<td style="text-align: left;">De 1,5 a 3 SM</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td>Mylla</td>
+<td style="text-align: left;">De 4,5 a 6 SM</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="odd">
+<td>Thiago</td>
+<td style="text-align: left;">De 6 a 10 SM</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td>Caroline</td>
+<td style="text-align: left;">De 10 a 30 SM</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="odd">
+<td>Pedro</td>
+<td style="text-align: left;">Acima de 30 SM</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">1</td>
+</tr>
+</tbody>
+</table>
+<p>O coeficiente de cada dummy (ex: <code>renda_fx2</code>) mede o impacto daquela categoria <strong>em comparação com a categoria de referência</strong>.</p>
+</section>
+</section>
+<section id="a-armadilha-da-multicolinearidade" class="level3">
+<h3 class="anchored" data-anchor-id="a-armadilha-da-multicolinearidade">3.3. A Armadilha da Multicolinearidade</h3>
+<p><strong>Regra de Ouro:</strong> Se uma variável possui <strong>k</strong> categorias, criamos apenas <strong>k-1</strong> dummies. Se criarmos dummies para todas as <em>k</em> categorias, o modelo se torna inestimável devido à <strong>multicolinearidade perfeita</strong>.</p>
+</section>
+</section>
+<section id="construção-e-análise-dos-modelos" class="level2">
+<h2 class="anchored" data-anchor-id="construção-e-análise-dos-modelos"><strong>4. Construção e Análise dos Modelos</strong></h2>
+<p>Para fins didáticos, utilizaremos o modelo de regressão com estimadores de MQO (Mínimos Quadrados Ordinários).</p>
+<p><strong><em>Obs.:</em></strong> <em><code>O estimador robusto utilizado originalmente na pesquisa que melhor se adequa ao comportamento dos dados não será aplicado neste exemplo.</code></em></p>
+<section id="o-modelo-teórico-completo" class="level3">
+<h3 class="anchored" data-anchor-id="o-modelo-teórico-completo">4.1. O Modelo Teórico Completo</h3>
+<p>Nosso objetivo é modelar a nota geral (<span class="math inline">\(Nota_i\)</span>) do estudante <span class="math inline">\(i\)</span> como uma função de todas as nossas características selecionadas, de forma explícita:</p>
+<span class="math display">\[\begin{align}
+Nota_i = \beta_0 &amp; + \alpha_1 \text{PessoasRes}_i \\
+&amp; + \theta_1 \text{GeneroFem}\_i \\
+&amp; + \beta_2 \text{Preta}_i + \beta_3 \text{Parda}_i \\
+&amp; + \delta_2 \text{Renda}_2 + \delta_3 \text{Renda}_3 + \delta_4 \text{Renda}_4 + \delta_5 \text{Renda}_5 + \delta_6 \text{Renda}_6 + \delta_7 \text{Renda}_7 \\
+&amp; + \gamma_1 \text{TrabEventual} + \gamma_2 \text{Trab20h} + \gamma_3 \text{Trab39h} + \gamma_4 \text{Trab40h+} \\
+&amp; + \zeta_1 \text{Estudo3h} + \zeta_2 \text{Estudo7h} + \zeta_3 \text{Estudo12h} + \zeta_4 \text{Estudo12h+} \\
+&amp; + \eta_1 \text{Leitura2} + \eta_2 \text{Leitura5} + \eta_3 \text{Leitura8} + \eta_4 \text{Leitura8+} \\
+&amp; + \lambda_1 \text{EMMaioriaPub} + \lambda_2 \text{EMMetadePub} + \lambda_3 \text{EMMaioriaPriv} \\
+&amp; + \lambda_4 \text{EMTotalPriv} + \lambda_5 \text{EMExterior} + \epsilon_i
+\end{align}\]</span>
+</section>
+<section id="modelo-1-a-abordagem-correta-com-dummies" class="level3">
+<h3 class="anchored" data-anchor-id="modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</h3>
+<p>Primeiro, estimamos o modelo de regressão utilizando o conjunto completo de dummies.</p>
+<div id="b47c6ac6" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preparação dos Dados</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>y_var <span class="op">=</span> <span class="st">'nt_ger'</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x_vars_dummies <span class="op">=</span> [</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_pessoas_res'</span>, </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'genero_fem'</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cor_preta'</span>, <span class="st">'cor_parda'</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'renda_fx2'</span>, <span class="st">'renda_fx3'</span>, <span class="st">'renda_fx4'</span>, <span class="st">'renda_fx5'</span>, <span class="st">'renda_fx6'</span>, <span class="st">'renda_fx7'</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">'trab_eventual'</span>, <span class="st">'trab_ate20h'</span>, <span class="st">'trab_21a39h'</span>, <span class="st">'trab_40h_mais'</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'hestudo_1a3h'</span>, <span class="st">'hestudo_4a7h'</span>, <span class="st">'hestudo_8a12h'</span>, <span class="st">'hestudo_mais12h'</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">'leitura_1a2'</span>, <span class="st">'leitura_3a5'</span>, <span class="st">'leitura_6a8'</span>, <span class="st">'leitura_mais8'</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">'em_maioria_pub'</span>, <span class="st">'em_metade_pub'</span>, <span class="st">'em_maioria_priv'</span>, <span class="st">'em_total_priv'</span>, <span class="st">'em_brasil_exterior'</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>df_reg <span class="op">=</span> df[[y_var] <span class="op">+</span> x_vars_dummies].copy().dropna()</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_reg[y_var]</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>X_dummies <span class="op">=</span> sm.add_constant(df_reg[x_vars_dummies])</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimação do Modelo</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>modelo_ols <span class="op">=</span> sm.OLS(y, X_dummies)</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>resultados_ols <span class="op">=</span> modelo_ols.fit()</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(resultados_ols.summary())</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 nt_ger   R-squared:                       0.091
+Model:                            OLS   Adj. R-squared:                  0.090
+Method:                 Least Squares   F-statistic:                     93.19
+Date:                Mon, 17 Nov 2025   Prob (F-statistic):               0.00
+Time:                        17:50:55   Log-Likelihood:            -1.0054e+05
+No. Observations:               25077   AIC:                         2.011e+05
+Df Residuals:                   25049   BIC:                         2.014e+05
+Df Model:                          27                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P&gt;|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 34.5236      0.411     83.981      0.000      33.718      35.329
+cod_pessoas_res       -0.8105      0.054    -14.880      0.000      -0.917      -0.704
+genero_fem            -3.2476      0.175    -18.569      0.000      -3.590      -2.905
+cor_preta             -1.6245      0.351     -4.634      0.000      -2.312      -0.937
+cor_parda             -0.6946      0.202     -3.446      0.001      -1.090      -0.300
+renda_fx2              1.3880      0.338      4.106      0.000       0.725       2.051
+renda_fx3              2.9002      0.345      8.412      0.000       2.224       3.576
+renda_fx4              3.7961      0.367     10.330      0.000       3.076       4.516
+renda_fx5              4.9961      0.346     14.423      0.000       4.317       5.675
+renda_fx6              6.7019      0.359     18.682      0.000       5.999       7.405
+renda_fx7              6.8863      0.494     13.949      0.000       5.919       7.854
+trab_eventual         -2.4309      0.445     -5.469      0.000      -3.302      -1.560
+trab_ate20h           -1.3955      0.423     -3.298      0.001      -2.225      -0.566
+trab_21a39h           -2.1073      0.265     -7.937      0.000      -2.628      -1.587
+trab_40h_mais         -3.0235      0.204    -14.805      0.000      -3.424      -2.623
+hestudo_1a3h           1.3869      0.314      4.419      0.000       0.772       2.002
+hestudo_4a7h           3.9771      0.333     11.926      0.000       3.324       4.631
+hestudo_8a12h          5.5929      0.395     14.144      0.000       4.818       6.368
+hestudo_mais12h        7.3692      0.431     17.110      0.000       6.525       8.213
+leitura_1a2            0.4798      0.275      1.742      0.082      -0.060       1.020
+leitura_3a5            0.9852      0.283      3.486      0.000       0.431       1.539
+leitura_6a8            1.7889      0.369      4.842      0.000       1.065       2.513
+leitura_mais8          1.2883      0.347      3.710      0.000       0.608       1.969
+em_maioria_pub        -1.6424      0.440     -3.729      0.000      -2.506      -0.779
+em_metade_pub         -6.2698      0.880     -7.123      0.000      -7.995      -4.544
+em_maioria_priv       -1.5785      0.424     -3.726      0.000      -2.409      -0.748
+em_total_priv          0.1622      0.198      0.820      0.412      -0.225       0.550
+em_brasil_exterior     5.7014      1.558      3.660      0.000       2.648       8.755
+==============================================================================
+Omnibus:                       76.099   Durbin-Watson:                   1.586
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               94.330
+Skew:                           0.054   Prob(JB):                     3.28e-21
+Kurtosis:                       3.281   Cond. No.                         58.8
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.</code></pre>
+</div>
+</div>
+<section id="o-modelo-estimado-com-coeficientes" class="level4">
+<h4 class="anchored" data-anchor-id="o-modelo-estimado-com-coeficientes">4.2.1 O Modelo Estimado com Coeficientes</h4>
+<p>A partir da tabela acima, podemos construir a equação do modelo estimado, agora representando todas as variáveis:</p>
+<span class="math display">\[\begin{align}
+\widehat{Nota_i} = 36.38 &amp; - 0.86 \cdot \text{PessoasRes}_i \\
+&amp; - 3.25 \cdot \text{GeneroFem} \\
+&amp; - 1.71 \cdot \text{Preta}_i - 1.30 \cdot \text{Parda}_i \\
+&amp; + 1.39 \cdot \text{Renda}_2 + 2.90 \cdot \text{Renda}_3 + 3.80 \cdot \text{Renda}_4 + 5.00 \cdot \text{Renda}_5 + 6.70 \cdot \text{Renda}_6 + 6.89 \cdot \text{Renda}_7 \\
+&amp; - 2.43 \cdot \text{TrabEventual} - 1.40 \cdot \text{Trab20h} - 2.11 \cdot \text{Trab39h} - 3.02 \cdot \text{Trab40h+} \\
+&amp; + 1.39 \cdot \text{Estudo3h} + 3.98 \cdot \text{Estudo7h} + 5.59 \cdot \text{Estudo12h} + 7.37 \cdot \text{Estudo12h+} \\
+&amp; + 0.48 \cdot \text{Leitura2} + 0.99 \cdot \text{Leitura5} + 1.79 \cdot \text{Leitura8} + 1.29 \cdot \text{Leitura8+} \\
+&amp; - 1.64 \cdot \text{EMMaioriaPub} - 6.27 \cdot \text{EMMetadePub} - 1.58 \cdot \text{EMMaioriaPriv} \\
+&amp; + 0.16 \cdot \text{EMTotalPriv} + 5.70 \cdot \text{EMExterior}
+\end{align}\]</span>
+</section>
+<section id="interpretando-os-coeficientes-de-renda" class="level4">
+<h4 class="anchored" data-anchor-id="interpretando-os-coeficientes-de-renda">4.2.2 Interpretando os Coeficientes de Renda</h4>
+<p>O gráfico abaixo mostra o valor do coeficiente para cada dummy de renda.</p>
+<div id="424e599b" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>coefs_renda <span class="op">=</span> resultados_ols.params.<span class="bu">filter</span>(like<span class="op">=</span><span class="st">'renda_fx'</span>) </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>coefs_renda.index <span class="op">=</span> [<span class="st">'1.5 a 3 SM'</span>, <span class="st">'3 a 4.5 SM'</span>, <span class="st">'4.5 a 6 SM'</span>, <span class="st">'6 a 10 SM'</span>, <span class="st">'10 a 30 SM'</span>, <span class="st">'&gt; 30 SM'</span>]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Adicionar a categoria de referência (impacto 0) para uma visualização completa</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># A categoria base (renda_fx1) tem um coeficiente de 0 por definição.</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>dados_plot <span class="op">=</span> pd.Series({<span class="st">'Até 1,5 SM'</span>: <span class="fl">0.0</span>})</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Adicionar os outros coeficientes com seus respectivos rótulos</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>novos_indices <span class="op">=</span> [<span class="st">'1.5 a 3 SM'</span>, <span class="st">'3 a 4.5 SM'</span>, <span class="st">'4.5 a 6 SM'</span>, <span class="st">'6 a 10 SM'</span>, <span class="st">'10 a 30 SM'</span>, <span class="st">'&gt; 30 SM'</span>]</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>coefs_renda.index <span class="op">=</span> novos_indices</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>dados_plot <span class="op">=</span> pd.concat([dados_plot, coefs_renda])</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Criar o gráfico de linha</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>plt.style.use(<span class="st">'seaborn-v0_8-whitegrid'</span>) <span class="co"># Um estilo que favorece gráficos de linha</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">7</span>, <span class="dv">4</span>))</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Usar sns.lineplot e adicionar marcadores ('o') para destacar cada ponto</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>dados_plot.index, y<span class="op">=</span>dados_plot.values, marker<span class="op">=</span><span class="st">'o'</span>, color<span class="op">=</span><span class="st">'purple'</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Impacto da Renda na Nota - '</span>, fontsize<span class="op">=</span><span class="dv">14</span>, pad<span class="op">=</span><span class="dv">18</span>)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Impacto em Pontos (vs. "Até 1,5 SM")'</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Faixa de Renda Familiar'</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>, ha<span class="op">=</span><span class="st">'right'</span>)</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>plt.ylim(bottom<span class="op">=-</span><span class="fl">0.5</span>) <span class="co"># Garante que a linha do eixo x (valor 0) seja visível</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Adicionar os valores em cada ponto do gráfico</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> x, y <span class="kw">in</span> <span class="bu">zip</span>(dados_plot.index, dados_plot.values):</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Adiciona o texto um pouco acima do ponto para melhor visualização</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    plt.text(x<span class="op">=</span>x, y<span class="op">=</span>y <span class="op">+</span> <span class="fl">0.3</span>, s<span class="op">=</span><span class="ss">f'</span><span class="sc">{</span>y<span class="sc">:.2f}</span><span class="ss">'</span>, ha<span class="op">=</span><span class="st">'center'</span>, fontsize<span class="op">=</span><span class="dv">10</span>, weight<span class="op">=</span><span class="st">'bold'</span>)</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>plt.tight_layout() <span class="co"># Ajusta o layout para evitar que os rótulos sejam cortados</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-4-output-1.png" width="653" height="368" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>O modelo com dummies nos permite ver que o “salto” de uma faixa para outra não é constante. Podemos calcular o efeito marginal de mudar de uma faixa para a imediatamente superior:</p>
+<p><span class="math display">\[\begin{align}
+\Delta \text{Efeito(Renda 2 vs 1)} &amp;= \hat{\delta}_2 = 1.39 \\
+\Delta \text{Efeito(Renda 3 vs 2)} &amp;= \hat{\delta}_3 - \hat{\delta}_2 = 2.90 - 1.39 = 1.51 \\
+\Delta \text{Efeito(Renda 4 vs 3)} &amp;= \hat{\delta}_4 - \hat{\delta}_3 = 3.80 - 2.90 = 0.90 \\
+\Delta \text{Efeito(Renda 5 vs 4)} &amp;= \hat{\delta}_5 - \hat{\delta}_4 = 5.00 - 3.80 = 1.20 \\
+\Delta \text{Efeito(Renda 6 vs 5)} &amp;= \hat{\delta}_6 - \hat{\delta}_5 = 6.70 - 5.00 = 1.70 \\
+\Delta \text{Efeito(Renda 7 vs 6)} &amp;= \hat{\delta}_7 - \hat{\delta}_6 = 6.89 - 6.70 = 0.19
+\end{align}\]</span></p>
+<p>Isso mostra claramente a relação não-linear que o modelo ordinal não conseguiria capturar.</p>
+</section>
+</section>
+<section id="modelo-2-um-erro-didático-renda-como-variável-ordinal" class="level3">
+<h3 class="anchored" data-anchor-id="modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</h3>
+<p>Um erro comum é pensar que as variáveis por apresntarem um comportamento aparentemente ordinal, podem ser analisada como uma variável ordinal conforme feito anteriormente com a vaariável <code>cod_renda</code>. Porém isto é um metódo errado que explicaremos a seguir.</p>
+<p>Para fins de comparação, estimamos o modelo incorreto utilizando variáveis de forma ordinal.</p>
+<div id="6987e37e" class="cell" data-execution_count="4">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Variáveis para Modelo Ordinal</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>x_vars_ordinal <span class="op">=</span> [</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_pessoas_res'</span>, </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cor_preta'</span>, <span class="st">'cor_parda'</span>, </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'genero_fem'</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_renda'</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_trabalho'</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_hestudo'</span>, </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_leitura'</span>,</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">'em_maioria_pub'</span>, <span class="st">'em_metade_pub'</span>, <span class="st">'em_maioria_priv'</span>, <span class="st">'em_total_priv'</span>, <span class="st">'em_brasil_exterior'</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Preparar dados</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>df_reg_ord <span class="op">=</span> df[[y_var] <span class="op">+</span> x_vars_ordinal].copy().dropna()</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>y_ord <span class="op">=</span> df_reg_ord[y_var]</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>X_ordinal <span class="op">=</span> sm.add_constant(df_reg_ord[x_vars_ordinal])</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimar modelo</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>modelo_ols_ordinal <span class="op">=</span> sm.OLS(y_ord, X_ordinal)</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>resultados_ols_ordinal <span class="op">=</span> modelo_ols_ordinal.fit()</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(resultados_ols_ordinal.summary())</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 nt_ger   R-squared:                       0.091
+Model:                            OLS   Adj. R-squared:                  0.091
+Method:                 Least Squares   F-statistic:                     189.1
+Date:                Mon, 17 Nov 2025   Prob (F-statistic):               0.00
+Time:                        17:50:55   Log-Likelihood:                -97921.
+No. Observations:               24448   AIC:                         1.959e+05
+Df Residuals:                   24434   BIC:                         1.960e+05
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P&gt;|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                 33.2431      0.329    100.895      0.000      32.597      33.889
+cod_pessoas_res       -0.8365      0.055    -15.294      0.000      -0.944      -0.729
+cor_preta             -1.4632      0.355     -4.123      0.000      -2.159      -0.768
+cor_parda             -0.6861      0.203     -3.383      0.001      -1.084      -0.289
+genero_fem            -3.2649      0.175    -18.606      0.000      -3.609      -2.921
+cod_renda              1.2706      0.056     22.533      0.000       1.160       1.381
+cod_trabalho          -0.7486      0.050    -15.121      0.000      -0.846      -0.652
+cod_hestudo            1.9822      0.087     22.831      0.000       1.812       2.152
+cod_leitura            0.3617      0.076      4.768      0.000       0.213       0.510
+em_maioria_pub        -1.7246      0.445     -3.877      0.000      -2.596      -0.853
+em_metade_pub         -6.6675      0.909     -7.333      0.000      -8.450      -4.885
+em_maioria_priv       -1.6035      0.427     -3.757      0.000      -2.440      -0.767
+em_total_priv          0.0333      0.200      0.167      0.867      -0.358       0.425
+em_brasil_exterior     5.3253      1.546      3.444      0.001       2.294       8.356
+==============================================================================
+Omnibus:                       67.742   Durbin-Watson:                   1.584
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               83.405
+Skew:                           0.049   Prob(JB):                     7.74e-19
+Kurtosis:                       3.268   Cond. No.                         110.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.</code></pre>
+</div>
+</div>
+<section id="o-modelo-estimado-com-coeficientes-1" class="level4">
+<h4 class="anchored" data-anchor-id="o-modelo-estimado-com-coeficientes-1">4.2.1 O Modelo Estimado com Coeficientes</h4>
+<p>A partir da tabela acima, podemos construir a equação do modelo estimado, agora representando todas as variáveis:</p>
+<span class="math display">\[\begin{align}
+\widehat{Nota_i} = 33.59 &amp; - 0.83 \cdot \text{PessoasRes}_i \\
+&amp; - 3.31 \cdot \text{GeneroFem}_i \\
+&amp; - 1.45 \cdot \text{Preta}_i - 0.69 \cdot \text{Parda}_i \\
+&amp; + 1.25 \cdot \text{FaixaRenda}_i \\
+&amp; - 0.74 \cdot \text{Trabalho}_i \\
+&amp; + 1.98 \cdot \text{HorasEstudo}_i \\
+&amp; + 0.36 \cdot \text{HorasLeitura}_i \\
+&amp; - 1.64 \cdot \text{EMMaioriaPub}_i - 6.27 \cdot \text{EMMetadePub} - 1.58 \cdot \text{EMMaioriaPriv} \\
+&amp; + 0.16 \cdot \text{EMTotalPriv} + 5.70 \cdot \text{EMExterior}
+\end{align}\]</span>
+<p><strong>Interpretação do Coeficiente Faixa de Renda:</strong></p>
+<p><span class="math display">\[\begin{align}
+\Delta \text{Faixa de Renda} &amp;= \hat{\delta} = + 1.25 \\
+\end{align}\]</span></p>
+<p>A interpretação do coeficiente desta variável indica que a cada aumento de +1 na <code>Faixa de Renda</code> a pontuação cresce em + 1.25.</p>
+</section>
+</section>
+</section>
+<section id="o-veredito-comparando-os-modelos" class="level2">
+<h2 class="anchored" data-anchor-id="o-veredito-comparando-os-modelos"><strong>5. O Veredito: Comparando os Modelos</strong></h2>
+<p>Os gráficos a seguir ilustram a diferença fundamental entre as duas abordagens, agora empilhados verticalmente para melhor visualização.</p>
+<div id="9f16c63a" class="cell" data-execution_count="5">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">8</span>))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Gráfico 1: Realidade (Dummies)</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>sns.lineplot(ax<span class="op">=</span>axes[<span class="dv">0</span>], x<span class="op">=</span>coefs_renda.index, y<span class="op">=</span>coefs_renda.values, palette<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_title(<span class="st">'Modelo 1 - Dummies: A Realidade (Efeitos Não-Lineares)'</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_xlabel(<span class="st">'Faixa de Renda - Dummy'</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].set_ylabel(<span class="st">'Impacto na Nota'</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].grid(<span class="va">True</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">0</span>].tick_params(axis<span class="op">=</span><span class="st">'x'</span>, rotation<span class="op">=</span><span class="dv">30</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Gráfico 2: Suposição Forçada (Ordinal)</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>x_vals <span class="op">=</span> np.arange(<span class="dv">1</span>, <span class="dv">8</span>)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>y_vals <span class="op">=</span> resultados_ols_ordinal.params[<span class="st">'cod_renda'</span>] <span class="op">*</span> (x_vals <span class="op">-</span> <span class="dv">1</span>)</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>sns.lineplot(ax<span class="op">=</span>axes[<span class="dv">1</span>], x<span class="op">=</span>x_vals, y<span class="op">=</span>y_vals, marker<span class="op">=</span><span class="st">'o'</span>, color<span class="op">=</span><span class="st">'crimson'</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_title(<span class="st">'Modelo 2 - Variavel Ordinal: A Suposição Forçada (Efeito Linear)'</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_xlabel(<span class="st">'Código da Renda (Ordinal)'</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_ylabel(<span class="st">'Impacto na Nota'</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].grid(<span class="va">True</span>)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>axes[<span class="dv">1</span>].set_ylim(<span class="dv">0</span>, <span class="bu">max</span>(coefs_renda.values) <span class="op">*</span> <span class="fl">1.1</span>)</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-6-output-1.png" width="568" height="752" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Pode ver que o modelo que utiliza a varavel <code>Faixa de Renda</code> de forma ordinal não consegue capturar com exatidão o impacto da variável na nota.</p>
+</section>
+<section id="conclusões" class="level2">
+<h2 class="anchored" data-anchor-id="conclusões">6. Conclusões</h2>
+<ul>
+<li><strong>Dummies são Essenciais:</strong> São a forma correta de incluir variáveis categóricas em modelos de regressão.</li>
+<li><strong>A Regra do k-1:</strong> Lembre-se sempre de omitir uma categoria de referência para evitar a multicolinearidade.</li>
+<li><strong>A Realidade não é Linear:</strong> O uso de dummies permite que o modelo capture os efeitos não-lineares que são comuns em fenômenos socioeconômicos.</li>
+<li><strong>Insights do ENADE:</strong> Fatores como renda, horas de estudo e desigualdades estruturais são preditores estatisticamente significantes do desempenho acadêmico.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/gsathler-vi\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>2025, Gabriel Sathler</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Feito com <a href="https://quarto.org/">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/gabriel-sathler/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/gsathler-vi">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://wa.me/5531998912831">
+      <i class="bi bi-whatsapp" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:gabrielsathler.vi@gmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
