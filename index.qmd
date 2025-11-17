@@ -33,7 +33,7 @@ format:
 <h1 class="display-5">GABRIEL SATHLER</h1>
 <p class="text-primary-emphasis lead">Economia e Gestão Pública</p>
 
-<a href="https://drive.google.com/file/d/1eo6idlSYhjmHjJUMiq6lS5GUuzWZKI6-/view" target="_blank" class="btn btn-primary btn-lg" role="button">PDF - Curriculo</a>
+<a href="https://drive.google.com/file/d/1eo6idlSYhjmHjJUMiq6lS5GUuzWZKI6-/view" target="_blank" class="btn-action-primary btn-action btn btn-lg w-100" role="button">PDF - Curriculo</a>
 
 <h4><strong>FORMAÇÃO ACADÊMICA</strong></h4>
 
