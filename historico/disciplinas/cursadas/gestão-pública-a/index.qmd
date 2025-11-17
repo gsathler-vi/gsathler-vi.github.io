@@ -1,7 +1,7 @@
 ---
 title: "GESTÃO PÚBLICA A"
 subtitle: "Nota: 93 | Período: 1"
-description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor(a) Geralda Luiza de Miranda (Doutorado)."
+description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Geralda Luiza de Miranda (Doutorado)."
 categories: ["UFMG", "Gestao", "Gestao Publica"]
 carga_horaria: 60
 nota: 93

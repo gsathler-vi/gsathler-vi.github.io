@@ -1,7 +1,7 @@
 ---
 title: "MICROECONOMIA"
 subtitle: "Nota: 66 | Período: 2"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Flavio Constantino Barbosa (Mestrado)."
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Flavio Constantino Barbosa (Mestrado)."
 categories: ["PUC Minas", "Microeconomia", "Economia"]
 carga_horaria: 40
 nota: 66

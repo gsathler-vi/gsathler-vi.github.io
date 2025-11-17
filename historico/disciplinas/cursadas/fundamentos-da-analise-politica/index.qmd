@@ -1,7 +1,7 @@
 ---
 title: "FUNDAMENTOS DA ANALISE POLITICA"
 subtitle: "Nota: 93 | Período: 1"
-description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor(a) Cristiano Rodrigues (Doutorado)."
+description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Cristiano Rodrigues (Doutorado)."
 categories: ["UFMG", "Ciencia Politica", "Gestao Publica"]
 carga_horaria: 60
 nota: 93

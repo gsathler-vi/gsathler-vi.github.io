@@ -1,7 +1,7 @@
 ---
 title: "FUNDAMENTOS DE MARKETING"
 subtitle: "Nota: 81 | Extracurricular"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Jose Chequer Neto (Mestrado)."
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Jose Chequer Neto (Mestrado)."
 categories: ["PUC Minas", "Marketing", "Administracao"]
 carga_horaria: 40
 nota: 81

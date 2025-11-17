@@ -1,7 +1,7 @@
 ---
 title: "GESTÃO DE PROCESSOS"
 subtitle: "Nota: 76 | Extracurricular"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Maria Luiza Fatima Costa de Proenca Doyle (Doutorado)."
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Maria Luiza Fatima Costa de Proenca Doyle (Doutorado)."
 categories: ["PUC Minas", "Gestao", "Administracao"]
 carga_horaria: 40
 nota: 76

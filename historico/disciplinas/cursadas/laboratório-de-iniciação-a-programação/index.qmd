@@ -1,7 +1,7 @@
 ---
 title: "LABORATÓRIO DE INICIAÇÃO A PROGRAMAÇÃO"
 subtitle: "Nota: 94 | Período: 1"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Carlos Alberto Marques Pietrobon (Doutorado)."
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Carlos Alberto Marques Pietrobon (Doutorado)."
 categories: ["PUC Minas", "Quantitativo", "Economia"]
 carga_horaria: 40
 nota: 94

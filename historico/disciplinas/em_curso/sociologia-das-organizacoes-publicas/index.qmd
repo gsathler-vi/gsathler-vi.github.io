@@ -1,7 +1,7 @@
 ---
 title: "SOCIOLOGIA DAS ORGANIZACOES PUBLICAS"
 subtitle: "Período: 2"
-description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor Ludmila Mendonca Lopes Ribeiro (Doutorado)."
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Ludmila Mendonca Lopes Ribeiro (Doutorado)."
 categories: ["UFMG", "Sociologia", "Gestao Publica"]
 carga_horaria: 60
 periodo: 2

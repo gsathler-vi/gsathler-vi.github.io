@@ -1,7 +1,7 @@
 ---
 title: "PROJETO: INTELIGÊNCIA DE MERCADO"
 subtitle: "Nota: 92 | Extracurricular"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Rodrigo Cassimiro de Freitas (Doutorado)."
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Rodrigo Cassimiro de Freitas (Doutorado)."
 categories: ["PUC Minas", "Marketing", "Administracao"]
 carga_horaria: 80
 nota: 92

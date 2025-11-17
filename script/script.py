@@ -53,7 +53,7 @@ def processar_disciplinas(caminho_csv, pasta_destino, status_cursada=True):
                     
                     subtitle = f"Nota: {row['Nota']} | {periodo_texto}"
                     # A nova descrição detalhada vai para o cabeçalho YAML
-                    description = f"Disciplina cursada na {row['Instituição']} como parte do currículo de {row['Curso']}, sob a orientação do professor(a) {row['Docente']} ({row['Titulação']})."
+                    description = f"Disciplina cursada na {row['Instituição']} como parte do currículo de {row['Curso']}, sob a orientação do(a) professor(a) {row['Docente']} ({row['Titulação']})."
                     
                     conteudo_qmd = f"""---
 title: "{row['Disciplina']}"
@@ -71,7 +71,7 @@ toc: true
                 else: # Disciplinas em curso
                     subtitle = f"Período: {row['Periodo']}"
                     # A nova descrição detalhada vai para o cabeçalho YAML
-                    description = f"Disciplina em andamento na {row['Instituição']} como parte do currículo de {row['Curso']}, sob a orientação do professor {row['Docente']} ({row['Titulação']})."
+                    description = f"Disciplina em andamento na {row['Instituição']} como parte do currículo de {row['Curso']}, sob a orientação do(a) professor(a) {row['Docente']} ({row['Titulação']})."
                     
                     conteudo_qmd = f"""---
 title: "{row['Disciplina']}"

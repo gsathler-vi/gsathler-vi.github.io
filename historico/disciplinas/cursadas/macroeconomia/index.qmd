@@ -1,7 +1,7 @@
 ---
 title: "MACROECONOMIA"
 subtitle: "Nota: 76 | Período: 3"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Raimundo de Sousa Leal Filho (Doutorado)."
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Raimundo de Sousa Leal Filho (Doutorado)."
 categories: ["PUC Minas", "Macroeconomia", "Economia"]
 carga_horaria: 80
 nota: 76

@@ -1,7 +1,7 @@
 ---
 title: "FUNDAMENTOS DE ANALISE SOCIOLOGICA"
 subtitle: "Nota: 100 | Período: 1"
-description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor(a) Ludmila Mendonca Lopes Ribeiro (Doutorado)."
+description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Ludmila Mendonca Lopes Ribeiro (Doutorado)."
 categories: ["UFMG", "Sociologia", "Gestao Publica"]
 carga_horaria: 60
 nota: 100

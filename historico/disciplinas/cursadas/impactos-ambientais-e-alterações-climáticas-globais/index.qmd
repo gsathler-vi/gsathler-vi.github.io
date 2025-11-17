@@ -1,7 +1,7 @@
 ---
 title: "IMPACTOS AMBIENTAIS E ALTERAÇÕES CLIMÁTICAS GLOBAIS"
 subtitle: "Nota: 80 | Período: 2"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Antoniel Silva Fernandes (Doutorado)."
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Antoniel Silva Fernandes (Doutorado)."
 categories: ["PUC Minas", "Economia Aplicada", "Economia"]
 carga_horaria: 80
 nota: 80

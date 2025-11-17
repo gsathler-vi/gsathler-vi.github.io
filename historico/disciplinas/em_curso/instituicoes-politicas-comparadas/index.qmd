@@ -1,7 +1,7 @@
 ---
 title: "INSTITUICOES POLITICAS COMPARADAS"
 subtitle: "Período: 2"
-description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor Cristiano Rodrigues (Doutorado)."
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) João Botelho (Doutorado)."
 categories: ["UFMG", "Ciencia Politica", "Gestao Publica"]
 carga_horaria: 60
 periodo: 2
