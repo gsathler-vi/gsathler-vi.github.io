@@ -1,8 +1,8 @@
 ---
 title: "MACROECONOMIA E CONTABILIDADE SOCIAL"
 subtitle: "Período: 2 | Nota: 72"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Caio César Soares Gonçalves (Doutorado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Macroeconomia"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Caio César Soares Gonçalves (Doutorado)."
+categories: ["PUC Minas", "Economia", "Teoria Econômica"]
 carga_horaria: 40
 nota: 72
 periodo: 2

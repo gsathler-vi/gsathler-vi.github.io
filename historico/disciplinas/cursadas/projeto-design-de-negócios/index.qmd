@@ -2,7 +2,7 @@
 title: "PROJETO: DESIGN DE NEGÓCIOS"
 subtitle: "Extracurricular | Nota: 70"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Soraya Cardoso Pongelupe Lopes (Mestrado)."
-categories: ["PUC Minas", "Administracao", "Marketing"]
+categories: ["PUC Minas", "Administracao", "Empreendedorismo e Inovação"]
 carga_horaria: 60
 nota: 70
 periodo: 100

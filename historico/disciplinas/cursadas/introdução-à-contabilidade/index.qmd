@@ -1,8 +1,8 @@
 ---
 title: "INTRODUÇÃO À CONTABILIDADE"
 subtitle: "Período: 1 | Nota: 98"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Ângela Maria Marques Cupertino (Mestrado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Gestao"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Ângela Maria Marques Cupertino (Mestrado)."
+categories: ["PUC Minas", "Economia", "Finanças e Contabilidade"]
 carga_horaria: 80
 nota: 98
 periodo: 1

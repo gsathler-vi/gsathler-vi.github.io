@@ -1,8 +1,8 @@
 ---
 title: "HISTÓRIA ECONÔMICA GERAL"
 subtitle: "Período: 2 | Nota: 71"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Flavius Marcus Lana de Vasconcelos (Mestrado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Historia"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Flavius Marcus Lana de Vasconcelos (Mestrado)."
+categories: ["PUC Minas", "Economia", "Ciências Sociais e Humanidades"]
 carga_horaria: 80
 nota: 71
 periodo: 2

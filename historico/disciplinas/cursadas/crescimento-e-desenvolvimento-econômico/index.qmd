@@ -1,8 +1,8 @@
 ---
 title: "CRESCIMENTO E DESENVOLVIMENTO ECONÔMICO"
 subtitle: "Período: 5 | Nota: 92"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Júlia Leite de Carvalho Fernandes (Doutorado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Economia Aplicada"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Júlia Leite de Carvalho Fernandes (Doutorado)."
+categories: ["PUC Minas", "Economia", "Teoria Econômica"]
 carga_horaria: 80
 nota: 92
 periodo: 5

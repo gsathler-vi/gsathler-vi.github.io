@@ -1,52 +1,1319 @@
 ---
 title: "Histórico Escolar"
-description: "Visão geral do histórico escolar com o resumo de disciplinas cursadas e em andamento nos cursos de Economia (PUC Minas) e Gestão Pública (UFMG)."
+description: "Visão geral do histórico escolar com o resumo de disciplinas `Cursadas`, `Em Curso` e `A Cursar` nos cursos de Ciências Economicas (PUC Minas) e Gestão Pública (UFMG)."
+toc: false
+format: 
+  html:
+    page-layout: full
 ---
 
-> ### Dashboard Acadêmico
->
-> Aqui está um resumo do meu percurso acadêmico até o momento.
+:::::::::::: grid
+::::: {.g-col-12 .g-col-md-4}
+:::: card
+::: card-body
+<h4 class="title text-primary-emphasis">
+Média Geral
+</h4>
+<h3 class="text text-primary-emphasis fw-bold">
+83.5
+</h3>
+<p class="text">
+<small>Média ponderada das disciplinas concluídas.</small>
+</p>
+:::
+::::
+:::::
 
-::: {.grid}
+::::: {.g-col-12 .g-col-md-4}
+:::: card
+::: card-body
+<h4 class="card-title text-secondary">
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .h-80}
-<div class="card-body">
-<h2 class="card-title text-primary-emphasis">Média Geral</h2>
-<h1 class="card-text text-primary-emphasis">83.5</h1>
-<p class="card-text"><small>Média ponderada das disciplinas concluídas.</small></p>
-</div>
-:::
-:::
+Disciplinas Cursadas
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .h-80}
-<div class="card-body">
-<h2 class="card-title text-secondary">Disciplinas Cursadas</h2>
-<h1 class="card-text text-secondary">35</h1>
-<p class="card-text"><a href="historico_cursadas.qmd" class="btn btn-light">
-  Ver Todas <i class="bi bi-arrow-right-circle-fill"></i>
-</a></p>
-<p class="card-text"><small>Total de disciplinas com aprovação até o momento.</small></p>
-</div>
-:::
-:::
+</h4>
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .h-80}
-<div class="card-body">
-<h2 class="card-title body-tertiary">Disciplinas em Curso</h2>
-<h1 class="card-text body-tertiary">8</h1>
-<p class="card-text"><a href="historico_em_curso.qmd" class="btn btn-light">
-  Ver Todas <i class="bi bi-arrow-right-circle-fill"></i>
-</a></p>
-<p class="card-text"><small>Total de disciplinas matriculadas no período atual.</small></p>
-</div>
-:::
-:::
+<h3 class="card-text text-secondary fw-bold">
 
+35
+
+</h3>
+
+<p class="card-text">
+
+<small>Total de disciplinas com aprovação.</small>
+
+</p>
 :::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-4}
+:::: card
+::: card-body
+<h4 class="card-title body-tertiary">
+
+Disciplinas Ativas
+
+</h4>
+
+<h3 class="card-text body-tertiary fw-bold">
+
+8
+
+</h3>
+
+<p class="card-text">
+
+<small>Total de disciplinas matriculadas em andamento.</small>
+
+</p>
+:::
+::::
+:::::
+::::::::::::
 
 <hr>
 
+# Disciplinas por Núcleo de Conhecimento
 
+```{=html}
+<!-- Início do Bloco de Legenda -->
+<div class="legenda-container" style="margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        
+        <!-- Itens da Legenda -->
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div style="display: flex; align-items: center;">
+                <span style="height: 15px; width: 15px; background-color: #28a745; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
+                <span style="font-size: 0.9rem; color: #333;">Cursada</span>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <span style="height: 15px; width: 15px; background-color: #007bff; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
+                <span style="font-size: 0.9rem; color: #333;">Em Curso</span>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <span style="height: 15px; width: 15px; background-color: #ffc107; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
+                <span style="font-size: 0.9rem; color: #333;">A Cursar</span>
+            </div>
+        </div>
+
+        <!-- Instrução de Clique -->
+        <div style="font-size: 0.95rem; color: #555; font-style: italic;">
+            💡 Clique em uma disciplina para ver a ementa e mais detalhes.
+        </div>
+    </div>
+</div>
+<!-- Fim do Bloco de Legenda -->
+```
+
+```{=html}
+<style>
+  /* Estilos Gerais */
+  .disciplinas-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  a.card-link, a.card-link:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* Estilo do Acordeão para cada Núcleo */
+  .nucleo-accordion details {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+  }
+  .nucleo-accordion summary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    list-style: none;
+    position: relative;
+  }
+  .nucleo-accordion summary::after {
+    content: '▼';
+    position: absolute;
+    right: 1.5rem;
+    font-size: 0.8rem;
+    transition: transform 0.2s;
+  }
+  .nucleo-accordion details[open] summary::after {
+    transform: rotate(180deg);
+  }
+  .nucleo-accordion details[open] summary {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .disciplinas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #fff;
+  }
+  /* Estilo do Card da Disciplina */
+  .disciplina-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+  }
+  a.card-link:hover .disciplina-card {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  }
+  .disciplina-card h4 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+  }
+  .disciplina-info {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  .disciplina-info span {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  .disciplina-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Estilos dos Badges de Status */
+  .status-badge {
+    padding: 0.25em 0.6em;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .status-cursada { background-color: #28a745; }
+  .status-em-curso { background-color: #007bff; }
+  .status-a-cursar { background-color: #ffc107; color: #212529;}
+  .disciplina-nota {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #28a745;
+  }
+</style>
+
+<div class="disciplinas-container">
+  <div class="nucleo-accordion">
+    
+    <details open>
+      <summary>🌍 Ciências Sociais e Humanidades</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/fundamentos-da-analise-politica/" class="card-link">
+        <div class="disciplina-card">
+          <h4>FUNDAMENTOS DA ANALISE POLITICA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 93</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/fundamentos-de-analise-sociologica/" class="card-link">
+        <div class="disciplina-card">
+          <h4>FUNDAMENTOS DE ANALISE SOCIOLOGICA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 100</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/impactos-ambientais-e-alterações-climáticas-globais/" class="card-link">
+        <div class="disciplina-card">
+          <h4>IMPACTOS AMBIENTAIS E ALTERAÇÕES CLIMÁTICAS GLOBAIS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 80</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/história-econômica-geral/" class="card-link">
+        <div class="disciplina-card">
+          <h4>HISTÓRIA ECONÔMICA GERAL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 71</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/filosofia-razão-e-modernidade/" class="card-link">
+        <div class="disciplina-card">
+          <h4>FILOSOFIA: RAZÃO E MODERNIDADE</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 90</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/economia-brasileira-contemporânea/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ECONOMIA BRASILEIRA CONTEMPORÂNEA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 86</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/politicaeconomia-e-sociedade-no-brasil/" class="card-link">
+        <div class="disciplina-card">
+          <h4>POLITICA,ECONOMIA E SOCIEDADE NO BRASIL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/instituicoes-politicas-comparadas/" class="card-link">
+        <div class="disciplina-card">
+          <h4>INSTITUICOES POLITICAS COMPARADAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a>
+        <div class="disciplina-card">
+          <h4>FORMAÇÃO ECONÔMICA DO BRASIL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>CULTURA RELIGIOSA: FENÔMENO RELIGIOSO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 6º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>HISTÓRIA DO PENSAMENTO ECONÔMICO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 6º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>CULTURA RELIGIOSA: PESSOA E SOCIEDADE</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 8º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>FILOSOFIA: ANTROPOLOGIA E ÉTICA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 8º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+      </div>
+    </details>
+    <details >
+      <summary>⚖️ Direito e Regulação</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/direito-empresarial-e-compliance/" class="card-link">
+        <div class="disciplina-card">
+          <h4>DIREITO EMPRESARIAL E COMPLIANCE</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 81</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/aspectos-legais-da-gestão-pública-a/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ASPECTOS LEGAIS DA GESTÃO PÚBLICA A</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 90</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/aspectos-legais-da-gestão-pública-b/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ASPECTOS LEGAIS DA GESTÃO PÚBLICA B</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a>
+        <div class="disciplina-card">
+          <h4>NOÇÕES DE DIREITO TRIBUTÁRIO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 6º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+      </div>
+    </details>
+    <details >
+      <summary>💡 Empreendedorismo e Inovação</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/empreendedorismo-e-inovação/" class="card-link">
+        <div class="disciplina-card">
+          <h4>EMPREENDEDORISMO E INOVAÇÃO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 77</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/modelagem-de-negócios/" class="card-link">
+        <div class="disciplina-card">
+          <h4>MODELAGEM DE NEGÓCIOS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 86</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/projeto-design-de-negócios/" class="card-link">
+        <div class="disciplina-card">
+          <h4>PROJETO: DESIGN DE NEGÓCIOS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 70</span>
+          </div>
+        </div>
+    </a>
+        <div class="disciplina-card">
+          <h4>ECONOMIA DA INOVAÇÃO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 7º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+      </div>
+    </details>
+    <details >
+      <summary>💰 Finanças e Contabilidade</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/introdução-à-contabilidade/" class="card-link">
+        <div class="disciplina-card">
+          <h4>INTRODUÇÃO À CONTABILIDADE</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 98</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/economia-financeira-operações-e-estrutura/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ECONOMIA FINANCEIRA: OPERAÇÕES E ESTRUTURA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 95</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/" class="card-link">
+        <div class="disciplina-card">
+          <h4>MERCADO FINANCEIRO E DE CAPITAIS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a>
+        <div class="disciplina-card">
+          <h4>FUNDAMENTOS DE FINANÇAS CORPORATIVAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>AVALIAÇÃO ECONÔMICA DE EMPRESAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 6º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>TEORIAS DOS INVESTIMENTOS E ANÁLISE DE RISCO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 7º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+      </div>
+    </details>
+    <details >
+      <summary>🏢 Fundamentos de Gestão e Organizações</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/fundamentos-de-gestão-de-pessoas/" class="card-link">
+        <div class="disciplina-card">
+          <h4>FUNDAMENTOS DE GESTÃO DE PESSOAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 74</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/gestão-de-processos/" class="card-link">
+        <div class="disciplina-card">
+          <h4>GESTÃO DE PROCESSOS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 76</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/teorias-da-administração/" class="card-link">
+        <div class="disciplina-card">
+          <h4>TEORIAS DA ADMINISTRAÇÃO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 95</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/negociação-e-tomada-de-decisão/" class="card-link">
+        <div class="disciplina-card">
+          <h4>NEGOCIAÇÃO E TOMADA DE DECISÃO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 83</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/fundamentos-de-administração/" class="card-link">
+        <div class="disciplina-card">
+          <h4>FUNDAMENTOS DE ADMINISTRAÇÃO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 78</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/sociologia-das-organizações/" class="card-link">
+        <div class="disciplina-card">
+          <h4>SOCIOLOGIA DAS ORGANIZAÇÕES</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 87</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/sociologia-das-organizacoes-publicas/" class="card-link">
+        <div class="disciplina-card">
+          <h4>SOCIOLOGIA DAS ORGANIZACOES PUBLICAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a>
+      </div>
+    </details>
+    <details >
+      <summary>🏛️ Gestão e Políticas Públicas</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/gestão-pública-a/" class="card-link">
+        <div class="disciplina-card">
+          <h4>GESTÃO PÚBLICA A</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 93</span>
+          </div>
+        </div>
+    </a>
+        <div class="disciplina-card">
+          <h4>FINANÇAS PÚBLICAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 7º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ANÁLISE DE POLÍTICAS PÚBLICAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>DEMOCRACIA DIGITAL E GOVERNO ELETRÔNICO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>GESTÃO PÚBLICA B</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ESTADO E POLÍTICAS SOCIAIS A</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ESTADO E POLÍTICAS SOCIAIS B</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>FINANÇAS PÚBLICAS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>PLANEJAMENTO PÚBLICO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>AVALIAÇÃO DE POLÍTICAS PÚBLICAS A</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>FORMULAÇÃO E IMPLEMENTAÇÃO DE PROGRAMAS E PROJETOS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>AVALIAÇÃO DE POLÍTICAS PÚBLICAS B</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 6º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+      </div>
+    </details>
+    <details >
+      <summary>📈 Marketing e Inteligência de Mercado</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/fundamentos-de-marketing/" class="card-link">
+        <div class="disciplina-card">
+          <h4>FUNDAMENTOS DE MARKETING</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 81</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/projeto-inteligência-de-mercado/" class="card-link">
+        <div class="disciplina-card">
+          <h4>PROJETO: INTELIGÊNCIA DE MERCADO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 92</span>
+          </div>
+        </div>
+    </a>
+      </div>
+    </details>
+    <details >
+      <summary>🔬 Metodologia Científica</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/metodologia-e-pesquisa-em-ciências-gerenciais/" class="card-link">
+        <div class="disciplina-card">
+          <h4>METODOLOGIA E PESQUISA EM CIÊNCIAS GERENCIAIS</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Administracao</span>
+            <span><strong>Período:</strong> Extracurricular</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 83</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/metodologia/" class="card-link">
+        <div class="disciplina-card">
+          <h4>METODOLOGIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestao Publica</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 85</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/pesquisa-em-economia/" class="card-link">
+        <div class="disciplina-card">
+          <h4>PESQUISA EM ECONOMIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 87</span>
+          </div>
+        </div>
+    </a>
+      </div>
+    </details>
+    <details >
+      <summary>💻 Métodos Quantitativos e Computacionais</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/laboratório-de-iniciação-a-programação/" class="card-link">
+        <div class="disciplina-card">
+          <h4>LABORATÓRIO DE INICIAÇÃO A PROGRAMAÇÃO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 94</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/cálculo-aplicado-i/" class="card-link">
+        <div class="disciplina-card">
+          <h4>CÁLCULO APLICADO I</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 60</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/estatística/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ESTATÍSTICA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 89</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/cálculo-aplicado-ii/" class="card-link">
+        <div class="disciplina-card">
+          <h4>CÁLCULO APLICADO II</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 83</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/estatística-econômica-e-computacional/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ESTATÍSTICA ECONÔMICA E COMPUTACIONAL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 78</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/econometria/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ECONOMETRIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/estatística-multivariada/" class="card-link">
+        <div class="disciplina-card">
+          <h4>ESTATÍSTICA MULTIVARIADA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a>
+        <div class="disciplina-card">
+          <h4>ECONOMETRIA DE SÉRIES TEMPORAIS E PAINEL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ESTATÍSTICA BAYESIANA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 6º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>INTRODUÇÃO À ESTATÍSTICA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ECONOMETRIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+      </div>
+    </details>
+    <details >
+      <summary>📊 Teoria Econômica</summary>
+      <div class="disciplinas-grid">
+        <a href="historico/disciplinas/cursadas/introdução-a-economia/" class="card-link">
+        <div class="disciplina-card">
+          <h4>INTRODUÇÃO A ECONOMIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 1º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 80</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/macroeconomia-e-contabilidade-social/" class="card-link">
+        <div class="disciplina-card">
+          <h4>MACROECONOMIA E CONTABILIDADE SOCIAL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 72</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/microeconomia/" class="card-link">
+        <div class="disciplina-card">
+          <h4>MICROECONOMIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 2º Período</span>
+            <span><strong>Carga Horária:</strong> 40h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 66</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/macroeconomia/" class="card-link">
+        <div class="disciplina-card">
+          <h4>MACROECONOMIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 76</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/cursadas/crescimento-e-desenvolvimento-econômico/" class="card-link">
+        <div class="disciplina-card">
+          <h4>CRESCIMENTO E DESENVOLVIMENTO ECONÔMICO</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-cursada">Cursada</span>
+            <span class="disciplina-nota">Nota: 92</span>
+          </div>
+        </div>
+    </a><a href="historico/disciplinas/em_curso/microeconomia-contemporânea/" class="card-link">
+        <div class="disciplina-card">
+          <h4>MICROECONOMIA CONTEMPORÂNEA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Economia</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a>
+        <div class="disciplina-card">
+          <h4>MACROECONOMIA CONTEMPORÂNEA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ECONOMIA MONETÁRIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 4º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ORGANIZAÇÃO INDUSTRIAL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 5º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ECONOMIA INTERNACIONAL</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 6º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>TEMAS CONTEMPORÂNEOS EM ECONOMIA</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> PUC Minas</span>
+            <span><strong>Curso:</strong> Ciencias Economicas</span>
+            <span><strong>Período:</strong> 8º Período</span>
+            <span><strong>Carga Horária:</strong> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+        <div class="disciplina-card">
+          <h4>ECONOMIA DO BEM-ESTAR</h4>
+          <div class="disciplina-info">
+            <span><strong>Instituição:</strong> UFMG</span>
+            <span><strong>Curso:</strong> Gestão Publica</span>
+            <span><strong>Período:</strong> 3º Período</span>
+            <span><strong>Carga Horária:</strong> 60h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="status-badge status-a-cursar">A Cursar</span>
+            
+          </div>
+        </div>
+    
+      </div>
+    </details>
+  </div>
+</div>
+```

@@ -1,8 +1,8 @@
 ---
 title: "CÁLCULO APLICADO I"
 subtitle: "Período: 1 | Nota: 60"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Joao Ricardo Siqueira de Oliveira (Mestrado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Quantitativo"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Joao Ricardo Siqueira de Oliveira (Mestrado)."
+categories: ["PUC Minas", "Economia", "Métodos Quantitativos e Computacionais"]
 carga_horaria: 80
 nota: 60
 periodo: 1

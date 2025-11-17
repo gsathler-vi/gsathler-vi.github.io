@@ -1,8 +1,8 @@
 ---
 title: "INTRODUÇÃO A ECONOMIA"
 subtitle: "Período: 1 | Nota: 80"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Marcelo Meira de Jesus (Mestrado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Economia Aplicada"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Marcelo Meira de Jesus (Mestrado)."
+categories: ["PUC Minas", "Economia", "Teoria Econômica"]
 carga_horaria: 80
 nota: 80
 periodo: 1

@@ -1,8 +1,8 @@
 ---
 title: "ECONOMETRIA"
 subtitle: "Período: 4"
-description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Luciane Reis Raposo Pereira (Doutorado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Quantitativo"]
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Luciane Reis Raposo Pereira (Doutorado)."
+categories: ["PUC Minas", "Economia", "Métodos Quantitativos e Computacionais"]
 carga_horaria: 80
 periodo: 4
 toc: true

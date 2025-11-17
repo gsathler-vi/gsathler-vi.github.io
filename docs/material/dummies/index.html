@@ -187,25 +187,10 @@ window.Quarto = {
     <a class="nav-link" href="../../certificacoes.html"> 
 <span class="menu-text">Certificações</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-histórico-escolar" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Histórico Escolar</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-histórico-escolar">    
-        <li>
-    <a class="dropdown-item" href="../../historico.html">
- <span class="dropdown-text">Visão Geral</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../../historico.html"> 
+<span class="menu-text">Histórico Academico</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../historico_cursadas.html">
- <span class="dropdown-text">Disciplinas Cursadas</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../historico_em_curso.html">
- <span class="dropdown-text">Disciplinas em Curso</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Trabalhos e Apresentações</span></a>
@@ -292,7 +277,7 @@ window.Quarto = {
 <section id="preparação-do-ambiente-e-dos-dados" class="level3">
 <h3 class="anchored" data-anchor-id="preparação-do-ambiente-e-dos-dados">1.2. Preparação do Ambiente e dos Dados</h3>
 <p>Primeiro, carregamos as bibliotecas necessárias e filtramos nossa base de dados para focar no nosso público de interesse.</p>
-<div id="5c585aa8" class="cell" data-execution_count="1">
+<div id="d64bf331" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -567,7 +552,7 @@ Nota_i = \beta_0 &amp; + \alpha_1 \text{PessoasRes}_i \\
 <section id="modelo-1-a-abordagem-correta-com-dummies" class="level3">
 <h3 class="anchored" data-anchor-id="modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</h3>
 <p>Primeiro, estimamos o modelo de regressão utilizando o conjunto completo de dummies.</p>
-<div id="efa73532" class="cell" data-execution_count="2">
+<div id="5b99d9d6" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preparação dos Dados</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>y_var <span class="op">=</span> <span class="st">'nt_ger'</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>x_vars_dummies <span class="op">=</span> [</span>
@@ -595,7 +580,7 @@ Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.090
 Method:                 Least Squares   F-statistic:                     93.19
 Date:                Mon, 17 Nov 2025   Prob (F-statistic):               0.00
-Time:                        12:55:27   Log-Likelihood:            -1.0054e+05
+Time:                        15:22:42   Log-Likelihood:            -1.0054e+05
 No. Observations:               25077   AIC:                         2.011e+05
 Df Residuals:                   25049   BIC:                         2.014e+05
 Df Model:                          27                                         
@@ -660,7 +645,7 @@ Notes:
 <section id="interpretando-os-coeficientes-de-renda" class="level4">
 <h4 class="anchored" data-anchor-id="interpretando-os-coeficientes-de-renda">4.2.2 Interpretando os Coeficientes de Renda</h4>
 <p>O gráfico abaixo mostra o valor do coeficiente para cada dummy de renda.</p>
-<div id="20bb592e" class="cell" data-execution_count="3">
+<div id="1928cbdc" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>coefs_renda <span class="op">=</span> resultados_ols.params.<span class="bu">filter</span>(like<span class="op">=</span><span class="st">'renda_fx'</span>) </span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>coefs_renda.index <span class="op">=</span> [<span class="st">'1.5 a 3 SM'</span>, <span class="st">'3 a 4.5 SM'</span>, <span class="st">'4.5 a 6 SM'</span>, <span class="st">'6 a 10 SM'</span>, <span class="st">'10 a 30 SM'</span>, <span class="st">'&gt; 30 SM'</span>]</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -715,7 +700,7 @@ Notes:
 <h3 class="anchored" data-anchor-id="modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</h3>
 <p>Um erro comum é pensar que as variáveis por apresntarem um comportamento aparentemente ordinal, podem ser analisada como uma variável ordinal conforme feito anteriormente com a vaariável <code>cod_renda</code>. Porém isto é um metódo errado que explicaremos a seguir.</p>
 <p>Para fins de comparação, estimamos o modelo incorreto utilizando variáveis de forma ordinal.</p>
-<div id="c84b00fd" class="cell" data-execution_count="4">
+<div id="50573ef6" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Variáveis para Modelo Ordinal</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>x_vars_ordinal <span class="op">=</span> [</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'cod_pessoas_res'</span>, </span>
@@ -744,7 +729,7 @@ Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.091
 Method:                 Least Squares   F-statistic:                     189.1
 Date:                Mon, 17 Nov 2025   Prob (F-statistic):               0.00
-Time:                        12:55:27   Log-Likelihood:                -97921.
+Time:                        15:22:42   Log-Likelihood:                -97921.
 No. Observations:               24448   AIC:                         1.959e+05
 Df Residuals:                   24434   BIC:                         1.960e+05
 Df Model:                          13                                         
@@ -802,7 +787,7 @@ Notes:
 <section id="o-veredito-comparando-os-modelos" class="level2">
 <h2 class="anchored" data-anchor-id="o-veredito-comparando-os-modelos"><strong>5. O Veredito: Comparando os Modelos</strong></h2>
 <p>Os gráficos a seguir ilustram a diferença fundamental entre as duas abordagens, agora empilhados verticalmente para melhor visualização.</p>
-<div id="b407a053" class="cell" data-execution_count="5">
+<div id="5bfad999" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">8</span>))</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Gráfico 1: Realidade (Dummies)</span></span>

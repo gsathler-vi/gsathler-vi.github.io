@@ -1,8 +1,8 @@
 ---
 title: "ESTATÍSTICA MULTIVARIADA"
 subtitle: "Período: 5"
-description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Mayra Alves Stradioto (Mestrado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Quantitativo"]
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Mayra Alves Stradioto (Mestrado)."
+categories: ["PUC Minas", "Economia", "Métodos Quantitativos e Computacionais"]
 carga_horaria: 40
 periodo: 5
 toc: true

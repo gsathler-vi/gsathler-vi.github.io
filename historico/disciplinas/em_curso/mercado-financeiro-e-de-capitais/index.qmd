@@ -1,8 +1,8 @@
 ---
 title: "MERCADO FINANCEIRO E DE CAPITAIS"
 subtitle: "Período: 4"
-description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Erich Vale e Sousa (Mestrado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Economia Aplicada"]
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Erich Vale e Sousa (Mestrado)."
+categories: ["PUC Minas", "Economia", "Finanças e Contabilidade"]
 carga_horaria: 80
 periodo: 4
 toc: true

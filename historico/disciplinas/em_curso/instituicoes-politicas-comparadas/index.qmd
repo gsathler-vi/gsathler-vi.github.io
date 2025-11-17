@@ -2,7 +2,7 @@
 title: "INSTITUICOES POLITICAS COMPARADAS"
 subtitle: "Período: 2"
 description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Cristiano Rodrigues (Doutorado)."
-categories: ["UFMG", "Gestao Publica", "Ciencia Politica"]
+categories: ["UFMG", "Gestao Publica", "Ciências Sociais e Humanidades"]
 carga_horaria: 60
 periodo: 2
 toc: true

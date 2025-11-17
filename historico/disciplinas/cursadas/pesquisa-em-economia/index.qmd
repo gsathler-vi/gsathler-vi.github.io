@@ -1,8 +1,8 @@
 ---
 title: "PESQUISA EM ECONOMIA"
 subtitle: "Período: 3 | Nota: 87"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Júlia Leite de Carvalho Fernandes (Doutorado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Academico"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Júlia Leite de Carvalho Fernandes (Doutorado)."
+categories: ["PUC Minas", "Economia", "Metodologia Científica"]
 carga_horaria: 60
 nota: 87
 periodo: 3

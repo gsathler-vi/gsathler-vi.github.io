@@ -1,8 +1,8 @@
 ---
 title: "CÁLCULO APLICADO II"
 subtitle: "Período: 2 | Nota: 83"
-description: "Disciplina cursada na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Claudia Silva Tavares (Mestrado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Quantitativo"]
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Claudia Silva Tavares (Mestrado)."
+categories: ["PUC Minas", "Economia", "Métodos Quantitativos e Computacionais"]
 carga_horaria: 80
 nota: 83
 periodo: 2

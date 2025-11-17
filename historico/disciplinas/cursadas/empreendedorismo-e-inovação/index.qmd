@@ -2,7 +2,7 @@
 title: "EMPREENDEDORISMO E INOVAÇÃO"
 subtitle: "Extracurricular | Nota: 77"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Osvaldo Maurício de Oliveira (Mestrado)."
-categories: ["PUC Minas", "Administracao", "Gestao"]
+categories: ["PUC Minas", "Administracao", "Empreendedorismo e Inovação"]
 carga_horaria: 80
 nota: 77
 periodo: 100

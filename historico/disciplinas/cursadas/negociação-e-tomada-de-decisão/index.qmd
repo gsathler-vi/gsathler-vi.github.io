@@ -2,7 +2,7 @@
 title: "NEGOCIAÇÃO E TOMADA DE DECISÃO"
 subtitle: "Extracurricular | Nota: 83"
 description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do(a) professor(a) Nelio Oliveira (Mestrado)."
-categories: ["PUC Minas", "Administracao", "Gestao"]
+categories: ["PUC Minas", "Administracao", "Fundamentos de Gestão e Organizações"]
 carga_horaria: 80
 nota: 83
 periodo: 100

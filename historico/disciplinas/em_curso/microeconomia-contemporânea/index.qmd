@@ -1,8 +1,8 @@
 ---
 title: "MICROECONOMIA CONTEMPORÂNEA"
 subtitle: "Período: 3"
-description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Jean Max Tavares (Doutorado)."
-categories: ["PUC Minas", "Ciencias Economicas", "Microeconomia"]
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Jean Max Tavares (Doutorado)."
+categories: ["PUC Minas", "Economia", "Teoria Econômica"]
 carga_horaria: 80
 periodo: 3
 toc: true

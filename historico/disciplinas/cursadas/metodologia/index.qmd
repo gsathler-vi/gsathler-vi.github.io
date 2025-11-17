@@ -2,7 +2,7 @@
 title: "METODOLOGIA"
 subtitle: "Período: 1 | Nota: 85"
 description: "Disciplina cursada na UFMG como parte do currículo de Gestao Publica, sob a orientação do(a) professor(a) Claudia Feres Faria (Doutorado)."
-categories: ["UFMG", "Gestao Publica", "Academico"]
+categories: ["UFMG", "Gestao Publica", "Metodologia Científica"]
 carga_horaria: 60
 nota: 85
 periodo: 1
