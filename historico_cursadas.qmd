@@ -11,7 +11,7 @@ listing:
 
    type: grid
    grid-columns: 4
-   fields: [title, carga_horaria, nota, categories]
+   fields: [title, subtitle, carga_horaria, categories]
 format: 
   html:
     page-layout: full

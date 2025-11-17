@@ -10,6 +10,6 @@ listing:
     - "instituicao"
    type: grid
    grid-columns: 4
-   fields: [title, carga_horaria, categories] 
+   fields: [title, subtitle, carga_horaria, categories] 
 ---
 
