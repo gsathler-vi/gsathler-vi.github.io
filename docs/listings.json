@@ -2,21 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/apresentacao_pesquisa/index.html",
-      "/posts/apresentacao_caces/index.html"
-    ]
-  },
-  {
-    "listing": "/historico_em_curso.html",
-    "items": [
-      "/historico/disciplinas/em_curso/aspectos-legais-da-gestão-pública-b/index.html",
-      "/historico/disciplinas/em_curso/instituicoes-politicas-comparadas/index.html",
-      "/historico/disciplinas/em_curso/politicaeconomia-e-sociedade-no-brasil/index.html",
-      "/historico/disciplinas/em_curso/sociologia-das-organizacoes-publicas/index.html",
-      "/historico/disciplinas/em_curso/microeconomia-contemporânea/index.html",
-      "/historico/disciplinas/em_curso/econometria/index.html",
-      "/historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/index.html",
-      "/historico/disciplinas/em_curso/estatística-multivariada/index.html"
+      "/posts/apresentacao_pesquisa/index.html"
     ]
   },
   {
@@ -60,10 +46,22 @@
     ]
   },
   {
+    "listing": "/historico_em_curso.html",
+    "items": [
+      "/historico/disciplinas/em_curso/aspectos-legais-da-gestão-pública-b/index.html",
+      "/historico/disciplinas/em_curso/instituicoes-politicas-comparadas/index.html",
+      "/historico/disciplinas/em_curso/politicaeconomia-e-sociedade-no-brasil/index.html",
+      "/historico/disciplinas/em_curso/sociologia-das-organizacoes-publicas/index.html",
+      "/historico/disciplinas/em_curso/microeconomia-contemporânea/index.html",
+      "/historico/disciplinas/em_curso/econometria/index.html",
+      "/historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/index.html",
+      "/historico/disciplinas/em_curso/estatística-multivariada/index.html"
+    ]
+  },
+  {
     "listing": "/listing.html",
     "items": [
-      "/material/dummies/index.html",
-      "/material/artigo_empreendedorismo/index.html"
+      "/material/dummies/index.html"
     ]
   }
 ]

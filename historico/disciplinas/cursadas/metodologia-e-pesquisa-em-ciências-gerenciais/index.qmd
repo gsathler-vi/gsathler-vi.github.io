@@ -1,0 +1,72 @@
+---
+title: "METODOLOGIA E PESQUISA EM CIÊNCIAS GERENCIAIS"
+subtitle: "Nota: 83 | Extracurricular"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Maria Luiza Fatima Costa de Proenca Doyle (Doutorado)."
+categories: ["PUC Minas", "Academico", "Administracao"]
+carga_horaria: 40
+nota: 83
+periodo: 100
+toc: true
+---
+
+## Ementa
+Ciência: natureza e objetivos. A pesquisa nas ciências sociais aplicadas. Formulação e construção do objeto de pesquisa no campo gerencial. Métodos e técnicas de pesquisa e intervenção. Modalidades de Trabalho de Conclusão: monografia; plano de intervenção organizacional; relatório técnico e plano de negócios.
+
+## Objetivos
+**Objetivo Geral:**
+O objetivo geral da disciplina é, por um lado, fornecer aos estudantes uma base teórico-metodológica a partir da discussão sobre os principais métodos e técnicas utilizados na pesquisa em administração e, por outro, criar as condições para a elaboração de projetos de conclusão do curso, em particular, e o aprendizado sobre o processo e execução da pesquisa, em geral, a partir de conhecimentos técnico-científicos.
+
+**Objetivos Específicos:**
+a. Compreender os principais métodos e técnicas de pesquisa em administração, inclusive, sabendo discernir as condições e as oportunidades mais adequadas para a utilização.
+b. Assimilar os conhecimentos sobre o processo formal e a dinâmica de execução da pesquisa científica, sendo capaz de planejar uma proposta de investigação em um projeto.
+c. Conhecer as modalidades de desenvolvimento do Trabalho de Conclusão do Curso de Administração.
+d. Instrumentalizar os alunos para o uso correto das normas de apresentação de trabalhos científicos e dos procedimentos de referências de acordo com os padrões da ABNT.
+e. Sensibilizar os alunos sobre os aspetos éticos na pesquisa: formas de plágio, autorização do campo de pesquisa, cuidados na coleta de dados, sigilo e confidencialidade da pesquisa.
+
+## Métodos Didáticos
+Exposição dialogada. Atividade prática sobre o uso da Norma ABNT e do Padrão PUC Minas de Normalização. Utilização de metodologias ativas e do Mentimeter. Pesquisa em repositórios de TCs e base de dados. Preparação e apresentação em Seminários sobre as Modalidades do Trabalho de Conclusão de Curso. Exploração de artigos científicos de resultados de pesquisa, das diferentes abordagens metodológicas.
+
+## Unidades de Ensino
+1.  **Fundamentos da pesquisa em administração**
+    1.2. Tipos de conhecimento
+    1.3. Demarcação do conhecimento científico
+    1.4. Fundamentos gerais sobre pesquisa
+    1.5. A agenda da pesquisa em administração no Brasil
+    1.6. Tipos de documentos científicos
+    1.7. Normas técnicas de redação de um trabalho científico
+2.  **Métodos de investigação em Administração**
+    2.1. Demarcação entre estudos qualitativos e quantitativos
+    2.2. Os estudos qualitativos: estudos de caso, pesquisa documental e etnografia
+    2.3. Os estudos quantitativos: o survey e o experimento
+3.  **Modalidades de Trabalho de Conclusão: monografia; plano de intervenção organizacional; relatório técnico e plano de negócios.**
+    3.1 Apresentação das diferentes modalidades de trabalho de conclusão.
+    3.2 Atividade prática de conhecimento e análise de documentos das diferentes modalidades do trabalho de conclusão.
+    3.3 Apresentação da análise das partes componentes das diferentes modalidades do TC.
+
+## Processo de Avaliação
+*   Estudo dirigido e participação na discussão e correção do uso da ABNT: 10 pontos.
+*   Pesquisa e apresentação de artigos de pesquisa: 10 pontos
+*   Prova Intermediária: 25 pontos
+*   Pesquisa e apresentação do seminário de modalidades do TC: 25 pontos
+*   Prova Global: 30 pontos
+*   Reavaliação: 30 Pontos
+
+## Observações
+*   **RAM Revista de Administração da Machenzie (Quadrimestral) ISSN: 1678-6971 Qualis B1**
+    *Justificativa: trata-se de um periódico com uma política editorial abrangente em relação aos campos da administração, de alto impacto, atualmente, classificado na Plataforma Sucupira como B1. Além disso, dispõe de versão online para consulta e leitura. Como descrito no corpo do periódico A RAM (...) é uma revista científica cuja missão é contribuir para a excelência das atividades acadêmicas na área de conhecimento de administração de empresas e para o desenvolvimento da ação administrativa nas organizações via divulgação de trabalhos de pesquisa científica na forma de artigos de desenvolvimento teórico e artigos teórico-empíricos inéditos, de qualidade e que gerem novos conhecimentos no campo, com expressiva magnitude de contribuição (RAM, 2020)*
+*   **RAE Revista de Administração de Empresas Quadrimestral - 2178-938X**
+    *Justificativa: A Revista de Administração de Empresas é um dos mais antigos e tradicionais periódicos de produção e disseminação do conhecimento científico em Administração. Trata-se de um periódico com uma publicação mais aplicada, de elevado impacto entre acadêmicos e praticantes e está, atualmente, classificada no maior estrato para periódicos nacionais.*
+
+## Descrição da Bibliografia Básica
+*   GIL, Antônio Carlos. Como elaborar projetos de pesquisa. 7. ed. Barueri, SP: Atlas, 2022. *E-book*. ISBN 9786559771653.
+*   MARCONI, Marina de Andrade; LAKATOS, Eva Maria. Fundamentos de metodologia científica: métodos científicos, técnicas de pesquisa, elaboração de referências bibliográficas. 9. ed. atual. São Paulo: Atlas, 2021. *E-book*. ISBN 9788597026580.
+*   MICHEL, Maria Helena. Metodologia e pesquisa científica em ciências sociais: um guia prático para acompanhamento da disciplina e elaboração de trabalhos monográficos. 3. ed. atual. e ampl. São Paulo: Atlas, 2015. *E-book*. ISBN 978-85-970-0359-8.
+*   REVISTA DE ADMINISTRAÇÃO DE EMPRESAS. São Paulo: FGV, Escola de Administração de Empresas,1961-. Bimestral. ISSN 0034-7590., Nº de Exemplares: 252.
+
+## Descrição da Bibliografia Complementar
+*   ADMINISTRAÇÃO: ensino e pesquisa. Rio de Janeiro: ANGRAD, 2010-. 2016-. ISSN 2358-0917 versão on-line. Disponível em: https://raep.emnuvens.com.br/raep/index. Acesso em: 10 set. 2018.
+*   CERVO, Amado Luiz; BERVIAN, Pedro Alcino; SILVA, Roberto da. Metodologia científica. 6. ed. São Paulo: Pearson Prentice Hall, 2007. *E-book*. ISBN 9788576050476.
+*   CRESWELL, John W. Projeto de pesquisa métodos qualitativo, quantitativo e misto. 5. Porto Alegre Penso 2021 1 recurso online ISBN 9786581334192.
+*   DORNELAS, José. Plano de negócios com o modelo Canvas guia prático de avaliação de ideias de negócio. 2. São Paulo Fazendo Acontecer 2020 1 recurso online ISBN 9786587052076.
+*   GOLD, Miriam. Redação empresarial. 5. ed. São Paulo: Saraiva, c2017. E-book. ISBN 9788547217969.
+*   MAIA, Paulo Leandro. O abc da metodologia: métodos e técnicas para elaborar trabalhos científicos (ABNT). 3. ed. rev. e ampl. São Paulo: LEUD, 2011. 136 p. ISBN 9788574562759, Nº de Exemplares: 6.

@@ -1,0 +1,61 @@
+---
+title: "MACROECONOMIA E CONTABILIDADE SOCIAL"
+subtitle: "Nota: 72 | Período: 2"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Caio César Soares Gonçalves (Doutorado)."
+categories: ["PUC Minas", "Macroeconomia", "Economia"]
+carga_horaria: 40
+nota: 72
+periodo: 2
+toc: true
+---
+
+## Ementa
+Características fundamentais da Contabilidade Social. Sistemas de Contabilidade Social. Sistema fechado com até três setores. Sistema aberto. Índices de preços e a apuração das variações reais ou constantes. Sistemas de Contas Nacionais. Oferta e Demanda Global). Identidades macroeconômicas. Noções de Balança de Pagamentos. Noções da Matriz de Insumo-Produto. Matriz de Leontief. Sistema Contas Nacionais no Brasil. Atividades de integração entre conhecimentos acadêmicos e saberes de outros setores da sociedade, unindo teoria e prática, por meio das modalidades de extensão.
+
+## Objetivos
+Estudar o processo de produção das estatísticas macroeconômicas (agregadas) tais como renda, consumo, produção etc., bem como iniciar o processo de análises e avaliações econômicas dos resultados e dos efeitos provocados pelo desempenho dessas atividades sob o ponto de vista da economia e da sociedade como um todo. Além disso, tem-se como objetivo apresentar aos alunos os primeiros modelos da macroeconomia.
+
+## Métodos Didáticos
+Aulas expositivas, trabalhos individuais e em grupo e pesquisas orientadas. Atividade extensionista com pesquisa e aplicações práticas.
+
+## Unidades de Ensino
+1.  **Contabilidade Nacional**
+    1.1. O fluxo circular da renda e o Produto Interno Bruto
+    1.2. Os agregados macroeconômicos nos sistemas fechado e aberto
+    1.3. As Contas Econômicas Integradas e as Tabelas de Recursos e Usos
+    1.4. PIB nominal, PIB real e deflator implícito
+    1.5. Números índices: índices de preços ao consumidor x deflator do PIB
+
+2.  **Primeiro modelos da macroeconomia**
+    2.1. Modelo keynesiano sem governo e economia fechada
+    2.2. Modelo keynesiano com governo e economia aberta
+    2.3. Orçamento público
+
+3.  **Modelo IS-LM**
+    3.1. Curva IS e equilíbrio no mercado de bens
+    3.2. Curva LM e equilíbrio no mercado monetário
+    3.3. Efeitos de políticas fiscais, monetárias e suas combinações
+    3.4. Tratamento formal
+
+## Processo de Avaliação
+*   Trabalho de Extensão: 20 pontos
+*   Primeira Prova: 20 pontos
+*   Segunda Prova: 30 pontos
+*   Prova Substitutiva: Disponível exclusivamente para os alunos que perderam a Primeira ou Segunda Prova.
+*   Prova Final: 30 pontos
+
+**Reavaliação:** A prova de reavaliação, no valor de 30 pontos, substitui a Prova Final para alunos que obtiveram uma pontuação total entre 30 e 59 pontos, desde que tenham realizado o Trabalho de Extensão.
+
+## Descrição da Bibliografia Básica
+*   DORNBUSCH, Rudiger; FISCHER, Stanley; STARTZ, Richard. Macroeconomia. 11. ed. Porto Alegre: AMGH, 2013. *E-book*. ISBN 9788580551853.
+*   MANKIW, N. Gregory. Macroeconomia. 10. São Paulo Atlas 2021 1 recurso online ISBN 9788597027594.
+*   CONTABILIDADE social referência atualizada das contas nacionais do Brasil. 5. Rio de Janeiro GEN Atlas 2017 1 recurso online ISBN 9788595152229.
+*   ECONOMIA APLICADA. São Paulo: USP, Departamento de Economia ,1997-. Trimestral. ISSN 1980-5330 versão on-line. Disponível em: https://www.revistas.usp.br/ecoa/issue/archive. Acesso em: 1 jul. 2020.
+
+## Descrição da Bibliografia Complementar
+*   BLANCHARD, Olivier. Macroeconomia. 7. ed. São Paulo: Pearson Education do Brasil, c2018. *E-book*. ISBN 9788543020549.
+*   INDICADORES de pobreza e desenvolvimento humano: uma introdução. Belo Horizonte: PNUD, PUC Minas/IDHS, 2005. 59 p., Nº de Exemplares: 30., Nº de Exemplares: 30.
+*   FROYEN, Richard T. Macroeconomia teorias e aplicações. 2. São Paulo Saraiva 2009 1 recurso online ISBN 9788502175235.
+*   NOVA ECONOMIA. Belo Horizonte: UFMG, Departamento de Ciências Econômicas, 1990-. Semestral. ISSN 0103-6351. Disponível em: http://www.scielo.br/scielo.php?script=sci_serial&pid=0103-6351&lng=en&nrm=iso. Acesso em: 21 ago. 2018.
+*   PAULANI, Leda; BRAGA, Márcio Bobik. A nova contabilidade social: uma introdução à macroeconomia. 4. ed. rev. e atual. São Paulo: Saraiva, 2012. xx, 402 p. ISBN 9788502193833., Nº de Exemplares: 2.
+*   ROSSETTI, José Paschoal. Contabilidade social texto. 7. São Paulo Atlas 1992 1 recurso online ISBN 9788522481187.

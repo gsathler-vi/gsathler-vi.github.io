@@ -1,0 +1,34 @@
+---
+title: "INSTITUICOES POLITICAS COMPARADAS"
+subtitle: "Período: 2"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor Cristiano Rodrigues (Doutorado)."
+categories: ["UFMG", "Ciencia Politica", "Gestao Publica"]
+carga_horaria: 60
+periodo: 2
+toc: true
+---
+
+## Ementa
+Análise comparada, desempenho de instituições democráticas em países do centro e da periferia do capitalismo; instituições democráticas e diferentes condições socioeconômicas e culturais. Estudos de formas de organização de democracias liberais, organização Estado: unitarismo X federalismo; processos e poderes (executivo, legislativo); concepções sobre burocracias públicas, políticas públicas, por governos eleitos.
+
+## Descrição da Bibliografia Básica
+*   AVRITZER, L. e ANASTASIA, F. (orgs.). (2006). Reforma política no Brasil. Belo Horizonte: Editora UFMG (ler apenas o capítulo denominado Presidencialismo e Governo de Coalizão, p. 236 a 257.
+*   BOBBIO, N.; MATTEUCCI, N.; PASQUINO, G. (1998). Dicionário de Política. Brasília: Editora Universidade de Brasília, 1a ed. (Ler a Introdução (p. V e VI), o verbete Democracia (p. 319 a 330)).
+*   DAHL, R. Análise Política Moderna. Brasília: Editora Universidade de Brasília, 1981. (Capítulos 4 – Semelhanças dos sistemas políticos - e 5 – Diferenças dos sistemas políticos)
+*   KERSTENETZKY, Celia Lessa; GUEDES, Graciele Pereira. (2018). O Welfare State resiste? Desenvolvimentos recentes do estado social nos países da OCDE. Ciência & Saúde Coletiva, 23 (7): 2095-2106, 2018.
+*   LIJPHART, Arend. (2008). Modelos de democracia. Rio de Janeiro: Civilização Brasileira. (Capítulos 1, 2, 3, 6, 7, 8, 10 e 12).
+*   MAINWARING, S.; BRINKS, D.; PËREZ-LIÑÁN, A. (2001) Classificando Regimes Políticos na América Latina, 1945-1999. Revista Dados, vol. 44, nº 4. Rio de Janeiro.
+*   MIRANDA, Geralda L. (2017). Seguridade Social da Argentina e no Brasil: trajetória histórica e configuração atual. TRABALHO APRESENTADO NO ENEPCP, 2017.
+*   MUNCK, Gerardo L.; VERKUILEN, Jay (2016). Trazendo de volta a mensuração: fundamentos metodológicos do índice de democracia eleitoral. Revista Brasileira de Ciência Política, Brasília, nº 19, p. 147-165.
+*   NICOLAU, Jairo (2002) Sistemas eleitorais: uma introdução, Rio de Janeiro: Editora FGV.
+*   O´DONNELL, G. (2011). Democracia, agência e Estado: teoria com intenção comparativa. São Paulo: Paz e Terra. (Capítulo VIII – Um rápido olhar sobre a América Latina).
+*   SARTORI, G. (1981). A Política – 36. Brasília: Editora Universidade de Brasília. (Capítulo 9 – Método Comparativo e Política Comparada)
+*   SCHEDLER, Andreas (2004). Elecciones sin democracia: el menú de la manipulação electoral.
+*   CINTRA, A. O. Sistema Eleitoral. In: AVRITZER, Leonardo; ANASTASIA, Fátima (Orgs.) Reforma Política no Brasil. Belo Horizonte: UFMG, 2006
+*   SOUZA, C. (2013). Instituições e Mudanças: reformas da Constituição de 1988, federalismo e políticas públicas In: HOCHMAN, Gilberto; FARIA, Carlos A. P. (Orgs.). Federalismo e Políticas Públicas no Brasil. Rio de Janeiro: Editora FIOCRUZ, p. 91-118.
+*   TSEBELIS, G. (2009). Atores com Poder de Veto: como funcionam as instituições políticas. Rio de Janeiro: FGV. (Introdução, capítulos 1, 3 e 4).
+
+## Descrição da Bibliografia Complementar
+*   ARRETCHE, M. (2013). Quando Instituições Federativas Fortalecem o Governo Central? In: HOCHMAN, Gilberto; FARIA, Carlos A. P. (Orgs.). Federalismo e Políticas Públicas no Brasil. Rio de Janeiro: Editora FIOCRUZ, p. 65-90.
+*   DELLA PORTA, D. (2003). O sistema político (capítulo 1 – item 5). In: Introdução à Ciência Política. Lisboa: Editorial Estampa, p. 30-35.
+*   TSEBELIS, G. (2009). Atores com Poder de Veto: como funcionam as instituições políticas. Rio de Janeiro: FGV. (Capítulo 6 – Federalismo, bicameralismo e maiorias qualificadas).

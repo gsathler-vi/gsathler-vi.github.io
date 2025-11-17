@@ -1,0 +1,160 @@
+---
+title: "CÁLCULO APLICADO II"
+subtitle: "Nota: 83 | Período: 2"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Claudia Silva Tavares (Mestrado)."
+categories: ["PUC Minas", "Quantitativo", "Economia"]
+carga_horaria: 80
+nota: 83
+periodo: 2
+toc: true
+---
+
+## Ementa
+Integral indefinida. Técnicas de integração: substituição, por partes, trigonométricas, substituição trigonométrica e frações parciais. Integral definida: Conceitos e Teorema Fundamental do Cálculo. Superfícies. Funções de várias variáveis. Derivadas parciais. Aproximações lineares. Regra da cadeia. Derivadas direcionais e vetor gradiente. Valores máximos e mínimos. Aplicações práticas.
+
+## Objetivos
+**Objetivos Gerais**
+Propiciar percursos de aprendizagem que possibilitem ao estudante:
+*   Identificar, interpretar, formular e resolver problemas;
+*   Interpretar e criticar as soluções obtidas;
+*   Comunicar-se com eficiência nas formas escrita, oral e gráfica;
+*   Assumir uma postura investigativa e crítica.
+
+**Objetivos Específicos:**
+Contribuir para que o estudante desenvolva as habilidades de:
+*   Utilizar a integral indefinida como técnica para encontrar funções primitivas;
+*   Atribuir significado geométrico às integrais definidas, além de realizar cálculos associados a esse tipo de integral;
+*   Conectar o cálculo diferencial e o cálculo integral através do Teorema Fundamental do Cálculo;
+*   Apropriar-se das seguintes técnicas de integração: substituição, por partes, trigonométricas, substituição trigonométrica e frações parciais;
+*   Aplicar o conceito de integral e utilizar as técnicas de integração em problemas associados ao cálculo da medida da área entre curvas e do volume de sólidos de revolução;
+*   Calcular a integral definida com integrandos descontínuos ou intervalos ilimitados, além de atribuir significado geométrico ao resultado apurado;
+*   Identificar superfícies por meio de suas equações cartesianas;
+*   Transitar entre as representações algébrica e geométrica de uma superfície;
+*   Identificar regiões sólidas limitadas por superfícies;
+*   Compreender função de duas variáveis como uma relação entre grandezas e representá-la de diferentes maneiras (por uma fórmula, tabela de valores, gráfico, curvas de nível ou mesmo por meio de palavras);
+*   Compreender função de três variáveis como uma relação entre grandezas e representá-la de diferentes maneiras (por uma fórmula, tabela de valores, superfícies de nível ou mesmo por meio de palavras);
+*   Transitar entre as diferentes representações de uma função;
+*   Reconhecer os diferentes tipos de funções e usá-las como modelos matemáticos de fenômenos do mundo real;
+*   Estender o cálculo diferencial às funções de várias variáveis;
+*   Calcular a taxa de variação de uma função em um ponto em qualquer direção especificada; Interpretar, analítica e geometricamente, o vetor gradiente;
+*   Estudar métodos de identificação e classificação de pontos de extremos locais e globais de funções de várias variáveis;
+*   Aplicar o método dos multiplicadores de Lagrange na determinação de extremos globais de funções sujeitas a uma ou mais restrições;
+*   Resolver problemas de otimização utilizando o conceito de derivada. Modelar e resolver problemas aplicados às ciências exatas e engenharia, além de ser capaz de validar e comunicar os resultados;
+*   Utilizar, com desenvoltura, calculadoras gráficas e softwares computacionais como recursos que potencializam a aprendizagem.
+
+## Métodos Didáticos
+*   Estudo de conceitos por meio de aulas expositivas e dialogadas;
+*   Ações de nivelamento que visem resgatar conteúdos matemáticos prévios necessários na disciplina;
+*   Incentivo à exploração dos livros didáticos indicados para a disciplina;
+*   Resolução de exercícios;
+*   Desenvolvimento de atividades individuais ou em grupo.
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento**
+Em paralelo ao estudo de primitivas, as derivadas de funções elementares e técnicas de derivação são revisitadas. No desenvolvimento das técnicas e estratégias de integração, são discutidas as identidades trigonométricas, estratégias de fatoração, propriedades das funções exponencial e logarítmicas, dentre outras. Os esboços de gráficos são resgatados quando se trabalha com os cálculos de áreas e volumes de sólido de revolução. No estudo do cálculo diferencial de funções de várias variáveis, o aluno tem a oportunidade de visitar novamente as principais regras de derivação. Tais ações visam tanto o resgate quanto nivelamento em relação aos pré-requisitos necessários para a disciplina.
+
+**Unidade 1 - Integrais (10 horas / aula)**
+1.1 - Primitivas
+1.2 - Áreas e distâncias. A Integral Definida.
+1.3 - Teorema Fundamental do Cálculo
+1.4 - Integrais Indefinidas e Teorema da Variação Total
+1.5 - A regra da Substituição
+
+**Unidade 2 - Aplicações de Integração (10 horas/aula)**
+2.1 - Área entre curvas
+2.2 - Volume por seções transversais
+2.3 - Volumes por cascas cilíndricas
+2.4 - Trabalho
+2.5 - Valor médio de uma função
+
+**Unidade 3 - Técnicas de Integração (12 horas/aula)**
+3.1 - Integração por Partes
+3.2 - Integrais Trigonométricas
+3.3 - Substituição Trigonométrica
+3.4 - Integração por Frações Parciais
+3.5 - Integrais Impróprias
+
+**Unidade 4 - Mais Aplicações de Integrais (8 horas/aula)**
+4.1 - Comprimento de Arco
+4.2 - Área de uma superfície de revolução
+4.3 - Pressão e Força Hidrostática
+4.4 - Momentos e centro de massa
+4.5 - Função densidade de probabilidade
+
+**Unidade 5 - Superfícies (6 horas/aula)**
+5.1 - Esferas
+5.2 - Cilindros
+5.3 - Superfícies Quádricas
+
+**Unidade 6 - Derivadas Parciais (28 horas/aula)**
+6.1 - Funções de Várias Variáveis
+6.2 - Derivadas Parciais
+6.3 - Planos tangentes e Aproximações lineares
+6.4 - A regra da cadeia
+6.5 - Derivadas direcionais e Vetor gradiente
+6.6 - Valores extremos e teste da derivada segunda.
+6.7 - Teorema do Valor Extremo para funções de duas variáveis.
+6.8 - Multiplicadores de Lagrange
+6.9 - Problemas de Otimização
+
+**Avaliações (6 horas/aula)**
+
+## Processo de Avaliação
+*   2 provas parciais valendo 25 pontos cada; totalizando 50 pontos;
+*   Trabalhos práticos e exercícios ou outras atividades, a critério do professor; totalizando 20 pontos;
+*   Avaliação Global: 30 pontos.
+*   Reavaliação: 30 pontos.
+
+A prova de reavaliação substitui a Avaliação Global e só deve ser realizada pelo aluno que ficou abaixo de 60 pontos.
+
+## Observações
+**Bibliografia Básica Justificada:**
+
+1.  CIÊNCIA E NATURA. Rio Grande do Sul: Universidade Federal de Santa Maria:1979-. Irregular. ISSN 0100-8307. Disponível em: https://periodicos.ufsm.br/index.php/cienciaenatura.
+    *Justificativa: É uma revista especializada na divulgação de trabalhos relacionados com as Ciências Naturais Exatas, em especial, as áreas de Física, Matemática, Estatística, Química, Geociências, Geografia, Biologia e Meteorologia, bem como a Educação nestas áreas e a interdisciplinaridade entre elas. Conta com artigos publicados que são de fácil leitura para alunos em início de graduação, abordando conteúdos relacionados à disciplina*
+
+2.  GUIDORIZZI, Hamilton Luiz. Um curso de cálculo: volume 1. 6. ed. Rio de Janeiro: LTC, 2018. E-book. ISBN 9788521635574.
+    *Justificativa: O livro apresenta o estudo de integrais nos seus quatro primeiros capítulos, sendo o capítulo 4 dedicado às aplicações das integrais impróprias à Estatística. A partir do oitavo capítulo, o livro apresenta o estudo de funções reais de várias variáveis reais, podendo destacar a definição desse tipo de função, gráficos e curvas de nível de funções de duas variáveis. O conceito de superfícies de nível de funções de três variáveis também é apresentado. O estudo e interpretação de derivadas parciais e direcionais permite compreender a teoria sobre máximos e mínimos de funções de duas e três variáveis. O autor se preocupa com a exposição rigorosa dos temas abordados e busca explorar a teoria desenvolvida com o auxílio de exemplos. Ao final de cada seção, são apresentados exercícios para a prática e fixação dos conteúdos e para o aprofundamento teórico do assunto.*
+
+3.  STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo: volume 1. 9. ed. São Paulo: Cengage Learning, c2022. E-book. ISBN 9786555584097.
+    *Justificativa: O livro de James Stewart é um clássico moderno, que abrange o conteúdo das unidades 01, 02, 03 e 04 da disciplina, com um tratamento completo e rigoroso dos conceitos elementares do Cálculo Integral. Com texto excelente e ótimas ilustrações em cores, a obra é enriquecida por inúmeros exemplos, exercícios e aplicações práticas. Trata-se de uma obra muito adequada à disciplina, sendo o seu livro-texto e também das outras disciplinas da sequência de Cálculo. O livro eletrônico é acessível a todos os alunos da disciplina.*
+
+4.  STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo: volume 2. 9. ed. São Paulo: Cengage Learning, c2023. E-book. ISBN 9786555584103.
+    *Justificativa: O livro de James Stewart é um clássico moderno, que abrange o conteúdo das unidades 05 e 06 da disciplina, com um tratamento completo e rigoroso dos conceitos elementares do Cálculo Diferencial de Funções Reais de Várias Variáveis Reais. Com texto excelente e ótimas ilustrações em cores, a obra é enriquecida por inúmeros exemplos, exercícios e aplicações práticas. Trata-se de uma obra muito adequada à disciplina, sendo o seu livro-texto e também das outras disciplinas da sequência de Cálculo. O livro eletrônico é acessível a todos os alunos da disciplina.*
+
+**Bibliografia Complementar Justificada:**
+
+1.  FLEMMING, Diva Marília; GONÇALVES, Mirian Buss. Cálculo A: funções, limite, derivação, integração. 6. ed. rev. e ampl. São Paulo: Pearson Prentice Hall, 2007. E-book. ISBN 9788576051152.
+    *Justificativa: O livro de Diva Flemming e outros autores trata de forma resumida o conteúdo das unidades 01, 02, 03 e 04 da disciplina, com um tratamento simples e direto dos conceitos básicos. Apresenta algumas aplicações práticas e um texto enxuto. O livro eletrônico está disponível para todos os alunos da disciplina. Trata-se de uma obra adequada à disciplina, em particular para os alunos com menos tempo disponível para estudos extraclasse, porém com embasamento mais sólido de Matemática.*
+
+2.  FORSCIENCE. Formiga, MG: Instituto Federal de Minas Gerais, Quadrimestral (4 em 4 meses). ISSN 2318-6356 versão on-line. Disponível em: https://forscience.ifmg.edu.br/index.php/forscience
+    *Justificativa: É um periódico especializado na divulgação de trabalhos multidisciplinares, em especial, com publicação de artigos de qualidade nas áreas de engenharias, computação, Matemática e ensino. Conta com artigos publicados que são de fácil leitura para alunos em início de graduação, abordando conteúdos relacionados à disciplina.*
+
+3.  HOFFMANN, Laurence D et al. Cálculo: um curso moderno e suas aplicações. 11. ed. Rio de Janeiro: Livros Técnicos e Científicos, c2015. E-book. ISBN 978-85-216-2909-2.
+    *Justificativa: O livro dedica os capítulos 5, 6 e 7 ao estudo de integrais e funções de várias variáveis. Cada seção começa com uma lista de objetivos de aprendizado. O autor apresenta definições e exemplos necessários ao desenvolvimento do conteúdo e apresenta, ao final de cada seção, exercícios sugeridos sendo que alguns deles são aplicados às Ciências Exatas e às Engenharias.*
+
+4.  GONÇALVES, Mirian Buss; FLEMMING, Diva Marília. Cálculo B: funções de várias variáveis, integrais múltiplas, integrais curvilíneas e de superfície. 2. ed. rev. e ampl. São Paulo: Pearson/Prentice Hall, 2007. E-book. ISBN 9788576051169.
+    *Justificativa: O livro apresenta quatro capítulos exclusivos ao estudo das funções de várias variáveis, a saber, os capítulos 1, 4, 5 e 6. Neles, os autores exploram muitos exemplos, ilustrações e aplicações práticas, o que favorece uma exposição mais clara e dinâmica do estudo de tais funções. Os exercícios sugeridos ao final de cada seção auxiliam na prática e fixação dos conteúdos e no aprofundamento teórico sobre o tema.*
+
+5.  THOMAS, George Brinton; WEIR, Maurice D.; HASS, Joel. Cálculo: volume 1. 12. ed. São Paulo: Pearson Education do Brasil, 2012. E-book. ISBN 9788581430867.
+    *Justificativa: A clássica obra do renomado autor americano George Thomas, agora com contribuição de outros autores, aborda de forma rápida e objetiva o conteúdo de integração e suas aplicações, com um tratamento elementar dos conceitos básicos. Repleto de aplicações práticas e com texto muito agradável, o livro eletrônico pode ser acessado por todos os alunos da disciplina. Trata-se de uma obra muito adequada à disciplina, enriquecendo os conhecimentos de Matemática e Língua Portuguesa dos alunos.*
+
+6.  THOMAS, George Brinton; WEIR, Maurice D.; HASS, Joel. Cálculo: volume 2. 12. ed. São Paulo: Pearson Education do Brasil, 2012. E-book. ISBN 9788581430874.
+    *Justificativa: A clássica obra do renomado autor americano George Thomas, agora com contribuição de outros autores, aborda de forma rápida e objetiva o cálculo diferencial de funções reais de várias variáveis reais e suas aplicações, com um tratamento elementar dos conceitos básicos. Repleto de aplicações práticas e com texto muito agradável, o livro eletrônico pode ser acessado por todos os alunos da disciplina. Trata-se de uma obra muito adequada à disciplina, enriquecendo os conhecimentos de Matemática e Língua Portuguesa dos alunos.*
+
+**Complementação de carga-horária**
+Caso o período letivo não seja suficiente para integralizar a carga-horária da disciplina, os alunos participarão de atividades visando a complementação da respectiva carga-horária.
+
+## Descrição da Bibliografia Básica
+*   CIÊNCIA E NATURA. Rio Grande do Sul: Universidade Federal de Santa Maria:1979-. Irregular. ISSN 0100-8307. Disponível em: https://periodicos.ufsm.br/index.php/cienciaenatura. Acesso em: 30 abr. 2019.
+*   GUIDORIZZI, Hamilton Luiz. Um curso de cálculo: volume 1. 6. ed. Rio de Janeiro: LTC, 2018. *E-book*. ISBN 9788521635574.
+*   STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo: volume 1. 9. ed. São Paulo: Cengage Learning, c2022. *E-book*. ISBN 9786555584097.
+*   STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo: volume 2. 9. ed. São Paulo: Cengage Learning, c2023. *E-book*. ISBN 9786555584103.
+
+## Descrição da Bibliografia Complementar
+*   FLEMMING, Diva Marília; GONÇALVES, Mirian Buss. Cálculo A: funções, limite, derivação, integração. 6. ed. rev. e ampl. São Paulo: Pearson Prentice Hall, 2007. *E-book*. ISBN 9788576051152.
+*   FORSCIENCE. Formiga, MG: Instituto Federal de Minas Gerais, Quadrimestral (4 em 4 meses). ISSN 2318-6356. Disponível em: http://www.forscience.ifmg.edu.br/forscience/index.php/forscience. Acesso em: 30 abr. 2019.
+*   GONÇALVES, Mirian Buss; FLEMMING, Diva Marília. Cálculo B: funções de várias variáveis, integrais múltiplas, integrais curvilíneas e de superfície. 2. ed. rev. e ampl. São Paulo: Pearson/Prentice Hall, 2007. *E-book*. ISBN 9788576051169.
+*   HOFFMANN, Laurence D. *et al.* Cálculo: um curso moderno e suas aplicações. 11. ed. Rio de Janeiro: Livros Técnicos e Científicos, c2015. *E-book*. ISBN 978-85-216-2909-2.
+*   THOMAS, George Brinton; WEIR, Maurice D.; HASS, Joel. Cálculo: volume 1. 12. ed. São Paulo: Pearson Education do Brasil, 2012. *E-book*. ISBN 9788581430867.
+*   THOMAS, George Brinton; WEIR, Maurice D.; HASS, Joel. Cálculo: volume 2. 12. ed. São Paulo: Pearson Education do Brasil, 2012. *E-book*. ISBN 9788581430874.

@@ -1,0 +1,102 @@
+---
+title: "NEGOCIAÇÃO E TOMADA DE DECISÃO"
+subtitle: "Nota: 83 | Extracurricular"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Nelio Oliveira (Mestrado)."
+categories: ["PUC Minas", "Gestao", "Administracao"]
+carga_horaria: 80
+nota: 83
+periodo: 100
+toc: true
+---
+
+## Ementa
+Modelos de tomada de decisão. Decisão e liderança em ambientes competitivos. Ferramentas de apoio à tomada de decisão. Conflito e negociação. Negociação: estratégia e processo. Desenvolvimento de competências de negociação.
+
+## Objetivos
+**Geral**
+Oferecer subsídios teóricos e práticos que possibilitem o desenvolvimento de posturas, capacidades e habilidades dos alunos para conduzirem com maior eficácia processos de tomada de decisão, incluindo a negociação.
+
+**Específicos**
+Que o aluno se mostre capaz de:
+*   Compreender abordagens, modelos teóricos, estratégias, técnicas e ferramentas que permitam melhor adequação e condução em tomada de decisões e negociações internas e externas de uma organização;
+*   Compreender a função do relacionamento interpessoal dentre as habilidades e competências de um tomador de decisão e negociador;
+*   Analisar contextos de conflito entre diferentes atores que tem interesses nas organizações e propor alternativas capazes de levar a acordos duradouros.
+
+## Métodos Didáticos
+*   Videoaulas, testes para averiguação de aprendizagem, leitura recomendada (textos e bibliografia)
+*   Tira dúvidas via correio eletrônico.
+*   Obs.: a disciplina é realizada à distância e de maneira assínrona.
+
+**Recursos**
+Videoaulas e vídeos diversos, testes de compreensão, bibliografia eletrônica (biblioteca virtual) e física disponível nas unidades.
+
+Obs.: a disciplina usará a plataforma Canvas para disponibilização dos recursos.
+
+## Unidades de Ensino
+1.  **Modelos de Tomada de Decisão - 18 horas**
+    1.1 Introdução aos modelos
+    1.2 Decisão racional
+    1.3 Decisão comportamental
+    1.4 Decisão política
+    1.5 Decisão responsável
+    1.6 Outros modelos (residuais) de tomada de decisão: intuição, incrementalismo e categorização
+
+2.  **Prática da Tomada de Decisão - 20 horas**
+    2.1 Modelos ou Ferramentas de apoio a decisão
+    2.2 Considerações sobre métodos quantitativos
+    2.3 Percepção, processos mentais, vieses e a tomada de decisão
+    2.4 Decisão nas Organizações
+    2.5 Liderança e Decisão
+    2.6 Decisões em grupo
+
+3.  **Conflito e Negociação - 18 horas**
+    3.1 Conflito conceito
+    3.2 Visões do conflito
+    3.3 Formas de resolução de conflitos
+    3.4 Conflito e negociação
+    3.5 Características de negociação
+    3.6 Tipos de negociação
+
+4.  **Desenvolvimento de Competências de Negociação - 24 horas**
+    4.1 Introdução às competências de negociação
+    4.2 Poder e negociação
+    4.3 Estratégias de negociação
+    4.4 Planejamento da negociação
+    4.5 BATNA
+    4.6 Percepção, comunicação e negociação.
+    4.7 Táticas e técnicas para negociação
+    4.8 Táticas para superação de impasses e argumentos.
+    4.9 Concessão
+
+## Processo de Avaliação
+*   Testes - 20 x 5 pontos
+*   Reavaliação (para quem não alcançar os 60 pontos) - 100 pontos
+
+Nota final é a média do semestre e a reavaliação
+
+## Observações
+**Competências**
+C1 - Integrar conhecimentos fundamentais de tomada de decisão e negociação para criar ou aprimorar de forma inovadora os modelos de negócios, de operacionais e organizacionais, para que sejam sustentáveis nas dimensões sociais, ambientais, econômicas e culturais.
+
+C2 - Compreender técnicas na análise de tomada de decisão e negociação, considerando a qualidade da informação, diferenciando informações confiáveis de não confiáveis, e de que forma ela pode ser usada como balizadora na tomada de decisão.
+
+**Habilidades**
+H1 - Ter relacionamento interpessoal, usando de empatia e outros elementos que favoreçam a construção de relacionamentos colaborativos, que facilitem as decisões, o trabalho em time e a efetiva gestão de conflitos.
+
+H2 - Comunicar-se de forma eficaz, compartilhando ideias e conceitos de forma efetiva e apropriada à audiência e à situação, usando argumentação suportada por evidências e dados, deixando claro quando suportada apenas por indícios, com a preocupação ética de não usar dados para levar a interpretações equivocadas.
+
+H3 - Ser capaz de acompanhar a evolução social e tecnológica, adquirindo novos conhecimentos, e utilizando-os em contextos diversos, de forma autônomo e crítica no desenvolvimento de novas competências ao longo de sua vida profissional.
+
+## Descrição da Bibliografia Básica
+*   GOMES, Luiz Flávio Autran Monteiro; GOMES, Carlos Francisco Simões. Princípios e métodos para tomada de decisão: enfoque multicritério. 6. ed. São Paulo: Atlas, 2019. *E-book*. ISBN 9788597021592.
+*   LEWICKI, Roy J.; SAUNDERS, David M.; BARRY, Bruce. Fundamentos de negociação. 5. ed. Porto Alegre: AMGH, 2014. *E-book*. ISBN 9788580553864.
+*   PRETEXTO. Belo Horizonte: FUMEC, FACE, 2000-. semestral. ISSN 1984-6983 versão on-line. Disponível em: http://www.fumec.br/revistas/index.php/pretexto/index. Acesso em: 10 set. 2018.
+*   YU, Abraham Sin Oih (coord.). Tomada de decisão nas organizações: uma visão multidisciplinar. São Paulo: Saraiva, 2011. *E-book*. ISBN 978852126237.
+
+## Descrição da Bibliografia Complementar
+*   MAÇÃES, Manuel. Planejamento, estratégia e tomada de decisão. Lisboa: Actual, 2017. *E-book*. ISBN 9789896942274.
+*   MARTINELLI, Dante P.. Negociação empresarial: enfoque sistêmico e visão estratégica. 2. ed. Barueri, SP: Manole, 2015. *E-book*. ISBN 9788520448823.
+*   THOMPSON, Leigh L. O negociador. 3. ed. São Paulo: Pearson Prentice Hall, 2009. *E-book*. ISBN 9788576051930.
+*   PESSOA, Carlos. Negociação aplicada: como utilizar as táticas e estratégias para transformar conflitos interpessoais em relacionamentos cooperativos. São Paulo: Atlas, 2009. *E-book*. ISBN 9788522464456.
+*   RECADM: revista eletrônica de ciência administrativa. Campo Largo: Instituto Brasileiro de Estudos e Pesquisas Sociais, 2002-. Quadrimestral (4 em 4 meses). ISSN 1677-7387 versão on-line. Disponível em: http://www.periodicosibepes.org.br/index.php/recadm/index. Acesso em: 10 set. 2018.
+*   SARFATI, Gilberto (org.). Manual de negociação. São Paulo: Saraiva, 2010. *E-book*. ISBN 9788502119352.

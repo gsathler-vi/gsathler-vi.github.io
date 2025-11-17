@@ -1,0 +1,147 @@
+---
+title: "CÁLCULO APLICADO I"
+subtitle: "Nota: 60 | Período: 1"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Joao Ricardo Siqueira de Oliveira (Mestrado)."
+categories: ["PUC Minas", "Quantitativo", "Economia"]
+carga_horaria: 80
+nota: 60
+periodo: 1
+toc: true
+---
+
+## Ementa
+Funções: polinomiais, racionais, algébricas, exponenciais, logarítmicas e trigonométricas. Limites. Continuidade. Derivada: definição e interpretações. Regras de derivação. Derivação implícita. Aplicações de derivada: taxas relacionadas, regra de L’Hospital, estudo do comportamento de funções, esboço de gráficos e otimização. Aplicações práticas.
+
+## Objetivos
+**Objetivos Gerais:**
+Instruir percursos de aprendizagem que possibilitem ao estudante:
+*   Identificar, formular e resolver problemas;
+*   Comunicar-se eficiente nas formas escrita, oral e gráfica;
+*   Assumir uma postura investigativa e crítica.
+
+**Objetivos Específicos:**
+*   Desenvolver no estudante a capacidade de expressar funções através de suas possíveis representações;
+*   Estudar as principais funções algébricas e transcendentes;
+*   Explorar modelos matemáticos que envolvam as funções estudadas;
+*   Calcular limites por meio de análises de gráficos e de forma algébrica;
+*   Compreender o conceito geométrico e algébrico da derivada;
+*   Calcular derivadas por meio de regras de derivação;
+*   Aplicar o conceito de derivada nas Ciências Exatas e Engenharias;
+*   Aplicar o conceito de derivadas para o esboço de gráficos de funções, análise de problemas de taxas relacionadas e na resolução de problemas de otimização.
+*   Possibilitar o uso de aplicativos computacionais de representação gráfica de funções, cálculo de limites e esboço da reta tangente à uma curva em um dado ponto.
+
+## Métodos Didáticos
+*   Estudo de conceitos por meio de aulas expositivas e dialogadas;
+*   Ações de nivelamento que visem resgatar conteúdos matemáticos prévios necessários na disciplina;
+*   Incentivo à exploração dos livros didáticos indicados para a disciplina;
+*   Resolução de exercícios;
+*   Desenvolvimento de atividades individuais ou em grupo.
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento**
+Ao longo do curso são revisitados os principais conceitos associados aos conjuntos numéricos, manipulações algébricas, resolução de equações e inequações, bem como as propriedades e os gráficos das principais funções elementares, que são de fundamental importância para a compreensão dos conteúdos estudados na disciplina e suas aplicações. Além disso, a bibliografia adotada contém um livro de Pré-Cálculo, que fornece um tratamento elementar dos conceitos básicos citados anteriormente e uma noção introdutória dos fundamentos do Cálculo propriamente dito.
+
+**Unidade 1 - Funções (18 horas/aula)**
+1.1 - Conceito, definição e notações
+1.2 - Funções polinomiais: lineares, quadráticas e de grau superior
+1.3 - Funções racionais e algébricas
+1.4 - Funções exponenciais e logarítmicas
+1.5 - Funções trigonométricas e trigonométricas inversas
+1.6 - Aplicações de funções nas Ciências Exatas e Engenharias
+
+**Unidade 2 - Limites e continuidade (10 horas/aula)**
+2.1 - Limite de uma função
+2.2 - Limites laterais
+2.3 - Propriedade operatórias dos limites
+2.4 - Limites no infinito e limites infinitos
+2.5 - Assíntotas horizontais e verticais
+2.6 - Continuidade de funções
+
+**Unidade 3 - A derivada de uma função (8 horas/aula)**
+3.1 - Taxa média de variação
+3.2 - Derivada de uma função em um ponto e sua interpretação geométrica
+3.3 - A derivada como uma função
+
+**Unidade 4 - Regras de derivação - (18 horas/aula)**
+4.1 - Propriedades da derivada
+4.2 - Derivadas de funções polinomiais e exponenciais
+4.3 - Regra do produto e do quociente
+4.4 - Derivadas de funções trigonométricas
+4.5 - Regra da cadeia
+4.6 - Derivação Implícita
+4.7 - Derivadas de funções logarítmicas.
+4.8 - Aplicações de derivadas nas Ciências Exatas e Engenharias.
+
+**Unidade 5 - Aplicações de derivadas (18 horas/aula)**
+5.1 - Taxas relacionadas
+5.2 - Aproximações lineares
+5.3 - Máximos e mínimos de funções. O Teorema do Valor Extremo
+5.4 - O Teorema do Valor Médio
+5.5 - Crescimento e decrescimento de uma função
+5.6 - Estudo de concavidades do gráfico de uma função
+5.7 - Regra de L'Hospital
+5.8 - Construção de gráficos de funções
+5.9 - Problemas de otimização
+
+**Avaliações: 8 horas/aula**
+
+## Processo de Avaliação
+*   3 provas valendo 25,0 pontos cada - totalizando 75,0 pontos;
+*   Atividades Avaliativas, a critério do professor, totalizando 25,0 pontos;
+*   Reavaliação - 25,0 pontos
+
+**Observações:**
+1) Todas as provas serão realizadas individualmente e em sala de aula.
+2) Nos cursos que contam com a aplicação da Avaliação de Desempenho Acadêmico, 5 dentre os pontos de trabalhos serão destinados à ela e os 20 pontos restantes serão distribuídos a critério do professor.
+3) A reavaliação substitui a menor nota dentre as três provas e só deve ser realizada pelo aluno que ficou abaixo de 60 pontos e/ou perdeu alguma das provas.
+
+## Observações
+**Bibliografia Básica Justificada:**
+
+1.  ANTON, Howard; BIVENS, Irl; DAVIS, Stephen. Cálculo: volume I. 10. ed. Porto Alegre: Bookman, 2014. E-book. ISBN 9788582602263.
+    *Justificativa: O livro do renomado autor norte-americano Howard Anton, agora também com a contribuição de outros autores, é um excelente texto moderno, que perpassa todo conteúdo de todas as unidades da disciplina, com um tratamento completo e compreensivo dos conceitos elementares do Cálculo. Com ótimo texto e ilustrações diversas, a obra é enriquecida por diversos exemplos, exercícios e aplicações práticas. Trata-se de uma obra muito adequada à disciplina. O Capítulo 1 e os apêndices trazem farto conteúdo de nivelamento, revisitando os fundamentos da Matemática Básica, com uma abordagem similar à de Stewart. O livro eletrônico é acessível a todos os alunos da disciplina.*
+
+2.  CIÊNCIA E NATURA. Rio Grande do Sul: Universidade Federal de Santa Maria:1979-. Irregular. ISSN 0100-8307. Disponível em: https://periodicos.ufsm.br/index.php/cienciaenatura.
+    *Justificativa: É uma revista especializada na divulgação de trabalhos relacionados com as Ciências Naturais Exatas, em especial, as áreas de Física, Matemática, Estatística, Química, Geociências, Geografia, Biologia e Meteorologia, bem como a Educação nestas áreas e a interdisciplinaridade entre elas. Conta com artigos publicados que são de fácil leitura para alunos em início de graduação, abordando conteúdos relacionados à disciplina.*
+
+3.  STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo: volume 1. 9. ed. São Paulo, SP: Cengage Learning, 2022. 1 recurso online. ISBN 9786555584097.
+    *Justificativa: O livro de James Stewart é um clássico moderno, que abrange o conteúdo de todas as unidades da disciplina, com um tratamento completo e rigoroso dos conceitos elementares do Cálculo. Com texto excelente e ótimas ilustrações em cores, a obra é enriquecida por inúmeros exemplos, exercícios e aplicações práticas. Trata-se de uma obra muito adequada à disciplina, sendo o seu livro-texto e também da disciplina de Cálculo II, subsequente. Os apêndices A, B, C e D servem como nivelamento, revisando os conceitos elementares da Matemática Básica. O Capítulo 1 segue o mesmo espírito, retomando o conceito de função, ao mesmo tempo em que introduz uma abordagem com foco na modelagem matemática dos problemas. O livro eletrônico é acessível a todos os alunos da disciplina.*
+
+4.  THOMAS, George Brinton; WEIR, Maurice D.; HASS, Joel. Cálculo: volume 1. 12. ed. São Paulo: Pearson Education do Brasil, 2012. E-book. ISBN 9788581430867.
+    *Justificativa: A clássica obra do renomado autor americano George Thomas, agora com contribuição de outros autores, aborda de forma rápida e objetiva o conteúdo de todas as unidades da disciplina, com um tratamento elementar dos conceitos básicos. Repleto de aplicações práticas e com texto muito agradável, o livro eletrônico pode ser acessado por todos os alunos da disciplina. Trata-se de uma obra muito adequada à disciplina, especialmente para os alunos com embasamento não tão sólido de Matemática e Língua Portuguesa.*
+
+**Bibliografia Complementar Justificada:**
+
+1.  ADAMI, Adriana Miorelli; DORNELLES FILHO, Adalberto Ayjara; LORANDI, Magda Mantovani. Pré-cálculo. Porto Alegre, RS: Bookman, 2015. E-book. ISBN 9788582603215.
+    *Justificativa: O livro "Pré-Cálculo", de Adriana Adami, cobre o conteúdo de todas as unidades da disciplina, com um tratamento elementar dos conceitos básicos da Álgebra e do Pré-Cálculo e apenas uma noção introdutória dos fundamentos do Cálculo propriamente dito. Escrito com o intuito de servir como revisão e nivelamento para os ingressantes em cursos superiores, o livro eletrônico está à disposição de todos os alunos da disciplina. Trata-se de uma obra muito adequada à disciplina.*
+
+2.  ÁVILA, Geraldo; ARAÚJO, Luis Cláudio Lopes de. Cálculo: ilustrado, prático e descomplicado. Rio de Janeiro, RJ: LTC - Livros Técnicos e Científicos, 2012. E-book. ISBN 978-85-216-2128-7.
+    *Justificativa: O livro do renomado matemático mineiro Geraldo Ávila, escrito em parceria com Luís Cláudio de Araújo, abrange resumidamente todo o conteúdo da disciplina, com um tratamento simples, prático e direto dos principais elementos do cálculo. Com texto robusto, o livro é muito apropriado para aqueles alunos com melhor embasamento matemático e pouco tempo de estudo fora da sala de aula. Também é muito interessante a interação constante do texto com software matemático, notadamente o programa Geogebra. O livro eletrônico pode ser acessado por todos os alunos da disciplina.*
+
+3.  FLEMMING, Diva Marilia; GONCALVES, Mirian Buss. Cálculo A: funções, limite, derivação, noções de integração. 6 ed. São Paulo, SP: Pearson Prentice Hall, 2006. E-book. ISBN 9788576051152.
+    *Justificativa: O livro de Diva Flemming e outros autores trata de forma resumida o conteúdo de todas as unidades da disciplina, com um tratamento simples e direto dos conceitos básicos. O livro eletrônico está disponível para todos os alunos da disciplina. Trata-se de uma obra adequada à disciplina, em particular para os alunos com menos tempo disponível para estudos extraclasse, porém com embasamento mais sólido de Matemática.*
+
+4.  FORSCIENCE. Formiga, MG: Instituto Federal de Minas Gerais,. Quadrimestral (4 em 4 meses). ISSN 2318-6356. Disponível em: http://www.forscience.ifmg.edu.br/forscience/index.php/forscience
+    *Justificativa: É um periódico especializado na divulgação de trabalhos multidisciplinares, em especial, com publicação de artigos de qualidade nas áreas de engenharias, computação, Matemática e ensino. Conta com artigos publicados que são de fácil leitura para alunos em início de graduação, abordando conteúdos relacionados à disciplina.*
+
+5.  GUIDORIZZI, Hamilton Luiz. Um curso de cálculo: volume 1. 6. ed. Rio de Janeiro: LTC, 2018. E-book. ISBN 9788521635574.
+    *Justificativa: Abordando quase todo o conteúdo da disciplina, o livro do renomado matemático brasileiro Hamilton Guidorizzi cobre todos os conceitos e resultados essenciais do cálculo diferencial. Com rigor e precisão, mas de leitura fluida e agradável. É muito apropriado para aqueles alunos com melhor embasamento matemático e que desejam aprofundar-se no rigor matemático. O livro eletrônico encontra-se disponível para todos os alunos da disciplina.*
+
+6.  HUGHES-HALLETT, Deborah et al. Cálculo de uma variável. 3. ed. Rio de Janeiro, RJ: LTC, c2004. E-book. ISBN 978-85-216-2417-2.
+    *Justificativa: O livro de Deborah Hughes-Hallett e outros abrange de forma resumida o conteúdo de todas as unidades da disciplina, com um tratamento agradável e objetivo dos conceitos fundamentais. Com texto enxuto e várias aplicações práticas, o livro é adequado àqueles alunos com pouca disponibilidade de tempo extraclasse mas sólido embasamento. O livro eletrônico é acessível a todos os alunos da disciplina.*
+
+**Complementação de carga-horária**
+Caso o período letivo não seja suficiente para integralizar a carga-horária da disciplina, os alunos participarão de atividades visando a complementação da respectiva carga-horária.
+
+## Descrição da Bibliografia Básica
+*   ANTON, Howard; BIVENS, Irl; DAVIS, Stephen. Cálculo: volume I. 10. ed. Porto Alegre: Bookman, 2014. *E-book*. ISBN 9788582602263.
+*   CIÊNCIA E NATURA. Santa Maria, RS: UFSM, Centro de Ciências Naturais e Exatas,1979-. Semestral. ISSN 0100-8307., Nº de Exemplares: 0.
+*   STEWART, James; CLEGG, Daniel; WATSON, Saleem. Cálculo: volume 1. 9. ed. São Paulo, SP: Cengage Learning, 2022. 1 recurso online. ISBN 9786555584097.
+*   WEIR, Maurice D; HASS, Joel (George B. Thomas). Cálculo – vol. 1. 12.ed. São Paulo: Pearson, 2012. ISBN 9788581430867.
+
+## Descrição da Bibliografia Complementar
+*   ADAMI, Adriana Miorelli; DORNELLES FILHO, Adalberto Ayjara; LORANDI, Magda Mantovani. Pré-cálculo. Porto Alegre, RS: Bookman, 2015. E-book ISBN 9788582603215.
+*   ÁVILA, Geraldo; ARAÚJO, Luis Cláudio Lopes de. Cálculo : ilustrado, prático e descomplicado. Rio de Janeiro, RJ: LTC - Livros Tecnicos e Cientificos, 2012. E-book ISBN 978-85-216-2128-7.
+*   FLEMMING, Diva Marilia; GONCALVES, Mirian Buss. Cálculo A funções ,limite, derivação , noções de integração. 6 ed. São Paulo, SP: Pearson Prentice Hall, 2006. ISBN 9788576051152.
+*   FORSCIENCE. Formiga, MG: Instituto Federal de Minas Gerais,. Quadrimestral (4 em 4 meses). ISSN 2318-6356. Disponível em: http://www.forscience.ifmg.edu.br/forscience/index.php/forscience
+*   GUIDORIZZI, Hamilton Luiz. Um curso de cálculo, v. 1. 6. Rio de Janeiro LTC 2018 1 recurso online ISBN 9788521635574.

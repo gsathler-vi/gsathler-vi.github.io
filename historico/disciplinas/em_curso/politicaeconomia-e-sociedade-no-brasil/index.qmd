@@ -1,0 +1,44 @@
+---
+title: "POLITICA,ECONOMIA E SOCIEDADE NO BRASIL"
+subtitle: "Período: 2"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestao Publica, sob a orientação do professor Geralda Luiza de Miranda (Doutorado)."
+categories: ["UFMG", "Historia", "Gestao Publica"]
+carga_horaria: 60
+periodo: 2
+toc: true
+---
+
+## Ementa
+Construção nacional e construção do Estado no Brasil, desde a independência. Dinâmicas interdependentes da política, da economia e da estrutura social brasileira no último século. Etapas históricas do desenvolvimento político, econômico e social no Brasil.
+
+## Descrição da Bibliografia Básica
+*   CARVALHO, José Murilo de. Cidadania no Brasil. Rio de Janeiro: Civilização Brasileira, 2002.
+*   REIS, José Carlos. As identidades do Brasil: de Varnhagen a FHC. FGV Editora, 2007.
+*   SORJ, Bernardo. A nova sociedade brasileira. Rio de Janeiro: Jorge Zahar, 2001.
+
+## Descrição da Bibliografia Complementar
+*   ABRUCIO, Fernando Luiz; FRANZESE, Cibele; SANO, Hironobu. Trajetória recente da cooperação e coordenação no federalismo brasileiro: avanços e desafios. República, democracia e desenvolvimento, p. 129, 2013.
+*   AVRITZER, Leonardo. Impasses da Democracia no Brasil. Rio de Janeiro: José Olympio, 2015. Introdução e Capítulo 1.
+*   AVRITZER, Leonardo; GOMES, Lilian C. B. Política de reconhecimento, raça e democracia no Brasil. Dados, Rio de Janeiro, v. 56, n. 1, p. 39-68, mar. 2013. Disponível em: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0011-52582013000100003&lng=en&nrm=iso
+*   BIELSCHOWSKY, Ricardo. Formação econômica do Brasil: uma obra-prima do estruturalismo cepalino. In: ARAÚJO, Tarcisio Patricio; VIANNA, Salvador Teixeira Werneck e MACAMBIRA, Júnior (Orgs.). 50 anos de Formação Econômica do Brasil: ensaios sobre a obra clássica de Celso Furtado. Rio de Janeiro: Ipea, 2009.
+*   BRASIL. Lei nº 9.795, de 27 de abril de 1999. Disponível em: http://www.planalto.gov.br/ccivil_03/leis/l9795.htm
+*   BRASIL. Conselho Nacional de Educação. Resolução nº 1, de 17 de junho de 2004. Disponível em: http://www.escoladeformacao.sp.gov.br/portais/Portals/84/docs/cursosconcursos/promocao/Anexo%20F5_RESOLUÇÃO%20CNECP%201,%20DE%2017%20DE%20J UNHO%20DE%202004.pdf
+*   BRASIL. Conselho Nacional de Educação. nº 1, de 30 de maio de 2012. Disponível em: http://portal.mec.gov.br/dmdocuments/rcp001_12.pdf
+*   CARDOSO, Fernando Henrique. Autoritarismo e democratização. Rio de Janeiro: Paz e Terra, 1975. pp. 165-186.
+*   CARDOSO, Fernando Henrique. Raymundo Faoro. In: CARDOSO, Fernando Henrique. Pensadores que inventaram o Brasil. São Paulo: Companhia das Letras, 2013.
+*   CARVALHO, Eneuton Dornellas Pessoa de. “O aparelho administrativo brasileiro: sua gestão e seus servidores – Do 1930 aos dias atuais.”. In: SANTOS, Alexandre dos, et alli. (orgs.). Estado, instituições e democracia: república. Brasília: IPEA, 2010.
+*   DEDECCA, Cláudio. A redução das desigualdades e seus desafios. Texto para discussão 2031. Brasília/ Rio de Janeiro: Instituto de Pesquisa Econômica Aplicada, 2015.
+*   GOMES, Ângela de Castro. O populismo e as ciências sociais no Brasil: notas sobre a trajetória de um conceito. Tempo, v. 1, nº 2, 1996.
+*   GUIMARÃES, Juarez. A trajetória intelectual de Celso Furtado. In: TAVARES, Maria da Conceição(org.). Celso Furtado e o Brasil. São Paulo: Perseu Abramo, 1996.
+*   LICIO, Elaine Cristina; MESQUITA, Camile Sahb; CURRALERO, Claudia Regina Baddini. Desafios para a coordenação intergovernamental do Programa Bolsa Família. Rev. adm. empres., São Paulo, v. 51, n. 5, p. 458-470, oct. 2011. Disponível em: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-75902011000500004&lng=en&nrm=iso
+*   MEDEIROS, Marcelo, Souza; PEDRO H. G. F.; CASTRO, Fabio Avila. A Estabilidade da Desigualdade de Renda no Brasil, 2006 a 2012: etimativa com dados do Imposto de Renda e Pesquisas Domiciliares. Cienc Saude Coletiva, no prelo (2014). Disponível em: http://www.cienciaesaudecoletiva.com.br/artigos/artigo_int.php?id_artigo=15020
+*   MENDONÇA, Ricardo Fabrino. Dimensões democráticas nas Jornadas de Junho: reflexões sobre a compreensão de democracia entre manifestantes de 2013. Disponível em: DOI: 10.590/339707/2018
+*   NICOLAU, Jairo. Partidos na República de 1946: velhas teses, novos problemas. Dados, vol. 47, nº 1, 2004.
+*   NUNES, Edson. A gramática política do Brasil: clientelismo e insulamento burocrático. Rio de Janeiro: Jorge Zahar, 1997. Cap. 1, 2, 3 e conclusão.
+*   SALLUM JR., Brasilio; GOULART, Jefferson O. O Estado brasileiro contemporâneo: liberalização econômica, política e sociedade nos governos FHC e Lula. Rev. Sociol. Polit., Curitiba, v. 24, n. 60, p. 115-135, Dec. 2016. Disponível em: http://dx.doi.org/10.1590/1678-987316246001
+*   SANTOS, Wanderley Guilherme dos. Sessenta e quatro: anatomia da crise. Rio de Janeiro: Vértice, 1986. Capítulos 1, 2 e 3.
+*   SANTOS, Wanderley Guilherme. A democracia impedida: o Brasil no século XXI. Cap. 2.
+*   SOUZA, Jessé. A elite do atraso: da escravidão a Bolsonaro. São Paulo: Estação Brasil, 2019.
+*   SOARES, Márcia Miranda; CUNHA, Edite. Política de assistência social e coordenação federativa no Brasil. Revista do Serviço Público, v. 67, n. 1, p. 86-109, 2016.
+*   SOARES, Sergei; SÁTYRO, Natália. O programa Bolsa Família: desenho institucional, impactos e possibilidades futuras. Texto para discussão1424. Brasília/ Rio de Janeiro: Instituto de Pesquisa Econômica Aplicada, 2009.
+*   ZHOURI, Andréa. Justiça ambiental, diversidade cultural e accountability: desafios para a governança ambiental. Rev. bras. Ci. Soc., São Paulo, v. 23, n. 68, p. 97-107, Oct. 2008. Disponível em: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-69092008000300007&lng=en&nrm=iso

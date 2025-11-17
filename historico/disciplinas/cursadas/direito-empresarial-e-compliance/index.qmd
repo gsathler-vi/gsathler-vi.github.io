@@ -1,0 +1,95 @@
+---
+title: "DIREITO EMPRESARIAL E COMPLIANCE"
+subtitle: "Nota: 81 | Extracurricular"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Administracao, sob a orientação do professor(a) Renato Luiz Vieira Magalhaes (Doutorado)."
+categories: ["PUC Minas", "Direito", "Administracao"]
+carga_horaria: 80
+nota: 81
+periodo: 100
+toc: true
+---
+
+## Ementa
+Introdução ao Estudo do Direito. Ramos do Direito. Fundamentos de Direito Empresarial: empresa, empresário e estabelecimento. Direito Societário. Tipos e características das sociedades empresariais. Relações de título de crédito. Relações de Direito Concorrencial. Relações de Direito Intelectual e Industrial. Contratos Mercantis. Noções de Falência e Recuperação de Empresa. Noções de Tributação de Empresa.
+
+## Objetivos
+Propiciar condições para que os estudantes desenvolvam competências e habilidades que lhes possibilitem compreender a ordem jurídica nacional, em especial o Direito de Empresa, de modo a permiti-los gerir e/ou orientar a gestão das empresas nas suas respectivas áreas de expertise.
+
+## Métodos Didáticos
+Aulas expositivas, fóruns de discussão, seminários, exibição de vídeos e podcasts.
+
+## Unidades de Ensino
+### CONTEÚDO PROGRAMÁTICO
+1.  **Direito Privado**
+    1.2 Direito Civil e Direito Empresarial
+2.  **Fundamentos do Direito Empresarial**
+    2.1 Empresa
+    2.1.1 Teoria da Empresa
+    2.2 Empresário
+    2.2.1 Caracterização e Inscrição
+3.  **Sociedades**
+    3.1 Pessoas Jurídicas
+    3.2 Personalidade Jurídica | Despersonalização da Pessoa Jurídica
+    3.3 Sociedades Personificadas
+    3.4 Sociedade Simples
+    3.5 Sociedade Limitada
+    3.5.1 Características
+    3.5.2 Capital Social e Quotas
+    3.5.3 Administração
+    3.5.4 Relações com Terceiros
+    3.5.5 Dissolução
+4.  **Estabelecimento**
+    4.1 Definição
+    4.2 Elementos
+    4.3 Objeto de Negócios Jurídicos
+5.  **Sociedade Anônima**
+    5.1 Características
+    5.3 Companhias de Capital Aberto e Fechado
+    5.4 Mercado de Capitais
+    5.4.1 Comissão de Valores Mobiliários
+    5.4.2 Bolsa de Valores
+    5.4.3 Novo Mercado
+6.  **Governança Corporativa e Compliance**
+    6.1 Conceituação
+    6.2 Marcos Legais
+    6.3 Mecanismos e Princípios de Governança
+7.  **Teoria Geral dos Títulos de Crédito**
+    7.1 Princípios da Documentalidade, Literalidade e Autonomia
+    7.2 Títulos Eletrônicos
+8.  **Propriedade Industrial | Conceito e Espécies**
+9.  **Contratos Mercantis**
+    9.1 Definição
+    9.2 Espécies
+    9.3 Regimes Jurídicos Contratuais
+10. **Recuperação Judicial e Falência**
+    10.1 Definição
+    10.2 Situação de Crise Econômico-Financeira
+    10.3 Noções de Arrecadação, Avaliação e Alienação de Bens e Classificação de Créditos
+    10.4 Extinção das Obrigações
+11. **Noções de Direito Concorrencial**
+12. **Noções de Direito Tributário**
+
+***
+
+## Processo de Avaliação
+Os 100 (cem) pontos durante o semestre letivo serão assim distribuídos:
+
+*   Primeira Avaliação - Valor: 25 pontos
+*   Segunda Avaliação - Valor: 25 pontos
+*   Trabalhos - Valor: 20 pontos
+*   Avaliação Global - Valor: 30 pontos
+*   Reavaliação - Valor: 30 pontos
+---
+*   **Total - 100 pontos**
+
+## Descrição da Bibliografia Básica
+*   COELHO, Fábio Ulhoa. Manual de direito comercial: direito de empresa. 28. ed., rev, atual. e ampl. São Paulo: Revista dos Tribunais, 2016. 415 p. ISBN 9788520366783., Nº de Exemplares: 2.
+*   FIUZA, César (coord.). Direito e negócios empresariais: desafios e perspectivas. Belo Horizonte, MG: Del Rey, 2010. viii, 277 p. ISBN 9788538401155., Nº de Exemplares: 2.
+*   NEGRÃO, Ricardo. Manual de Direito empresarial. 7. ed. São Paulo, SP: Saraiva, 2017 E-book ISBN 9788547217297.
+
+## Descrição da Bibliografia Complementar
+*   COELHO, Fábio Ulhoa. Curso de direito comercial: volume 3 : direito de empresa [contratos - recuperação de empresas]. 11. ed. São Paulo: Saraiva, 2010. 466 p. ISBN 9788502085572(v.3), Nº de Exemplares: 7., Nº de Exemplares: 4.
+*   DINIZ, Maria Helena. Compêndio de introdução à ciência do direito: introdução à teoria geral do direito, à filosofia do direito, à sociologia jurídica e à lógica jurídica, norma jurídica e aplicação do direito. 25. ed. São Paulo, SP: Saraiva, 2014. 615 p. ISBN 9788502215351., Nº de Exemplares: 31.
+*   FIUZA, César (coord.). Direito e negócios empresariais: desafios e perspectivas. Belo Horizonte, MG: Del Rey, 2010. viii, 277 p. ISBN 9788538401155., Nº de Exemplares: 2.
+*   MARTINS, Fran. Curso de direito comercial: empresa comercial, empresários individuais, microempresas, sociedades empresárias, fundo de comércio. 34. ed. Rio de Janeiro: Forense, 2011. xxvii, 410 p. ISBN 9788530933869., Nº de Exemplares: 1.
+*   TOMAZETTE, Marlon. Curso de direito empresarial: volume 2 : títulos de crédito. 5. ed. São Paulo: Atlas, 2014. xx, 462 p. ISBN 9788522491513., Nº de Exemplares: 16.

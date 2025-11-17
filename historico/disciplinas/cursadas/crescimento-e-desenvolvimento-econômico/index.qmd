@@ -1,0 +1,152 @@
+---
+title: "CRESCIMENTO E DESENVOLVIMENTO ECONÔMICO"
+subtitle: "Nota: 92 | Período: 5"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do professor(a) Júlia Leite de Carvalho Fernandes (Doutorado)."
+categories: ["PUC Minas", "Economia Aplicada", "Economia"]
+carga_horaria: 80
+nota: 92
+periodo: 5
+toc: true
+---
+
+## Ementa
+Crescimento e Desenvolvimento. Fatos estilizados. Modelos de crescimento exógeno. Teoria do Capital Humano. Economia das Ideias e Sistemas Nacionais de Inovação. Instituições e Rent seeking. Modelos de crescimento endógeno. O papel do setor externo. Desigualdade e Pobreza. Economia solidária. O que sabemos sobre desenvolvimento. Atividades de integração entre conhecimentos acadêmicos e saberes de outros setores da sociedade, unindo teoria e prática, por meio das modalidades de extensão.
+
+## Carga Externa
+A carga horária externa registrada na disciplina compreende o trabalho acadêmico efetivo realizado pelo discente, sob a supervisão do professor, realizado no próprio âmbito da disciplina, na forma de: atividades em biblioteca, iniciação científica, trabalhos individuais e em grupo, práticas de ensino, práticas de extensão, laboratórios, entre outras. Nessa perspectiva, ao professor caberá estabelecer os termos da operacionalização dessas atividades, assim como as necessárias formas de avaliação, no âmbito de suas atividades normais e rotineiras em sala de aula.
+(Resolução CNE/CES Nº 3, de 02 de Julho de 2007, art. 2º, item II)
+
+## Objetivos
+**Objetivo geral:**
+Apresentar aos alunos os conhecimentos teóricos necessários à compreensão dos conceitos de crescimento e desenvolvimento econômico, a evolução da teoria sobre crescimento e desenvolvimento econômico à partir da interlocução da teoria econômica com a história, sociologia e matemática; possibilitando-lhes desenvolver capacidades analíticas, criticas e discursivas para as problemáticas recentes sobre crescimento e desenvolvimento econômico.
+
+**Objetivos específicos:**
+*   Discutir a importância do conhecimento conceitual sobre crescimento econômico e desenvolvimento econômico;
+*   Destacar a importância da evolução do pensamento crescimento econômico que emerge das problemáticas econômicas ao longo das décadas;
+*   Destacar a importância da discussão sobre desenvolvimento econômico que emerge das problemáticas econômicas e sociais ao longo das décadas;
+*   Discutir os indicadores de desenvolvimento econômico e suas reformulações ao longo da história;
+*   Compreender a importância de políticas públicas em prol do desenvolvimento econômico e como interagem com o cenário do crescimento econômico dos diversos países;
+*   Apresentar as "novas economias" que emergem das discussões sobre crescimento econômico e desenvolvimento socioeconômico sustentável, assim como Economia Solidária, ESG e Economia de Francisco e Clara.
+*   Articular teoria e extensão universitária no âmbito do crescimento e desenvolvimento econômico e social dos territórios.
+
+## Métodos Didáticos
+*   Aulas expositivas e interativas;
+*   Apresentação de vídeos e documentários;
+*   Exercícios e estudos dirigidos;
+*   Trabalho de construção de Relatório Diagnóstico: Trajetórias de Crescimento e Desenvolvimento Econômico e Social.
+
+## Unidades de Ensino
+**UNIDADE 0 NIVELAMENTO**
+*   Conceito de Crescimento e Desenvolvimento Econômico
+*   Breve história da Teoria do Crescimento e Desenvolvimento Econômico
+*   Dados de Crescimento Econômico e Desenvolvimento
+*   Extensão Universitária e Transformação Social: Crescimento e Desenvolvimento em pauta
+
+**UNIDADE 1 MODELOS DE CRESCIMENTO EXÓGENO**
+*   Modelo Harrod-Domar
+*   Modelo Básico de Solow
+*   Tecnologia e Modelo do Solow
+*   Capital Humano e Crescimento Econômico
+*   Fatos estilizados - Nicholas Kaldor
+
+**UNIDADE 2 MODELOS DE CRESCIMENTO ENDÓGENO**
+*   A Economia das Ideias
+*   Instituições e crescimento econômico
+*   Crescimento e o Modelo de Romer
+*   Entendendo o Crescimento Econômico: Ricos e pobres, milagre econômico e motor do crescimento econômico
+
+**UNIDADE 3 DESENVOLVIMENTO ECONÔMICO**
+*   Evolução histórica do conceito de Desenvolvimento
+*   Desigualdade e Pobreza
+*   Estado do Bem-Estar Social
+*   Políticas Públicas e Desenvolvimento Econômico
+*   Economias Novas: Economia Solidária, Economia de Francisco e Clara e ESG.
+*   Entendendo o Desenvolvimento Econômico: Olhar Interdisciplinar e Multidisciplinar
+
+## Processo de Avaliação
+*   1º Lista de Exercícios: 5 pontos
+*   1º Prova Parcial: 20 pontos
+*   2º Lista de Exercícios: 5 pontos
+*   2º Prova Parcial: 20 pontos
+*   Prova Final (Avaliação Global): 30 pontos
+
+As especificações das listas de exercícios serão disponibilizadas pela professora da disciplina ao longo do semestre
+
+*   Relatório Diagnóstico: 20 pontos
+
+O Relatório Diagnóstico será a entrega final da prática extensionista das (os) alunas (os). A partir da experiência de extensão os resultados serão apresentados em espaço externo à Instituição a partir de apresentação oral no Seminário "Diálogos: Trajetórias de Crescimento e Desenvolvimento Econômico e Social". Além da apresentação, os alunos irão produzir um vídeo de curta duração apresentando os resultados.
+
+**MECANISMOS DE RECUPERAÇÃO:** Reavaliação: 30 pontos (substitui a Avaliação Global)
+
+## Observações
+**JUSTIFICATIVAS DAS BIBLIOGRAFIAS**
+
+**Bibliografia Básica:**
+
+*   BRUM, Argemiro J. Desenvolvimento econômico brasileiro. 30. ed. Ijuí, RS: Unijuí; Petrópolis, RJ: Vozes, 2020. E-book. ISBN 9786586074468.
+    *Justificativa: A obra apresenta um panorama da evolução econômica do Brasil. No processo brasileiro, o autor identifica três grandes fases distintas: a) a fase primário-exportadora (1500-1930); b) a tentativa de construção de um desenvolvimento nacional e autônomo, através da industrialização (1930-1964); c) a fase de desenvolvimento associado dependente, aprofundada a partir de 1964.*
+
+*   SEN, Amartya Kumar. Desenvolvimento como liberdade. São Paulo: Companhia das Letras, 2000. 409 p. ISBN 8571649782.
+    *Justificativa: Desenvolvimento como Liberdade é o primeiro livro de Amartya Sen após receber o Nobel e, é também, a obra mais lida entre todas a suas obras. O livro é um marco na construção da concepção de desenvolvimento socioeconômico ao apresentar que o desenvolvimento não deve ser visto em termos de medidas econômicas, tais como o PIB e rendimentos familiares, mas em termos das verdadeiras liberdades que as pessoas podem desfrutar, tais como facilidades econômicas e oportunidades sociais. É uma obra que possibilita ao aluno refletir sobre as medidas tradicionais de desenvolvimento de uma Nação.*
+
+*   VELOSO, Fernando A et al. (org.). Desenvolvimento econômico: uma perspectiva brasileira. Rio de Janeiro, RJ: Atlas, c2013. E-book. ISBN 9788595154759.
+    *Justificativa: Análise abrangente do desenvolvimento econômico brasileiro, com foco em temas relevantes e atuais. Apresenta diferentes perspectivas e análises sobre os desafios e oportunidades do desenvolvimento no Brasil.*
+
+*   RDE: revista de desenvolvimento econômico. Salvador: Universidade de Salvador, Departamento de Ciências Sociais Aplicadas, 1998-. ISSN 2178-8022. Versão online. Disponível em: https://revistas.unifacs.br/index.php/rde
+    *Justificativa: Esta publicação editada pela Universidade de Salvador é uma fonte valiosa de artigos científicos sobre desenvolvimento econômico. A RDE oferece aos alunos acesso a pesquisas atualizadas e análises críticas sobre o tema, tanto no contexto brasileiro quanto mundial.*
+
+**Bibliografia Complementar:**
+
+*   BARROS, Ev'Ângela Batista Rodrigues de; ALBUQUERQUE, Lucimar Magalhães de; RESENDE, Márcia Colamarco Ferreira (org.). Ressignificando a relação teoria e prática: reflexões sobre as práticas curriculares de extensão da PUC Minas. Belo Horizonte, MG: PUC Minas, 2019. E-book. ISBN 978-85-8239-098-6.
+    *Justificativa: A coletânea que constitui este e-book traz diversas experiências de professores e alunos que conseguiram enfrentar os desafios pedagógicos e operacionais e outros de maneira criativa e exitosa. O cerne dos textos que são apresentados aqui foi o entendimento de que o lugar universitário da aprendizagem profissional transcende a sala de aula e não se encerra em absorção de teorias e técnicas, mas sim, abrange aspectos que interagem com as representações sociais, com a dinâmica dos valores humanos e com a formação de cidadãos. Portanto, demanda mais espaços para o diálogo entre a teoria ensinada e as dinâmicas da sociedade que se vive.*
+
+*   FONSECA, Manuel Alcino R. da. Planejamento e desenvolvimento econômico. São Paulo, SP: Cengage Learning, 2006. E-book. ISBN 9788522108466.
+    *Justificativa: O livro de Fonseca apresenta fundamentos teóricos e instrumentos do planejamento econômico, articulando-os a experiências históricas de desenvolvimento. Sua abordagem clara e aplicada contribui para a formação crítica dos estudantes, especialmente na compreensão de políticas públicas e estratégias de desenvolvimento.*
+
+*   FURTADO, Celso. Teoria e política do desenvolvimento econômico. São Paulo (SP): Victor Civita: Abril Cultural, 1983. xxix, 243 p. (Os economistas).
+    *Justificativa: Obra clássica sobre desenvolvimento econômico na qual Celso Furtado traz uma abordagem interdisciplinar sobre a teoria do desenvolvimento econômico. A obra apresenta a teoria do desenvolvimento nas Ciências Econômicas, o enfoque histórico e analítico do desenvolvimento econômico, o subdesenvolvimento e a política de desenvolvimento.*
+
+*   JONES, Charles I. Introdução à teoria do crescimento econômico. Rio de Janeiro, RJ: Campus, 2000. xii, 178 p. ISBN 8535205446.
+    *Justificativa: A obra é um livro clássico e básico para compreender o desenvolvimento teórico sobre Crescimento Econômico. As percepções fundamentais das teorias do crescimento, antigas e modernas, são explicadas com grande transparência didática. O livro é útil nos cursos de crescimento econômico em nível de graduação, bem como nos cursos de macroeconomia, macroeconomia avançada e desenvolvimento econômico. Os alunos de graduação podem considerá-lo também um recurso valioso para o acompanhamento dos tratamentos mais avançados encontrados nos artigos técnicos originais e em outras fontes de consulta.*
+
+*   SOUZA, Nali de Jesus de. Desenvolvimento econômico. 5. ed. rev. São Paulo, SP: Atlas, 2005. 313 p. ISBN 8522440387.
+    *Justificativa: Uma obra sobre desenvolvimento econômico que articula diversas variáveis no pensar sobre o desenvolvimento econômico e os ciclos econômicos.*
+
+*   ECONOMIA E GESTÃO. Belo Horizonte: Ed. PUC Minas, 2001-. ISSN 1984-6606. Versão online. Disponível em: http://periodicos.pucminas.br/index.php/economiaegestao
+    *Justificativa: A Revista Economia & Gestão, criada no ano de 2001 pelo Instituto de Ciências Econômicas e Gerenciais - ICEG e pelo Programa de Pós-graduação em Administração - PPGA - da PUC Minas. A Revista é um veículo de disseminação do conhecimento científico e de interlocução entre pesquisadores e profissionais, professores e alunos das áreas relacionadas à gestão das organizações empresariais, públicas e do terceiro setor.*
+
+**OUTRAS INDICAÇÕES COMPLEMENTARES:**
+
+*   PESQUISA E DESENVOLVIMENTO TECNOLÓGICO: informativo do programa de gestão estratégica de tecnologia da CEMIG. Belo Horizonte, MG: Superintendência de Comunicação Empresarial da CEMIG,2007 A edição de 2007 traz a pauta da tecnologia para a sustentabilidade e reúne artigos que discutem a importância das patentes, das novas fontes de geração de energia, da geração de eficiência global e entre outros assuntos relacionados a temática.
+*   CONJUNTURA ECONÔMICA. Rio de Janeiro: FGV, Instituto Brasileiro de Economia,1947-. Mensal - A Revista Conjuntura Econômica já está há mais de meio século no mercado editorial. Acompanhando as mudanças e principais transformações que ocorreram no Brasil nesse longo período, a publicação é editada pelo Instituto Brasileiro de Economia da Fundação Getulio Vargas (IBRE/FGV), e se consolidou como a mais tradicional revista de economia do país. A Revista Conjuntura Econômica fornece aos alunos artigos e reportagens sobre macroeconomia, finanças, management e seguros, além de uma abrangente seção de estatísticas e índices de preços.
+*   SCHUMPETER, Joseph Alois. Teoria do desenvolvimento econômico: uma investigação sobre lucros, capital, crédito, juro e o ciclo econômico. São Paulo: Abril Cultural, 1982 Uma obra clássica sobre desenvolvimento econômico que articula diversas variáveis no pensar sobre o desenvolvimento econômico e os ciclos econômicos.
+*   KUZNETS, Simon Smith. Crescimento econômico moderno: ritmo, estrutura e difusão. São Paulo: Abril Cultural, 1983.- É um livro que analisa o ritmo, a estrutura e a difusão do crescimento econômico. A obra tem uma apresentação de Karlos Heins Rischbieter e foi traduzida por Benedicto de Carvalho.
+*   KALECKI, Michal. Crescimento e ciclo das economias capitalistas. São Paulo: Hucitec, 1977 - Kalecki deu importantes contribuições para a teoria econômica do desenvolvimento, que o colocam entre os fundadores dessa área de nossa disciplina. A obra discute, entre outras questões relevantes para os estudos do crescimento e os ciclos das economias capitalistas, as objeções dos capitalistas à política governamental de manutenção do pleno emprego por meio do aumento dos gastos públicos financiados por empréstimos, trazendo a problemática empresários versus política de expansão de gastos.
+*   AZZONI, C. R. Crescimento econômico e convergência das rendas regionais: o caso brasileiro a luz da nova teoria do crescimento. In: ENCONTRO NACIONAL DE ECONOMIA - ANPEC, 23, 1994, Florianópolis. Anais... 1994. v.1, p.185-205.
+*   DUQUE, R.(Org.). Lecturas sobre la Teoria Económica del Desarrollo. Madrid: Gredos, 1966.
+*   ENRIQUEZ, M. Trajetórias do desenvolvimento: da ilusão do crescimento ao imperativo da sustentabilidade. Rio de Janeiro: Garamond, 2010.
+*   FAHEL, Murilo; TELES, Leticia Ribeiro; CAMINHAS, Davy Alves. Para além da renda. Uma análise da pobreza multidimensional no Brasil. Revista Brasileira de Ciências Sociais, v.31, n. 92, p.1-21, 2016. e319205.
+*   FIORI, José Luís. Estado de Bem-estar Social: padrões e crises. Physis. Rev. Saúde Coletiva, v.7, n.2, p.129-147, 1997.
+*   FURTADO, C. Desenvolvimento e Subdesenvolvimento, 1961
+*   FURTADO, C. Teoria e política do desenvolvimento econômico. São Paulo: Editora Nacional, 1977, 6ª Ed.
+*   LOBATO, L. DE V. C.. Políticas sociais e modelos de bem-estar social: fragilidades do caso brasileiro. Saúde em Debate, v. 40, n. Saúde debate, 2016 40(spe), p. 8797, dez. 2016. Disponível em: .
+*   MEDEIROS, Marcelo. Os ricos e pobres: O Brasil e a desigualdade. São Paulo: Companhia das Letras. 2023.
+*   NOGUEIRA, Vera Maria Ribeiro. Estado de Bem-estar Social origens e desenvolvimento. Katálysis, n.5, p.89-103, 2001.
+*   RESENDE, Leticia A. P.; COSTA, Bruno L. D.; REIS, Guilherme F. P.. Precisamos falar sobre desigualdades. In: COSTA, Bruno Lazzarotti D.; SILVA, Matheus Arcelo F. (Org.). Desigualdade para inconformados: dimensões e enfrentamentos das desigualdades no Brasil. Porto Alegre: ed UFRGS/CEGOV, 2020.
+*   ROSTOW, W. Etapas do desenvolvimento econômico. , 6ª Edição. Rio de Janeiro: Zahar, 1978.
+*   SOUKI, Lea Guimarães. A atualidade de T. H. Marshall no estudo da cidadania no Brasil. Civitas. V.6, n.1, p.39-58, 2006. Disponível em: .
+*   VELOSO, F. et al. (orgs). DESENVOLVIMENTO ECONÔMICO - UMA PERSPECTIVA BRASILEIRA; RIO DE JANEIRO: CAMPUS ELSEVIER, 2013.
+
+## Descrição da Bibliografia Básica
+*   BRUM, Argemiro J.. Desenvolvimento econômico brasileiro. 30. ed. Ijuí, RS: Unijuí; Petrópolis, RJ: Vozes, 2020. *E-book*. ISBN 9786586074468.
+*   RDE: revista de desenvolvimento econômico. Salvador: Universidade de Salvador, Departamento de Ciências Sociais Aplicadas, 1998-. 2016-. ISSN 2178-8022 versão on-line. Disponível em: https://revistas.unifacs.br/index.php/rde. Acesso em: 16 jul. 2020.
+*   SEN, Amartya Kumar. Desenvolvimento como liberdade. São Paulo: Companhia das Letras, 2000. 409 p. ISBN 8571649782., Nº de Exemplares: 7.
+*   VELOSO, Fernando A. *et al.* (org.). Desenvolvimento econômico: uma perspectiva brasileira. Rio de Janeiro, RJ: Atlas, c2013. *E-book*. ISBN 9788595154759.
+
+## Descrição da Bibliografia Complementar
+*   BARROS, Ev'Ângela Batista Rodrigues de; ALBUQUERQUE, Lucimar Magalhães de; RESENDE, Márcia Colamarco Ferreira (org.). Ressignificando a relação teoria e prática: reflexões sobre as práticas curriculares de extensão da PUC Minas. Belo Horizonte, MG: PUC Minas, 2019. *E-book*. ISBN 978-85-8239-098-6. Disponível em: http://bib.pucminas.br:8080/pergamumweb/vinculos/000033/00003389.pdf. Acesso em: 3 jun. 2019.
+*   ECONOMIA E GESTÃO. Belo Horizonte: Ed. PUC Minas, 2001-. 2005-. ISSN 1984-6606 versão on-line. Disponível em: http://periodicos.pucminas.br/index.php/economiaegestao. Acesso em: 27 ago. 2018.
+*   FONSECA, Manuel Alcino R. da. Planejamento e desenvolvimento econômico. São Paulo, SP: Cengage Learning, 2006. *E-book*. ISBN 9788522108466.
+*   FURTADO, Celso. Teoria e política do desenvolvimento econômico. São Paulo (SP): Victor Civita: Abril Cultural, 1983. xxix, 243 p., Nº de Exemplares: 2.
+*   JONES, Charles I.. Introdução à teoria do crescimento econômico. Rio de Janeiro, RJ: Campus, 2000. xii, 178 p. ISBN 8535205446., Nº de Exemplares: 2.
+*   SOUZA, Nali de Jesus de. Desenvolvimento econômico. 5. ed. rev. São Paulo, SP: Atlas, 2005. 313 p. ISBN 8522440387., Nº de Exemplares: 2.
