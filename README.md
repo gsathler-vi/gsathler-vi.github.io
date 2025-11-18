@@ -4,17 +4,15 @@
 
 [![GitHub Pages](https://img.shields.io/github/deployments/gsathler-vi/gsathler-vi.github.io/github-pages?label=GitHub%20Pages)](https://gsathler-vi.github.io) [![Último commit](https://img.shields.io/github/last-commit/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io/commits/main) [![Linguagens](https://img.shields.io/github/languages/top/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io) [![Tamanho do repositório](https://img.shields.io/github/repo-size/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io)
 
-Índice - [Descrição do Projeto](#descrição-do-projeto) - [Status do Projeto](#status-do-projeto) - [Funcionalidades e Demonstração](#funcionalidades-e-demonstração) - [Conteúdo e Seções](#conteúdo-e-seções) - [Comportamento Responsivo e Acessibilidade](#comportamento-responsivo-e-acessibilidade) - [Acesso ao Projeto](#acesso-ao-projeto) - [Como executar localmente](#como-executar-localmente) - [Pré-requisitos](#pré-requisitos) - [Fluxos comuns](#fluxos-comuns) - [Uso do Quarto (detalhado)](#uso-do-quarto-detalhado) - [Quando/por que usar Quarto aqui](#quandopor-que-usar-quarto-aqui) - [Configuração típica (\_quarto.yml)](#configuração-típica-_quartoyml) - [Comandos úteis do Quarto](#comandos-úteis-do-quarto) - [Exemplo de fluxo de publicação com Quarto + GitHub Pages](#exemplo-de-fluxo-de-publicação-com-quarto--github-pages) - [Estrutura de pastas sugerida](#estrutura-de-pastas-sugerida) - [Tecnologias utilizadas](#tecnologias-utilizadas) - [Composição por linguagem](#composição-por-linguagem) - [Pessoas desenvolvedoras](#pessoas-desenvolvedoras) - [Observações / Dicas de manutenção](#observações--dicas-de-manutenção)
-
-## Descrição do projeto {#descrição-do-projeto}
+## Descrição do projeto
 
 Site pessoal e portfólio do Gabriel Sathler (gsathler-vi), hospedado via GitHub Pages. O projeto é um site estático composto por HTML/CSS (e SCSS), JavaScript para interatividade leve, e utiliza Quarto e scripts Python para geração/transformação de conteúdo quando aplicável (por exemplo, posts técnicos, notebooks ou páginas geradas a partir de dados).
 
-## Status do Projeto {#status-do-projeto}
+## Status do Projeto
 
 Em manutenção. Publicado com GitHub Pages (branch `main`). Atualizações de conteúdo, melhorias visuais e ajustes no pipeline de geração podem ser feitas conforme necessário.
 
-## Funcionalidades e Demonstração {#funcionalidades-e-demonstração}
+## Funcionalidades e Demonstração
 
 Funcionalidades primárias: - Páginas estáticas principais: Home, Sobre, Projetos/Portfólio, Blog/Artigos e Contato. - Estrutura de posts/páginas que permite publicação via Quarto (quando aplicável). - Layout responsivo otimizado para dispositivos móveis e desktop. - Estilização com CSS/SCSS com organização modular. - Interações JavaScript leves: navegação, animações e componentes UI simples. - Hospedagem contínua via GitHub Pages.
 
@@ -24,11 +22,11 @@ Comportamento Responsivo e Acessibilidade - O layout prioriza leitura em diferen
 
 Demonstração (produção) - URL pública: https://gsathler-vi.github.io
 
-## Acesso ao Projeto {#acesso-ao-projeto}
+## Acesso ao Projeto
 
 Repositório: - https://github.com/gsathler-vi/gsathler-vi.github.io
 
-## Como executar localmente {#como-executar-localmente}
+## Como executar localmente 
 
 Pré-requisitos - Git (para clonar) - Node.js + npm (se houver scripts / bundler) - Python 3 (opcional — útil para servir estáticos) - Quarto (opcional — se for usar o fluxo de geração com .qmd) - sass (opcional — para compilar SCSS manualmente)
 
@@ -48,7 +46,7 @@ Passos básicos 1. Clone: - git clone https://github.com/gsathler-vi/gsathler-vi
 
 Fluxos comuns - Desenvolvimento rápido: npm run dev (se disponível) — roda bundler/local server com hot reload. - Build para produção: npm run build (se disponível) + comando de geração do Quarto (se aplicável).
 
-## Uso do Quarto (detalhado) {#uso-do-quarto-detalhado}
+## Uso do Quarto
 
 Observação: o repositório contém artefatos relacionados a Quarto e scripts Python — caso queira gerar posts ou documentos programáticos, Quarto é a ferramenta recomendada.
 
@@ -71,11 +69,9 @@ Composição por linguagem - JavaScript: 39.8%\
 - Python: 25.2%\
 - SCSS: 3.8%
 
-## Pessoas desenvolvedoras {#pessoas-desenvolvedoras}
+## Pessoas desenvolvedoras 
 
--   Gabriel Sathler (gsathler-vi) — autor e mantenedor\
-    GitHub: https://github.com/gsathler-vi\
-    Avatar: https://avatars.githubusercontent.com/u/227610838?v=4
+-   Gabriel Sathler (gsathler-vi) — autor e mantenedor
 
 ## Observações / Dicas de manutenção
 
