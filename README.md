@@ -1,6 +1,6 @@
 # gsathler-vi.github.io
 
-![Capa do Projeto](https://github.com/gsathler-vi/gsathler-vi.github.io/preview-image.png)
+![Capa do Projeto](https://github.com/gsathler-vi/gsathler-vi.github.io/blob/main/preview-image.png)
 
 [![GitHub Pages](https://img.shields.io/github/deployments/gsathler-vi/gsathler-vi.github.io/github-pages?label=GitHub%20Pages)](https://gsathler-vi.github.io) [![Último commit](https://img.shields.io/github/last-commit/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io/commits/main) [![Linguagens](https://img.shields.io/github/languages/top/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io) [![Tamanho do repositório](https://img.shields.io/github/repo-size/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io)
 
