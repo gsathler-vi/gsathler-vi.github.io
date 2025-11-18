@@ -1,137 +1,85 @@
-# Site Pessoal de Portfólio - Código Aberto
+# gsathler-vi.github.io
 
-Olá! Este é o código-fonte do meu site de portfólio pessoal, que você pode ver ao vivo em [gsathler-vi.github.io](https://gsathler-vi.github.io/). Eu o desenvolvi para ser uma maneira limpa e moderna de apresentar meu trabalho e minhas habilidades.
+![Capa do Projeto](https://github.com/gsathler-vi/gsathler-vi.github.io/preview-image.png)
 
-Estou muito feliz em compartilhar este projeto como um modelo de código aberto. Sinta-se à vontade para usá-lo como base para o seu próprio site de portfólio. Espero que ele ajude você a criar uma presença online incrível!
+[![GitHub Pages](https://img.shields.io/github/deployments/gsathler-vi/gsathler-vi.github.io/github-pages?label=GitHub%20Pages)](https://gsathler-vi.github.io) [![Último commit](https://img.shields.io/github/last-commit/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io/commits/main) [![Linguagens](https://img.shields.io/github/languages/top/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io) [![Tamanho do repositório](https://img.shields.io/github/repo-size/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io)
 
----
+Índice - [Descrição do Projeto](#descrição-do-projeto) - [Status do Projeto](#status-do-projeto) - [Funcionalidades e Demonstração](#funcionalidades-e-demonstração) - [Conteúdo e Seções](#conteúdo-e-seções) - [Comportamento Responsivo e Acessibilidade](#comportamento-responsivo-e-acessibilidade) - [Acesso ao Projeto](#acesso-ao-projeto) - [Como executar localmente](#como-executar-localmente) - [Pré-requisitos](#pré-requisitos) - [Fluxos comuns](#fluxos-comuns) - [Uso do Quarto (detalhado)](#uso-do-quarto-detalhado) - [Quando/por que usar Quarto aqui](#quandopor-que-usar-quarto-aqui) - [Configuração típica (\_quarto.yml)](#configuração-típica-_quartoyml) - [Comandos úteis do Quarto](#comandos-úteis-do-quarto) - [Exemplo de fluxo de publicação com Quarto + GitHub Pages](#exemplo-de-fluxo-de-publicação-com-quarto--github-pages) - [Estrutura de pastas sugerida](#estrutura-de-pastas-sugerida) - [Tecnologias utilizadas](#tecnologias-utilizadas) - [Composição por linguagem](#composição-por-linguagem) - [Pessoas desenvolvedoras](#pessoas-desenvolvedoras) - [Observações / Dicas de manutenção](#observações--dicas-de-manutenção)
 
-# 📖 Guia de Utilização do Projeto
+## Descrição do projeto {#descrição-do-projeto}
 
-Bem-vindo a este guia. O objetivo deste documento é fornecer as instruções necessárias para que você possa utilizar este projeto para criar e gerenciar seu próprio site de portfólio.
+Site pessoal e portfólio do Gabriel Sathler (gsathler-vi), hospedado via GitHub Pages. O projeto é um site estático composto por HTML/CSS (e SCSS), JavaScript para interatividade leve, e utiliza Quarto e scripts Python para geração/transformação de conteúdo quando aplicável (por exemplo, posts técnicos, notebooks ou páginas geradas a partir de dados).
 
-## 🚀 1. Visão Geral do Projeto
+## Status do Projeto {#status-do-projeto}
 
-Este projeto utiliza o **Quarto**, um poderoso gerador de sites estáticos. Em vez de escrever código complexo (HTML, CSS, JavaScript), você cria seu conteúdo em arquivos de texto simples usando Markdown. O Quarto então processa esses arquivos e os transforma em um site profissional e completo.
+Em manutenção. Publicado com GitHub Pages (branch `main`). Atualizações de conteúdo, melhorias visuais e ajustes no pipeline de geração podem ser feitas conforme necessário.
 
-> **💡 Dica:** Este sistema permite que você se concentre no que é mais importante: o conteúdo do seu portfólio.
+## Funcionalidades e Demonstração {#funcionalidades-e-demonstração}
 
-## 📁 2. Estrutura do Projeto
+Funcionalidades primárias: - Páginas estáticas principais: Home, Sobre, Projetos/Portfólio, Blog/Artigos e Contato. - Estrutura de posts/páginas que permite publicação via Quarto (quando aplicável). - Layout responsivo otimizado para dispositivos móveis e desktop. - Estilização com CSS/SCSS com organização modular. - Interações JavaScript leves: navegação, animações e componentes UI simples. - Hospedagem contínua via GitHub Pages.
 
-O projeto é organizado em uma estrutura de pastas e arquivos simples e intuitiva. Abaixo estão os componentes essenciais:
+Conteúdo e Seções - Home: apresentação breve e acesso rápido aos projetos. - Sobre: biografia, skills e objetivos profissionais. - Projetos/Portfólio: cards com resumo dos projetos, links para repositórios e demos. - Blog/Artigos: posts técnicos e notas (possivelmente gerados por Quarto, se presentes). - Contato: links para redes, email e formulários (se houver integração).
 
--   **Arquivo de Configuração Principal (`_quarto.yml`)**: Este é o centro de controle do seu site. Aqui você define o título, o menu de navegação, a aparência visual e outras configurações globais.
-    <details>
-    <summary>Saiba mais</summary>
-    Para um mergulho profundo em todas as opções de configuração, veja a [documentação oficial do `_quarto.yml`](https://quarto.org/docs/projects/quarto-projects.html).
-    </details>
+Comportamento Responsivo e Acessibilidade - O layout prioriza leitura em diferentes larguras de tela. - Recomenda-se validar contrastes e usar atributos ARIA onde necessário para melhorar acessibilidade.
 
--   **Páginas de Conteúdo (arquivos `.qmd`)**: Cada página do site (como "Sobre Mim", "Experiência", "Certificações") é um arquivo `.qmd`. Você pode editar o conteúdo dessas páginas usando um editor de texto.
-    <details>
-    <summary>Saiba mais</summary>
-    Aprenda tudo sobre a sintaxe do Quarto Markdown na [documentação oficial](https://quarto.org/docs/authoring/markdown-basics.html).
-    </details>
+Demonstração (produção) - URL pública: https://gsathler-vi.github.io
 
--   **Diretórios de Conteúdo Dinâmico (`/posts` e `/material`)**: Essas pastas são usadas para conteúdo que é atualizado com frequência, como posts de blog ou projetos. Cada novo item adicionado a essas pastas será automaticamente listado nas páginas correspondentes do site.
-    <details>
-    <summary>Saiba mais</summary>
-    Veja como as [listagens de páginas](https://quarto.org/docs/websites/website-listings.html) funcionam em detalhes.
-    </details>
+## Acesso ao Projeto {#acesso-ao-projeto}
 
-## ✍️ 3. Gerenciamento de Conteúdo
+Repositório: - https://github.com/gsathler-vi/gsathler-vi.github.io
 
-Esta seção detalha como adicionar e atualizar o conteúdo do seu site.
+## Como executar localmente {#como-executar-localmente}
 
-### Adicionando um Novo Item (Trabalho, Apresentação, etc.)
+Pré-requisitos - Git (para clonar) - Node.js + npm (se houver scripts / bundler) - Python 3 (opcional — útil para servir estáticos) - Quarto (opcional — se for usar o fluxo de geração com .qmd) - sass (opcional — para compilar SCSS manualmente)
 
-1.  **Escolha o Diretório Apropriado**:
-    -   Para trabalhos e apresentações, utilize a pasta `/posts`.
-    -   Para materiais e documentos, utilize a pasta `/material`.
+Passos básicos 1. Clone: - git clone https://github.com/gsathler-vi/gsathler-vi.github.io.git - cd gsathler-vi.github.io
 
-2.  **Crie uma Nova Pasta**: Dentro do diretório escolhido, crie uma nova pasta para o seu item. Use um nome curto e descritivo (ex: `nova-apresentacao`).
+2.  Se houver package.json (instale dependências):
+    -   npm install
+3.  Compilar SCSS (se os estilos estiverem em SCSS):
+    -   npx sass src/scss:dist/css --no-source-map
+    -   Ajuste caminhos conforme a estrutura do projeto.
+4.  Se usar Quarto para gerar conteúdo:
+    -   Ver seção "Uso do Quarto" abaixo.
+5.  Servir localmente:
+    -   Com Python: python -m http.server 8000
+    -   Com Node (ex.: live-server ou serve): npx live-server public --port=8000
+    -   Acesse http://localhost:8000 (ou porta configurada)
 
-3.  **Crie o Arquivo `index.qmd`**: Dentro da nova pasta, crie um arquivo chamado `index.qmd`.
+Fluxos comuns - Desenvolvimento rápido: npm run dev (se disponível) — roda bundler/local server com hot reload. - Build para produção: npm run build (se disponível) + comando de geração do Quarto (se aplicável).
 
-4.  **Adicione o Cabeçalho YAML**: No topo do arquivo `index.qmd`, adicione um bloco de metadados para descrever seu conteúdo.
-    ```yaml
-    ---
-    title: "Título da Nova Apresentação"
-    author: "Seu Nome"
-    date: "2025-11-17"
-    categories: [Apresentação, Tecnologia]
-    image: "imagem-de-destaque.png"
-    ---
-    ```
-    -   `title`: O título que será exibido no site.
-    -   `author`: O seu nome.
-    -   `date`: A data de publicação.
-    -   `categories`: Palavras-chave para categorizar seu trabalho.
-    -   `image`: Uma imagem de destaque para o seu post (opcional).
+## Uso do Quarto (detalhado) {#uso-do-quarto-detalhado}
 
-5.  **Adicione a Imagem de Destaque (Opcional)**: Se você especificou uma `image`, coloque o arquivo de imagem na mesma pasta que o `index.qmd`.
+Observação: o repositório contém artefatos relacionados a Quarto e scripts Python — caso queira gerar posts ou documentos programáticos, Quarto é a ferramenta recomendada.
 
-6.  **Escreva o Conteúdo**: Abaixo do cabeçalho, escreva o conteúdo do seu post em Markdown.
+Quando/por que usar Quarto aqui - Produção de posts técnicos, documentação ou páginas que misturam texto e código (notebooks). - Gerar páginas a partir de arquivos .qmd que executam snippets Python e embutem resultados. - Simplifica workflow de publicação: escrever em Markdown/Quarto Markdown e renderizar para HTML estático.
 
-> **🚀 Dica Avançada:** quer aprender a fazer coisas mais avançadas no seu conteúdo? Veja os guias do Quarto sobre como adicionar [tabelas](https://quarto.org/docs/authoring/tables.html), [vídeos do YouTube](https://quarto.org/docs/authoring/videos.html), e muito mais!
+Configuração típica (\_quarto.yml) - Verifique se existe um arquivo \_quarto.yml na raiz. Um exemplo mínimo: \`\`\` project: type: website output-dir: \_site
 
-### Atualizando as Páginas Existentes
-Para modificar páginas como "Experiência" ou "Certificações", edite diretamente os arquivos `.qmd` correspondentes (ex: `experiencia.qmd`).
+website: title: "gsathler-vi" navbar: left: - text: "Home" href: index.qmd - text: "Projetos" href: projects.qmd \`\``- Ajuste output-dir para um diretório que seja servido por GitHub Pages (ex.: root do branch`main\` ou pasta docs/).
 
-## 🖥️ 4. Visualização e Publicação do Site
+Comandos úteis do Quarto - Instalar: siga https://quarto.org/docs/get-started/ - Renderizar todo o site: quarto render - Visualizar com live-reload: quarto preview - Renderizar um único documento: quarto render pagina.qmd
 
-Siga os passos abaixo para visualizar e publicar seu site.
+Exemplo de fluxo de publicação com Quarto + GitHub Pages 1. Configure \_quarto.yml com output-dir: docs (ou \_site que depois é copiado para docs). 2. Executar: quarto render 3. Commit dos arquivos gerados (ex.: docs/) no branch `main`. 4. Configurar GitHub Pages para servir da pasta /docs na branch main (Settings → Pages). Observação: também é possível usar workflows GitHub Actions para automatizar o build do Quarto e publicar para gh-pages.
 
-### Instalação de Dependências
-Primeiro, instale as ferramentas necessárias. Abra um terminal e execute o seguinte comando:
-```bash
-pip install -r requirements.txt
-```
+Estrutura de pastas sugerida - assets/ → imagens, logos e recursos estáticos - src/ → código fonte (SCSS, JS modular, templates) - content/ ou posts/→ arquivos .qmd / .md (conteúdo a ser renderizado) - \_quarto.yml → configuração do Quarto (se aplicável) - docs/ ou \_site/ → saída build (publicável no GitHub Pages) - package.json → scripts e dependências de frontend (se houver) (Adapte conforme o padrão atual do repositório; a intenção aqui é guiar manutenção.)
 
-### Visualização em Tempo Real
-Para visualizar o site no seu computador e ver as alterações em tempo real, use o comando de pré-visualização. Ele irá abrir o site no seu navegador e o atualizará automaticamente sempre que você salvar um arquivo.
+Tecnologias utilizadas - HTML - JavaScript — interatividade e lógica de UI - CSS / SCSS — estilos - Python — scripts auxiliares / processamento de conteúdo - Quarto — geração de conteúdo a partir de .qmd / .md
 
-Execute este comando no terminal:
-```bash
-quarto preview
-```
-<details>
-<summary>Saiba mais</summary>
-Veja tudo o que o [`quarto preview`](https://quarto.org/docs/reference/cli/preview.html) pode fazer.
-</details>
+Composição por linguagem - JavaScript: 39.8%\
+- CSS: 31.2%\
+- Python: 25.2%\
+- SCSS: 3.8%
 
-### Publicação do Site
-Quando estiver satisfeito com o resultado, prepare o site para a publicação. O comando a seguir irá gerar a versão final e otimizada do seu site na pasta `/docs`.
+## Pessoas desenvolvedoras {#pessoas-desenvolvedoras}
 
-Execute este comando:
-```bash
-quarto render
-```
-> **✅ Dica:** O conteúdo da pasta `/docs` está pronto para ser publicado em qualquer serviço de hospedagem, como o GitHub Pages.
+-   Gabriel Sathler (gsathler-vi) — autor e mantenedor\
+    GitHub: https://github.com/gsathler-vi\
+    Avatar: https://avatars.githubusercontent.com/u/227610838?v=4
 
-<details>
-<summary>Saiba mais</summary>
-Veja tudo o que o [`quarto render`](https://quarto.org/docs/reference/cli/render.html) pode fazer.
-</details>
+## Observações / Dicas de manutenção
 
-## 🎨 5. Personalização Visual
-
-Você pode personalizar a aparência do seu site de forma simples e rápida.
-
-### Alterando o Tema Visual
-A maneira mais fácil de alterar o design do site é trocando o tema.
-
-1.  **Abra o arquivo `_quarto.yml`**.
-2.  **Encontre a linha `theme: cosmo`**.
-3.  **Escolha um Novo Tema**: Substitua `cosmo` por um dos temas da [galeria de temas do Bootswatch](https://quarto.org/docs/output-formats/html-themes.html#bootswatch-themes). Experimente `litera`, `sandstone`, ou `darkly` para ver a mudança.
-4.  **Salve o arquivo**: Se o `quarto preview` estiver em execução, o site será atualizado automaticamente com o novo tema.
-
-### Adicionando Estilos Personalizados
-Para ajustes de estilo mais específicos, você pode adicionar suas próprias regras de CSS no arquivo `styles.css`.
-
-Por exemplo, para alterar a cor dos títulos principais para vermelho, adicione o seguinte ao `styles.css`:
-```css
-h1 {
-  color: red;
-}
-```
-> **🎨 Dica de Design:** quer ir além e personalizar tudo no seu site? O Quarto tem um [guia completo de temas](https://quarto.org/docs/output-formats/html-themes.html) que mostra como mudar cores, fontes e muito mais.
+-   Se usar Quarto, prefira automatizar o build com um workflow GitHub Actions que executa `quarto render` e publica para o branch/pasta de Pages, evitando commitar artefatos gerados manualmente.
+-   Centralize variáveis de estilo em SCSS (variáveis/partials) para facilitar alterações visuais.
+-   Verifique periodicamente as dependências Node/Python e atualize quando necessário para evitar problemas de build.
+-   Teste responsividade em várias larguras e use ferramentas de auditoria (ex.: Lighthouse) para checar performance e acessibilidade.
