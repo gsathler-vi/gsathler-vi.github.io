@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gsathler-vi.github.io/index.html</loc>
-    <lastmod>2025-11-18T14:50:51.953Z</lastmod>
-  </url>
-  <url>
     <loc>https://gsathler-vi.github.io/posts.html</loc>
     <lastmod>2025-11-16T00:39:06.797Z</lastmod>
   </url>
   <url>
-    <loc>https://gsathler-vi.github.io/material.html</loc>
-    <lastmod>2025-11-16T00:42:33.250Z</lastmod>
+    <loc>https://gsathler-vi.github.io/posts/apresentacao_pesquisa/index.html</loc>
+    <lastmod>2025-11-15T19:46:03.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/material/dummies/index.html</loc>
+    <lastmod>2025-11-17T00:40:54.700Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/historico_em_curso.html</loc>
@@ -205,12 +205,12 @@
     <lastmod>2025-11-17T15:48:43.082Z</lastmod>
   </url>
   <url>
-    <loc>https://gsathler-vi.github.io/material/dummies/index.html</loc>
-    <lastmod>2025-11-17T00:40:54.700Z</lastmod>
+    <loc>https://gsathler-vi.github.io/index.html</loc>
+    <lastmod>2025-11-18T14:50:51.953Z</lastmod>
   </url>
   <url>
-    <loc>https://gsathler-vi.github.io/posts/apresentacao_pesquisa/index.html</loc>
-    <lastmod>2025-11-15T19:46:03.787Z</lastmod>
+    <loc>https://gsathler-vi.github.io/material.html</loc>
+    <lastmod>2025-11-16T00:42:33.250Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/posts/aula_dummies/index.html</loc>

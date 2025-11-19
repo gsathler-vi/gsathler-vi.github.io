@@ -7,12 +7,6 @@
     ]
   },
   {
-    "listing": "/material.html",
-    "items": [
-      "/material/dummies/index.html"
-    ]
-  },
-  {
     "listing": "/historico_em_curso.html",
     "items": [
       "/historico/disciplinas/em_curso/aspectos-legais-da-gestão-pública-b/index.html",
@@ -63,6 +57,12 @@
       "/historico/disciplinas/cursadas/gestão-de-processos/index.html",
       "/historico/disciplinas/cursadas/fundamentos-de-gestão-de-pessoas/index.html",
       "/historico/disciplinas/cursadas/projeto-design-de-negócios/index.html"
+    ]
+  },
+  {
+    "listing": "/material.html",
+    "items": [
+      "/material/dummies/index.html"
     ]
   }
 ]
