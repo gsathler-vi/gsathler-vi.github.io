@@ -49,7 +49,7 @@ website:
       - href: historico.qmd
         text: Histórico Academico
       - href: posts.qmd
-        text: Trabalhos e Apresentações
+        text: Posts
       - href: material.qmd
         text: Materiais e Documentos
 

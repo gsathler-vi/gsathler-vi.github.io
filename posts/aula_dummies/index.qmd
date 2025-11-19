@@ -1,0 +1,40 @@
+---
+title: "Compartilhando Conhecimento: Variáveis Dummy na Prática"
+author: "Gabriel Sathler Victer Itaborahy"
+date: "2025-11-12"
+categories: [Econometria, Ensino, Material Didático]
+image: "image.jpg"
+---
+
+## Levando a pesquisa para a sala de aula
+
+Hoje, tive a imensa honra e alegria de ser convidado pela professora **Luciane Pereira** para trocar uma ideia com a minha turma de **Econometria** do Curso de **Ciências Econômicas** da **PUC Minas - Campus Lourdes**.
+
+O desafio? Mostrar o uso real de **variáveis dummy** em modelos de **regressão múltipla**.
+
+![Momento da aula sobre variáveis dummy](image.jpg)
+
+### Da teoria à prática
+
+Para isso, levei para a sala de aula um pouco da experiência que estou adquirindo na pesquisa que desenvolvo atualmente, sob a orientação fundamental da **Profa. Júlia Leite**. Discutimos como essa ferramenta vai muito além dos livros e resolve problemas concretos.
+
+E para que os alunos pudessem realmente acompanhar o raciocínio e aplicar os conceitos (e para ninguém se perder! 😉), criei um **site interativo** com todo o material didático e o passo a passo da análise, utilizando o **Quarto**.
+
+### Material 100% aberto e público!
+
+O melhor? O material está totalmente disponível para quem quiser estudar, revisar ou se aprofundar no tema. Você encontra:
+
+-   Explicação teórica sobre variáveis dummy
+-   Exemplos práticos aplicados
+-   Código comentado e reproduzível
+-   Análise passo a passo com dados reais
+
+Estou muito feliz em compartilhar! Dê uma olhada no material e me diga o que achou. 👇
+
+🔗 **[Confira o material didático completo aqui](https://gsathler-vi.github.io/material/dummies/)**
+
+### Agradecimentos
+
+Agradeço imensamente à **Profa. Luciane** pela confiança e pelo convite. Momentos como esse reforçam minha convicção de que compartilhar conhecimento é uma das melhores formas de aprender.
+
+---
