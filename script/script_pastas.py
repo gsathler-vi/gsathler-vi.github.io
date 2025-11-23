@@ -3,8 +3,8 @@ import os
 import re
 
 # --- CONFIGURAÇÃO ---
-CSV_CURSADAS = 'script\cursad.csv'
-CSV_EM_CURSO = 'script\curso.csv'
+CSV_CURSADAS = 'script/cursad.csv'
+CSV_EM_CURSO = 'script/curso.csv'
 PASTA_CURSADAS = os.path.join('historico', 'disciplinas', 'cursadas')
 PASTA_EM_CURSO = os.path.join('historico', 'disciplinas', 'em_curso')
 # --------------------

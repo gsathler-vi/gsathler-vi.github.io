@@ -40,8 +40,8 @@ Possuo experiência em análise de dados com Python e R, condução de diagnóst
 <style>
     /* Definição de Cores baseadas no seu tema */
     :root {
-        --primary-color: #39729E; /* Azul do tema */
-        --accent-color: #447099;  /* Azul do botão */
+        --primary-color: #2d5b7e; /* Azul do tema */
+        --accent-color: #244864;  /* Azul do botão */
         --text-muted: #6a737b;
     }
 
@@ -64,7 +64,7 @@ Possuo experiência em análise de dados com Python e R, condução de diagnóst
     }
 
     .btn-resume:hover {
-        background-color: #305775;
+        background-color: #244864;
         transform: translateY(-2px);
         color: white !important;
         box-shadow: 0 4px 10px rgba(0,0,0,0.15);

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Visão geral do histórico escolar com o resumo de disciplinas Cursadas, Em Curso e A Cursar nos cursos de Ciências Economicas (PUC Minas) e Gestão Pública (UFMG).">
+<meta name="description" content="Visão geral do histórico escolar com o resumo de disciplinas cursadas, em andamento e a cursar.">
 
 <title>Histórico Escolar – Gabriel Sathler</title>
 <style>
@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-64f6e4dc69faf2fbe79b20c8379d472a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-64f6e4dc69faf2fbe79b20c8379d472a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-64f6e4dc69faf2fbe79b20c8379d472a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c91cd0438b9d3ccb24311dfae689b71e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c91cd0438b9d3ccb24311dfae689b71e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c91cd0438b9d3ccb24311dfae689b71e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,20 +79,20 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Histórico Escolar – Gabriel Sathler">
-<meta property="og:description" content="Visão geral do histórico escolar com o resumo de disciplinas Cursadas, Em Curso e A Cursar nos cursos de Ciências Economicas (PUC Minas) e Gestão Pública (UFMG).">
+<meta property="og:description" content="Visão geral do histórico escolar com o resumo de disciplinas cursadas, em andamento e a cursar.">
 <meta property="og:image" content="https://gsathler-vi.github.io/preview-image.png">
 <meta property="og:site_name" content="Gabriel Sathler">
 <meta property="og:image:height" content="888">
 <meta property="og:image:width" content="1917">
 <meta name="twitter:title" content="Histórico Escolar – Gabriel Sathler">
-<meta name="twitter:description" content="Visão geral do histórico escolar com o resumo de disciplinas Cursadas, Em Curso e A Cursar nos cursos de Ciências Economicas (PUC Minas) e Gestão Pública (UFMG).">
+<meta name="twitter:description" content="Visão geral do histórico escolar com o resumo de disciplinas cursadas, em andamento e a cursar.">
 <meta name="twitter:image" content="https://gsathler-vi.github.io/preview-image.png">
 <meta name="twitter:image-height" content="888">
 <meta name="twitter:image-width" content="1917">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -163,12 +163,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -177,12 +177,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Visão geral do histórico escolar com o resumo de disciplinas <code>Cursadas</code>, <code>Em Curso</code> e <code>A Cursar</code> nos cursos de Ciências Economicas (PUC Minas) e Gestão Pública (UFMG).
+    Visão geral do histórico escolar com o resumo de disciplinas cursadas, em andamento e a cursar.
   </div>
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -194,1401 +194,1307 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-
-
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard Acadêmico</title>
-
 <style>
-  /* --- Estilos Gerais --- */
-  .dashboard-container {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #333;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
+  /* --- Variáveis do Tema --- */
+  :root {
+      --primary-color: #39729E;
+      --accent-color: #447099;
+      --success-color: #337e2e;
+      --warning-color: #244864;
+      --muted-color: #6c757d;
+      --bg-card: #ffffff;
   }
 
-  /* --- O GRID (Aqui está a mágica do lado a lado) --- */
+  /* --- Dashboard de Estatísticas --- */
   .stats-grid {
     display: grid;
-    /* 
-       1fr 1fr 1fr = Cria exatamente 3 colunas de tamanhos iguais.
-       Isso força os itens a ficarem lado a lado.
-    */
-    grid-template-columns: 1fr 1fr 1fr; 
-    gap: 1.5rem; /* Espaço entre os cards */
-    margin-bottom: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
   }
 
-  /* --- Estilo do Card --- */
   .stat-card {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background-color: var(--bg-card);
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
     padding: 1.5rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-    height: 100%; /* Garante altura igual para todos */
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid var(--primary-color);
   }
 
   .stat-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
   }
 
-  /* --- Tipografia --- */
-  .stat-title {
-    font-size: 0.85rem;
+  .stat-content h2 {
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #7f8c8d;
-    margin: 0 0 0.5rem 0;
+    letter-spacing: 1.2px;
+    color: var(--muted-color);
+    margin: 0;
     font-weight: 700;
   }
 
   .stat-value {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    margin: 0.5rem 0;
+    margin: 0.2rem 0;
     line-height: 1;
-  }
-
-  .stat-desc {
-    font-size: 0.85rem;
-    color: #6c757d;
-    margin: 0;
-    line-height: 1.4;
-  }
-
-  /* --- Cores --- */
-  .text-success-custom { color: #337e2e; }
-  .text-neutral-custom { color: #212529; }
-  .text-active-custom { color: #2d5b7e; }
-
-  /* --- Responsividade (Celular) --- */
-  /* 
-     Em telas menores que 768px (celulares), mudamos para 1 coluna 
-     para não ficar tudo espremido. Se quiser lado a lado até no celular,
-     basta apagar este bloco @media inteiro.
-  */
-  @media (max-width: 768px) {
-    .stats-grid {
-      grid-template-columns: 1fr; 
-    }
-    .stat-value {
-      font-size: 2.5rem;
-    }
-  }
-</style>
-
-
-
-<div class="dashboard-container">
-  
-  <div class="stats-grid">
-    
-    <!-- Card 1 -->
-    <div class="stat-card">
-      <h2 class="stat-title anchored">Média Geral</h2>
-      <div class="stat-value text-success-custom">83.5</div>
-      <p class="stat-desc">Média ponderada das disciplinas concluídas.</p>
-    </div>
-
-    <!-- Card 2 -->
-    <div class="stat-card">
-      <h2 class="stat-title anchored">Disciplinas Cursadas</h2>
-      <div class="stat-value text-neutral-custom">35</div>
-      <p class="stat-desc">Total de disciplinas com aprovação.</p>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="stat-card">
-      <h2 class="stat-title anchored">Disciplinas Ativas</h2>
-      <div class="stat-value text-active-custom">8</div>
-      <p class="stat-desc">Total de disciplinas matriculadas em andamento.</p>
-    </div>
-
-  </div>
-
-</div>
-
-
-
-<section id="disciplinas-por-núcleo-de-conhecimento" class="level1">
-<h1>Disciplinas por Núcleo de Conhecimento</h1>
-<!-- Início do Bloco de Legenda -->
-<div class="legenda-container" style="margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
-    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
-        
-        <!-- Itens da Legenda -->
-        <div style="display: flex; align-items: center; gap: 0.75rem;">
-            <div style="display: flex; align-items: center;">
-                <span style="height: 15px; width: 15px; background-color: #337e2e; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
-                <span style="font-size: 0.9rem; color: #333;">Cursada</span>
-            </div>
-            <div style="display: flex; align-items: center;">
-                <span style="height: 15px; width: 15px; background-color: #2d5b7e; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
-                <span style="font-size: 0.9rem; color: #333;">Em Curso</span>
-            </div>
-            <div style="display: flex; align-items: center;">
-                <span style="height: 15px; width: 15px; background-color: #d7e2eb; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
-                <span style="font-size: 0.9rem; color: #333;">A Cursar</span>
-            </div>
-        </div>
-
-        <!-- Instrução de Clique -->
-        <div style="font-size: 0.95rem; color: #555; font-style: italic;">
-            💡 Clique em uma disciplina para ver a ementa e mais detalhes.
-        </div>
-    </div>
-</div>
-<!-- Fim do Bloco de Legenda -->
-<style>
-  /* Estilos Gerais */
-  .disciplinas-container {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
     color: #333;
   }
-  a.card-link, a.card-link:hover {
-    text-decoration: none;
-    color: inherit;
+
+  .stat-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    opacity: 0.2;
   }
-  /* Estilo do Acordeão para cada Núcleo */
-  .nucleo-accordion details {
-    border: 1px solid #e0e0e0;
+
+  /* --- Legenda --- */
+  .legend-bar {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 1rem;
     border-radius: 8px;
+    border: 1px solid #e9ecef;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    color: #555;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+
+  /* --- Acordeão (Accordion) --- */
+  details {
     margin-bottom: 1rem;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    transition: all 0.3s ease-in-out;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
   }
-  .nucleo-accordion summary {
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 1rem 1.5rem;
+
+  summary {
+    padding: 1.2rem;
     cursor: pointer;
-    background-color: #f8f9fa;
-    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    background-color: #fff;
     list-style: none;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
   }
-  .nucleo-accordion summary::after {
-    content: '▼';
-    position: absolute;
-    right: 1.5rem;
-    font-size: 0.8rem;
-    transition: transform 0.2s;
+
+  summary:hover {
+    background-color: #f8f9fa;
   }
-  .nucleo-accordion details[open] summary::after {
+
+  summary::after {
+    content: '\F282'; /* Bootstrap Icon Chevron Down */
+    font-family: 'bootstrap-icons';
+    transition: transform 0.3s;
+  }
+
+  details[open] summary::after {
     transform: rotate(180deg);
   }
-  .nucleo-accordion details[open] summary {
-    border-bottom: 1px solid #e0e0e0;
+
+  details[open] summary {
+    border-bottom: 1px solid #e9ecef;
   }
+
+  /* --- Grid de Disciplinas --- */
   .disciplinas-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
+    gap: 1.2rem;
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: #fcfcfc;
   }
-  /* Estilo do Card da Disciplina */
+
+  /* --- Card de Disciplina --- */
   .disciplina-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    background-color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1.2rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: all 0.3s ease;
+  }
+
+  a.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
     height: 100%;
   }
+
   a.card-link:hover .disciplina-card {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    border-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(57, 114, 158, 0.15);
   }
+
   .disciplina-card h4 {
-    font-size: 1.1rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    color: #34495e;
-  }
-  .disciplina-info {
-    font-size: 0.9rem;
-    color: #555;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
     margin-bottom: 1rem;
+    line-height: 1.4;
+    text-transform: uppercase;
   }
-  .disciplina-info span {
-    display: block;
-    margin-bottom: 0.25rem;
+
+  .disciplina-meta {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
+
+  .disciplina-meta i {
+    color: var(--primary-color);
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+  }
+
   .disciplina-footer {
     margin-top: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 0.8rem;
   }
-  /* Estilos dos Badges de Status */
-  .status-badge {
-    padding: 0.25em 0.6em;
-    font-size: 0.85rem;
-    font-weight: 700;
+
+  /* --- Badges --- */
+  .badge-status {
+    padding: 5px 12px;
     border-radius: 20px;
-    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
-  .status-cursada { background-color: #337e2e; }
-  .status-em-curso { background-color: #2d5b7e; }
-  .status-a-cursar { background-color: #d7e2eb; color: #212529;}
-  .disciplina-nota {
+
+  .bg-cursada { background-color: rgba(46, 125, 50, 0.1); color: var(--success-color); }
+  .bg-em-curso { background-color: rgba(68, 112, 153, 0.1); color: var(--primary-color); }
+  .bg-a-cursar { background-color: #f1f3f5; color: var(--muted-color); }
+
+  .nota-valor {
+    font-weight: 700;
+    color: var(--success-color);
     font-size: 0.9rem;
-    font-weight: 600;
-    color: #337e2e;
-  }
-    /* --- Media Query for Mobile Responsiveness --- */
-  @media (max-width: 768px) {
-    /* Força o grid a ter apenas uma coluna em telas menores */
-    .disciplinas-grid {
-      grid-template-columns: 1fr; /* Stacks cards vertically */
-      padding: 1rem; /* Reduz o preenchimento nas laterais */
-    }
-
-    /* Ajusta os títulos e espaçamentos para telas menores */
-    .nucleo-accordion summary {
-      font-size: 1.1rem;
-      padding: 1rem;
-    }
-    
-    .nucleo-accordion summary::after {
-      right: 1rem; /* Ajusta a posição da seta para o novo padding */
-    }
-
-    .disciplina-card h4 {
-      font-size: 1rem;
-    }
-    
-    /* Ajusta o dashboard de estatísticas para empilhar verticalmente */
-    .grid {
-        grid-template-columns: 1fr !important; /* Força uma única coluna */
-        gap: 1rem !important;
-    }
   }
 </style>
 
-<div class="disciplinas-container">
-  <div class="nucleo-accordion">
+<!-- DASHBOARD DE ESTATÍSTICAS -->
+<div class="stats-grid">
     
-    <details open="">
-      <summary>🌍 Ciências Sociais e Humanidades</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/fundamentos-da-analise-politica/" class="card-link">
+    <!-- Card 1 -->
+    <div class="stat-card" style="border-left-color: var(--success-color);">
+      <div class="stat-content">
+        <h2 class="anchored">Média Geral</h2>
+        <div class="stat-value" style="color: var(--success-color);">83.5</div>
+        <small class="text-muted">Média ponderada</small>
+      </div>
+      <div class="stat-icon" style="color: var(--success-color);"><i class="bi bi-graph-up-arrow"></i></div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="stat-card" style="border-left-color: var(--primary-color);">
+      <div class="stat-content">
+        <h2 class="anchored">Disciplinas Cursadas</h2>
+        <div class="stat-value" style="color: var(--primary-color);">35</div>
+        <small class="text-muted">Concluídas com aprovação</small>
+      </div>
+      <div class="stat-icon" style="color: var(--primary-color);"><i class="bi bi-check-circle-fill"></i></div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="stat-card" style="border-left-color: var(--warning-color);">
+      <div class="stat-content">
+        <h2 class="anchored">Disciplinas Ativas</h2>
+        <div class="stat-value" style="color: var(--warning-color);">8</div>
+        <small class="text-muted">Em andamento</small>
+      </div>
+      <div class="stat-icon" style="color: var(--warning-color);"><i class="bi bi-hourglass-split"></i></div>
+    </div>
+
+</div>
+
+<!-- LEGENDA -->
+<div class="legend-bar">
+    <div class="legend-item"><span class="dot bg-cursada" style="background-color: var(--success-color);"></span> Cursada</div>
+    <div class="legend-item"><span class="dot bg-em-curso" style="background-color: var(--primary-color);"></span> Em Curso</div>
+    <div class="legend-item"><span class="dot bg-a-cursar" style="background-color: #adb5bd;"></span> A Cursar</div>
+    <div class="ms-auto text-muted fst-italic small"><i class="bi bi-info-circle me-1"></i> Clique no card para ver detalhes da disciplina</div>
+</div>
+
+<!-- LISTA DE DISCIPLINAS -->
+<div class="disciplinas-container">
+
+  <details open="">
+    <summary>🌍 Ciências Sociais e Humanidades</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/fundamentos-da-analise-politica/" class="card-link">
         <div class="disciplina-card">
-          <h4 class="anchored" data-anchor-id="disciplinas-por-núcleo-de-conhecimento">FUNDAMENTOS DA ANALISE POLITICA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <h4 class="anchored">FUNDAMENTOS DA ANALISE POLITICA</h4>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 93</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">93</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/fundamentos-de-analise-sociologica/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">FUNDAMENTOS DE ANALISE SOCIOLOGICA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 100</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">100</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/impactos-ambientais-e-alterações-climáticas-globais/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">IMPACTOS AMBIENTAIS E ALTERAÇÕES CLIMÁTICAS GLOBAIS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 80</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">80</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/história-econômica-geral/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">HISTÓRIA ECONÔMICA GERAL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 71</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">71</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/filosofia-razão-e-modernidade/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">FILOSOFIA: RAZÃO E MODERNIDADE</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 90</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">90</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/economia-brasileira-contemporânea/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMIA BRASILEIRA CONTEMPORÂNEA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 86</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">86</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/politicaeconomia-e-sociedade-no-brasil/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">POLITICA,ECONOMIA E SOCIEDADE NO BRASIL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/instituicoes-politicas-comparadas/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">INSTITUICOES POLITICAS COMPARADAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a>
         <div class="disciplina-card">
           <h4 class="anchored">FORMAÇÃO ECONÔMICA DO BRASIL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">CULTURA RELIGIOSA: FENÔMENO RELIGIOSO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 6º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 6º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">HISTÓRIA DO PENSAMENTO ECONÔMICO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 6º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 6º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">CULTURA RELIGIOSA: PESSOA E SOCIEDADE</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 8º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 8º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">FILOSOFIA: ANTROPOLOGIA E ÉTICA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 8º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 8º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
-      </div>
-    </details>
-    <details>
-      <summary>⚖️ Direito e Regulação</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/direito-empresarial-e-compliance/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>⚖️ Direito e Regulação</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/direito-empresarial-e-compliance/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">DIREITO EMPRESARIAL E COMPLIANCE</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 81</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">81</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/aspectos-legais-da-gestão-pública-a/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ASPECTOS LEGAIS DA GESTÃO PÚBLICA A</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 90</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">90</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/aspectos-legais-da-gestão-pública-b/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ASPECTOS LEGAIS DA GESTÃO PÚBLICA B</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a>
         <div class="disciplina-card">
           <h4 class="anchored">NOÇÕES DE DIREITO TRIBUTÁRIO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 6º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 6º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
-      </div>
-    </details>
-    <details>
-      <summary>💡 Empreendedorismo e Inovação</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/empreendedorismo-e-inovação/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>💡 Empreendedorismo e Inovação</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/empreendedorismo-e-inovação/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">EMPREENDEDORISMO E INOVAÇÃO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 77</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">77</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/modelagem-de-negócios/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">MODELAGEM DE NEGÓCIOS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 86</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">86</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/projeto-design-de-negócios/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">PROJETO: DESIGN DE NEGÓCIOS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 70</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">70</span>
           </div>
         </div>
     </a>
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMIA DA INOVAÇÃO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 7º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 7º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
-      </div>
-    </details>
-    <details>
-      <summary>💰 Finanças e Contabilidade</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/introdução-à-contabilidade/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>💰 Finanças e Contabilidade</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/introdução-à-contabilidade/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">INTRODUÇÃO À CONTABILIDADE</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 98</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">98</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/economia-financeira-operações-e-estrutura/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMIA FINANCEIRA: OPERAÇÕES E ESTRUTURA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 95</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">95</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">MERCADO FINANCEIRO E DE CAPITAIS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a>
         <div class="disciplina-card">
           <h4 class="anchored">FUNDAMENTOS DE FINANÇAS CORPORATIVAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">AVALIAÇÃO ECONÔMICA DE EMPRESAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 6º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 6º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">TEORIAS DOS INVESTIMENTOS E ANÁLISE DE RISCO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 7º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 7º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
-      </div>
-    </details>
-    <details>
-      <summary>🏢 Fundamentos de Gestão e Organizações</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/fundamentos-de-gestão-de-pessoas/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>🏢 Fundamentos de Gestão e Organizações</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/fundamentos-de-gestão-de-pessoas/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">FUNDAMENTOS DE GESTÃO DE PESSOAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 74</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">74</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/gestão-de-processos/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">GESTÃO DE PROCESSOS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 76</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">76</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/teorias-da-administração/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">TEORIAS DA ADMINISTRAÇÃO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 95</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">95</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/negociação-e-tomada-de-decisão/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">NEGOCIAÇÃO E TOMADA DE DECISÃO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 83</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">83</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/fundamentos-de-administração/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">FUNDAMENTOS DE ADMINISTRAÇÃO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 78</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">78</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/sociologia-das-organizações/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">SOCIOLOGIA DAS ORGANIZAÇÕES</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 87</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">87</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/sociologia-das-organizacoes-publicas/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">SOCIOLOGIA DAS ORGANIZACOES PUBLICAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a>
-      </div>
-    </details>
-    <details>
-      <summary>🏛️ Gestão e Políticas Públicas</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/gestão-pública-a/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>🏛️ Gestão e Políticas Públicas</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/gestão-pública-a/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">GESTÃO PÚBLICA A</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 93</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">93</span>
           </div>
         </div>
     </a>
         <div class="disciplina-card">
           <h4 class="anchored">FINANÇAS PÚBLICAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 7º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 7º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ANÁLISE DE POLÍTICAS PÚBLICAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">DEMOCRACIA DIGITAL E GOVERNO ELETRÔNICO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">GESTÃO PÚBLICA B</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ESTADO E POLÍTICAS SOCIAIS A</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ESTADO E POLÍTICAS SOCIAIS B</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">FINANÇAS PÚBLICAS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">PLANEJAMENTO PÚBLICO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">AVALIAÇÃO DE POLÍTICAS PÚBLICAS A</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">FORMULAÇÃO E IMPLEMENTAÇÃO DE PROGRAMAS E PROJETOS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">AVALIAÇÃO DE POLÍTICAS PÚBLICAS B</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 6º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 6º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
-      </div>
-    </details>
-    <details>
-      <summary>📈 Marketing e Inteligência de Mercado</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/fundamentos-de-marketing/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>📈 Marketing e Inteligência de Mercado</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/fundamentos-de-marketing/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">FUNDAMENTOS DE MARKETING</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 81</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">81</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/projeto-inteligência-de-mercado/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">PROJETO: INTELIGÊNCIA DE MERCADO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 92</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">92</span>
           </div>
         </div>
     </a>
-      </div>
-    </details>
-    <details>
-      <summary>🔬 Metodologia Científica</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/metodologia-e-pesquisa-em-ciências-gerenciais/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>🔬 Metodologia Científica</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/metodologia-e-pesquisa-em-ciências-gerenciais/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">METODOLOGIA E PESQUISA EM CIÊNCIAS GERENCIAIS</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Administracao</span>
-            <span><strong>Período:</strong> Extracurricular</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Administracao)</span>
+            <span><i class="bi bi-calendar3"></i> Extracurricular</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 83</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">83</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/metodologia/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">METODOLOGIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestao Publica</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestao Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 85</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">85</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/pesquisa-em-economia/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">PESQUISA EM ECONOMIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 87</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">87</span>
           </div>
         </div>
     </a>
-      </div>
-    </details>
-    <details>
-      <summary>💻 Métodos Quantitativos e Computacionais</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/laboratório-de-iniciação-a-programação/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>💻 Métodos Quantitativos e Computacionais</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/laboratório-de-iniciação-a-programação/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">LABORATÓRIO DE INICIAÇÃO A PROGRAMAÇÃO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 94</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">94</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/cálculo-aplicado-i/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">CÁLCULO APLICADO I</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 60</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">60</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/estatística/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ESTATÍSTICA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 89</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">89</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/cálculo-aplicado-ii/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">CÁLCULO APLICADO II</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 83</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">83</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/estatística-econômica-e-computacional/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ESTATÍSTICA ECONÔMICA E COMPUTACIONAL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 78</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">78</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/econometria/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMETRIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/estatística-multivariada/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">ESTATÍSTICA MULTIVARIADA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a>
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMETRIA DE SÉRIES TEMPORAIS E PAINEL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ESTATÍSTICA BAYESIANA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 6º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 6º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">INTRODUÇÃO À ESTATÍSTICA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMETRIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
-      </div>
-    </details>
-    <details>
-      <summary>📊 Teoria Econômica</summary>
-      <div class="disciplinas-grid">
-        <a href="historico/disciplinas/cursadas/introdução-a-economia/" class="card-link">
+    </div>
+  </details>
+
+  <details>
+    <summary>📊 Teoria Econômica</summary>
+    <div class="disciplinas-grid">
+      <a href="historico/disciplinas/cursadas/introdução-a-economia/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">INTRODUÇÃO A ECONOMIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 1º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 1º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 80</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">80</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/macroeconomia-e-contabilidade-social/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">MACROECONOMIA E CONTABILIDADE SOCIAL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 72</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">72</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/microeconomia/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">MICROECONOMIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 2º Período</span>
-            <span><strong>Carga Horária:</strong> 40h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 2º Período</span>
+            <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 66</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">66</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/macroeconomia/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">MACROECONOMIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 76</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">76</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/cursadas/crescimento-e-desenvolvimento-econômico/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">CRESCIMENTO E DESENVOLVIMENTO ECONÔMICO</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-cursada">Cursada</span>
-            <span class="disciplina-nota">Nota: 92</span>
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">92</span>
           </div>
         </div>
     </a><a href="historico/disciplinas/em_curso/microeconomia-contemporânea/" class="card-link">
         <div class="disciplina-card">
           <h4 class="anchored">MICROECONOMIA CONTEMPORÂNEA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Economia</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Economia)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-em-curso">Em Curso</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
     </a>
         <div class="disciplina-card">
           <h4 class="anchored">MACROECONOMIA CONTEMPORÂNEA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMIA MONETÁRIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 4º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 4º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ORGANIZAÇÃO INDUSTRIAL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 5º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 5º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMIA INTERNACIONAL</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 6º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 6º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">TEMAS CONTEMPORÂNEOS EM ECONOMIA</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> PUC Minas</span>
-            <span><strong>Curso:</strong> Ciencias Economicas</span>
-            <span><strong>Período:</strong> 8º Período</span>
-            <span><strong>Carga Horária:</strong> 80h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 8º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
         <div class="disciplina-card">
           <h4 class="anchored">ECONOMIA DO BEM-ESTAR</h4>
-          <div class="disciplina-info">
-            <span><strong>Instituição:</strong> UFMG</span>
-            <span><strong>Curso:</strong> Gestão Publica</span>
-            <span><strong>Período:</strong> 3º Período</span>
-            <span><strong>Carga Horária:</strong> 60h</span>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> UFMG (Gestão Publica)</span>
+            <span><i class="bi bi-calendar3"></i> 3º Período</span>
+            <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="status-badge status-a-cursar">A Cursar</span>
+            <span class="badge-status bg-a-cursar">A Cursar</span>
             
           </div>
         </div>
     
-      </div>
-    </details>
-  </div>
+    </div>
+  </details>
+
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
