@@ -540,12 +540,6 @@ Se você melhorar algo neste template ou criar recursos interessantes, considere
 
 ---
 
-## 📄 Licença
-
-Este projeto está disponível sob a licença MIT. Sinta-se livre para usar, modificar e distribuir conforme necessário.
-
----
-
 ## 👤 Autor
 
 **Gabriel Sathler Victer Itaborahy**
@@ -560,7 +554,6 @@ Este projeto está disponível sob a licença MIT. Sinta-se livre para usar, mod
 ## 🙏 Agradecimentos
 
 - **Quarto Team** - Pela ferramenta incrível
-- **PUC Minas** - Suporte acadêmico
 - **Comunidade Open Source** - Inspiração e recursos
 
 ---
