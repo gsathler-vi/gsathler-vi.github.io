@@ -128,7 +128,6 @@ import pandas as pd
 df = pd.DataFrame({"A": [1, 2, 3]})
 df
 ```
-```
 
 **Estrutura de Materiais (`material/`)**
 
@@ -149,8 +148,6 @@ Explicação do material...
 ```{python}
 # Código interativo
 ```
-```
-
 ---
 
 ## 🛠️ Instalação e Configuração
@@ -478,7 +475,6 @@ import matplotlib.pyplot as plt
 plt.plot([1, 2, 3], [1, 4, 9])
 plt.show()
 ```
-```
 
 ### Criar Tabelas Interativas
 
@@ -493,7 +489,6 @@ df = pd.DataFrame({
 })
 
 GT(df)
-```
 ```
 
 ### Adicionar Vídeos do YouTube
