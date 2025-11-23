@@ -460,6 +460,277 @@ git push
 
 ---
 
+## 🤖 Scripts de Automação
+
+Este projeto inclui **scripts Python** que automatizam a criação e atualização do conteúdo, especialmente úteis para gerenciar grandes volumes de disciplinas acadêmicas.
+
+### 📂 Estrutura da Pasta `script/`
+
+```
+script/
+├── cursad.csv              # Disciplinas concluídas
+├── curso.csv               # Disciplinas em andamento
+├── a_cursar.csv            # Disciplinas futuras
+├── script_historico.py     # Gera a página historico.qmd
+└── script_pastas.py        # Cria páginas individuais de disciplinas
+```
+
+### 🔄 Script 1: `script_historico.py`
+
+**Função:** Gera automaticamente a página `historico.qmd` com dashboard e listagem organizada.
+
+**O que ele faz:**
+- ✅ Lê os 3 arquivos CSV (cursadas, em curso, a cursar)
+- ✅ Calcula estatísticas (média geral, total de disciplinas, etc.)
+- ✅ Agrupa disciplinas por núcleo de conhecimento
+- ✅ Gera cards interativos com design responsivo
+- ✅ Cria acordeões (expandir/colapsar) por categoria
+- ✅ Adiciona badges de status e cores por tipo
+
+**Como usar:**
+
+```bash
+# Windows (PowerShell)
+python script/script_historico.py
+
+# Linux/macOS
+python3 script/script_historico.py
+```
+
+**Saída:** Arquivo `historico.qmd` atualizado com:
+- Dashboard de estatísticas (média, quantidade)
+- Legenda de status
+- Cards organizados por núcleo temático
+- Links para páginas individuais de disciplinas
+
+**Personalização:**
+
+```python
+# Edite o mapeamento de emojis por categoria
+EMOJI_MAP = {
+    "Ciências Sociais e Humanidades": "🌍",
+    "Direito e Regulação": "⚖️",
+    "Métodos Quantitativos e Computacionais": "💻",
+    # Adicione suas categorias aqui
+}
+
+# Ajuste as cores no CSS embutido
+:root {
+    --primary-color: #39729E;    # Sua cor principal
+    --success-color: #337e2e;    # Cor de sucesso
+    --warning-color: #244864;    # Cor de atenção
+}
+```
+
+---
+
+### 📄 Script 2: `script_pastas.py`
+
+**Função:** Cria páginas `.qmd` individuais para cada disciplina a partir dos CSVs.
+
+**O que ele faz:**
+- ✅ Lê os CSVs de disciplinas cursadas e em andamento
+- ✅ Cria estrutura de pastas: `historico/disciplinas/cursadas/nome-disciplina/`
+- ✅ Gera `index.qmd` para cada disciplina com:
+  - Cabeçalho YAML completo (título, subtítulo, categorias)
+  - Metadados (nota, carga horária, período, docente)
+  - Ementa e conteúdo programático
+- ✅ Converte nomes em slugs seguros para URLs
+
+**Como usar:**
+
+```bash
+# Windows (PowerShell)
+python script/script_pastas.py
+
+# Linux/macOS
+python3 script/script_pastas.py
+```
+
+**Saída:** Estrutura de pastas criada:
+
+```
+historico/disciplinas/
+├── cursadas/
+│   ├── microeconomia/
+│   │   └── index.qmd
+│   ├── econometria/
+│   │   └── index.qmd
+│   └── ...
+└── em_curso/
+    ├── estatistica-multivariada/
+    │   └── index.qmd
+    └── ...
+```
+
+**Exemplo de arquivo gerado (`index.qmd`):**
+
+```yaml
+---
+title: "ECONOMETRIA"
+subtitle: "Período: 4 | Nota: 85"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Ciências Econômicas, sob a orientação do(a) professor(a) João Silva (Doutorado)."
+categories: ["PUC Minas", "Economia", "Métodos Quantitativos"]
+carga_horaria: 80
+nota: 85
+periodo: 4
+toc: true
+---
+
+## Ementa
+
+Introdução à análise econométrica...
+```
+
+---
+
+### 📊 Estrutura dos Arquivos CSV
+
+#### `cursad.csv` - Disciplinas Concluídas
+
+| Coluna | Descrição | Exemplo |
+|--------|-----------|---------|
+| `Periodo` | Período cursado | `3` ou `100` (extracurricular) |
+| `Instituição` | Nome da instituição | `PUC Minas`, `UFMG` |
+| `Disciplina` | Nome da disciplina | `ECONOMETRIA` |
+| `Nucleo` | Categoria/núcleo | `Métodos Quantitativos` |
+| `Curso` | Nome do curso | `Ciências Econômicas` |
+| `Carga Horaria` | Horas totais | `80` |
+| `Nota` | Nota final | `85` |
+| `Docente` | Nome do professor | `João Silva` |
+| `Titulação` | Grau do docente | `Doutorado` |
+| `Ementa` | Conteúdo completo | Texto markdown com `---` |
+
+#### `curso.csv` - Disciplinas em Andamento
+
+Mesma estrutura, mas **sem a coluna `Nota`**.
+
+#### `a_cursar.csv` - Disciplinas Futuras
+
+Versão simplificada sem docente, nota ou ementa:
+
+| Coluna | Obrigatória |
+|--------|-------------|
+| `Periodo` | ✅ |
+| `Instituição` | ✅ |
+| `Disciplina` | ✅ |
+| `Nucleo` | ✅ |
+| `Curso` | ✅ |
+| `Carga Horaria` | ✅ |
+
+---
+
+### 🔄 Workflow Recomendado
+
+**Quando atualizar seus CSVs:**
+
+1. **Adicionar nova disciplina cursada:**
+   ```bash
+   # 1. Edite cursad.csv adicionando nova linha
+   # 2. Execute os scripts
+   python script/script_pastas.py
+   python script/script_historico.py
+   
+   # 3. Renderize o site
+   quarto render
+   
+   # 4. Commit e push
+   git add .
+   git commit -m "Adiciona disciplina X ao histórico"
+   git push
+   ```
+
+2. **Mover disciplina de "em curso" para "cursada":**
+   ```bash
+   # 1. Copie linha de curso.csv para cursad.csv
+   # 2. Adicione a coluna Nota
+   # 3. Remova a linha de curso.csv
+   # 4. Execute os scripts novamente
+   ```
+
+3. **Atualizar ementa de uma disciplina:**
+   - Edite diretamente o CSV ou o arquivo `.qmd` gerado
+   - Se editar o CSV, execute `script_pastas.py` novamente
+
+---
+
+### 🎨 Personalização dos Scripts
+
+#### Adicionar Novo Núcleo de Conhecimento
+
+Em `script_historico.py`, adicione ao dicionário:
+
+```python
+EMOJI_MAP = {
+    "Seu Novo Núcleo": "🎯",  # Escolha um emoji
+    # ... outros núcleos
+}
+```
+
+#### Modificar Template das Páginas de Disciplina
+
+Em `script_pastas.py`, edite a seção `conteudo_qmd`:
+
+```python
+conteudo_qmd = f"""---
+title: "{row['Disciplina']}"
+subtitle: "{subtitle}"
+# Adicione novos campos aqui
+meu_campo_customizado: "valor"
+---
+
+{body_content}
+"""
+```
+
+#### Alterar Cálculo de Estatísticas
+
+Em `script_historico.py`, modifique a seção de cálculo:
+
+```python
+# Exemplo: calcular média ponderada por carga horária
+soma_notas_ponderada = 0.0
+soma_cargas = 0
+for c in cursadas:
+    nota = float(c.get('Nota', 0))
+    carga = int(c.get('Carga Horaria', 0))
+    soma_notas_ponderada += nota * carga
+    soma_cargas += carga
+
+media_ponderada = soma_notas_ponderada / soma_cargas if soma_cargas > 0 else 0
+```
+
+---
+
+### 💡 Dicas de Uso
+
+1. **Backup dos CSVs:** Faça commit dos CSVs no Git antes de executar os scripts
+2. **Encoding:** Os scripts usam `utf-8-sig` para lidar com BOM de editores Windows
+3. **Validação:** Confira os arquivos gerados antes de fazer push
+4. **Automação:** Considere criar um script batch/shell para executar ambos de uma vez:
+
+**Windows (`atualizar.bat`):**
+```batch
+@echo off
+echo Atualizando historico...
+python script/script_pastas.py
+python script/script_historico.py
+quarto render
+echo Concluido!
+```
+
+**Linux/macOS (`atualizar.sh`):**
+```bash
+#!/bin/bash
+echo "Atualizando histórico..."
+python3 script/script_pastas.py
+python3 script/script_historico.py
+quarto render
+echo "Concluído!"
+```
+
+---
+
 ## 🔧 Recursos Avançados
 
 ### Executar Código Python nos Documentos
