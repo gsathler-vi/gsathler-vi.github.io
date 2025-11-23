@@ -406,7 +406,6 @@ date: 11-23-2025
 import pandas as pd
 # Código executável
 ```
-```
 
 ### Adicionar Disciplina no Histórico
 
