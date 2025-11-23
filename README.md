@@ -823,13 +823,4 @@ Se você melhorar algo neste template ou criar recursos interessantes, considere
 
 ---
 
-## 📊 Composição do Projeto
-
-- **JavaScript**: 39.8% - Interatividade e busca
-- **CSS**: 31.2% - Estilos e responsividade
-- **Python**: 25.2% - Scripts e análises
-- **SCSS**: 3.8% - Variáveis de tema
-
----
-
 **⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!**
