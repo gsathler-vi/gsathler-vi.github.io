@@ -78,13 +78,11 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Experiência Profissional – Gabriel Sathler">
-<meta property="og:description" content="">
 <meta property="og:image" content="https://gsathler-vi.github.io/preview-exp.png">
 <meta property="og:site_name" content="Gabriel Sathler">
 <meta property="og:image:height" content="570">
 <meta property="og:image:width" content="1195">
 <meta name="twitter:title" content="Experiência Profissional – Gabriel Sathler">
-<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://gsathler-vi.github.io/preview-exp.png">
 <meta name="twitter:image-height" content="570">
 <meta name="twitter:image-width" content="1195">
@@ -190,119 +188,243 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<h4 class="anchored">
-<strong>Vice-Diretor de Articulação e Assuntos Políticos</strong> <small class="text-body-secondary">| Centro Acadêmico de Gestão Pública (UFMG)</small>
-</h4>
-<p>
-<small>Belo Horizonte, MG | abr 2025 - Presente</small>
-</p>
-<ul>
-<li>
-Liderança e representação estudantil, atuando como ponte entre alunos, docentes e entidades universitárias.
-</li>
-<li>
-Articulação de parcerias e organização de eventos, com foco em negociação.
-</li>
-</ul>
-<hr>
-<h4 class="anchored">
-<strong>Pesquisador em Economia - PIBIC</strong> <small class="text-body-secondary">| Fapemig</small>
-</h4>
-<p>
-<small>Belo Horizonte, MG | mar 2025 - Presente</small>
-</p>
-<ul>
-<li>
-Condução de pesquisa quantitativa sobre os impactos do contexto socioeconômico na trajetória de estudantes.
-</li>
-<li>
-Avaliação de impacto de políticas de permanência e do PROUNI.
-</li>
-<li>
-Aplicação de análise estatística para gerar insights sobre equidade no ensino superior.
-</li>
-</ul>
-<hr>
-<h4 class="anchored">
-<strong>Estagiário de Análise de Dados e Planejamento Estratégico</strong> <small class="text-body-secondary">| Group Software</small>
-</h4>
-<p>
-<small>Belo Horizonte, MG | jan 2024 - fev 2025</small>
-</p>
-<ul>
-<li>
-Desenvolvimento e manutenção de dashboards em Power BI (DAX) para monitorar KPIs e apoiar decisões.
-</li>
-<li>
-Condução de Diagnóstico de Gestão Empresarial (PDCA) para elaboração de recomendações estratégicas.
-</li>
-</ul>
-<hr>
-<h4 class="anchored">
-<strong>Extensionista (Consultoria e Gestão de Projetos)</strong> <small class="text-body-secondary">| Observatório Empresarial</small>
-</h4>
-<p>
-<small>Belo Horizonte, MG | ago 2023 - jan 2024</small>
-</p>
-<ul>
-<li>
-Consultoria financeira e de gestão para microempreendedores.
-</li>
-<li>
-Oficinas de Educação Financeira para pessoas em situação de vulnerabilidade social.
-</li>
-<li>
-Gestão de projetos sociais e gerenciamento de mídias digitais para ampliar o alcance das iniciativas.
-</li>
-</ul>
-<hr>
-<h4 class="anchored">
-<strong>Estagiário em Gestão de Projetos Socioambientais</strong> <small class="text-body-secondary">| PUC Minas</small>
-</h4>
-<p>
-<small>Belo Horizonte, MG | mar 2023 - jan 2024</small>
-</p>
-<ul>
-<li>
-Participação na criação e estruturação do HUB Proex de Inovação (Business Model Canvas, Design Thinking).
-</li>
-<li>
-Apoio ao ciclo completo de projetos, do planejamento à avaliação de resultados.
-</li>
-<li>
-Parcerias institucionais.
-</li>
-</ul>
-<hr>
-<h4 class="anchored">
-<strong>Experiências na ERG Engenharia</strong> <small class="text-body-secondary">| ERG Engenharia</small>
-</h4>
-<p>
-<small>Belo Horizonte, MG | jul 2021 - out 2022</small>
-</p>
-<ul>
-<li>
-<strong>Gestão da Qualidade (ago 2022 - out 2022):</strong> Desenvolvimento de ferramenta de Business Intelligence (BI) e reformulação de processos internos para o Sistema de Gestão da Qualidade (SIG).
-</li>
-<li>
-<strong>Recursos Humanos (mai 2022 - ago 2022):</strong> Mapeamento de KPIs de RH, recrutamento, seleção e triagem de currículos.
-</li>
-<li>
-<strong>Aprendiz Administrativo (jul 2021 - mai 2022):</strong> Suporte às rotinas de escritório, utilizando Microsoft Excel para organização de dados e planilhas.
-</li>
-</ul>
-<hr>
-<h4 class="anchored">
-<strong>Vendedor de Rua</strong> <small class="text-body-secondary">| Autônomo</small>
-</h4>
-<p>
-<small>Belo Horizonte, MG | 2019 - 2021</small>
-</p>
-<ul>
-<li>
-Confecção de doces para venda nas ruas de Belo Horizonte.
-</li>
-</ul>
+<style>
+    /* Definição de Cores baseadas no seu tema */
+    :root {
+        --primary-color: #39729E; /* Azul do tema */
+        --accent-color: #447099;  /* Azul do botão */
+        --text-muted: #6a737b;
+    }
+
+    /* --- Estilo do Botão de Currículo --- */
+    .btn-resume {
+        background-color: var(--accent-color);
+        color: white !important;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 30px;
+        font-weight: 600;
+        width: 100%;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .btn-resume:hover {
+        background-color: #305775;
+        transform: translateY(-2px);
+        color: white !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    /* --- Estilo da Timeline --- */
+    .timeline {
+        position: relative;
+        padding-left: 30px;
+        border-left: 2px solid #e9ecef;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -36px;
+        top: 5px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: var(--primary-color);
+        border: 3px solid white;
+        box-shadow: 0 0 0 2px var(--primary-color);
+    }
+
+    .timeline-title {
+        font-weight: 700;
+        font-size: 1.1rem;
+        color: #333;
+        margin-bottom: 0.2rem;
+    }
+
+    .timeline-meta {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 0.5rem;
+        display: block;
+        font-style: italic;
+    }
+
+    /* --- Estilo das Tags de Competência --- */
+    .skill-tag {
+        background-color: white;
+        border: 1px solid #e9ecef;
+        color: #495057;
+        padding: 8px 16px;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.2s;
+        display: inline-block;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+        margin-bottom: 0.5rem;
+    }
+
+    .skill-tag:hover {
+        background-color: var(--primary-color);
+        color: white;
+        border-color: var(--primary-color);
+        cursor: default;
+    }
+
+    .section-title {
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #adb5bd;
+        margin-bottom: 1.5rem;
+        letter-spacing: 1.5px;
+        border-bottom: 1px solid #e9ecef;
+        padding-bottom: 10px;
+        margin-top: 2rem;
+    }
+</style>
+<!-- Título da Seção -->
+<h4 class="section-title mt-5 anchored">Experiência Profissional</h4>
+
+<div class="timeline">
+
+    <!-- Item 1: Vice-Diretor -->
+    <div class="timeline-item">
+        <div class="timeline-title">Vice-Diretor de Articulação e Assuntos Políticos</div>
+        <div class="timeline-meta">
+            <i class="bi bi-people-fill me-1"></i> Centro Acadêmico de Gestão Pública (UFMG)
+            <span class="mx-2">|</span>
+            <i class="bi bi-geo-alt-fill me-1"></i> Belo Horizonte, MG
+            <span class="d-block mt-1 text-primary fw-bold" style="font-size: 0.8em;">
+                <i class="bi bi-calendar-check me-1"></i> abr 2025 - Presente
+            </span>
+        </div>
+        <ul class="resume-list">
+            <li>Liderança e representação estudantil, atuando como ponte entre alunos, docentes e entidades universitárias.</li>
+            <li>Articulação de parcerias e organização de eventos, com foco em negociação e diplomacia institucional.</li>
+        </ul>
+    </div>
+
+    <!-- Item 2: Pesquisador -->
+    <div class="timeline-item">
+        <div class="timeline-title">Pesquisador em Economia (Bolsista PIBIC)</div>
+        <div class="timeline-meta">
+            <i class="bi bi-bank2 me-1"></i> Fapemig
+            <span class="mx-2">|</span>
+            <i class="bi bi-geo-alt-fill me-1"></i> Belo Horizonte, MG
+            <span class="d-block mt-1 text-primary fw-bold" style="font-size: 0.8em;">
+                <i class="bi bi-calendar-check me-1"></i> mar 2025 - Presente
+            </span>
+        </div>
+        <ul class="resume-list">
+            <li>Condução de pesquisa quantitativa sobre os impactos do contexto socioeconômico na trajetória de estudantes.</li>
+            <li>Avaliação de impacto de políticas de permanência e do PROUNI.</li>
+            <li>Aplicação de análise estatística avançada para gerar insights sobre equidade no ensino superior.</li>
+        </ul>
+    </div>
+
+    <!-- Item 3: Group Software -->
+    <div class="timeline-item">
+        <div class="timeline-title">Estagiário de Análise de Dados e Planejamento Estratégico</div>
+        <div class="timeline-meta">
+            <i class="bi bi-laptop me-1"></i> Group Software
+            <span class="mx-2">|</span>
+            <i class="bi bi-calendar3 me-1"></i> jan 2024 - fev 2025
+        </div>
+        <ul class="resume-list">
+            <li>Desenvolvimento e manutenção de dashboards em <strong>Power BI (DAX)</strong> para monitorar KPIs e apoiar decisões executivas.</li>
+            <li>Condução de Diagnóstico de Gestão Empresarial (PDCA) para elaboração de recomendações estratégicas baseadas em dados.</li>
+        </ul>
+    </div>
+
+    <!-- Item 4: Observatório -->
+    <div class="timeline-item">
+        <div class="timeline-title">Extensionista (Consultoria e Gestão de Projetos)</div>
+        <div class="timeline-meta">
+            <i class="bi bi-lightbulb me-1"></i> Observatório Empresarial
+            <span class="mx-2">|</span>
+            <i class="bi bi-calendar3 me-1"></i> ago 2023 - jan 2024
+        </div>
+        <ul class="resume-list">
+            <li>Consultoria financeira e de gestão para microempreendedores locais.</li>
+            <li>Ministração de oficinas de Educação Financeira para pessoas em situação de vulnerabilidade social.</li>
+            <li>Gestão de projetos sociais e gerenciamento de mídias digitais para ampliar o alcance das iniciativas.</li>
+        </ul>
+    </div>
+
+    <!-- Item 5: PUC Minas -->
+    <div class="timeline-item">
+        <div class="timeline-title">Estagiário em Gestão de Projetos Socioambientais</div>
+        <div class="timeline-meta">
+            <i class="bi bi-tree me-1"></i> PUC Minas
+            <span class="mx-2">|</span>
+            <i class="bi bi-calendar3 me-1"></i> mar 2023 - jan 2024
+        </div>
+        <ul class="resume-list">
+            <li>Participação na criação e estruturação do HUB Proex de Inovação, utilizando metodologias como <strong>Business Model Canvas</strong> e <strong>Design Thinking</strong>.</li>
+            <li>Apoio ao ciclo completo de projetos, do planejamento à avaliação de resultados e parcerias institucionais.</li>
+        </ul>
+    </div>
+
+    <!-- Item 6: ERG Engenharia (Agrupado) -->
+    <div class="timeline-item">
+        <div class="timeline-title">Trajetória na ERG Engenharia</div>
+        <div class="timeline-meta">
+            <i class="bi bi-building-gear me-1"></i> ERG Engenharia
+            <span class="mx-2">|</span>
+            <i class="bi bi-calendar3 me-1"></i> jul 2021 - out 2022
+        </div>
+        
+        <div class="mt-3 ps-2 border-start border-2">
+            <!-- Sub-item 1 -->
+            <div class="mb-3 ms-3">
+                <strong class="d-block text-dark">Gestão da Qualidade</strong>
+                <small class="text-muted fst-italic">ago 2022 - out 2022</small>
+                <p class="mb-0 small text-secondary">Desenvolvimento de ferramenta de Business Intelligence (BI) e reformulação de processos internos para o Sistema de Gestão da Qualidade (SIG).</p>
+            </div>
+            <!-- Sub-item 2 -->
+            <div class="mb-3 ms-3">
+                <strong class="d-block text-dark">Recursos Humanos</strong>
+                <small class="text-muted fst-italic">mai 2022 - ago 2022</small>
+                <p class="mb-0 small text-secondary">Mapeamento de KPIs de RH, recrutamento, seleção e triagem de currículos.</p>
+            </div>
+            <!-- Sub-item 3 -->
+            <div class="mb-0 ms-3">
+                <strong class="d-block text-dark">Aprendiz Administrativo</strong>
+                <small class="text-muted fst-italic">jul 2021 - mai 2022</small>
+                <p class="mb-0 small text-secondary">Suporte às rotinas de escritório, utilizando Microsoft Excel para organização de dados e planilhas.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Item 7: Autônomo -->
+    <div class="timeline-item">
+        <div class="timeline-title">Empreendedorismo (Vendedor Autônomo)</div>
+        <div class="timeline-meta">
+            <i class="bi bi-shop me-1"></i> Belo Horizonte, MG
+            <span class="mx-2">|</span>
+            <i class="bi bi-calendar3 me-1"></i> 2019 - 2021
+        </div>
+        <ul class="resume-list">
+            <li>Produção e venda de doces nas ruas de Belo Horizonte, desenvolvendo habilidades de vendas, comunicação e gestão financeira básica.</li>
+        </ul>
+    </div>
+
+</div>
 
 
 

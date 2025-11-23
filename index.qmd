@@ -1,7 +1,6 @@
 ---
-title: "Sobre Mim"
-description: "“Filho” de Políticas Públicas que ama se utilizar do pensamento critico e dados para pensar na resolução de problemas complexos da sociedade/mercado, construindo pontes entre a teoria e a aplicação técnica prática. Com dupla formação em andamento em Ciências Econômicas com bolsa (PUC Minas) e Gestão Pública (UFMG). Possui experiência em análise de dados com Python e R, condução de diagnósticos organizacionais e avaliação de impacto de políticas públicas, com especial interesse na área educacional."
-image: "preview-image.png"
+title: "GABRIEL SATHLER"
+subtitle: "Economia e Gestão Pública"
 about:
   template: trestles
   image: "arquivos/foto_perfil.png"
@@ -30,38 +29,173 @@ format:
   html:
     page-layout: full
 ---
-<h1 class="display-5">GABRIEL SATHLER</h1>
-<p class="text-primary-emphasis lead">Economia e Gestão Pública</p>
 
-<a href="https://drive.google.com/file/d/1eo6idlSYhjmHjJUMiq6lS5GUuzWZKI6-/view" target="_blank" class="btn-action-primary btn-action btn btn-lg w-100" role="button">PDF - Curriculo</a>
+::: {#hero-heading}
+“Filho” de Políticas Públicas que ama se utilizar do pensamento crítico e dados para pensar na resolução de problemas complexos da sociedade e mercado. Construo pontes entre a teoria e a aplicação técnica prática.
 
-<h4><strong>FORMAÇÃO ACADÊMICA</strong></h4>
+Possuo experiência em análise de dados com Python e R, condução de diagnósticos organizacionais e avaliação de impacto.
+:::
 
-<p>
-  <strong>Bacharelado em Gestão Pública, Ciência Política e Políticas Públicas</strong><br>
-  <small class="text-body-secondary"><em>Universidade Federal de Minas Gerais (UFMG) | Conclusão prevista: jan 2030</em></small>
-</p>
+```{=html}
+<style>
+    /* Definição de Cores baseadas no seu tema */
+    :root {
+        --primary-color: #39729E; /* Azul do tema */
+        --accent-color: #447099;  /* Azul do botão */
+        --text-muted: #6a737b;
+    }
 
-<p>
-  <strong>Bacharelado em Ciências Econômicas, Economia e Inovação</strong><br>
-  <small class="text-body-secondary"><em>Pontifícia Universidade Católica de Minas Gerais (PUC Minas) | Conclusão prevista: dez 2027</em> - Bolsista Integral de 100% na Instituição de Ensino.</small>
-</p>
+    /* --- Estilo do Botão de Currículo --- */
+    .btn-resume {
+        background-color: var(--accent-color);
+        color: white !important;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 30px;
+        font-weight: 600;
+        width: 100%;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
 
-<p>
-  <strong>Ensino Médio</strong><br>
-  <small class="text-body-secondary"><em>Escola Estadual Professor Alison Pereira Guimarães | Concluído: 2021</em></small>
-</p>
+    .btn-resume:hover {
+        background-color: #305775;
+        transform: translateY(-2px);
+        color: white !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
 
-#### **PRINCIPAIS COMPETÊNCIAS**
+    /* --- Estilo da Timeline --- */
+    .timeline {
+        position: relative;
+        padding-left: 30px;
+        border-left: 2px solid #e9ecef;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
 
-  <button type="button" class="btn btn-light">Análise de Dados (Python, R)</button>
-  <button type="button" class="btn btn-light">Business Intelligence (Power BI)</button>
-  <button type="button" class="btn btn-light">Análise Estatística</button>
-  <button type="button" class="btn btn-light">Gestão Estratégica</button>
-  <button type="button" class="btn btn-light">Economia & Políticas Públicas</button>
-  <button type="button" class="btn btn-light">Gestão de Projetos (PDCA)</button>
-  <button type="button" class="btn btn-light">Design Thinking</button>
-  <button type="button" class="btn btn-light">Pesquisa Quantitativa</button>
-  <button type="button" class="btn btn-light">Liderança e Articulação</button>
-  <button type="button" class="btn btn-light">Diagnóstico Organizacional</button>
+    .timeline-item {
+        position: relative;
+        margin-bottom: 2rem;
+    }
 
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -36px;
+        top: 5px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: var(--primary-color);
+        border: 3px solid white;
+        box-shadow: 0 0 0 2px var(--primary-color);
+    }
+
+    .timeline-title {
+        font-weight: 700;
+        font-size: 1.1rem;
+        color: #333;
+        margin-bottom: 0.2rem;
+    }
+
+    .timeline-meta {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 0.5rem;
+        display: block;
+        font-style: italic;
+    }
+
+    /* --- Estilo das Tags de Competência --- */
+    .skill-tag {
+        background-color: white;
+        border: 1px solid #e9ecef;
+        color: #495057;
+        padding: 8px 16px;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.2s;
+        display: inline-block;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+        margin-bottom: 0.5rem;
+    }
+
+    .skill-tag:hover {
+        background-color: var(--primary-color);
+        color: white;
+        border-color: var(--primary-color);
+        cursor: default;
+    }
+
+    .section-title {
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #adb5bd;
+        margin-bottom: 1.5rem;
+        letter-spacing: 1.5px;
+        border-bottom: 1px solid #e9ecef;
+        padding-bottom: 10px;
+        margin-top: 2rem;
+    }
+</style>
+
+<!-- Botão de Currículo -->
+<a href="https://drive.google.com/file/d/1eo6idlSYhjmHjJUMiq6lS5GUuzWZKI6-/view" target="_blank" class="btn-resume">
+    <i class="bi bi-file-earmark-pdf-fill"></i> Baixar Currículo Completo (PDF)
+</a>
+
+<!-- Seção Formação -->
+<h4 class="section-title">Formação Acadêmica</h4>
+
+<div class="timeline">
+    <!-- Item 1 -->
+    <div class="timeline-item">
+        <div class="timeline-title">Bacharelado em Gestão Pública, Ciência Política e Políticas Públicas</div>
+        <span class="timeline-meta">
+            <i class="bi bi-mortarboard-fill me-1"></i> UFMG &bull; <i class="bi bi-calendar-event me-1"></i> Conclusão: Jan 2030
+        </span>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="timeline-item">
+        <div class="timeline-title">Bacharelado em Ciências Econômicas, Economia e Inovação</div>
+        <span class="timeline-meta">
+            <i class="bi bi-mortarboard-fill me-1"></i> PUC Minas &bull; <i class="bi bi-calendar-event me-1"></i> Conclusão: Dez 2027
+        </span>
+        <div class="mt-2">
+            <span class="badge bg-success bg-opacity-10 text-success border border-success p-2">Bolsista Integral (100%)</span>
+        </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="timeline-item">
+        <div class="timeline-title">Ensino Médio</div>
+        <span class="timeline-meta">
+            <i class="bi bi-building me-1"></i> Escola Estadual Professor Alison Pereira Guimarães &bull; Concluído: 2021
+        </span>
+    </div>
+</div>
+
+<!-- Seção Competências -->
+<h4 class="section-title">Principais Competências</h4>
+<div class="d-flex flex-wrap gap-2">
+    <span class="skill-tag"><i class="bi bi-code-slash me-1"></i> Análise de Dados (Python, R)</span>
+    <span class="skill-tag"><i class="bi bi-bar-chart-fill me-1"></i> Business Intelligence (Power BI)</span>
+    <span class="skill-tag"><i class="bi bi-calculator me-1"></i> Análise Estatística</span>
+    <span class="skill-tag"><i class="bi bi-graph-up-arrow me-1"></i> Gestão Estratégica</span>
+    <span class="skill-tag"><i class="bi bi-globe-americas me-1"></i> Economia & Políticas Públicas</span>
+    <span class="skill-tag"><i class="bi bi-kanban me-1"></i> Gestão de Projetos (PDCA)</span>
+    <span class="skill-tag"><i class="bi bi-lightbulb me-1"></i> Design Thinking</span>
+    <span class="skill-tag"><i class="bi bi-search me-1"></i> Pesquisa Quantitativa</span>
+    <span class="skill-tag"><i class="bi bi-people-fill me-1"></i> Liderança e Articulação</span>
+    <span class="skill-tag"><i class="bi bi-diagram-3-fill me-1"></i> Diagnóstico Organizacional</span>
+</div>
+```

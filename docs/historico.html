@@ -194,54 +194,133 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<div class="card">
-<div class="card-body">
-<h2 class="title text-primary-emphasis anchored">
-<p>Média Geral</p>
-</h2>
-<h1 class="text text-primary-emphasis fw-bold">
-<p>83.5</p>
-</h1>
-<p class="text">
-</p><p><small>Média ponderada das disciplinas concluídas.</small></p>
-<p></p>
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Acadêmico</title>
+
+<style>
+  /* --- Estilos Gerais --- */
+  .dashboard-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  /* --- O GRID (Aqui está a mágica do lado a lado) --- */
+  .stats-grid {
+    display: grid;
+    /* 
+       1fr 1fr 1fr = Cria exatamente 3 colunas de tamanhos iguais.
+       Isso força os itens a ficarem lado a lado.
+    */
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 1.5rem; /* Espaço entre os cards */
+    margin-bottom: 2rem;
+  }
+
+  /* --- Estilo do Card --- */
+  .stat-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%; /* Garante altura igual para todos */
+  }
+
+  .stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  }
+
+  /* --- Tipografia --- */
+  .stat-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #7f8c8d;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+  }
+
+  .stat-value {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0.5rem 0;
+    line-height: 1;
+  }
+
+  .stat-desc {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  /* --- Cores --- */
+  .text-success-custom { color: #337e2e; }
+  .text-neutral-custom { color: #212529; }
+  .text-active-custom { color: #2d5b7e; }
+
+  /* --- Responsividade (Celular) --- */
+  /* 
+     Em telas menores que 768px (celulares), mudamos para 1 coluna 
+     para não ficar tudo espremido. Se quiser lado a lado até no celular,
+     basta apagar este bloco @media inteiro.
+  */
+  @media (max-width: 768px) {
+    .stats-grid {
+      grid-template-columns: 1fr; 
+    }
+    .stat-value {
+      font-size: 2.5rem;
+    }
+  }
+</style>
+
+
+
+<div class="dashboard-container">
+  
+  <div class="stats-grid">
+    
+    <!-- Card 1 -->
+    <div class="stat-card">
+      <h2 class="stat-title anchored">Média Geral</h2>
+      <div class="stat-value text-success-custom">83.5</div>
+      <p class="stat-desc">Média ponderada das disciplinas concluídas.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="stat-card">
+      <h2 class="stat-title anchored">Disciplinas Cursadas</h2>
+      <div class="stat-value text-neutral-custom">35</div>
+      <p class="stat-desc">Total de disciplinas com aprovação.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="stat-card">
+      <h2 class="stat-title anchored">Disciplinas Ativas</h2>
+      <div class="stat-value text-active-custom">8</div>
+      <p class="stat-desc">Total de disciplinas matriculadas em andamento.</p>
+    </div>
+
+  </div>
+
 </div>
-</div>
-</div>
-<div class="g-col-12 g-col-md-4">
-<div class="card">
-<div class="card-body">
-<h2 class="card-title text-secondary anchored">
-<p>Disciplinas Cursadas</p>
-</h2>
-<h1 class="card-text text-secondary fw-bold">
-<p>35</p>
-</h1>
-<p class="card-text">
-</p><p><small>Total de disciplinas com aprovação.</small></p>
-<p></p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-md-4">
-<div class="card">
-<div class="card-body">
-<h2 class="card-title body-tertiary anchored">
-<p>Disciplinas Ativas</p>
-</h2>
-<h1 class="card-text body-tertiary fw-bold">
-<p>8</p>
-</h1>
-<p class="card-text">
-</p><p><small>Total de disciplinas matriculadas em andamento.</small></p>
-<p></p>
-</div>
-</div>
-</div>
-</div>
-<hr>
+
+
+
 <section id="disciplinas-por-núcleo-de-conhecimento" class="level1">
 <h1>Disciplinas por Núcleo de Conhecimento</h1>
 <!-- Início do Bloco de Legenda -->
@@ -251,15 +330,15 @@ ul.task-list li input[type="checkbox"] {
         <!-- Itens da Legenda -->
         <div style="display: flex; align-items: center; gap: 0.75rem;">
             <div style="display: flex; align-items: center;">
-                <span style="height: 15px; width: 15px; background-color: #28a745; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
+                <span style="height: 15px; width: 15px; background-color: #337e2e; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
                 <span style="font-size: 0.9rem; color: #333;">Cursada</span>
             </div>
             <div style="display: flex; align-items: center;">
-                <span style="height: 15px; width: 15px; background-color: #007bff; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
+                <span style="height: 15px; width: 15px; background-color: #2d5b7e; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
                 <span style="font-size: 0.9rem; color: #333;">Em Curso</span>
             </div>
             <div style="display: flex; align-items: center;">
-                <span style="height: 15px; width: 15px; background-color: #ffc107; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
+                <span style="height: 15px; width: 15px; background-color: #d7e2eb; border-radius: 50%; display: inline-block; margin-right: 8px;"></span>
                 <span style="font-size: 0.9rem; color: #333;">A Cursar</span>
             </div>
         </div>
@@ -368,13 +447,13 @@ ul.task-list li input[type="checkbox"] {
     color: #fff;
     text-transform: uppercase;
   }
-  .status-cursada { background-color: #28a745; }
-  .status-em-curso { background-color: #007bff; }
-  .status-a-cursar { background-color: #ffc107; color: #212529;}
+  .status-cursada { background-color: #337e2e; }
+  .status-em-curso { background-color: #2d5b7e; }
+  .status-a-cursar { background-color: #d7e2eb; color: #212529;}
   .disciplina-nota {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #28a745;
+    color: #337e2e;
   }
     /* --- Media Query for Mobile Responsiveness --- */
   @media (max-width: 768px) {
