@@ -1,81 +1,577 @@
-# gsathler-vi.github.io
+# Site Acadêmico e Profissional - Gabriel Sathler
 
 ![Capa do Projeto](https://github.com/gsathler-vi/gsathler-vi.github.io/blob/main/preview-image.png)
 
-[![GitHub Pages](https://img.shields.io/github/deployments/gsathler-vi/gsathler-vi.github.io/github-pages?label=GitHub%20Pages)](https://gsathler-vi.github.io) [![Último commit](https://img.shields.io/github/last-commit/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io/commits/main) [![Linguagens](https://img.shields.io/github/languages/top/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io) [![Tamanho do repositório](https://img.shields.io/github/repo-size/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io)
+[![GitHub Pages](https://img.shields.io/github/deployments/gsathler-vi/gsathler-vi.github.io/github-pages?label=GitHub%20Pages)](https://gsathler-vi.github.io) [![Último commit](https://img.shields.io/github/last-commit/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io/commits/main) [![Quarto](https://img.shields.io/badge/Made%20with-Quarto-blue)](https://quarto.org) [![Tamanho do repositório](https://img.shields.io/github/repo-size/gsathler-vi/gsathler-vi.github.io)](https://github.com/gsathler-vi/gsathler-vi.github.io)
 
-## Descrição do projeto
+## 📖 Sobre o Projeto
 
-Site pessoal e portfólio do Gabriel Sathler (gsathler-vi), hospedado via GitHub Pages. O projeto é um site estático composto por HTML/CSS (e SCSS), JavaScript para interatividade leve, e utiliza Quarto e scripts Python para geração/transformação de conteúdo quando aplicável (por exemplo, posts técnicos, notebooks ou páginas geradas a partir de dados).
+Este é um **site acadêmico e profissional** desenvolvido com [Quarto](https://quarto.org/), uma ferramenta moderna para criação de documentos técnicos e científicos. O site apresenta portfólio, experiências, certificações, histórico acadêmico e materiais didáticos.
 
-## Status do Projeto
+**🌐 Acesse o site:** [https://gsathler-vi.github.io](https://gsathler-vi.github.io)
 
-Em manutenção. Publicado com GitHub Pages (branch `main`). Atualizações de conteúdo, melhorias visuais e ajustes no pipeline de geração podem ser feitas conforme necessário.
+### ✨ Principais Características
 
-## Funcionalidades e Demonstração
+- 📄 **Páginas Dinâmicas**: Sobre, Experiência, Certificações, Histórico Acadêmico
+- 📝 **Sistema de Posts**: Blog com categorias, tags e RSS feed
+- 📚 **Materiais Didáticos**: Tutoriais interativos com código executável
+- 🎨 **Design Responsivo**: Adaptável para desktop, tablet e mobile
+- 🔍 **Busca Integrada**: Sistema de busca em todo o conteúdo
+- 🌙 **Tema Dual**: Suporte a modo claro e escuro
+- 📊 **Visualizações Interativas**: Gráficos e tabelas dinâmicas
 
-Funcionalidades primárias: - Páginas estáticas principais: Home, Sobre, Projetos/Portfólio, Blog/Artigos e Contato. - Estrutura de posts/páginas que permite publicação via Quarto (quando aplicável). - Layout responsivo otimizado para dispositivos móveis e desktop. - Estilização com CSS/SCSS com organização modular. - Interações JavaScript leves: navegação, animações e componentes UI simples. - Hospedagem contínua via GitHub Pages.
+---
 
-Conteúdo e Seções - Home: apresentação breve e acesso rápido aos projetos. - Sobre: biografia, skills e objetivos profissionais. - Projetos/Portfólio: cards com resumo dos projetos, links para repositórios e demos. - Blog/Artigos: posts técnicos e notas (possivelmente gerados por Quarto, se presentes). - Contato: links para redes, email e formulários (se houver integração).
+## 🎯 Replicação e Personalização
 
-Comportamento Responsivo e Acessibilidade - O layout prioriza leitura em diferentes larguras de tela. - Recomenda-se validar contrastes e usar atributos ARIA onde necessário para melhorar acessibilidade.
+Este projeto foi desenvolvido para ser **facilmente replicável e personalizável**. Se você deseja criar seu próprio site acadêmico/profissional baseado neste template, siga o guia completo abaixo.
 
-Demonstração (produção) - URL pública: https://gsathler-vi.github.io
+### 🚀 Como Usar Este Template
 
-## Acesso ao Projeto
+#### 1. **Fork ou Clone do Repositório**
 
-Repositório: - https://github.com/gsathler-vi/gsathler-vi.github.io
+```bash
+# Opção 1: Clonar diretamente
+git clone https://github.com/gsathler-vi/gsathler-vi.github.io.git meu-site
+cd meu-site
 
-## Como executar localmente 
+# Opção 2: Usar como template no GitHub
+# Clique em "Use this template" no repositório original
+```
 
-Pré-requisitos - Git (para clonar) - Node.js + npm (se houver scripts / bundler) - Python 3 (opcional — útil para servir estáticos) - Quarto (opcional — se for usar o fluxo de geração com .qmd) - sass (opcional — para compilar SCSS manualmente)
+#### 2. **Configurar Informações Pessoais**
 
-Passos básicos 1. Clone: - git clone https://github.com/gsathler-vi/gsathler-vi.github.io.git - cd gsathler-vi.github.io
+Edite os arquivos de configuração principais:
 
-2.  Se houver package.json (instale dependências):
-    -   npm install
-3.  Compilar SCSS (se os estilos estiverem em SCSS):
-    -   npx sass src/scss:dist/css --no-source-map
-    -   Ajuste caminhos conforme a estrutura do projeto.
-4.  Se usar Quarto para gerar conteúdo:
-    -   Ver seção "Uso do Quarto" abaixo.
-5.  Servir localmente:
-    -   Com Python: python -m http.server 8000
-    -   Com Node (ex.: live-server ou serve): npx live-server public --port=8000
-    -   Acesse http://localhost:8000 (ou porta configurada)
+**`_quarto.yml`** - Configuração principal do site:
+```yaml
+website:
+  title: "Seu Nome"  # Altere para seu nome
+  site-url: "https://seu-usuario.github.io/"  # Seu domínio
+  navbar:
+    # Personalize os links do menu
+  page-footer:
+    left: "© 2025, Seu Nome"
+    right:
+      - icon: linkedin
+        href: "https://linkedin.com/in/seu-perfil"
+      - icon: github
+        href: "https://github.com/seu-usuario"
+```
 
-Fluxos comuns - Desenvolvimento rápido: npm run dev (se disponível) — roda bundler/local server com hot reload. - Build para produção: npm run build (se disponível) + comando de geração do Quarto (se aplicável).
+**`_brand.yml`** - Identidade visual:
+```yaml
+logo:
+  medium: arquivos/seu-logo.png  # Substitua pelo seu logo
+```
 
-## Uso do Quarto
+**`theme.scss` e `styles.css`** - Cores e estilos:
+```scss
+// Em theme.scss, personalize as cores
+$link-color: #244864;  // Sua cor primária
+$text-muted: #6a737b;
+```
 
-Observação: o repositório contém artefatos relacionados a Quarto e scripts Python — caso queira gerar posts ou documentos programáticos, Quarto é a ferramenta recomendada.
+#### 3. **Atualizar Conteúdo das Páginas**
 
-Quando/por que usar Quarto aqui - Produção de posts técnicos, documentação ou páginas que misturam texto e código (notebooks). - Gerar páginas a partir de arquivos .qmd que executam snippets Python e embutem resultados. - Simplifica workflow de publicação: escrever em Markdown/Quarto Markdown e renderizar para HTML estático.
+**Página Inicial (`index.qmd`)**
+```yaml
+---
+title: "SEU NOME"
+subtitle: "Sua Área de Atuação"
+about:
+  template: trestles
+  image: "arquivos/sua-foto.png"  # Sua foto de perfil
+  links:
+    - icon: linkedin
+      href: "seu-linkedin"
+---
 
-Configuração típica (\_quarto.yml) - Verifique se existe um arquivo \_quarto.yml na raiz. Um exemplo mínimo: \`\`\` project: type: website output-dir: \_site
+Seu texto de apresentação aqui...
+```
 
-website: title: "gsathler-vi" navbar: left: - text: "Home" href: index.qmd - text: "Projetos" href: projects.qmd \`\``- Ajuste output-dir para um diretório que seja servido por GitHub Pages (ex.: root do branch`main\` ou pasta docs/).
+**Experiência (`experiencia.qmd`)**
+- Adicione suas experiências profissionais na timeline
+- Mantenha o formato HTML para estilização consistente
 
-Comandos úteis do Quarto - Instalar: siga https://quarto.org/docs/get-started/ - Renderizar todo o site: quarto render - Visualizar com live-reload: quarto preview - Renderizar um único documento: quarto render pagina.qmd
+**Certificações (`certificacoes.qmd`)**
+- Adicione seus certificados e prêmios
+- Cada card usa a estrutura `.cert-card`
 
-Exemplo de fluxo de publicação com Quarto + GitHub Pages 1. Configure \_quarto.yml com output-dir: docs (ou \_site que depois é copiado para docs). 2. Executar: quarto render 3. Commit dos arquivos gerados (ex.: docs/) no branch `main`. 4. Configurar GitHub Pages para servir da pasta /docs na branch main (Settings → Pages). Observação: também é possível usar workflows GitHub Actions para automatizar o build do Quarto e publicar para gh-pages.
+**Histórico Acadêmico (`historico.qmd`)**
+- Atualize as estatísticas no dashboard
+- Adicione suas disciplinas nos acordeões por categoria
+- Cada disciplina pode ter uma página detalhada em `historico/disciplinas/`
 
-Estrutura de pastas sugerida - assets/ → imagens, logos e recursos estáticos - src/ → código fonte (SCSS, JS modular, templates) - content/ ou posts/→ arquivos .qmd / .md (conteúdo a ser renderizado) - \_quarto.yml → configuração do Quarto (se aplicável) - docs/ ou \_site/ → saída build (publicável no GitHub Pages) - package.json → scripts e dependências de frontend (se houver) (Adapte conforme o padrão atual do repositório; a intenção aqui é guiar manutenção.)
+#### 4. **Criar Conteúdo (Posts e Materiais)**
 
-Tecnologias utilizadas - HTML - JavaScript — interatividade e lógica de UI - CSS / SCSS — estilos - Python — scripts auxiliares / processamento de conteúdo - Quarto — geração de conteúdo a partir de .qmd / .md
+**Estrutura de Posts (`posts/`)**
 
-Composição por linguagem - JavaScript: 39.8%\
-- CSS: 31.2%\
-- Python: 25.2%\
-- SCSS: 3.8%
+Cada post fica em uma subpasta com `index.qmd`:
 
-## Pessoas desenvolvedoras 
+```markdown
+---
+title: "Título do Post"
+author: "Seu Nome"
+date: "2025-11-23"
+categories: [Categoria1, Categoria2]
+image: "imagem-destaque.jpg"
+---
 
--   Gabriel Sathler (gsathler-vi) — autor e mantenedor
+Conteúdo do post em Markdown...
 
-## Observações / Dicas de manutenção
+## Código executável
 
--   Se usar Quarto, prefira automatizar o build com um workflow GitHub Actions que executa `quarto render` e publica para o branch/pasta de Pages, evitando commitar artefatos gerados manualmente.
--   Centralize variáveis de estilo em SCSS (variáveis/partials) para facilitar alterações visuais.
--   Verifique periodicamente as dependências Node/Python e atualize quando necessário para evitar problemas de build.
--   Teste responsividade em várias larguras e use ferramentas de auditoria (ex.: Lighthouse) para checar performance e acessibilidade.
+```{python}
+# Código Python que será executado
+import pandas as pd
+df = pd.DataFrame({"A": [1, 2, 3]})
+df
+```
+```
+
+**Estrutura de Materiais (`material/`)**
+
+Similar aos posts, mas focado em conteúdo didático:
+
+```markdown
+---
+title: "Tutorial: Nome do Material"
+subtitle: "Descrição breve"
+date: 11-23-2025
+author: "Seu Nome"
+---
+
+## Introdução
+
+Explicação do material...
+
+```{python}
+# Código interativo
+```
+```
+
+---
+
+## 🛠️ Instalação e Configuração
+
+### Pré-requisitos
+
+1. **Quarto CLI** (essencial)
+   - Download: https://quarto.org/docs/get-started/
+   - Versão recomendada: 1.4 ou superior
+
+2. **Python 3.8+** (para materiais com código Python)
+   ```bash
+   python --version
+   ```
+
+3. **Git** (para controle de versão)
+   ```bash
+   git --version
+   ```
+
+### Instalação Passo a Passo
+
+#### Windows (PowerShell)
+
+```powershell
+# 1. Instalar Quarto
+# Baixe o instalador em: https://quarto.org/docs/get-started/
+# Execute o .msi e siga o instalador
+
+# 2. Verificar instalação
+quarto --version
+
+# 3. Clonar o repositório
+git clone https://github.com/gsathler-vi/gsathler-vi.github.io.git
+cd gsathler-vi.github.io
+
+# 4. (Opcional) Criar ambiente virtual Python
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# 5. Instalar dependências Python (se houver)
+pip install -r requirements.txt
+```
+
+#### Linux/macOS (Bash)
+
+```bash
+# 1. Instalar Quarto
+# Ubuntu/Debian
+sudo wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.550/quarto-1.4.550-linux-amd64.deb
+sudo dpkg -i quarto-1.4.550-linux-amd64.deb
+
+# macOS (com Homebrew)
+brew install quarto
+
+# 2. Verificar instalação
+quarto --version
+
+# 3. Clonar o repositório
+git clone https://github.com/gsathler-vi/gsathler-vi.github.io.git
+cd gsathler-vi.github.io
+
+# 4. (Opcional) Criar ambiente virtual Python
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 5. Instalar dependências Python (se houver)
+pip install -r requirements.txt
+```
+
+---
+
+## 🖥️ Comandos Essenciais
+
+### Desenvolvimento Local
+
+```bash
+# Visualizar o site com hot-reload (recarrega ao salvar)
+quarto preview
+
+# Acessar em: http://localhost:4200
+```
+
+### Build e Deploy
+
+```bash
+# Renderizar todo o site (gera pasta docs/)
+quarto render
+
+# Renderizar apenas um arquivo específico
+quarto render index.qmd
+quarto render posts/meu-post/index.qmd
+```
+
+### Limpeza
+
+```bash
+# Limpar cache e arquivos temporários
+quarto clean
+
+# Limpar completamente (incluindo _freeze/)
+rm -rf _freeze/
+```
+
+---
+
+## 📁 Estrutura de Pastas Detalhada
+
+```
+gsathler-vi.github.io/
+│
+├── _quarto.yml              # ⚙️ Configuração principal do Quarto
+├── _brand.yml               # 🎨 Identidade visual (logo)
+├── theme.scss               # 🎨 Variáveis SCSS personalizadas
+├── styles.css               # 🎨 Estilos CSS adicionais
+│
+├── index.qmd                # 🏠 Página inicial
+├── experiencia.qmd          # 💼 Experiências profissionais
+├── certificacoes.qmd        # 🏆 Certificações e prêmios
+├── historico.qmd            # 📚 Histórico acadêmico (dashboard)
+├── posts.qmd                # 📝 Listagem de posts
+├── material.qmd             # 📖 Listagem de materiais didáticos
+│
+├── arquivos/                # 📂 Recursos estáticos
+│   ├── foto_perfil.png      # Foto de perfil
+│   ├── logo.png             # Logo do site
+│   └── ...
+│
+├── posts/                   # 📝 Diretório de posts do blog
+│   ├── _metadata.yml        # Metadados compartilhados dos posts
+│   ├── apresentacao_pesquisa/
+│   │   ├── index.qmd        # Post individual
+│   │   └── image.png        # Imagem destaque do post
+│   └── aula_dummies/
+│       ├── index.qmd
+│       └── image.jpg
+│
+├── material/                # 📚 Materiais didáticos
+│   ├── _metadata.yml
+│   └── dummies/
+│       ├── index.qmd        # Tutorial interativo
+│       └── dataset/         # Dados utilizados no tutorial
+│
+├── historico/               # 📖 Disciplinas acadêmicas
+│   └── disciplinas/
+│       ├── cursadas/        # Disciplinas concluídas
+│       │   ├── economia-brasileira-contemporânea/
+│       │   │   └── index.qmd
+│       │   └── ...
+│       └── em_curso/        # Disciplinas em andamento
+│           └── ...
+│
+├── script/                  # 🐍 Scripts Python auxiliares
+│   ├── script_historico.py  # Gera páginas do histórico
+│   └── ...
+│
+├── docs/                    # 🌐 Site gerado (publicado no GitHub Pages)
+│   ├── index.html
+│   ├── posts/
+│   └── ...
+│
+└── _freeze/                 # ❄️ Cache de execução de código
+    └── ...
+```
+
+### Explicação dos Arquivos Principais
+
+| Arquivo/Pasta | Descrição | Quando Editar |
+|--------------|-----------|---------------|
+| `_quarto.yml` | Configuração do site, menu, rodapé | Ao personalizar estrutura |
+| `_brand.yml` | Logo e identidade visual | Ao trocar logo |
+| `index.qmd` | Página inicial | Sempre (seu perfil) |
+| `posts/` | Artigos e trabalhos | Ao publicar novo conteúdo |
+| `material/` | Tutoriais e materiais didáticos | Ao criar materiais de ensino |
+| `docs/` | Site compilado (não editar) | Gerado automaticamente |
+
+---
+
+## 🎨 Personalização de Estilos
+
+### Cores do Tema
+
+Edite `theme.scss` para alterar as cores principais:
+
+```scss
+/*-- scss:defaults --*/
+$primary-color: #2d5b7e;    // Azul principal
+$link-color: #244864;       // Cor dos links
+$text-muted: #6a737b;       // Texto secundário
+```
+
+### CSS Customizado
+
+Adicione estilos específicos em `styles.css`:
+
+```css
+/* Exemplo: mudar estilo dos cards */
+.disciplina-card {
+  border-radius: 15px;      /* Bordas mais arredondadas */
+  background: linear-gradient(to bottom, #fff, #f9f9f9);
+}
+```
+
+### Responsividade
+
+O site já possui media queries configuradas. Para ajustar:
+
+```css
+@media (max-width: 768px) {
+  /* Estilos para mobile */
+  .stat-card {
+    padding: 1rem;
+  }
+}
+```
+
+---
+
+## 📝 Criando Conteúdo
+
+### Novo Post
+
+1. Crie uma pasta em `posts/nome-do-post/`
+2. Adicione `index.qmd` com o conteúdo:
+
+```yaml
+---
+title: "Título do Post"
+author: "Seu Nome"
+date: "2025-11-23"
+categories: [Python, Análise de Dados]
+image: "thumb.png"
+---
+
+## Introdução
+
+Seu conteúdo aqui...
+```
+
+3. Renderize: `quarto render`
+
+### Novo Material Didático
+
+Similar ao post, mas em `material/nome-material/`:
+
+```yaml
+---
+title: "Tutorial: Análise com Python"
+subtitle: "Guia Prático"
+date: 11-23-2025
+---
+
+## Passo 1
+
+```{python}
+import pandas as pd
+# Código executável
+```
+```
+
+### Adicionar Disciplina no Histórico
+
+1. Crie a pasta: `historico/disciplinas/cursadas/nome-disciplina/`
+2. Adicione `index.qmd` com os detalhes
+3. Atualize o `historico.qmd` adicionando o card correspondente
+
+---
+
+## 🚀 Publicação no GitHub Pages
+
+### Primeira Configuração
+
+1. **Criar repositório no GitHub**
+   - Nome: `seu-usuario.github.io`
+   - Marcar como público
+
+2. **Configurar GitHub Pages**
+   - Ir em: Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: `main`
+   - Folder: `/docs`
+   - Salvar
+
+3. **Push inicial**
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/seu-usuario.github.io.git
+git push -u origin main
+```
+
+### Workflow de Atualização
+
+```bash
+# 1. Fazer alterações nos arquivos .qmd
+
+# 2. Renderizar o site
+quarto render
+
+# 3. Commit e push
+git add .
+git commit -m "Atualização: descrição das mudanças"
+git push
+
+# 4. Aguardar alguns minutos
+# Site será atualizado automaticamente
+```
+
+---
+
+## 🔧 Recursos Avançados
+
+### Executar Código Python nos Documentos
+
+```python
+```{python}
+#| echo: true          # Mostra o código
+#| warning: false      # Oculta warnings
+#| fig-width: 8        # Largura da figura
+
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [1, 4, 9])
+plt.show()
+```
+```
+
+### Criar Tabelas Interativas
+
+```python
+```{python}
+import pandas as pd
+from great_tables import GT
+
+df = pd.DataFrame({
+    "Nome": ["Ana", "Bruno"],
+    "Nota": [8.5, 9.0]
+})
+
+GT(df)
+```
+```
+
+### Adicionar Vídeos do YouTube
+
+```markdown
+{{< video https://www.youtube.com/watch?v=ID_DO_VIDEO >}}
+```
+
+---
+
+## 📚 Recursos e Documentação
+
+### Documentação Oficial do Quarto
+
+- **Site Principal**: https://quarto.org/
+- **Guia de Websites**: https://quarto.org/docs/websites/
+- **Referência de Opções**: https://quarto.org/docs/reference/
+- **Galeria de Exemplos**: https://quarto.org/docs/gallery/
+
+### Tutoriais Específicos
+
+- **Markdown Básico**: https://quarto.org/docs/authoring/markdown-basics.html
+- **Código Executável**: https://quarto.org/docs/computations/python.html
+- **Layouts e Design**: https://quarto.org/docs/output-formats/page-layout.html
+- **Customização Visual**: https://quarto.org/docs/output-formats/html-themes.html
+
+### Comunidade e Suporte
+
+- **GitHub Discussions**: https://github.com/quarto-dev/quarto-cli/discussions
+- **Stack Overflow**: Tag `quarto`
+- **Twitter**: [@quarto_pub](https://twitter.com/quarto_pub)
+
+---
+
+## 🤝 Contribuição
+
+Se você melhorar algo neste template ou criar recursos interessantes, considere:
+
+1. Fazer um fork
+2. Criar uma branch para sua feature: `git checkout -b minha-feature`
+3. Commit suas mudanças: `git commit -m 'Adiciona minha feature'`
+4. Push para a branch: `git push origin minha-feature`
+5. Abrir um Pull Request
+
+---
+
+## 📄 Licença
+
+Este projeto está disponível sob a licença MIT. Sinta-se livre para usar, modificar e distribuir conforme necessário.
+
+---
+
+## 👤 Autor
+
+**Gabriel Sathler Victer Itaborahy**
+
+- 🌐 Site: [gsathler-vi.github.io](https://gsathler-vi.github.io)
+- 💼 LinkedIn: [gabriel-sathler](https://linkedin.com/in/gabriel-sathler)
+- 🐙 GitHub: [@gsathler-vi](https://github.com/gsathler-vi)
+- 📧 Email: gabrielsathler.vi@gmail.com
+
+---
+
+## 🙏 Agradecimentos
+
+- **Quarto Team** - Pela ferramenta incrível
+- **PUC Minas** - Suporte acadêmico
+- **Comunidade Open Source** - Inspiração e recursos
+
+---
+
+## 📊 Composição do Projeto
+
+- **JavaScript**: 39.8% - Interatividade e busca
+- **CSS**: 31.2% - Estilos e responsividade
+- **Python**: 25.2% - Scripts e análises
+- **SCSS**: 3.8% - Variáveis de tema
+
+---
+
+**⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!**
