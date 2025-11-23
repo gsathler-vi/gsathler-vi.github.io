@@ -405,6 +405,34 @@ format:
     color: var(--success-color);
     font-size: 0.9rem;
   }}
+    /* --- Media Query for Mobile Responsiveness --- */
+  @media (max-width: 768px) {{
+    /* Força o grid a ter apenas uma coluna em telas menores */
+    .disciplinas-grid {{
+      grid-template-columns: 1fr; /* Stacks cards vertically */
+      padding: 1rem; /* Reduz o preenchimento nas laterais */
+    }}
+
+    /* Ajusta os títulos e espaçamentos para telas menores */
+    .nucleo-accordion summary {{
+      font-size: 1.1rem;
+      padding: 1rem;
+    }}
+    
+    .nucleo-accordion summary::after {{
+      right: 1rem; /* Ajusta a posição da seta para o novo padding */
+    }}
+
+    .disciplina-card h4 {{
+      font-size: 1rem;
+    }}
+    
+    /* Ajusta o dashboard de estatísticas para empilhar verticalmente */
+    .grid {{
+        grid-template-columns: 1fr !important; /* Força uma única coluna */
+        gap: 1rem !important;
+    }}
+  }}
 </style>
 
 <!-- DASHBOARD DE ESTATÍSTICAS -->
