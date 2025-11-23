@@ -1,6 +1,7 @@
 ---
 title: "Experiência Profissional"
 image: "preview-exp.png"
+toc: false
 ---
 
 ```{=html}

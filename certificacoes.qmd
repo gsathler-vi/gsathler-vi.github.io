@@ -1,6 +1,7 @@
 ---
 title: "Certificações e Prêmios"
 image: "preview-cert.png"
+toc: false
 ---
 
 ```{=html}
