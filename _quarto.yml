@@ -12,7 +12,6 @@ website:
   site-path: "/"
   image: "preview-image.png"
   page-footer:
-    background: "#2d5b7e"
     left: "2025, Gabriel Sathler" 
     center: Feito com [Quarto](https://quarto.org/)
     right: 
@@ -58,10 +57,12 @@ format:
     respect-user-color-scheme: true
     toc: true
     theme:
-      - cosmo
-      - theme.scss
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
+    code-fold: true
+    code-summary: "Exibir Código"
     css: styles.css
 include-in-header:
   - text: "<meta name='viewport' content='width=device-width, initial-scale=1.0'>"

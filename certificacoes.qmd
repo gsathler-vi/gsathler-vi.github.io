@@ -103,6 +103,61 @@ toc: false
         margin-bottom: 3rem;
         box-shadow: 0 4px 6px rgba(0,0,0,0.02);
     }
+    
+    /* Dark Mode Overrides for Certifications - Inline */
+    @media (prefers-color-scheme: dark) {
+        body.quarto-dark .cert-card {
+            background-color: #242426;
+            border-color: #404041;
+        }
+        
+        body.quarto-dark .cert-title {
+            color: #f8f8f8;
+        }
+        
+        body.quarto-dark .cert-meta {
+            color: #adb5bd;
+        }
+        
+        body.quarto-dark .cert-link {
+            color: #75A8D9;
+        }
+        
+        body.quarto-dark .cert-link:hover {
+            color: #5092dd;
+        }
+        
+        body.quarto-dark .award-card,
+        body.quarto-dark .card {
+            background: linear-gradient(to right, #242426, #333333) !important;
+            border-color: #404041 !important;
+        }
+        
+        body.quarto-dark .card-body {
+            color: #C2C2C4;
+        }
+        
+        body.quarto-dark .card-title {
+            color: #75A8D9 !important;
+        }
+        
+        body.quarto-dark .blockquote p {
+            color: #C2C2C4 !important;
+        }
+        
+        body.quarto-dark .blockquote-footer {
+            color: #adb5bd !important;
+        }
+        
+        body.quarto-dark .text-secondary {
+            color: #C2C2C4 !important;
+        }
+        
+        body.quarto-dark .section-title {
+            color: #adb5bd !important;
+            border-bottom-color: #404041 !important;
+        }
+    }
 </style>
 
 <!-- SEÇÃO DE CERTIFICAÇÕES EM GRID -->

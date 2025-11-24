@@ -82,6 +82,7 @@ Possuo experiência em análise de dados com Python e R, condução de diagnóst
     .timeline-item {
         position: relative;
         margin-bottom: 2rem;
+        padding-left: 0;
     }
 
     .timeline-item::before {

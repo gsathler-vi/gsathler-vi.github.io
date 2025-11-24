@@ -50,6 +50,7 @@ toc: false
     .timeline-item {
         position: relative;
         margin-bottom: 2rem;
+        padding-left: 0;
     }
 
     .timeline-item::before {

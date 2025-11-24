@@ -382,3 +382,301 @@ span.color-box {
   margin-right: 0.2em; /* Space between box and text */
   border: 1px solid #000; /* Border color */
 }
+
+/* ==========================================
+   DARK MODE OVERRIDES FOR CUSTOM HTML PAGES
+   ========================================== */
+
+body.quarto-dark {
+  /* --- Variables for Dark Mode --- */
+  --primary-color: #75A8D9;
+  --accent-color: #5092dd;
+  --success-color: #72994E;
+  --warning-color: #75A8D9;
+  --muted-color: #adb5bd;
+  --bg-card: #242426;
+  --text-color: #f8f8f8;
+  --border-color: #404041;
+}
+
+/* Dark Mode: Timeline and Experience Page */
+body.quarto-dark .timeline {
+  border-left-color: #404041;
+}
+
+body.quarto-dark .timeline-item::before {
+  background: var(--primary-color);
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+body.quarto-dark .timeline-title {
+  color: #f8f8f8;
+}
+
+body.quarto-dark .timeline-meta {
+  color: #adb5bd;
+}
+
+body.quarto-dark .skill-tag {
+  background-color: #242426;
+  border-color: #404041;
+  color: #f8f8f8;
+}
+
+body.quarto-dark .skill-tag:hover {
+  background-color: var(--primary-color);
+  color: #151515;
+  border-color: var(--primary-color);
+}
+
+body.quarto-dark .section-title {
+  color: #adb5bd;
+  border-bottom-color: #404041;
+}
+
+body.quarto-dark .btn-resume {
+  background-color: var(--accent-color);
+  color: #151515 !important;
+}
+
+body.quarto-dark .btn-resume:hover {
+  background-color: #75A8D9;
+  color: #151515 !important;
+}
+
+body.quarto-dark .resume-list {
+  color: #C2C2C4;
+}
+
+/* Dark Mode: Historic/Academic Page */
+body.quarto-dark .stat-card {
+  background-color: #242426;
+  border-color: #404041;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+body.quarto-dark .stat-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+body.quarto-dark .stat-content h2 {
+  color: #adb5bd;
+}
+
+body.quarto-dark .stat-value {
+  color: #f8f8f8;
+}
+
+body.quarto-dark .stat-icon {
+  color: var(--primary-color);
+}
+
+body.quarto-dark .legend-bar {
+  background: #242426;
+  border-color: #404041;
+  color: #C2C2C4;
+}
+
+body.quarto-dark .legend-item {
+  color: #C2C2C4;
+}
+
+body.quarto-dark details {
+  border-color: #404041;
+  background: #242426;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+body.quarto-dark summary {
+  background-color: #242426;
+  color: var(--primary-color);
+}
+
+body.quarto-dark summary:hover {
+  background-color: #333333;
+}
+
+body.quarto-dark details[open] summary {
+  border-bottom-color: #404041;
+}
+
+body.quarto-dark .disciplinas-grid {
+  background-color: #1a1a1a;
+}
+
+body.quarto-dark .disciplina-card {
+  background: #242426;
+  border-color: #404041;
+}
+
+body.quarto-dark .disciplina-card h4 {
+  color: #f8f8f8;
+}
+
+body.quarto-dark .disciplina-meta {
+  color: #C2C2C4;
+}
+
+body.quarto-dark .disciplina-meta i {
+  color: var(--primary-color);
+}
+
+body.quarto-dark .disciplina-footer {
+  border-top-color: #404041;
+}
+
+body.quarto-dark .bg-cursada {
+  background-color: rgba(114, 153, 78, 0.2);
+  color: #9BC67B;
+}
+
+body.quarto-dark .bg-em-curso {
+  background-color: rgba(117, 168, 217, 0.2);
+  color: #75A8D9;
+}
+
+body.quarto-dark .bg-a-cursar {
+  background-color: rgba(64, 64, 65, 0.3);
+  color: #adb5bd;
+}
+
+body.quarto-dark .nota-valor {
+  color: #9BC67B;
+}
+
+body.quarto-dark a.card-link:hover .disciplina-card {
+  border-color: var(--primary-color);
+  box-shadow: 0 5px 15px rgba(117, 168, 217, 0.3);
+}
+
+/* Dark Mode: Index Page Hero Heading */
+body.quarto-dark #hero-heading {
+  color: #f8f8f8;
+}
+
+body.quarto-dark .badge {
+  background-color: rgba(114, 153, 78, 0.2) !important;
+  color: #9BC67B !important;
+  border-color: #72994E !important;
+}
+
+/* Dark Mode: Certificações Page */
+body.quarto-dark .cert-card {
+  background-color: #242426;
+  border-color: #404041;
+}
+
+body.quarto-dark .cert-card:hover {
+  box-shadow: 0 10px 20px rgba(117, 168, 217, 0.2);
+  border-color: var(--primary-color);
+}
+
+body.quarto-dark .cert-icon {
+  color: var(--primary-color);
+}
+
+body.quarto-dark .cert-title {
+  color: #f8f8f8;
+}
+
+body.quarto-dark .cert-meta {
+  color: #adb5bd;
+}
+
+body.quarto-dark .cert-link {
+  color: var(--primary-color);
+}
+
+body.quarto-dark .cert-link:hover {
+  color: #75A8D9;
+}
+
+body.quarto-dark .award-card {
+  background: linear-gradient(to right, #242426, #333333);
+  border-left-color: var(--primary-color);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+body.quarto-dark .card {
+  background-color: #242426;
+  color: #f8f8f8;
+}
+
+body.quarto-dark .card-body {
+  color: #C2C2C4;
+}
+
+body.quarto-dark .blockquote {
+  color: #C2C2C4;
+}
+
+body.quarto-dark .blockquote-footer {
+  color: #adb5bd;
+}
+
+/* Dark Mode: Awards and Recognition Section - More Specific */
+body.quarto-dark .card.border-0 {
+  background-color: #242426 !important;
+}
+
+body.quarto-dark .card .card-title {
+  color: #75A8D9 !important;
+}
+
+body.quarto-dark .card .blockquote p,
+body.quarto-dark .card .text-secondary {
+  color: #C2C2C4 !important;
+}
+
+body.quarto-dark .card .blockquote-footer,
+body.quarto-dark .card cite {
+  color: #adb5bd !important;
+}
+
+body.quarto-dark .text-warning {
+  color: #E7B10A !important;
+}
+
+/* Dark Mode: ERG Trajectory Sub-items */
+body.quarto-dark .border-start {
+  border-color: #404041 !important;
+}
+
+body.quarto-dark .text-dark {
+  color: #f8f8f8 !important;
+}
+
+body.quarto-dark .text-muted {
+  color: #adb5bd !important;
+}
+
+body.quarto-dark .text-secondary {
+  color: #C2C2C4 !important;
+}
+
+/* Fix Timeline Bullet Alignment */
+.timeline-item::before {
+  left: -36px !important;
+  top: 5px;
+}
+
+.timeline {
+  padding-left: 30px;
+  border-left: 2px solid #e9ecef;
+}
+
+body.quarto-dark .timeline {
+  border-left-color: #404041;
+}
+
+/* Ensure proper spacing for timeline items */
+.timeline-item {
+  position: relative;
+  padding-left: 0;
+}
+
+/* Dark mode for section titles in all pages */
+body.quarto-dark .section-title {
+  color: #adb5bd;
+  border-bottom-color: #404041;
+}
