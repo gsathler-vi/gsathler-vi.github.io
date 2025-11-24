@@ -2,6 +2,9 @@
 title: "Certificações e Prêmios"
 image: "preview-cert.png"
 toc: false
+format: 
+  html:
+    page-layout: full
 ---
 
 ```{=html}
