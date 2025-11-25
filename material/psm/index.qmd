@@ -40,10 +40,10 @@ Cada política é comparada com estudantes **pagantes** (sem bolsa/financiamento
 
 Analisa o efeito **incremental** dos auxílios de permanência comparando estudantes de IES públicas (com auxílios) com estudantes ProUni Integral em IES privadas (sem auxílios).
 
-| Tratamento                        | Controle                          |
-|-----------------------------------|-----------------------------------|
-| Aux. Permanência (IES Públicas)   | ProUni Integral (sem aux. perm.)  |
-| Aux. Alimentação (IES Públicas)   | ProUni Integral (sem aux. alim.)  |
+| Tratamento                      | Controle                         |
+|---------------------------------|----------------------------------|
+| Aux. Permanência (IES Públicas) | ProUni Integral (sem aux. perm.) |
+| Aux. Alimentação (IES Públicas) | ProUni Integral (sem aux. alim.) |
 
 ------------------------------------------------------------------------
 
@@ -81,7 +81,7 @@ MAP_CURSO = {1: 'Administração', 13: 'Ciências Econômicas', 22: 'Ciências C
 ### Carregamento da Base de Dados
 
 ```{python}
-df_full = pd.read_parquet('dataset/01_enade.parquet')
+df_full = pd.read_parquet('material/psm/dataset/01_enade.parquet')
 display(Markdown(f"✅ **Dados carregados:** {len(df_full):,} observações"))
 
 # Criar subconjuntos
@@ -125,10 +125,10 @@ resultado = 'nt_ger'
 covariates_base = [
     'cod_pessoas_res',
     'genero_fem',
-    'cor_preta', 'cor_parda',
-    'renda_fx2', 'renda_fx3', 'renda_fx4', 'renda_fx5',
+    'cor_preta', 'cor_parda', 'cor_indi'
+    'renda_fx2', 'renda_fx3', 'renda_fx4', 'renda_fx5', 
     'em_maioria_pub', 'em_metade_pub', 'em_maioria_priv', 'em_total_priv',
-    'esc_resp_f1', 'esc_resp_f2', 'esc_resp_em', 'esc_resp_sup'
+    'esc_resp_f1', 'esc_resp_f2', 'esc_resp_em'
 ]
 
 display(Markdown(f"**Total de covariáveis:** {len(covariates_base)}"))
@@ -474,7 +474,8 @@ Esta estratégia responde: *"O recebimento de auxílios de permanência/alimenta
 
 ```{python}
 # Tratados: Estudantes de IES públicas COM auxílio permanência
-df_pub_com_aux_perm = df_publicas[df_publicas['aux_perm'] == 1].copy()
+df_pub_com_aux_perm = df_publicas[
+    df_publicas['aux_perm'] == 1].copy()
 df_pub_com_aux_perm['tratamento'] = 1
 
 # Controles: Estudantes ProUni Integral SEM auxílio permanência
