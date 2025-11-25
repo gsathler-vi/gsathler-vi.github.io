@@ -25,7 +25,7 @@
     "href": "material/psm/index.html",
     "title": "Avaliação de Impacto Causal com Propensity Score Matching",
     "section": "",
-    "text": "Para testar a Hipótese 1, que postula um efeito causal das políticas de permanência sobre o desempenho acadêmico, a análise por regressão convencional é insuficiente devido ao problema fundamental de auto-seleção [@facure_causal_inference; @huntington_klein_effect]."
+    "text": "Para testar a Hipótese 1, que postula um efeito causal das políticas de permanência sobre o desempenho acadêmico, a análise por regressão convencional é insuficiente devido ao problema fundamental de auto-seleção (Facure 2021; Huntington-Klein 2021)."
   },
   {
     "objectID": "material/psm/index.html#estrutura-das-análises",
@@ -46,7 +46,7 @@
     "href": "material/psm/index.html#definição-das-covariáveis",
     "title": "Avaliação de Impacto Causal com Propensity Score Matching",
     "section": "Definição das Covariáveis",
-    "text": "Definição das Covariáveis\n\n\n\n\n\n\nTipSeleção de Covariáveis\n\n\n\nA literatura recomenda incluir todas as variáveis associadas tanto à decisão de tratamento quanto ao resultado, mesmo que não sejam estatisticamente significantes no modelo Logit [@facure_causal_inference].\n\n\n\n\nExibir Código\n# Variável de Resultado\nresultado = 'nt_ger'\n\n# Covariáveis para o Propensity Score\ncovariates_base = [\n    'cod_pessoas_res',\n    'genero_fem',\n    'cor_preta', 'cor_parda',\n    'renda_fx2', 'renda_fx3', 'renda_fx4', 'renda_fx5',\n    'em_maioria_pub', 'em_metade_pub', 'em_maioria_priv', 'em_total_priv',\n    'esc_resp_f1', 'esc_resp_f2', 'esc_resp_em', 'esc_resp_sup'\n]\n\ndisplay(Markdown(f\"**Total de covariáveis:** {len(covariates_base)}\"))\n\n\nTotal de covariáveis: 16"
+    "text": "Definição das Covariáveis\n\n\n\n\n\n\nTipSeleção de Covariáveis\n\n\n\nA literatura recomenda incluir todas as variáveis associadas tanto à decisão de tratamento quanto ao resultado, mesmo que não sejam estatisticamente significantes no modelo Logit (Facure 2021).\n\n\n\n\nExibir Código\n# Variável de Resultado\nresultado = 'nt_ger'\n\n# Covariáveis para o Propensity Score\ncovariates_base = [\n    'cod_pessoas_res',\n    'genero_fem',\n    'cor_preta', 'cor_parda',\n    'renda_fx2', 'renda_fx3', 'renda_fx4', 'renda_fx5',\n    'em_maioria_pub', 'em_metade_pub', 'em_maioria_priv', 'em_total_priv',\n    'esc_resp_f1', 'esc_resp_f2', 'esc_resp_em', 'esc_resp_sup'\n]\n\ndisplay(Markdown(f\"**Total de covariáveis:** {len(covariates_base)}\"))\n\n\nTotal de covariáveis: 16"
   },
   {
     "objectID": "material/psm/index.html#funções-auxiliares-para-psm",

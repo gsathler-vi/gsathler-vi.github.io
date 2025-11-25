@@ -3,6 +3,7 @@ title: "Avaliação de Impacto Causal com Propensity Score Matching"
 subtitle: "Estimação do Efeito das Políticas de Inclusão e Permanência sobre o Desempenho Acadêmico"
 execute:
   eval: true
+bibliography: references.bib
 ---
 
 Para testar a Hipótese 1, que postula um efeito **causal** das políticas de permanência sobre o desempenho acadêmico, a análise por regressão convencional é insuficiente devido ao problema fundamental de **auto-seleção** [@facure_causal_inference; @huntington_klein_effect].
