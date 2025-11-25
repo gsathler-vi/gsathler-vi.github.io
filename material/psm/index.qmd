@@ -38,12 +38,12 @@ Cada política é comparada com estudantes **pagantes** (sem bolsa/financiamento
 
 ### Bloco 3: Auxílios entre Estudantes com Curso Gratuito
 
-Analisa o efeito **incremental** dos auxílios de permanência sobre estudantes que já possuem **gratuidade total** (IES públicas + ProUni Integral).
+Analisa o efeito **incremental** dos auxílios de permanência comparando estudantes de IES públicas (com auxílios) com estudantes ProUni Integral em IES privadas (sem auxílios).
 
-| Tratamento          | Amostra                              |
-|---------------------|--------------------------------------|
-| Auxílio Permanência | Curso Gratuito (Públicas + ProUni)   |
-| Auxílio Alimentação | Curso Gratuito (Públicas + ProUni)   |
+| Tratamento                        | Controle                          |
+|-----------------------------------|-----------------------------------|
+| Aux. Permanência (IES Públicas)   | ProUni Integral (sem aux. perm.)  |
+| Aux. Alimentação (IES Públicas)   | ProUni Integral (sem aux. alim.)  |
 
 ------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ df_full = pd.read_parquet('dataset/01_enade.parquet')
 display(Markdown(f"✅ **Dados carregados:** {len(df_full):,} observações"))
 
 # Criar subconjuntos
-df_privadas = df_full[df_full['cod_ies_cat'] != 1].copy()
+df_privadas = df_full[df_full['cod_ies_cat'] == 3].copy()
 df_publicas = df_full[df_full['cod_ies_cat'] == 1].copy()
 
 # Grupo de controle: pagantes sem nenhuma bolsa ou financiamento
@@ -455,188 +455,83 @@ if 'erro' not in resultado_aux_alim:
     plot_love_plot(resultado_aux_alim['df_balance'], 'Auxílio Alimentação')
 ```
 
----
+------------------------------------------------------------------------
 
 ## Bloco 3: Efeito da Gratuidade com Auxílios de Permanência
 
-::: {.callout-important}
-## Justificativa Metodológica
-
-Neste bloco, investigamos o **efeito incremental** das políticas de permanência (auxílios do PNAES) sobre o desempenho acadêmico de estudantes que já possuem **gratuidade total** no curso.
-
-### Por que usar `curso_gratuito` em vez de `prouni_int`?
-
-A variável **`curso_gratuito`** abrange tanto cursos em **IES públicas** quanto beneficiários de **ProUni Integral** em IES privadas, representando o universo de estudantes com gratuidade plena. Esta escolha metodológica apresenta vantagens:
-
-1. **Maior comparabilidade institucional**: Estudantes de IES públicas e privadas com ProUni Integral compartilham a característica fundamental de **isenção total de mensalidade**, mas diferem no acesso a auxílios de permanência.
-
-2. **Controle pelo viés de seleção institucional**: Ao incluir ambos os grupos no universo de "gratuidade", evitamos confundir o efeito da permanência com preferências por tipo de instituição.
-
-3. **Foco na política de permanência**: A comparação isola o efeito dos **auxílios** (tratamento) mantendo constante a **gratuidade** (característica compartilhada).
-
-### Estratégia de Identificação
+::: callout-important
+## Estratégia de Identificação
 
 Comparamos estudantes com **curso gratuito** que:
 
-- **Grupo Tratamento**: Recebem auxílio de permanência/alimentação (principalmente IES públicas)
-- **Grupo Controle**: Não recebem auxílio (IES públicas sem auxílio + ProUni Integral sem auxílio)
+-   **Grupo Tratamento**: Estudantes de IES públicas que recebem auxílio de permanência/alimentação
+-   **Grupo Controle**: Estudantes ProUni Integral em IES privadas que **não** recebem auxílio de permanência/alimentação
 
-Esta estratégia responde: *"Dentre quem já tem gratuidade, receber auxílio de permanência melhora o desempenho?"*
+Esta estratégia responde: *"O recebimento de auxílios de permanência/alimentação nas IES públicas melhora o desempenho em comparação com estudantes ProUni Integral sem auxílios?"*
 :::
 
-::: {.callout-warning}
-## Covariáveis Específicas para Comparação Inter-Institucional
-
-Para comparar estudantes entre instituições públicas e privadas, utilizamos um conjunto reduzido de covariáveis que:
-
-1. **Não incluem** características institucionais (evita colinearidade perfeita com o tratamento)
-2. **Focam** em características socioeconômicas e demográficas comparáveis entre setores
-3. **Evitam** variáveis que podem ter significados diferentes entre setores (ex: bolsas internas)
-:::
+### Auxílio Permanência: IES Públicas (com auxílio) vs ProUni Integral (sem auxílio)
 
 ```{python}
-# Covariáveis específicas para comparação entre instituições
-# Excluímos variáveis institucionais e focamos em características do estudante
-covariates_bloco3 = [
-    'cod_pessoas_res',
-    'genero_fem',
-    'cor_preta', 'cor_parda',
-    'renda_fx2', 'renda_fx3', 'renda_fx4', 'renda_fx5',
-    'em_total_pub',  # Ensino médio público (mais simples)
-    'esc_resp_em', 'esc_resp_sup'  # Escolaridade dos pais (reduzido)
-]
+# Tratados: Estudantes de IES públicas COM auxílio permanência
+df_pub_com_aux_perm = df_publicas[df_publicas['aux_perm'] == 1].copy()
+df_pub_com_aux_perm['tratamento'] = 1
 
-display(Markdown(f"**Covariáveis para Bloco 3:** {len(covariates_bloco3)} variáveis"))
-display(Markdown(f"Variáveis: {', '.join(covariates_bloco3)}"))
-```
+# Controles: Estudantes ProUni Integral SEM auxílio permanência
+df_prouni_sem_aux_perm = df_privadas[
+    (df_privadas['prouni_int'] == 1) & 
+    (df_privadas['aux_perm'] == 0)
+].copy()
+df_prouni_sem_aux_perm['tratamento'] = 0
 
-### Auxílio Permanência entre Estudantes com Curso Gratuito
+df_analise_bloco3_perm = pd.concat([df_pub_com_aux_perm, df_prouni_sem_aux_perm])
 
-```{python}
-# Filtrar apenas estudantes com curso gratuito
-df_gratuito = df_full[df_full['curso_gratuito'] == 1].copy()
-
-display(Markdown(f"""
-### Composição da Amostra (Curso Gratuito)
-
-| Categoria | N | % |
-|-----------|---:|---:|
-| IES Pública | {len(df_gratuito[df_gratuito['cod_ies_cat'] == 1]):,} | {len(df_gratuito[df_gratuito['cod_ies_cat'] == 1])/len(df_gratuito)*100:.1f}% |
-| ProUni Integral (Privada) | {len(df_gratuito[df_gratuito['prouni_int'] == 1]):,} | {len(df_gratuito[df_gratuito['prouni_int'] == 1])/len(df_gratuito)*100:.1f}% |
-| **Total com Gratuidade** | **{len(df_gratuito):,}** | **100%** |
-| Com Auxílio Permanência | {len(df_gratuito[df_gratuito['aux_perm'] == 1]):,} | {len(df_gratuito[df_gratuito['aux_perm'] == 1])/len(df_gratuito)*100:.1f}% |
-| Sem Auxílio Permanência | {len(df_gratuito[df_gratuito['aux_perm'] == 0]):,} | {len(df_gratuito[df_gratuito['aux_perm'] == 0])/len(df_gratuito)*100:.1f}% |
-"""))
-
-# PSM: Auxílio Permanência entre estudantes com curso gratuito
 resultado_aux_perm_gratuito = run_psm_analysis(
-    df_gratuito, 'aux_perm', resultado, covariates_bloco3,
-    'Auxílio Permanência (entre estudantes com curso gratuito)'
+    df_analise_bloco3_perm, 'tratamento', resultado, covariates_base,
+    'Aux. Permanência (Públicas) vs ProUni Integral (sem auxílio)'
 )
 display_psm_results(resultado_aux_perm_gratuito)
 
 if 'erro' not in resultado_aux_perm_gratuito:
-    plot_ps_distribution(resultado_aux_perm_gratuito['df_psm'], 'aux_perm', 'Auxílio Permanência (Curso Gratuito)')
-    plot_love_plot(resultado_aux_perm_gratuito['df_balance'], 'Auxílio Permanência (Curso Gratuito)')
+    plot_ps_distribution(resultado_aux_perm_gratuito['df_psm'], 'tratamento', 'Aux. Perm. Públicas vs ProUni Int.')
+    plot_love_plot(resultado_aux_perm_gratuito['df_balance'], 'Aux. Perm. Públicas vs ProUni Int.')
 ```
 
-### Auxílio Alimentação entre Estudantes com Curso Gratuito
+### Auxílio Alimentação: IES Públicas (com auxílio) vs ProUni Integral (sem auxílio)
 
 ```{python}
-display(Markdown(f"""
-### Distribuição: Auxílio Alimentação
+# Tratados: Estudantes de IES públicas COM auxílio alimentação
+df_pub_com_aux_alim = df_publicas[df_publicas['aux_alim'] == 1].copy()
+df_pub_com_aux_alim['tratamento'] = 1
 
-| Grupo | N | % |
-|-------|---:|---:|
-| Com Auxílio Alimentação | {len(df_gratuito[df_gratuito['aux_alim'] == 1]):,} | {len(df_gratuito[df_gratuito['aux_alim'] == 1])/len(df_gratuito)*100:.1f}% |
-| Sem Auxílio Alimentação | {len(df_gratuito[df_gratuito['aux_alim'] == 0]):,} | {len(df_gratuito[df_gratuito['aux_alim'] == 0])/len(df_gratuito)*100:.1f}% |
-"""))
+# Controles: Estudantes ProUni Integral SEM auxílio alimentação
+df_prouni_sem_aux_alim = df_privadas[
+    (df_privadas['prouni_int'] == 1) & 
+    (df_privadas['aux_alim'] == 0)
+].copy()
+df_prouni_sem_aux_alim['tratamento'] = 0
 
-# PSM: Auxílio Alimentação entre estudantes com curso gratuito
+df_analise_bloco3_alim = pd.concat([df_pub_com_aux_alim, df_prouni_sem_aux_alim])
+
 resultado_aux_alim_gratuito = run_psm_analysis(
-    df_gratuito, 'aux_alim', resultado, covariates_bloco3,
-    'Auxílio Alimentação (entre estudantes com curso gratuito)'
+    df_analise_bloco3_alim, 'tratamento', resultado, covariates_base,
+    'Aux. Alimentação (Públicas) vs ProUni Integral (sem auxílio)'
 )
 display_psm_results(resultado_aux_alim_gratuito)
 
 if 'erro' not in resultado_aux_alim_gratuito:
-    plot_ps_distribution(resultado_aux_alim_gratuito['df_psm'], 'aux_alim', 'Auxílio Alimentação (Curso Gratuito)')
-    plot_love_plot(resultado_aux_alim_gratuito['df_balance'], 'Auxílio Alimentação (Curso Gratuito)')
-```
-
-### Comparação por Curso: Auxílios entre Estudantes com Curso Gratuito
-
-```{python}
-def run_psm_by_course_gratuito(tratamento, nome_politica, covariates):
-    """Executa PSM por curso entre estudantes com curso gratuito."""
-    resultados = {}
-    
-    for cod_curso, nome_curso in MAP_CURSO.items():
-        df_curso = df_gratuito[df_gratuito['cod_grupo'] == cod_curso].copy()
-        
-        resultado_psm = run_psm_analysis(
-            df_curso, tratamento, resultado, covariates, 
-            f'{nome_politica} - {nome_curso}',
-            min_tratados=15,
-            show_logit=False
-        )
-        resultados[nome_curso] = resultado_psm
-    
-    return resultados
-
-
-def display_course_comparison_bloco3(resultados_por_curso, nome_politica):
-    """Exibe tabela comparativa entre cursos."""
-    rows = []
-    for curso, res in resultados_por_curso.items():
-        if 'erro' not in res:
-            rows.append({
-                'Curso': curso,
-                'N Tratados': res['n_tratados'],
-                'ATT': round(res['att'], 4),
-                'P-valor': round(res['p_valor'], 4),
-                'Sig.': '✅' if res['significante'] else '❌',
-                'Equil.': f"{res['pct_equilibradas']:.0f}%"
-            })
-        else:
-            rows.append({
-                'Curso': curso,
-                'N Tratados': '-',
-                'ATT': '-',
-                'P-valor': '-',
-                'Sig.': '⚠️',
-                'Equil.': '-'
-            })
-    
-    df_comp = pd.DataFrame(rows)
-    display(Markdown(f"### Comparação por Curso: {nome_politica}"))
-    display(df_comp)
-    return df_comp
-
-
-# Auxílio Permanência por curso (entre estudantes com curso gratuito)
-resultados_aux_perm_curso_gratuito = run_psm_by_course_gratuito(
-    'aux_perm', 'Auxílio Permanência (Curso Gratuito)', covariates_bloco3
-)
-display_course_comparison_bloco3(resultados_aux_perm_curso_gratuito, 'Auxílio Permanência (Curso Gratuito)')
-```
-
-```{python}
-# Auxílio Alimentação por curso (entre estudantes com curso gratuito)
-resultados_aux_alim_curso_gratuito = run_psm_by_course_gratuito(
-    'aux_alim', 'Auxílio Alimentação (Curso Gratuito)', covariates_bloco3
-)
-display_course_comparison_bloco3(resultados_aux_alim_curso_gratuito, 'Auxílio Alimentação (Curso Gratuito)')
+    plot_ps_distribution(resultado_aux_alim_gratuito['df_psm'], 'tratamento', 'Aux. Alim. Públicas vs ProUni Int.')
+    plot_love_plot(resultado_aux_alim_gratuito['df_balance'], 'Aux. Alim. Públicas vs ProUni Int.')
 ```
 
 ------------------------------------------------------------------------
 
-## Análise Estratificada por Curso (Blocos 1 e 2)
+## Análise Estratificada por Curso (Blocos 1, 2 e 3)
 
 ::: callout-note
 ## Objetivo
 
-Verificar se os efeitos das políticas de inclusão (Bloco 1) e permanência (Bloco 2) variam entre os cursos de Administração, Ciências Econômicas e Ciências Contábeis.
+Verificar se os efeitos das políticas de inclusão (Bloco 1), permanência (Bloco 2) e gratuidade com auxílios (Bloco 3) variam entre os cursos de Administração, Ciências Econômicas e Ciências Contábeis.
 :::
 
 ```{python}
@@ -740,6 +635,52 @@ resultados_aux_curso = run_psm_by_course_publicas('aux_perm', 'Auxílio Permanê
 display_course_comparison(resultados_aux_curso, 'Auxílio Permanência (Públicas)')
 ```
 
+### Auxílio Permanência por Curso: Públicas vs ProUni Integral (Bloco 3)
+
+```{python}
+def run_psm_bloco3_by_course(auxilio_var, nome_auxilio):
+    """Executa PSM por curso comparando públicas com auxílio vs ProUni Integral sem auxílio."""
+    resultados = {}
+    
+    for cod_curso, nome_curso in MAP_CURSO.items():
+        # Tratados: IES públicas COM auxílio
+        df_trat = df_publicas[
+            (df_publicas['cod_grupo'] == cod_curso) & 
+            (df_publicas[auxilio_var] == 1)
+        ].copy()
+        df_trat['tratamento'] = 1
+        
+        # Controles: ProUni Integral SEM auxílio
+        df_ctrl = df_privadas[
+            (df_privadas['cod_grupo'] == cod_curso) & 
+            (df_privadas['prouni_int'] == 1) & 
+            (df_privadas[auxilio_var] == 0)
+        ].copy()
+        df_ctrl['tratamento'] = 0
+        
+        df_analise = pd.concat([df_trat, df_ctrl])
+        
+        resultado_psm = run_psm_analysis(
+            df_analise, 'tratamento', resultado, covariates_base, 
+            f'{nome_auxilio} Públicas vs ProUni Int. - {nome_curso}',
+            min_tratados=20,
+            show_logit=False
+        )
+        resultados[nome_curso] = resultado_psm
+    
+    return resultados
+
+resultados_bloco3_perm_curso = run_psm_bloco3_by_course('aux_perm', 'Aux. Permanência')
+display_course_comparison(resultados_bloco3_perm_curso, 'Aux. Permanência (Públicas) vs ProUni Integral')
+```
+
+### Auxílio Alimentação por Curso: Públicas vs ProUni Integral (Bloco 3)
+
+```{python}
+resultados_bloco3_alim_curso = run_psm_bloco3_by_course('aux_alim', 'Aux. Alimentação')
+display_course_comparison(resultados_bloco3_alim_curso, 'Aux. Alimentação (Públicas) vs ProUni Integral')
+```
+
 ------------------------------------------------------------------------
 
 ## Síntese dos Resultados
@@ -752,8 +693,8 @@ todos_resultados = [
     ('ProUni + FIES vs Pagantes', resultado_prouni_fies, 'Privadas'),
     ('Aux. Permanência', resultado_aux_perm, 'Públicas'),
     ('Aux. Alimentação', resultado_aux_alim, 'Públicas'),
-    ('Aux. Perm. (Curso Gratuito)', resultado_aux_perm_gratuito, 'Gratuidade'),
-    ('Aux. Alim. (Curso Gratuito)', resultado_aux_alim_gratuito, 'Gratuidade'),
+    ('Aux. Perm. (Púb. vs ProUni)', resultado_aux_perm_gratuito, 'Gratuidade'),
+    ('Aux. Alim. (Púb. vs ProUni)', resultado_aux_alim_gratuito, 'Gratuidade'),
 ]
 
 rows_sintese = []
@@ -792,7 +733,7 @@ display(Markdown("""
 **Grupos de Análise:**
 - **Privadas**: Comparação com estudantes pagantes (sem bolsa/financiamento)
 - **Públicas**: Comparação entre beneficiários e não-beneficiários de auxílios (IES públicas)
-- **Gratuidade**: Efeito de auxílios entre estudantes com curso gratuito (públicas + ProUni Integral)
+- **Gratuidade**: Efeito de auxílios comparando IES públicas (com auxílio) vs ProUni Integral (sem auxílio)
 """))
 
 display(df_sintese)
