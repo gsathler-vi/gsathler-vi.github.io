@@ -680,3 +680,85 @@ body.quarto-dark .section-title {
   color: #adb5bd;
   border-bottom-color: #404041;
 }
+/* ==========================================
+   RESPONSIVE FIGURES AND TABLES FOR ANALYSIS
+   ========================================== */
+
+/* Figuras responsivas */
+.cell-output-display img,
+.cell-output-display svg,
+.quarto-figure img,
+.quarto-figure svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Container das figuras com scroll horizontal em mobile */
+.cell-output-display {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Tabelas responsivas */
+.cell-output-display table,
+.dataframe,
+table.dataframe {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+  font-size: 0.9em;
+}
+
+/* Tabelas estilizadas do pandas */
+.dataframe tbody tr:nth-child(odd) {
+  background-color: rgba(0,0,0,0.02);
+}
+
+body.quarto-dark .dataframe tbody tr:nth-child(odd) {
+  background-color: rgba(255,255,255,0.02);
+}
+
+.dataframe th, .dataframe td {
+  padding: 0.5rem 0.75rem;
+  white-space: nowrap;
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  /* Figuras menores em mobile */
+  .cell-output-display img,
+  .cell-output-display svg {
+    max-width: 100%;
+    min-width: 300px;
+  }
+  
+  /* Tabelas com scroll */
+  .cell-output-display table {
+    font-size: 0.8em;
+  }
+  
+  .dataframe th, .dataframe td {
+    padding: 0.35rem 0.5rem;
+  }
+  
+  /* Títulos de seção menores */
+  .cell-output-display .plot-title,
+  .cell-output-display text {
+    font-size: 12px !important;
+  }
+}
+
+/* Media query para tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .cell-output-display img,
+  .cell-output-display svg {
+    max-width: 100%;
+  }
+  
+  .dataframe th, .dataframe td {
+    padding: 0.4rem 0.6rem;
+  }
+}
