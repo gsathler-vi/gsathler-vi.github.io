@@ -127,7 +127,7 @@ covariates_base = [
     'genero_fem',
     'cor_preta', 'cor_parda', 'cor_indi'
     'renda_fx2', 'renda_fx3', 'renda_fx4', 'renda_fx5', 
-    'em_metade_pub', 'em_total_priv',
+    'em_metade_pub',  'em_total_priv',
     'esc_resp_f1', 'esc_resp_f2', 'esc_resp_em'
 ]
 
