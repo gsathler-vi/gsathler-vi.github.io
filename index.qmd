@@ -30,11 +30,9 @@ format:
     page-layout: full
 ---
 
-::: {#hero-heading}
-“Filho” de Políticas Públicas que ama se utilizar do pensamento crítico e dados para pensar na resolução de problemas complexos da sociedade e mercado. Construo pontes entre a teoria e a aplicação técnica prática.
+#::: {#hero-heading}
 
-Possuo experiência em análise de dados com Python e R, condução de diagnósticos organizacionais e avaliação de impacto.
-:::
+#:::
 
 ```{=html}
 <style>
