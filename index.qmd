@@ -1,5 +1,5 @@
 ---
-title: "GABRIEL SATHLER"
+title: ""
 subtitle: "Economia e Gestão Pública"
 about:
   template: trestles
