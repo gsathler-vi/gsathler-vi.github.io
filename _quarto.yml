@@ -28,6 +28,8 @@ website:
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/gabriel-sathler/
+      - icon: github
+        href: https://github.com/gsathler-vi
       - icon: whatsapp
         href: https://wa.me/5531998912831
       - icon: envelope
