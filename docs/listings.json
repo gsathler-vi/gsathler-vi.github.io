@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/material.html",
+    "items": [
+      "/material/dummies/index.html",
+      "/material/psm/index.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/aula_dummies/index.html",
@@ -57,13 +64,6 @@
       "/historico/disciplinas/em_curso/econometria/index.html",
       "/historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/index.html",
       "/historico/disciplinas/em_curso/estatística-multivariada/index.html"
-    ]
-  },
-  {
-    "listing": "/material.html",
-    "items": [
-      "/material/dummies/index.html",
-      "/material/psm/index.html"
     ]
   }
 ]
