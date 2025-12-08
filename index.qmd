@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Economia e Gestão Pública"
+title: "Sobre Mim"
+subtitle: "Analítico por natureza e gestor por formação. Minha carreira é construída na interseção entre a Economia e a Gestão, buscando sempre traduzir números e teorias em ações práticas. Com dupla graduação em andamento (UFMG e PUC Minas), desenvolvi um perfil analítico forte, apoiado por experiências que vão da pesquisa científica (PIBIC) ao planejamento estratégico corporativo."
 about:
   template: trestles
   image: "arquivos/foto_perfil.png"
