@@ -1,0 +1,111 @@
+---
+title: "ECONOMIA MONETÁRIA"
+subtitle: "Período: 4"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) 	
+Erich Vale e Sousa (Mestrado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Teoria Econômica"]
+carga_horaria: 60
+periodo: 4
+toc: true
+---
+
+## Ementa
+Conceito de moeda. Padrões monetários. Origens e evolução do sistema monetário. Banco Central e Sistema Financeiro Nacional. Objetivos e instrumentos de política monetária. Operacionalidade da política monetária e formação da taxa de juros. Oferta e Demanda por moeda: teoria quantitativa, keynesiana, neoclássica, monetarista e austríaca. Teorias de Inflação. Independência do Banco Central. Sistema de Metas Inflacionárias e Estratégias de Política Monetária. Inovações monetárias recentes. Atividades de integração entre conhecimentos acadêmicos e saberes de outros setores da sociedade, unindo teoria e prática, por meio das modalidades de extensão.
+
+## Objetivos
+**Objetivos Gerais:** Proporcionar ao aluno o conhecimento das características fundamentais de uma economia monetária e suas implicações para o funcionamento da macroeconomia, bem como identificar a origem das falhas de coordenação das atividades econômicas e a análise das alternativas de política econômica corretivas.
+
+**Objetivos Específicos:** Preparar o aluno para identificar fluxos inflacionários, deflacionários, capacitando-os para trocar de reserva de valor, investir em outras moedas, prepará-los para prever e prevenir ciclos de alargamento de base monetária, restrição de crédito, aumento de liquidez, antever a curva de juros permitindo-o analisar os cenários macro e micro fundamentados nos conhecimentos que a Economia Monetária lhes permite.
+
+## Métodos Didáticos
+Tendo em vista as características da disciplina a didática do curso prevê a conjugação de aulas expositivas com utilização de recursos áudio - visuais, bem como de seminários em sala de aula conduzidos pelo professor, apresentados pelos alunos e exercícios de fixação.
+A disciplina contempla atividade de extensão conforme o Planejamento Pedagógico do Curso e item 6 do programa.
+
+## Unidades de Ensino
+**0. Nivelamento. Introdução ao estudo da moeda**
+*   O papel do sistema monetário-financeiro.
+*   Funções e características físicas e econômicas da moeda.
+*   Sistemas monetários alternativos.
+*   Noções de cálculo com Limites aplicados ao multiplicador.
+
+**1. A moeda e o sistema monetário**
+*   Definições da Moeda
+*   A Criação da Moeda: Banco Central e Bancos Comerciais
+*   O Multiplicador Bancário
+*   A Base Monetária
+*   Contas Típicas dos Bancos Comerciais, Autoridades Monetárias e Sistema Monetário-Financeiro
+*   Multiplicadores Monetários
+*   Instrumentos de Controle Monetário
+*   A Interação Entre Demanda e Oferta de Moeda
+
+**2. A interação entre os setores real e monetário da economia**
+*   A Teoria Quantitativa da Moeda
+*   Wicksell: Desequilíbrios e Dinâmica de Ajustes
+*   O Modelo Keynesiano: Rigidez ou Inflexibilidade de Alguns Preços Básicos
+*   Keynes: A Teoria Monetária de Determinação da Produção e a Coordenação das Atividades Econômicas em uma Economia Monetária
+*   Simulações: Clássicos X Keynesianos
+*   Friedman: A Teoria Monetária da Renda Nominal
+
+**3. Política monetária I: políticas de combate ao desemprego**
+*   A eficácia das políticas monetárias e fiscais segundo:
+    *   Os Clássicos
+    *   Os Keynesianos (Expectativas Estáticas)
+    *   Os Monetaristas (Expectativas Adaptativas)
+    *   Os Novos Clássicos (Expectativas Racionais)
+
+**4. Política monetária II: Inflação e políticas anti inflacionária**
+*   Definição, Medidas, Efeitos e Consequências da Inflação
+*   Causas e Terapias: Principais Escolas
+*   Elementos para uma Política antiinflacionária
+
+**5. Regime de Metas para a Inflação e Independência do Banco Central**
+*   Regime de metas para a inflação: experiências internacionais e o caso do Brasil.
+*   Independência do Banco Central: teoria, justificativa e críticas
+*   A independência do Banco Central: uma análise do caso brasileiro
+*   Elementos e pressupostos básicos da MMT (Moderna Teoria Monetária)
+
+**6. Atividade extensionista.**
+*   As moedas sociais e mitigação das vulnerabilidades comunitárias
+*   Iniciativas dos Bancos Comunitários
+*   Sistemas de utilização e repasses das moedas sociais.
+
+## Processo de Avaliação
+*   Primeira avaliação: 25 pontos
+*   Segunda avaliação: 25 pontos
+*   Avaliação Global: 30 pontos
+*   Atividades de fixação, exercícios e trabalho extensionista previsto no Plano Pedagógico do Curso: 20 pontos.
+*   Reavaliação no valor de 30 pontos com o conteúdo cumulativo, em substituição a avaliação global, para os alunos(as) que não obtiveram o mínimo de 60 pontos ao final do semestre.
+*   *A substituição de uma das etapas de avaliação poderá ser realizadas somente nos casos previstos no regimento do curso.*
+
+## Observações
+**Trabalho de caráter extensionista.**
+Plano de trabalho detalhado consta do SGE - Sistema de Gestão de Extensão
+1-Etapa de discussão teórica sobre o tema: Moeda Social
+2-Promoção de encontro com parceiros externos para o reconhecimento das iniciativas e formas de operacionalização.
+
+**Justificativa das obras utilizadas na bibliografia:**
+
+*   **"Economia monetária e financeira: teoria e política", de Fernando J. Cardim de Carvalho et al.,** publicada em 2015 pela editora Elsevier, trata de temas relacionados à economia monetária e financeira, abordando tanto aspectos teóricos quanto políticos. O livro oferece uma análise sobre o funcionamento da moeda e dos sistemas financeiros em uma economia. Por ser uma obra coletiva, com múltiplos autores, ela pode apresentar diversas perspectivas e especializações dentro do campo, abordando questões como crises financeiras, inovações em políticas monetárias ou mudanças nos sistemas financeiros globais. Trata-se da obra principal abordada nesta disciplina.
+*   **"O mito do déficit: teoria monetária e o nascimento da economia do povo", de Stephanie Kelton,** publicada em 2023 pela Alta Cult, Rio de Janeiro, aborda temas centrais da Teoria Monetária Moderna (MMT) e suas implicações para a política econômica. A utilização da obra destina-se, neste caso, a promoção da discussão sobre a atuação dos governos. Implica que esses governos podem financiar seus gastos diretamente pela emissão de moeda, sem depender exclusivamente de arrecadação de impostos ou endividamento, desde que a inflação seja mantida sob controle. Neste sentido, é possível discutir como os orçamentos públicos podem limitar o uso de políticas fiscais e monetárias para alcançar objetivos sociais e econômicos mais amplos.
+*   **"Moeda, bancos e mercados financeiros", de Frederic S. Mishkin,** publicada na 5ª edição em 2000 pela LTC, Rio de Janeiro, RJ. O livro aborda temas essenciais relacionados à moeda, ao sistema bancário e aos mercados financeiros, com os seguintes tópicos revisitados ao longo do planejamento da disciplina: Teoria da moeda: Exploração da natureza da moeda, os fatores que determinam sua oferta e demanda, e seu papel central na economia; Sistema bancário: Detalhamento do funcionamento dos bancos, como a criação de moeda e o papel dos bancos centrais na regulação do sistema financeiro; Política monetária: Estudo das estratégias e instrumentos usados para regular a economia, como taxas de juros e operações de mercado aberto. Ainda que a obra faça referência aos instrumentos utilizados nos mercados de capitais, tais conteúdos são abordados por meio de outras obras, como o primeiro livro listado nesta bibliografia; Na perspectiva das interações econômicas, ainda trata da explicação sobre como esses elementos se inter-relacionam para influenciar variáveis como crescimento econômico, inflação e emprego.
+*   **ECONOMIA & GESTÃO:** Por se tratar de periódico permitem a discussão dos temas trabalhados durante o semestre, conferindo ao alunado a possibilidade de discussão dos aspectos tratados na perspectiva de resultados e análises, produzidas por pesquisadores brasileiros, quando possível.
+*   **"Macroeconomia" de Dornbusch, Fischer e Startz** é uma obra de referência para compreender os fundamentos e as aplicações da macroeconomia, destacando-se a relevância no campo e na exploração da teoria macroeconômica associada a economia monetária. A obra é requerida em termos do pré-requisito oriundos da macroeconomia I, cursada pelos alunos.
+*   **"Introdução ao sistema financeiro nacional", escrita por Henrique Avelino Rodrigues de Paula Lana** é uma publicação recente (2021), PUC Minas. O formato introdutório e acessível é ideal para os alunos que buscam uma visão geral, e principalmente, voltado para o sistema financeiro brasileiro.
+*   A obra **"Economia monetária: a macroeconomia no contexto monetário", de Ernani Teixeira,** publicada em 2002 pela Saraiva, em São Paulo (SP), utiliza exemplos e ilustrações para facilitar a compreensão dos temas abordados. A obra equilibra rigor teórico e aplicabilidade prática, sendo necessária neste programa para o aprendizado e a pesquisa nas áreas de teoria monetária, macroeconomia monetária e economia monetária internacional.
+*   **"ANÁLISE ECONÔMICA"** é uma publicação acadêmica da Faculdade de Ciências Econômicas da Universidade Federal do Rio Grande do Sul (UFRGS. Por se tratar de periódico relevante na área, permite a discussão dos temas trabalhados durante o semestre, conferindo ao alunado a possibilidade de discussão dos aspectos tratados na perspectiva de resultados e análises, produzidas por pesquisadores brasileiros, quando possível.
+*   **"Regimes monetários: teoria e a experiência do real, .de André de Melo MODENESI,** traz uma análise abrangente dos regimes monetários, com foco na teoria e na experiência do Real no Brasil. O livro explora os principais conceitos e modelos de política monetária, auxiliando na compreensão da conjuntura econômica brasileira e na análise de políticas públicas.
+*   **BARROS, Ev'Ângela Batista Rodrigues de (org.). Extensão PUC Minas: caminhos para o fortalecimento da cidadania e da Democracia no Brasil;** Obra pode ser utilizada, condicionada ao desenvolvimento da temática extensionista na disciplina. Possibilita a discussão de iniciativas para a construção de uma cidadania participativa, ativa e inclusiva.
+
+## Descrição da Bibliografia Básica
+*   CARVALHO, Fernando J. Cardim de *et al.* Economia monetária e financeira: teoria e política. 3. ed. rev. e atual. Rio de Janeiro: Elsevier, 2015. *E-book*. ISBN 9788595154896.
+*   DORNBUSCH, Rudiger; FISCHER, Stanley; STARTZ, Richard. Macroeconomia. 11. ed. Porto Alegre: AMGH, 2013. *E-book*. ISBN 9788580551853.
+*   ECONOMIA E GESTÃO. Belo Horizonte: Ed. PUC Minas, 2001-. 2005-. ISSN 1984-6606 versão on-line. Disponível em: http://periodicos.pucminas.br/index.php/economiaegestao. Acesso em: 27 ago. 2018.
+*   KELTON, Stephanie. O mito do déficit: teoria monetária e o nascimento da economia do povo. Rio de Janeiro, RJ: Alta Books, 2023. *E-book*. ISBN 9788550818290.
+
+## Descrição da Bibliografia Complementar
+*   ANÁLISE ECONÔMICA. Porto Alegre: UFRGS, Faculdade de Ciências Econômicas ,2009-. Semestral. ISSN 2176-5456 versão on-line. Disponível em: https://seer.ufrgs.br/AnaliseEconomica/index. Acesso em: 11 mar. 2020.
+*   BARROS, Ev'Ângela Batista Rodrigues de (org.). Extensão PUC Minas: caminhos para o fortalecimento da cidadania e da democracia no Brasil. Belo Horizonte, MG: PUC Minas, 2019. *E-book*. ISBN 978-85-8239-114-3. Disponível em: http://bib.pucminas.br:8080/pergamumweb/vinculos/000058/0000582f.pdf. Acesso em: 10 dez. 2019.
+*   LANA, Henrique Avelino Rodrigues de Paula. Introdução ao sistema financeiro nacional. Belo Horizonte, MG: PUC Minas, 2021. *E-book*. ISBN 9786588331316. Disponível em: https://bib.pucminas.br/pergamumweb/vinculos/000000/0000003a.pdf. Acesso em: 9 fev. 2022.
+*   MISHKIN, Frederic S.. Moeda, bancos e mercados financeiros. 5. ed. Rio de Janeiro, RJ: LTC - Livros Técnicos e Científicos, c2000. xxii, 474 p. ISBN 8521611927., Nº de Exemplares: 2.
+*   MODENESI, André de Melo. Regimes monetários: teoria e a experiência do real. Barueri, SP: Manole, 2005. *E-book*. ISBN 9788520464533.
+*   TEIXEIRA, Ernani. Economia monetária: a macroeconomia no contexto monetário. São Paulo (SP): Saraiva, 2002. xv, 248 p. ISBN 8502035576., Nº de Exemplares: 4.

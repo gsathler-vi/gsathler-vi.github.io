@@ -1,0 +1,28 @@
+---
+title: "ECONOMIA DO BEM-ESTAR"
+subtitle: "Período: 3"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestão Publica, sob a orientação do(a) professor(a)  ()."
+categories: ["UFMG", "Gestão Publica", "Teoria Econômica"]
+carga_horaria: 60
+periodo: 3
+toc: true
+---
+
+## Ementa
+Função de Bem Estar. Equidade e Eficiência. Análise Custo-Benefício. O financiamento do Setor Público. Sistemas de Tributação. Políticas Sociais: Sistemas de Seguridade, Sistemas de Saúde e Sistemas de educação.
+
+## Descrição da Bibliografia Básica
+*   BIDERMAN, C.; ARVATE, P. (Orgs.). Economia do Setor Público no Brasil. Rio de Janeiro: Campus, 2005.
+*   PIKETTY, T. O Capital no Século XXI. Rio de Janeiro: Intrínseca, 2013
+*   PINDYCK, R. S.; RUBINFELD, D.L. Microeconomia (7ª ed.). São Paulo: Pearson, 2010.
+*   SEN, A. Desenvolvimento como liberdade. São Paulo: Companhia das Letras, 2000.
+*   SEN, A. Sobre ética e economia. São Paulo: Companhia das Letras, 1999.
+*   VARIAN, H. Microeconomia: uma abordagem moderna. Rio de Janeiro: Elsevier, 2012.
+
+## Descrição da Bibliografia Complementar
+*   CMESP: Comission on the Measurement of Economic Performance and Social Progress. Report of the Commission on the Measurement of Economic Performance and Social Progress, 2009. Disponível em http://www.stiglitz-sen-fitoussi.fr/
+*   HAUGHTON, J.; KHANDKER, S. R. Handbook on poverty and inequality. The World Bank. 2009. Disponível em http://go.worldbank.org/4WJH9JQ350
+*   IPEA. Políticas Sociais: acompanhamento e análise - Vinte Anos da Constituição Federal, nº 17, Volumes 1-3, 2009.
+*   MEDEIROS, M. et al. O Topo da Distribuição de Renda no Brasil: Primeiras Estimativas com Dados Tributários e Comparação com Pesquisas Domiciliares (2006-2012), DADOS – Revista de Ciências Sociais, Rio de Janeiro, vol. 58, n. 1, 2015.
+*   SEN, A. Desigualdade reexaminada. São Paulo: Record, 2001.
+*   UNITED NATIONS DEVELOPMENT PROGRAM. International Human Development Indicators. Disponível em: http://hdr.undp.org/en/statistics/

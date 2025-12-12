@@ -1,0 +1,119 @@
+---
+title: "MERCADO FINANCEIRO E DE CAPITAIS"
+subtitle: "Período: 4 | Nota: 80"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Erich Vale e Sousa (Mestrado)."
+categories: ["PUC Minas", "Economia", "Finanças e Contabilidade"]
+carga_horaria: 80
+nota: 80
+periodo: 4
+toc: true
+---
+
+## Ementa
+Organização dos mercados e intermediação financeira. Sistema Financeiro Nacional: evolução e características. Mercados: monetário, de crédito e de capitais. Conceitos básicos de avaliação de risco e performance. Modelos de administração e avaliação de carteiras de investimento. Introdução aos derivativos: conceitos e definições. Mercados futuros e mercados de opções. Modelos de análise de volatilidade no mercado de ações.
+
+## Objetivos
+Proporcionar aos alunos uma compreensão do funcionamento do mercado financeiro e de capitais, capacitando-os a analisar os instrumentos, instituições e políticas que regulam e influenciam a alocação de recursos financeiros na economia, bem como a aplicar esses conhecimentos em contextos reais.
+
+**Especificamente:**
+*   Habilitar os alunos para tomadas de decisões apoiadas em instrumentos financeiros e em distintos cenários.
+*   Explorar os principais produtos e massificados disponíveis no mercado brasileiro.
+*   Reconhecer os aspectos principais dos mercados financeiro e de capitais e do SFN.
+
+## Métodos Didáticos
+Aulas assíncronas expositivas com recursos do Canvas. Repositório de material produzido para consulta e resolução dos exercícios e testes semanais. Disponibilização de links e fontes de consulta eletrônica para materiais selecionados. Utilização de recursos computacionais para a produção das aulas virtuais (Studio+). Utilização do SGS (Sistema de Gestão de Séries Temporais do Banco Central). Resolução de Problemas Práticos/aplicados on-line.
+
+## Unidades de Ensino
+**Unidade Zero. O Mercado financeiro e de capitais - considerações iniciais**
+*   Cálculo das taxas de juros simples e composta para integralização de ativos de renda fixa.
+*   Apuração de médias e medidas de dispersão: média e média ponderada, mediana, variância, desvio padrão, correlação e covariância. Nivelamento para a escolha de carteira ótima (Fronteira Eficiente).
+
+**Unidade I. O Dinheiro e sua origem.**
+*   Origens do Mercado.
+*   História e evolução dos Mercados Financeiros e de Capitais.
+*   O Mercado na era contemporânea e as Grandes Transformações.
+
+**Unidade II. A evolução do SFN, reformas, funções, atribuições e instrumentos.**
+*   O Banco Central como órgão de supervisão e partícipe do SFN.
+*   Demais Instituições participantes, órgãos normativos, de supervisão e operadores do SFN.
+
+**Unidade III. O mercado monetário.**
+*   Instrumentos de controle da liquidez.
+*   A taxa Selic e sua relação com a taxa DI.
+*   O Processo de contaminação do mercado interbancário pela Selic: o custo do dinheiro.
+*   Formação da taxa ponderada Selic.
+*   O Multiplicador monetário e o controle da liquidez.
+*   A base monetária e a expansão dos meios de pagamento.
+*   Letras e notas do Tesouro: Cálculo, operacionalização e impactos no mercado monetário e de juros.
+*   Atuação do Banco Central no controle da liquidez e políticas monetárias.
+
+**Unidade IV. O mercado de crédito.**
+*   Instrumentos, operacionalização e finalidades.
+*   Desconto de títulos e valores mobiliários.
+*   CDC, antecipação de recebíveis, duplicatas, linhas de crédito e financiamento, contas garantidas, etc.
+
+**Unidade V.**
+*   CDB, CDI, RDB, taxa efetiva, bruta e líquida do Imposto de Renda.
+*   Taxa de risco estimada/embutida.
+*   Taxa efetiva over e anualizada.
+
+**Unidade VI.**
+*   Mercados de commodities, debentures, cupons, direitos e recibos de subscrição.
+*   Debêntures, certificados de desdobramento, certificados de valores mobiliários.
+
+**Unidade VII. Tipos de Fundos de Investimentos.**
+*   Administração e gestão de fundos, características e instrumentos de tomada de decisão.
+
+**Unidade VIII. O Mercado de Capitais.**
+*   Ações: mercados primário e secundário.
+*   A tipologia das ações: definições e introdução à noção de risco.
+*   Aspectos práticos do processo de negociação.
+*   Simulação de plataformas profissionais.
+*   Precificação de ações e ativos de renda variável x risco.
+
+**Unidade IX. Mercado de derivativos - noções básicas.**
+*   Notas comerciais, Contratos futuros e opções.
+*   O mercado à termo.
+
+**Unidade X. Estudo sobre o Risco.**
+*   Tipologia do Risco.
+*   O desvio padrão como instrumento inicial para a compreensão do risco.
+*   Covariância e correlação para ativos selecionados.
+*   Estimativa de retorno para uma carteira hipotética formada a partir de ativos selecionados.
+*   Escolha de ativos e a determinação da Fronteira Eficiente na alocação de portifólios de aplicação financeira.
+
+## Processo de Avaliação
+**CRONOGRAMA - 20 SEMANAS - VETERANOS 2025/1**
+*   Avaliações parciais do conteúdo realizada semanalmente com atividades no valor de 4 pontos (15 semanas x 4 pontos cada = 60 pontos)
+*   Primeira avaliação: 20 pontos
+*   Segunda avaliação: 20 pontos
+*   Totalizando 100 pontos no semestre letivo.
+*   Avaliação substitutiva, conforme critérios previstos pelo Departamento de Economia para substituição de uma das avaliação.
+*   Reavaliação no valor 100 pontos, conforme critérios previstos pelo Departamento de Economia.
+    *A nota da atividade de reavaliação (Valor 100 pontos) será somada aos pontos remanescentes obtidos durante o curso e dividida por 2 (Critério de aprovação --> mínimo 60 pontos)*
+
+## Observações
+**Justificativas para a seleção bibliográfica:**
+*   "Mercado Financeiro" de Alexandre Assaf Neto, em sua 16ª edição (2025), é uma referência no estudo dos mercados financeiros e de capitais, especialmente no contexto brasileiro. A obra prioriza os conceitos fundamentais do mercado financeiro e sua aplicação prática, sem se deter excessivamente em aspectos normativos ou legais que tendem a mudar com frequência. A 16ª edição incorpora temas contemporâneos, como operações de swap do Banco Central, créditos direcionados, Certificados de Operações Estruturadas (COE), a estrutura da B3 (Brasil, Bolsa, Balcão) e investimentos ESG (ambientais, sociais e de governança), refletindo as transformações recentes no mercado financeiro global e nacional.
+*   A obra "Administração Financeira" de Stephen A. Ross, Randolph W. Westerfield, Jeffrey Jaffe é um clássico reconhecido no campo das finanças corporativas. A 10ª edição, publicada em 2015 é um recurso essencial dos princípios e as práticas da gestão financeira de portifólios. A 10ª edição reflete adicionalmente atualizações importantes, como exemplos baseados em crises financeiras recentes (ex.: crise de 2008) e avanços em ferramentas financeiras.
+*   A obra Mercado de Capitais de Juliano Lima Pinheiro aborda conceitos fundamentais e práticos do mercado de capitais, divididos em três partes principais: Ambiente financeiro, mercado de capitais e bolsas de valores, além de uma parte destinada à análise de ações. O livro apresenta ferramentas para administração financeira e análise de ações como opções de investimento, que servem de apoio a compreensão das unidades relacionadas aos ativos de renda variável, conforme o conteúdo da disciplina. Além disso, o livro oferece conteúdo voltado para as principais certificações, como CPA-10, CPA-20, CNPI e outras relacionadas ao mercado financeiro. Ainda que as certificações não sejam lecionadas na disciplina, trata-se de assunto de interesse do alunado, permitindo uma orientação de leitura inicial sobre estes tópicos mencionados. O livro inclui exemplos práticos, questões e exercícios para aprofundar o aprendizado na disciplina, que são utilizados durante o semestre.
+*   O periódico Journal of Financial Markets é uma publicação trimestral da Elsevier, iniciada em 1998, que se concentra em pesquisas originais de alta qualidade sobre questões teóricas e aplicadas relacionadas ao mercado financeiro. Ele abrange tópicos como mecanismos de negociação, estratégias de colocação de ordens, intermediação financeira e comportamento de preços em diferentes horizontes de tempo. Conjuntamente com revista Economia e Gestão, publicada pela PUC Minas desde 2001, que é um periódico quadrimestral dedicada a disseminação de conhecimento científico nas áreas de economia e gestão, funcionam como repositório dinâmico para, eventualmente, promover discussões estruturadas por tópicos no Canvas.
+*   A obra Análise Técnica dos Mercados Financeiros de Flávio Lemos, explora estratégias Market Profile e Volume Profile. A seleção se justifica porque intercala teoria e prática, incluindo histórias reais sobre eventos marcantes do mercado financeiro, como os crashes históricos e a quebra da Bolsa do Rio.
+*   O livro Investimentos no Mercado Financeiro: Usando a Calculadora HP 12C, de Alexandre Assaf Neto e Fabiano Guasti Lima, é uma obra prática e didática que explora as aplicações da calculadora HP 12C no mercado financeiro. Os capítulos incluem revisões conceituais, aplicações práticas ilustrativas e sugestões de programas financeiros, além de exercícios propostos ao final de cada capítulo.
+*   O livro Valuation: Métricas de Valor & Avaliação de Empresas, de Alexandre Assaf Neto, é referência para compreender as principais metodologias de avaliação de empresas e medidas de criação de valor, e consolida, conjuntamente as obras relacionadas do mesmo autor, diferentes aspectos que podem ser de interesse dos alunos. Deste modo, as obras mencionadas neste conjunto são utilizadas pontualmente, no sentido de inserções no conteúdo.
+*   O livro Corporate Finance: Theory and Practice, 5ª edição, de Pierre Vernimmen, Pascal Quiry, Maurizio Dallocchio, Yann Le Fur e Antonio Salvi, oferece uma visão global do campo das finanças corporativas. Ele aborda conceitos essenciais, como fusões e aquisições (M&A), avaliação de empresas e gestão financeira, com uma perspectiva europeia e global. Especificamente em relação a justificativa de seleção da obra, esta edição inclui um novo capítulo com estatísticas atualizadas, estudos de caso, modelos computacionais e quizzes disponíveis no site do livro.
+*   O livro Mercado Financeiro: Produtos e Serviços de Eduardo Fortuna é reconhecido como uma referência abrangente sobre o mercado financeiro brasileiro. A 19ª edição abrange temas como os principais produtos e serviços financeiros, estrutura do sistema financeiro nacional, gestão de riscos e operações de mercado. A obra apresenta uma visão detalhada e útil para a disciplina em EAD, das características dos produtos e massificados disponíveis no SFN, imprescindíveis para o tratamento de aspectos do funcionamento de ativos estudados na disciplina.
+
+## Descrição da Bibliografia Básica
+*   ASSAF NETO, Alexandre. Mercado financeiro. 16. ed. Barueri: , 2025. 1 recurso online. ISBN 9786559776726.
+*   JOURNAL OF FINANCIAL MARKETS. Amsterdam, NL: Elsevier, 1998-. Trimestral. ISSN 1878-576X versão on-line. Disponível em: https://www-sciencedirect-com.ez93.periodicos.capes.gov.br/journal/journal-of-financial-markets. Acesso em: 22 fev. 2022.
+*   PINHEIRO, Juliano Lima. Mercado de capitais. 9. ed. São Paulo: Atlas, 2019. *E-book*. ISBN 9788597021752.
+*   ROSS, Stephen A. *et al.* Administração financeira. 10. ed. Porto Alegre: AMGH, 2015. *E-book*. ISBN 9788580554328.
+
+## Descrição da Bibliografia Complementar
+*   ASSAF NETO, Alexandre; LIMA, Fabiano Guasti. Investimentos no mercado financeiro: usando a calculadora HP 12C. 4. ed. São Paulo: Atlas, 2019. *E-book*. ISBN 9788597022575.
+*   ASSAF NETO, Alexandre. Valuation: métricas de valor & avaliação de empresas: medidas de criação de valor, gestão baseada em valor, avaliação de empresas. 4. ed. Barueri, SP: Atlas, 2021. *E-book*. ISBN 9788597027686.
+*   ECONOMIA E GESTÃO. Belo Horizonte: Ed. PUC Minas,2001-. Quadrimestral. ISSN 1678-8982., Nº de Exemplares: 66.
+*   FORTUNA, Eduardo. Mercado financeiro: produtos e serviços. 19. ed. rev., atual. e ampl. Rio de Janeiro: Qualitymark, 2013. xxxii, 1066, [1] p. ISBN 9788541400497., Nº de Exemplares: 4.
+*   LEMOS, Flávio. Análise técnica dos mercados financeiros: um guia completo e definitivo dos métodos de negociação de ativos. 3. ed. rev. e atual. São Paulo: Saraiva Uni, 2023. *E-book*. ISBN 9786587958002.
+*   VERNIMMEN, Pierre; QUIRY, Pascal; DALLOCCHIO, Maurizio; LE FUR, Yann; SALVI, Antonio. Corporate Finance, 5th Edition. 5th edition. 2017. 1 online resource (1024 pages).

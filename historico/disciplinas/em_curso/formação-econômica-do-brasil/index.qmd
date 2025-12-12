@@ -1,0 +1,12 @@
+---
+title: "FORMAÇÃO ECONÔMICA DO BRASIL"
+subtitle: "Período: 4"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Tania (Doutorado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Ciências Sociais e Humanidades"]
+carga_horaria: 80
+periodo: 4
+toc: true
+---
+
+## Ementa
+As características gerais do sistema colonial. O Brasil no período colonial. Expansão e consolidação do capital cafeeiro. Transição do trabalho escravo ao trabalho livre. Origem e evolução do capital industrial e bancário na República Velha. A crise da economia cafeeira. O período 1930-45 e o processo de implementação do modelo de industrialização por substituição de importações. A era Vargas e a construção do Estado Moderno no Brasil. O contexto internacional e a política econômica: 1945 a 1955. Síntese do processo de industrialização por substituição de importações em bases técnicas e financeiras restritas (1933-1955).

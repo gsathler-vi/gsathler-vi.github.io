@@ -1,0 +1,94 @@
+---
+title: "MICROECONOMIA CONTEMPORÂNEA"
+subtitle: "Período: 3 | Nota: 73"
+description: "Disciplina cursada na PUC Minas como parte do currículo de Economia, sob a orientação do(a) professor(a) Jean Max Tavares (Doutorado)."
+categories: ["PUC Minas", "Economia", "Teoria Econômica"]
+carga_horaria: 80
+nota: 73
+periodo: 3
+toc: true
+---
+
+## Ementa
+Teoria dos custos: conceitos e as curvas de custos, no curto e longo prazo. Determinação da demanda de fatores: maximização de lucros e minimização de custos. Maximização de lucros e oferta competitiva. Mercados competitivos. Monopólio. Teoria dos jogos e estratégias competitivas.
+
+## Objetivos
+Oferecer aos alunos a solidez da teoria econômica associada à imediata associação com os problemas e questões vivenciados pelas empresas. Nesse aspecto, como a disciplina é condensada basicamente na teoria da custos, é possível exemplificar ao máximo as considerações teóricas ministradas com exemplos do cotidiano, considerando os distintos desdobramentos que ocorrem em mercados competitivos e nos mercados imperfeitos, a abordagem diferenciada que a Teoria dos Jogos oferece para essa temática, bem como debates importantes ligados ao mercado de fatores travados hoje em dia no que diz respeito ao aumento da importância do capital humano em detrimento do capital físico.
+
+## Métodos Didáticos
+Em sua maioria, as aulas serão divididas nas seguintes partes:
+(a) expositiva, na qual conceitos serão apresentados e discutidos com a turma;
+(b) busca de soluções, a qual será alvo por parte dos alunos quando apresentados diante de problemas reais das empresas atualmente;
+c) exercícios, na qual a turma será instigada a praticar os conceitos vistos ao longo do semestre;
+d) discussão a respeito dos artigos mais recentes em Teoria da Produção e dos Mercados
+
+Além de técnicas instrucionais citadas nos itens (a), (c) e (d) acima, o "aprendizado baseado em soluções" (ABS ou SBL, em inglês) será a principal metodologia aplicada, tendo a "lógica efetual" desenvolvida por Sarasvathy (2001) como norteamento auxiliar à teoria da produção.
+
+Além disso, pretende-se incentivar a participação do aluno em sala, como a busca de soluções para problemas das empresas, retirando o peso excessivo que existe sobre a aula puramente expositiva. Para isso, será usada a técnica Phillips 66, que visa a participação de toda a turma em uma discussão, dividindo-a em pequenos grupos para trocarem ideias durantes alguns minutos. Em seguida, cada grupo exporá suas soluções a toda a turma. Porém, alguns grupos serão selecionados para divergirem dos demais, mantendo o nível acadêmico de educação, evidentemente. Tal técnica permite a consolidação do conteúdo ministrado, a troca de experiências e o envolvimento dos alunos.
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento de matemática (equações, funções, limite e derivada) - 6 h/a**
+*   Revisão Teoria da produção e conceitos necessários - 10 h/a
+*   1- Teoria dos Custos de curto e longo prazo - 12 h/a
+*   2- Determinação da demanda de fatores maximização de lucros e minimização de Custos - 10 h/a
+*   3- Maximização de lucros e oferta competitiva - 10 h/a
+*   4- Mercados competitivos - 11 h/a
+*   5- Monopólio - 6 h/a
+*   6- Teoria dos Jogos e Estratégias competitivas - 15 h/a
+
+## Processo de Avaliação
+*   2 (duas) provas intermediárias de 25 pontos cada.
+*   Exercícios propostos ao longo do semestre que totalizarão 20 pontos.
+*   Avaliação global de 30 pontos.
+*   Reavaliação (substitui a Avaliação Global de 30 pontos e é facultada apenas para os alunos que, após tal avaliação, estivem entre 30 e 59 pontos, abordando todo o conteúdo do semestre).
+
+## Observações
+**JUSTIFICATIVA DAS BIBLIOGRAFIAS SELECIONADAS**
+
+**Bibliografias Cadastradas (BÁSICA)**
+
+1) ESTUDOS ECONÔMICOS: [São Paulo]. São Paulo: USP, Instituto de Pesquisas Econômicas ,1971-. out. 2000-.ISSN 1980-5357 versão on-line. Disponível em: https://www.scielo.br/scielo.php/script_sci_serial/lng_pt/pid_0101-4161/nrm_iso.
+*Justificativa: Trata-se de uma das mais importantes revistas científicas da área de Economia (certamente entre as 5 mais tradicionais), contendo importantes insights para os alunos. Circula há mais de 50 anos no Brasil.*
+
+2) GARÓFALO, Gilson de Lima (org.). Fundamentos de teoria microeconômica contemporânea. São Paulo, SP: Atlas, c2016. E-book. ISBN 9788597008685.
+*Justificativa: Esse livro contempla a teoria de maneira direta, sem termos excessivamente técnicos, trazendo exercícios mais práticos e mais próximos da realidade sobre as empresas e consumidores.*
+
+3) PINDYCK, Robert S.; RUBINFELD, Daniel L. Microeconomia. 8. ed. São Paulo, SP: Pearson Education do Brasil, c2014. E-book. ISBN 9788543000282.
+*Justificativa: Junto com o livro do Hal. Varian, também de Microeconomia, talvez seja um dos livros mais conhecidos e usados em todo mundo sobre o tema. Contém forte abordagem na teoria e muitos exercícios interessantes.*
+
+4) VARIAN, Hal R.; MACEDO, Regina Coeli Moura de. Microeconomia: uma abordagem moderna. 9. ed. Rio de Janeiro: Elsevier, c2015. E-book. ISBN 9788595155107.
+*Justificativa: Livro muito tradicional nos cursos de Economia. Embora considerado "denso" pelos alunos em geral, sua capacidade de explicar os principais tópicos faz dele um best seller na área.*
+
+**Bibliografias Cadastradas (COMPLEMENTAR)**
+
+1) BESANKO, David; BRAEUTIGAM, Ronald R. Microeconomia: abordagem completa. Rio de Janeiro, RJ: LTC - Livros Técnicos e Científicos, 2004. E-book. ISBN 978-85-216-1922-2.
+*Justificativa: esse livro aborda com profundidade os conceitos microeconômicos ao mundo dos negócios e da estratégia empresarial, trazendo casos práticos e exemplos reais que facilitam o entendimento por parte dos alunos.*
+
+2) MARINHO, Raul. Prática na teoria: aplicações da teoria dos jogos e da evolução aos negócios. 2. ed. São Paulo, SP: Saraiva, 2011. E-book. ISBN 9788502126114.
+*Justificativa: O livro aborda a teoria dos jogos para situações práticas do ambiente empresarial, como a negociação, a competição de mercado, a cooperação e a precificação. Forte embasamento teórico.*
+
+3) REVISTA BRASILEIRA DE ECONOMIA. Rio de Janeiro: FGV, 1947-. Trimestral. ISSN 1806-9134 versão on-line. Disponível em: http://www.scielo.br/scielo.php?script=sci_serial&pid=0034-7140&lng=en&nrm=iso.
+*Justificativa: É a revista científica mais importante de Economia do Brasil. É muito robusta na teoria e, embora algumas vezes utilize de uma matemática sofisticada, ela gera importantes análises para os alunos.*
+
+4) BIERMAN, H. Scott; FERNANDEZ, Luis Florentin. Teoria dos jogos. 2. ed. São Paulo: Pearson Prentice Hall, c2011. E-book. ISBN 9788576056966.
+*Justificativa: Com forte embasamento matemático, mas sem perder de vista a importância da análise crítica, esse livro aborda a Teoria dos Jogos de forma progressiva, contribuindo para o aprendizado dos alunos.*
+
+5) PIANEZZER, Guilherme Augusto. Teoria dos jogos: conceitos e aplicações. Curitiba, PR: Intersaberes, 2023. E-book. ISBN 9788522705078.
+*Justificativa: Aborda os principais conceitos da Teoria dos Jogos, com exemplos muito interessantes para aperfeiçoar a tomada de decisão por parte dos alunos.*
+
+6) CARVALHO, Maria Auxiliadora de. Microeconomia essencial. São Paulo, SP: Saraiva, 2015. E-book. ISBN 9788502634534.
+*Justificativa: O livro é escrito em linguagem objetiva e acessível, ideal para ser ministrado para os alunos do primeiro e do segundo ano de Economia. Apresenta exemplos intuitivos e ilustrações bastante interessantes, embora foque na teoria.*
+
+## Descrição da Bibliografia Básica
+*   ESTUDOS ECONÔMICOS: [São Paulo]. São Paulo: USP, Instituto de Pesquisas Econômicas ,1971-. out. 2000-. ISSN 1980-5357 versão on-line. Disponível em: https://www.scielo.br/scielo.php/script_sci_serial/lng_pt/pid_0101-4161/nrm_iso. Acesso em: 1 jul. 2020.
+*   GARÓFALO, Gilson de Lima (org.). Fundamentos de teoria microeconômica contemporânea. São Paulo, SP: Atlas, c2016. *E-book*. ISBN 9788597008685.
+*   PINDYCK, Robert S.; RUBINFELD, Daniel L.. Microeconomia. 8. ed. São Paulo, SP: Pearson Education do Brasil, c2014. *E-book*. ISBN 9788543000282.
+*   VARIAN, Hal R.; MACEDO, Regina Coeli Moura de. Microeconomia: uma abordagem moderna. 9. ed. Rio de Janeiro: Elsevier, c2015. *E-book*. ISBN 9788595155107.
+
+## Descrição da Bibliografia Complementar
+*   BESANKO, David; BRAEUTIGAM, Ronald R.. Microeconomia: abordagem completa. Rio de Janeiro, RJ: LTC - Livros Técnicos e Científicos, 2004. *E-book*. ISBN 978-85-216-1922-2.
+*   BIERMAN, H. Scott; FERNANDEZ, Luis Florentin. Teoria dos jogos. 2. ed. São Paulo: Pearson Prentice Hall, c2011. *E-book*. ISBN 9788576056966.
+*   CARVALHO, Maria Auxiliadora de. Microeconomia essencial. São Paulo, SP: Saraiva, 2015. *E-book*. ISBN 9788502634534.
+*   MARINHO, Raul. Prática na teoria: aplicações da teoria dos jogos e da evolução aos negócios. 2. ed. São Paulo, SP: Saraiva, 2011. *E-book*. ISBN 9788502126114.
+*   PIANEZZER, Guilherme Augusto. Teoria dos jogos: conceitos e aplicações. Curitiba, PR: Intersaberes, 2023. *E-book*. ISBN 9788522705078.
+*   REVISTA BRASILEIRA DE ECONOMIA. Rio de Janeiro: FGV, 1947-. Trimestral. ISSN 1806-9134 versão on-line. Disponível em: http://www.scielo.br/scielo.php?script=sci_serial&pid=0034-7140&lng=en&nrm=iso. Acesso em: 10 set. 2018.

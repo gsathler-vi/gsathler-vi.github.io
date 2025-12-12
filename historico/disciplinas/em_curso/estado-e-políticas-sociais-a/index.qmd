@@ -1,0 +1,37 @@
+---
+title: "ESTADO E POLÍTICAS SOCIAIS A"
+subtitle: "Período: 3"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestão Publica, sob a orientação do(a) professor(a)  ()."
+categories: ["UFMG", "Gestão Publica", "Gestão e Políticas Públicas"]
+carga_horaria: 60
+periodo: 3
+toc: true
+---
+
+## Ementa
+Teorias explicativas da emergência e evolução dos sistemas de proteção social e ou dos estados de bem-estar social, a partir de análises comparadas, considerando: a relação entre Estado e mercado; o conceito de política social, o estado de bem-estar e o de regime de bem-estar; a evolução do conceito de cidadania e sua relação com as políticas sociais. Estudo do caso brasileiro desde as primeiras políticas sociais até o fim da ditadura militar.
+
+## Descrição da Bibliografia Básica
+*   ABRUCIO, Fernando. Coordenação e cooperação no federalismo brasileiro: avanços e desafios. In: Estado, Instituições e Democracia: República. IPEA, Livro 9, vol. 1, 2010, p. 177- 212.
+*   ARRETCHE, Marta T. S. Emergência e Desenvolvimento do Welfare State: teorias explicativas. BIB Boletim Informativo e Bibliográfico, n.3 9, 1995.
+*   BOBBIO, Norberto. (1992). A Era dos Direitos. Editora Campus. Rio de Janeiro. Primeira parte, p. 35-97.
+*   CARDOSO Jr, José C.; JACCOUD, Luciana. (2005). Políticas Sociais no Brasil: Organização, Abrangência e Tensões da Ação Estatal. In: Questão Social e Políticas Sociais no Brasil Contemporâneo.
+*   CARVALHO, José M. Cidadania no Brasil: O Longo Caminho. Editora Civilização Brasileira. Rio de Janeiro, 2001.
+*   CASTEL, Robert. A Metamorfose da Questão Social: Uma Crônica da Questão Social. Vozes. Petrópolis, 1999. Introdução e cap. 1 e 3.
+*   DRAIBE, Sônia; HENRIQUE, Wilnês. ‘Welfare State', Crise e Gestão da Crise: um Balanço da Literatura Internacional". In: Revista Brasileira de Ciências Sociais, n.6, v.3, 1988.
+*   ESPING-ANDERSEN, Gösta. As Três Economias Políticas do Welfare State. Lua Nova, n. 24, 1991.
+*   ESPING-ANDERSEN, Gosta. O Futuro do Welfare State na Nova Ordem Mundial. Lua Nova, n. 35, 1995.
+*   MARSHALL, T. H. Cidadania, Classe Social e Status. RJ: Zahar Editores, 1967. Cap. 3
+*   POLANYI, Karl. A Grande Transformação: As origens da nossa época. Rio de Janeiro: Ed. Campus. 1980. Cap. 1, 2 e 7.
+*   SANTOS, Wanderley G. Cidadania e Justiça: A Política Social na Ordem Brasileira. Rio de Janeiro: Campus, 1979. Cap. 4 e 5.
+
+## Descrição da Bibliografia Complementar
+*   ARRETCHE, Marta T. S. Políticas Sociais no Brasil: Descentralização em um Estado Federativo. In: Revista Brasileira de Ciências Sociais, n. 40, 1999.
+*   BARROS, Ricardo P. et al. A Importância da Queda Recente da Desigualdade na Redução da Pobreza. IPEA, TD n. 1256, 2007.
+*   BARROS, Ricardo P. et al. A Queda Recente da Desigualdade de Renda no Brasil. IPEA, TD n. 1258, 2007.
+*   BARROS, Ricardo P.; HENRIQUES, Ricardo. A Estabilidade Inaceitável: Desigualdade e Pobreza no Brasil. IPEA, Texto para Discussão nº 800, 2001.
+*   CASTEL. Robert. A Dinâmica dos Processos de Marginalização: da Vulnerabilidade a “Desfiliação”. Salvador: Caderno CRH, n. 26/27, 1997.
+*   DRAIBE, Sonia M. O Sistema Brasileiro de Proteção Social: O Legado Desenvolvimentista e a Agenda Recente de Reformas. UNICAMP/NEPP: Caderno de Pesquisa, n. 32, 1998.
+*   FILGUEIRAS, Cristina A. C. Exclusão, Risco e Vulnerabilidade: Desafios para a Política Social. In: CARNEIRO, Carla B. L.; COSTA, Bruno L. D. Gestão Social: O Que há de novo.
+*   MEDEIROS, Marcelo; SOUZA, Pedro H. G. F. A estabilidade da desigualdade no Brasil entre 2006 e 2012: resultados adicionais. IPEA, Texto para Discussão nº 2170, 2016.
+*   SILVA, Maria O. S. Teorias Explicativas sobre a Emergência e o Desenvolvimento do Welfare State. Revista Política e Trabalho, 1999.

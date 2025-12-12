@@ -1,0 +1,51 @@
+---
+title: "ANÁLISE DE POLÍTICAS PÚBLICAS"
+subtitle: "Período: 3"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestão Publica, sob a orientação do(a) professor(a)  ()."
+categories: ["UFMG", "Gestão Publica", "Gestão e Políticas Públicas"]
+carga_horaria: 60
+periodo: 3
+toc: true
+---
+
+## Ementa
+O conceito e classificação de políticas públicas e a relação entre ação governamental e processos políticos. Teorias e modelos de análise das políticas públicas, que abordam com distintas ênfases as relações entre instituições, atores, ideias e contexto político. Exemplificação dos modelos na análise de políticas públicas. O ciclo de políticas públicas e teorias da implementação. A avaliação de políticas públicas.
+
+## Descrição da Bibliografia Básica
+*   BACHRACH, Peter. BARATZ, Morton S. Duas faces do poder. Rev. Sociol. Polít., Curitiba, v. 19, n. 40, p. 149-157, out. 2011. Disponível em: http://dx.doi.org/10.1590/S0104-44782011000300011
+*   CAPELLA, Ana Cláudia. Perspectivas teóricas sobre o processo de formulação de políticas públicas. BIB, São Paulo, nº 61, 1º semestre de 2006. Disponível em: http://www.anpocs.org.br/portal/images/bib61.pdf
+*   COELHO, Vera. S. P. Interesses e instituições na política de saúde. Revista Brasileira de Ciências Sociais, volume 13, número 37, páginas 115-128. Junho 1998. Disponível em: http://dx.doi.org/10.1590/S0102-69091998000200007
+*   FARIA, Carlos Aurélio Pimenta. A política da avaliação de políticas públicas. RBCS, V. 20, Nº 59, outubro de 2005. Disponível em: http://www.ufpa.br/epdir/images/docs/paper44.pdf
+*   FARIA, Carlos Aurélio Pimenta. Ideias, conhecimento e políticas públicas: um inventário sucinto das principais vertentes analíticas recentes. RBCS, V. 18, Nº 51. Disponível em: http://dx.doi.org/10.1590/S0102-69092003000100004
+*   FERRAREZI, Elisabete (org.). Políticas Públicas – Coletânea – Volume 1. Brasília: ENAP, 2006. Disponível em: http://www.enap.gov.br/documents/586010/601525/160425_coletanea_pp_v1.pdf/ee7a8ffe-d904-441f-a897-c4a2252a2f23
+*   FUKS, Mario. Arenas de ação e debate públicos: conflitos ambientais e a emergência do meio ambiente enquanto problema social no Rio de Janeiro. Dados, 41 (1): 230-245, 1998. Disponível em: http://dx.doi.org/10.1590/S0011-52581998000100003
+*   IMMERGUT, Ellen M. As regras do jogo: a lógica da política de saúde na França, na Suíça e na Suécia. Revista Brasileira de Ciências Sociais. N° 30, ano 11, fev. de 1996. Disponível em: http://www.anpocs.com/index.php/universo/acervo/biblioteca/periodicos/rbcs/207-rbcs-30
+*   MENICUCCI, Telma M. G. BRASIL, Flávia de P. D. Construção de agendas e inovações institucionais: análise comparativa da reforma sanitária e da reforma urbana. Estudos de Sociologia. UNESP – Araraquara, v. 15, Nº 29, 2º semestre de 2010. Disponível em: http://seer.fclar.unesp.br/estudos/article/view/2971
+*   MIGUEL, Luís Felipe. “Representação Política em 3-D: elementos para uma teoria ampliada da representação política”. Revista Brasileira de Ciências Sociais, vol.18, nº 51, p. 123-140, 2003. Disponível em: http://dx.doi.org/10.1590/S0102-69092003000100009
+*   SILVA, Pedro Luiz Barros. MELO, Marcus André Barreto. O processo de implementação de políticas públicas no Brasil: características e determinantes da avaliação de programas e projetos. NEPP/UNICAMP, Caderno de Pesquisa n° 48, 2000. Disponível em: http://www.nepp.unicamp.br/images/cadernos-e-livros/cadernos-do-nepp/pdfs/caderno48.pdf
+*   SOUZA, Celina. Políticas públicas: uma revisão da literatura. Sociologias – sociedade e políticas públicas. Ano 8, nº 16, jul/dez 2006. Disponível em: http://www.scielo.br/pdf/soc/n16/a03n16.pdf
+*   SUBIRATS, Joan. Definición del problema. Relevancia pública y formación de la agenda de actuación de los poderes públicos. SARAVIA, Enrique e FERRAREZI, Elisabete (org.). Políticas Públicas – Coletânea – Volume 1. Brasília: ENAP, 2006. Disponível em: http://www.enap.gov.br/documents/586010/601525/160425_coletanea_pp_v1.pdf/ee7a8ffe-d904-441f-a897-c4a2252a2f23
+*   SUBIRATS, Joan. El papel de la burocracia en el proceso de determinación e implementación de las políticas públicas. In: SARAVIA, Enrique e FERRAREZI, Elisabete. Políticas Públicas – Coletânea – Volume 2. Brasília: ENAP, 2006. Disponível em: http://www.enap.gov.br/web/pt-br/livros/-/asset_publisher/pUSHqxkzYHsx/content/coletanea-de-politicas-publicas-volume2/586010;jsessionid=E0336280B58077D94EEB8EF34BB9F3B9
+
+## Descrição da Bibliografia Complementar
+*   ARRETCHE, Marta T. S. “Tendências no estudo sobre avaliação”. In: RICO, Elizabeth Melo (org.). Avaliação de Políticas Sociais: uma questão em debate. São Paulo: Cortez: Instituto de Estudos Especiais, 1998.
+*   ARRETCHE, Marta Teresa da Silva. Democracia, federalismo e centralização no Brasil. Rio de Janeiro: Editora FGV e Fiocruz, 2012. 232p.
+*   CÔRTES, Soraya Vargas. Viabilizando a participação em Conselhos de Política Pública Municipais: arcabouço institucional, organização do movimento popular e policy communities. In: HOCHMAN, Gilberto, ARRETCHE, Marta e MARQUES, Eduardo (org.). Políticas públicas no Brasil. Rio de Janeiro: Editora FIOCRUZ, 2007.
+*   CUNHA, Eleonora. “A reinvenção do Estado brasileiro: a criação de instituições que articulam participação e deliberação”. Efetividade Deliberativa: estudo comparado de Conselhos Municipais de Assistência Social (1997 / 2006). Tese de Doutorado em Ciência Política, UFMG, 2009, p. 61-74.
+*   DAHL, Robert A. Sobre a Democracia. Brasília: Editora Universidade de Brasília, 2001. Capítulos: 13,14 e 15.
+*   FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   HELD, David. Participação, liberdade e democracia”. Modelos de Democracia. Belo Horizonte: Paideia, 1987 (segunda parte do capítulo 7).
+*   HILL, Michael. Implementação: uma visão geral. In: SARAVIA, Enrique e FERRAREZI, Elisabete. Políticas Públicas, Coletânea. Vol. 2. Brasília: ENAP, 2006.
+*   KINGDON, John. Como chega a hora de uma ideia? SARAVIA, Enrique e FERRAREZI, Elisabete (org.). Políticas Públicas. Brasília: ENAP, 2006.
+*   KINGDON, John. Juntando as coisas. SARAVIA, Enrique e FERRAREZI, Elisabete (org.). Políticas Públicas. Brasília: ENAP, 2006.
+*   LEANDRO, J. G. Coordenação, cooperação e políticas públicas: organizando percepções e conceitos sobre um tema caro à implementação. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   LEANDRO, J. G. Relação Executivo-Legislativo e Processo de Retração de Provisões Sociais: as reformas da previdência de 1998 e 2003 no Brasil. Política Hoje (UFPE. Impresso), v. 21, p. 113-149, 2012.
+*   LIMA, Luciana Leite. A implementação da regulação dos prestadores privados no sistema municipal de saúde: os casos de Belo Horizonte/MG e Porto Alegre/RS. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   LIPSKY, Michael. Los empleados de base en la elaboración de políticas públicas. In: BRUGÉ, Q. & SUBIRATS, J. Lecturas de gestión pública. Madrid: MAP, 1996.
+*   LOTTA, Gabriela Espanghero. Desvendando o papel dos burocratas de nível de rua no processo de implementação: o caso dos agentes comunitários de saúde. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   MEYERS, Márcia K. E VORSANGER, Susan. Burocratas de nível de rua e a implementação de políticas públicas. In: PETERS, Guy e PIERRE, Jon (orgs.). Administração Pública – Coletânea. São Paulo: Editora UNESP; Brasília: ENAP, 2010.
+*   OLIVEIRA, Vanessa Elias. Judiciário e privatizações no Brasil: existe uma Judicialização da Política? Dados – Revista de Ciências Sociais, Rio de Janeiro, Vol. 48, nº 3, 2005, pp. 559 a 587.
+*   PIERSON, Paul. SKOCPOL, T. El Institucionalismo Histórico en la Ciencia Política Contemporánea. Revista Uruguaya de Ciencia Política, vol. 17, diciembre, 2008, pp. 7-38.
+*   PIRES, Roberto Rocha C. Burocracias, gerentes e suas “histórias de implementação”: narrativas do sucesso e fracasso de programas federais. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   PIRES, Roberto Rocha C. Estilos de implementação e resultados de políticas públicas: fiscais do trabalho e o cumprimento da lei trabalhista no Brasil. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   SABATIER, Paul A. e Jenkins-Smith, Hank. The advocacy coalition framework: an assessment. In: Sabatier, P. A (edit.). Theories of the policy process. Colorado – Oxford: Westview Press, 1999.

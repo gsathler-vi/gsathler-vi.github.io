@@ -1,0 +1,80 @@
+---
+title: "NOÇÕES DE DIREITO TRIBUTÁRIO"
+subtitle: "Período: 6"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Antonio Carlos Lúcio Macedo de Castro (Doutorado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Direito e Regulação"]
+carga_horaria: 40
+periodo: 6
+toc: true
+---
+
+## Ementa
+Conceito, espécies e classificação dos tributos; Princípios tributários; Imunidades tributárias; Competência tributária: União, Estados, Municípios; Repartição das receitas tributárias; Legislação tributária: vigência, aplicação, interpretação e integração; Obrigação tributária: principal e acessória, fato gerador, sujeição ativa e passiva, capacidade tributária, solidariedade, domicílio tributário; Responsabilidade tributária; Crédito tributário: conceito, constituição, lançamento, hipóteses de alteração do lançamento; Suspensão da exigibilidade, exclusão e extinção do crédito tributário; Garantias e privilégios do crédito tributário.
+
+## Objetivos
+**Objetivo geral:** apresentar o Sistema Tributário Nacional e descrever e analisar as espécies tributárias existentes no ordenamento jurídico e as normas que regulam seu regime de aplicação e fiscalização.
+
+**Objetivos específicos:**
+*   Situar o tributo e o direito tributário no contexto da atividade financeira do Estado e das finanças públicas brasileiras atuais;
+*   Definir o tributo e distinguir as espécies tributárias;
+*   Analisar as limitações constitucionais do poder de tributar;
+*   Identificar as principais normas do sistema tributário nacional;
+*   Sintetizar as normas gerais presentes no Código Tributário Nacional.
+
+## Métodos Didáticos
+Aulas expositivas com participação e dos alunos. Aulas invertidas. Trabalhos e atividades avaliativas em grupo. Discussão sobre textos postados na plataforma Canvas.
+
+## Unidades de Ensino
+**Unidade 0 (Zero) Nivelamento**
+
+**Unidade I Introdução**
+*   Direito Tributário, Direito Financeiro, Direito Econômico, Finanças Públicas
+*   Significado social do tributo e do poder de tributar no Brasil
+*   Carga tributária brasileira e sua destinação
+
+**Unidade II Tributo e sistema tributário nacional**
+*   Conceito de tributo. Espécies tributárias
+*   Competência tributária e sua divisão
+*   Repartição de receitas tributárias
+*   Princípios tributários e limitações constitucionais do poder de tributar
+
+**Unidade III Normas gerais de direito tributário (Código Tributário Nacional)**
+*   Legislação Tributária: conceito, vigência, aplicação, interpretação
+*   Obrigação tributária: fato gerador, sujeito ativo, sujeito passivo, solidariedade, responsabilidade, substituição tributária
+*   Lançamento tributário: conceito e modalidades
+*   Crédito tributário: suspensão, exclusão, extinção, garantias e privilégios
+
+## Processo de Avaliação
+*   Prova intermediária 1: 25 pontos
+*   Prova intermediária 2: 25 pontos
+*   Trabalho em grupo: 10 pontos
+*   Exercícios: 10 pontos
+*   Exame Global: 30 pontos
+*   Exame de reavaliação: 30 pontos
+
+## Observações
+**Observações sobre Bibliografias Cadastradas:**
+
+1.  Curso de direito financeiro e tributário. Livro que possui abordagem introdutória a respeito das finanças públicas e atividade arrecadatória do Estado.
+2.  Direito tributário. Apresentação do sistema tributário nacional, possibilitando a compreensão do poder de tributar, a distribuição das competências tributárias e a legislação tributária.
+3.  Direito tributário brasileiro (Luciano Amaro). Apresentação do sistema tributário nacional, possibilitando a compreensão do poder de tributar, a distribuição das competências tributárias e a legislação tributária.
+4.  Crítica à jurisprudência atual do STF em matéria tributária. Análise crítica das decisões judiciais proferidas pelo STF em matéria tributária.
+5.  Direito tributário brasileiro (Aliomar Baleeiro). Obra clássica do direito tributário que permite apreender os pressupostos teóricos do sistema tributário nacional.
+6.  Limitações constitucionais ao poder de tributar. Obra clássica do direito tributário brasileiro que permite a compreensão das garantias constitucionais do contribuinte.
+7.  Código tributário nacional. Legislação comentada.
+8.  Contribuições no sistema tributário brasileiro. Conhecimento sobre as fontes de custeio da seguridade social.
+9.  REVISTA DE DIREITO INTERNACIONAL ECONÔMICO E TRIBUTÁRIO: A Revista de Direito Internacional Econômico e Tributário publica estudos relevantes sobre a intersecção entre economia, direito e tributação em contextos nacionais e internacionais. Sua abordagem acadêmica e interdisciplinar é valiosa para a compreensão crítica dos impactos econômicos das normas e acordos tributários globais.
+
+## Descrição da Bibliografia Básica
+*   BALEEIRO, Aliomar. Direito tributário brasileiro. 14. ed. rev., atual. e ampl. Rio de Janeiro, RJ: Forense, 2018. *E-book*. ISBN 9788530980726.
+*   AMARO, Luciano da Silva. Direito tributário brasileiro. 26. ed. São Paulo, SP: Saraiva Jur, 2025. *E-book*. ISBN 9788553625635.
+*   REVISTA FÓRUM DE DIREITO TRIBUTÁRIO. Belo Horizonte: Editora Fórum ,2003-. Bimestral. ISSN 1984-4131 versão on-line. Disponível em: https://www.forumconhecimento.com.br/v2/revista/P142/E52409. Acesso em: 24 nov. 2016.
+*   SCHOUERI, Luís Eduardo. Direito tributário. 13. ed. São Paulo, SP: Saraiva Jur, 2024. *E-book*. ISBN 9788553620586.
+
+## Descrição da Bibliografia Complementar
+*   BALEEIRO, Aliomar. Limitações constitucionais ao poder de tributar. 8. ed. Rio de Janeiro: Forense, 2010. xxxvi, 1377 p. ISBN 9788530904715., Nº de Exemplares: 3.
+*   FERRAZ, Luciano; GODOI, Marciano Seabra de; SPAGNOL, Werther Botelho. Curso de direito financeiro e tributário. 2. ed. rev. e atual. Belo Horizonte, MG: Fórum, 2017. 468 p. ISBN 9788545002062., Nº de Exemplares: 2.
+*   GODOI, Marciano Seabra de. Crítica à jurisprudência atual do STF em matéria tributária. São Paulo: Dialética, 2011. 239 p. ISBN 9788575002209., Nº de Exemplares: 3.
+*   MACHADO SEGUNDO, Hugo de Brito. Código Tributário Nacional. 7. ed., rev e atual. São Paulo: Atlas, 2018. *E-book*. ISBN 9788597015720.
+*   PAULSEN, Leandro; VELLOSO, Andrei Pitten. Contribuições no sistema tributário brasileiro. 4. ed., rev. e atual. São Paulo, SP: Saraiva Jur, 2019. *E-book*. ISBN 9788553612932.
+*   REVISTA DE DIREITO INTERNACIONAL ECONÔMICO E TRIBUTÁRIO. Brasilia (DF): Universidade Catolica de Brasilia, Curso de Mestrado em Direito, 2006-. Semestral. ISSN 2318-8529 versão on-line. Disponível em: https://portalrevistas.ucb.br/index.php/RDIET. Acesso em: 9 jul. 2018.

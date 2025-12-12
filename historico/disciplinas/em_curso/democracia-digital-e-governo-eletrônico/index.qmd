@@ -1,0 +1,35 @@
+---
+title: "DEMOCRACIA DIGITAL E GOVERNO ELETRÔNICO"
+subtitle: "Período: 3"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestão Publica, sob a orientação do(a) professor(a)  ()."
+categories: ["UFMG", "Gestão Publica", "Gestão e Políticas Públicas"]
+carga_horaria: 60
+periodo: 3
+toc: true
+---
+
+## Ementa
+Democracia e internet. Governo eletrônico. Participação e representação digital. Governança eletrônica. Accountability e transparência no governo eletrônico. Inclusão e exclusão digital. Avaliação de portais governamentais. Deliberação on line. Gestão estratégica da informação: democratização, participação, controle interno / externo. Lei de Acesso à Informação.
+
+## Descrição da Bibliografia Básica
+*   CARDON, D. A democracia internet - promessas e limites. Rio de Janeiro: Editora Forense, 2012.
+*   CASTELLS, Manuel. A galáxia da internet: reflexões sobre internet, negócios e sociedade. Rio de Janeiro: Jorge Zahar, 2003.
+*   GILLESPIE, Tarleton. A relevância dos algoritmos. Parágrafo, vol. 6, nº 1, p. 95-121, 2018.
+*   LEMOS, A.; LÉVY, P. O futuro da internet - em direção a uma ciberdemocracia planetária. São Paulo: Ed. Paulus, 2010.
+*   LÉVY, Pierre. As tecnologias da inteligência: o futuro do pensamento na era da informática. Rio de Janeiro: Editora 34, 1993.
+*   MAIA, R; GOMES, W; MARQUES, F. P. J. Internet e Participação Política no Brasil. Porto Alegre: Sulina, 2011.
+*   MEHL, J. P.; SILVA, S. P. (Orgs.). Cultura digital, internet e apropriações políticas: experiências, desafios e horizontes. Rio de Janeiro: Folio Digital, 2017.
+*   MENDONÇA, Ricardo F.; PEREIRA, Marcus A.; FILGUEIRAS, F. (Orgs.). Democracia, tecnologia e redes: ação social, movimentos e transparência. Belo Horizonte: Ed. UFMG, 2016
+*   PIMENTA, M. S; CANABARRO, D. R. (Orgs.) Governança Digital. Porto Alegre: UFRGS, 2014
+*   SILVA, Sivaldo P.; BRAGATTO, Rachel C.; SAMPAIO, Rafael C. (Orgs.). Democracia digital, comunicação política e redes: Teoria e Prática. Rio de Janeiro: Folio Digital, 2016.
+*   SILVEIRA, Sergio Amadeu. Democracia e códigos invisíveis. Edições Sesc, 2019.
+*   THOMPSON, John. A mídia e a modernidade: uma teoria social da mídia. 5. ed. Petrópolis: Vozes, 2002.
+*   VAN DIJCK, José. Datafication, dataism and dataveillance: Big Data between scientific paradigm and ideology. Surveillance & society, v. 12, n. 2, p. 197-208, 2014
+
+## Descrição da Bibliografia Complementar
+*   Arthur Ituassu, Sérgio Lifschitz e Luiz Leo INTERNET E DEMOCRACIA NOS MUNICÍPIOS BRASILEIROS: a oferta de e-transparência e e-participação nos websites das maiores prefeituras do país. TRABALHO APRESENTADO NO SÉTIMO CONGRESSO COMPOLÍTICA, 2017
+*   GOMES, Wilson. A democracia no mundo digital: História, problemas e temas. [S.l.]: Edições Sesc, 2018.
+*   MENDONÇA, Ricardo F.; AMARAL, Ernesto F. L. Deliberação online em consultas públicas? O caso da assembleia legislativa de Minas Gerais. Revista de Sociologia e Política, v. 22, n. 49, p. 177–203, 2014.
+*   MENDONÇA, Ricardo F.; PEREIRA, Marcus A. Democracia digital e deliberação online: um estudo de caso sobre o VotenaWeb. TRABALHO APRESENTADO NO IV CONGRESSO LATINO AMERICANO DE OPINIÃO PÚBLICAWAPOR, p. 1–37, 2011.
+*   PARISER, Eli. O que a internet está escondendo de você. Rio de Janeiro: Zahar, 2012.
+*   POSSAMAI, Ana Júlia. Governo eletrônico: uma análise institucional. In: PIMENTA, M. S; CANABARRO, D. R. (Orgs.). Governança Digital. Porto Alegre: UFRGS, 2014. p. 48-79.

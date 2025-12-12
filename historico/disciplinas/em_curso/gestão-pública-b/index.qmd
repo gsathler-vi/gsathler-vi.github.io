@@ -1,0 +1,36 @@
+---
+title: "GESTÃO PÚBLICA B"
+subtitle: "Período: 3"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestão Publica, sob a orientação do(a) professor(a)  ()."
+categories: ["UFMG", "Gestão Publica", "Gestão e Políticas Públicas"]
+carga_horaria: 60
+periodo: 3
+toc: true
+---
+
+## Ementa
+Novas tendências e paradigmas da gestão pública contemporânea: características para a provisão de serviços e dilemas quanto à eficácia e eficiência. Temas para pensar o Brasil: ideia de governança; eficiência versus equidade; tipos e mecanismos de accountability; parcerias e relação público-privado; processos e instrumentos de regulação, contratualização e agencificação; gestão em redes; descentralização, relações intergovenamentais; intersetorialidade, integração e transversalidade; flexibilidade versus controle; gestão de pessoas nas organizações públicas. Experiências inovadoras de gestão pública no Brasil. Outras inovações.
+
+## Descrição da Bibliografia Básica
+*   AVRICHIR, A. S. Uma análise de incentivos contratuais em arranjos de parceria de atendimento ao cidadão, Revista de Administração Pública-RAP, Rio de Janeiro 52(6) 1214-1236, nov-dez, 2018.
+*   BICHIR, Renata, CANATO, P. Solucionando problemas complexos? Desafios da implementação de políticas intersetoriais. In PIRES, Roberto Rocha C. (Org). Implementando Desigualdades: Reprodução de desigualdades na implementação de políticas públicas, Brasília, CEPAL/IPEA, 2019. Capítulo 9, p. 243-266
+*   CAVALCANTE, Pedro, Gestão Pública Contemporânea: Do movimento gerencialista ao pós-NPM, Texto para Discussão 2319, IPEA, Brasília, agosto, 2017.
+*   DI PIETRO, Maria Sylvia Z. Parcerias na Administração Pública: Concessão, permissão, franquia, terceirização, parceria público-privada e outras formas, São Paulo, Ed. Atlas, 2014. (cap 7 e cap 12 até p. 282)
+*   FARAH, Marta, F. S. Parcerias, novos arranjos institucionais e políticas públicas no nível local de governo. Revista de Administração Pública - RAP, Rio de Janeiro 35(1), jan./fev. 2001, p. 119-44.
+*   HEINRICH, Carolyn J. Como avaliar o desempenho e a efetividade do setor público. In PETERS, B. Guy; PIERRE, Jon (org.) Administração Pública Coletânea, Ed. UNESP/ENAP, Brasília, 2010, Cap. 2, p. 53-75.
+*   KISSLER, L.; HEIDEMANN, F. G. Governança pública: novo modelo regulatório para as relações entre Estado, mercado e sociedade? Revista de Administração Pública - RAP, Rio de Janeiro, v. 40, n. 3, mai./jun. 2006.
+*   LOTTA, Gabriela, PIRES, Roberto R. C. e OLIVEIRA, Vanessa E. Burocratas de médio escalão: novos olhares sobre velhos atores da produção de políticas públicas. Revista do Serviço Público, Brasília, 65 (4), p. 463-492, out/dez 2014.
+*   MENDES, Marcos A política de pessoal do governo federal In ALMEIDA, M. & SALTO, F. Finanças Públicas, São Paulo, cap. 2, Ed. Record, 2016.
+*   PACHECO, Regina Silvia, Mensuração do desempenho no setor público: os termos do debate Cadernos de Gestão Pública e Cidadania, v. 14, n. 55 –jul/dez, 2009.
+*   PECI, Alketa; SOBRAL, Filipe Parcerias público-privadas: análise comparativa das experiências britânica e brasileira. Cadernos EBAPE, Jun, vol.5, no.2, 2007. p.01-14.
+*   PECI, A.; FIGALE, J.; OLIVEIRA, F. et all. Oscips e termos de parceria com a sociedade civil: um olhar sobre o modelo de gestão por resultados do governo de Minas Gerais. Revista de Administração Pública-RAP, 42(6):1137-62, nov./dez.2008
+*   RODRIGUES, Bruno, ZUCCO, C. Uma comparação direta do desempenho de uma PPP com o modelo tradicional de contratação pública. Revista de Administração Pública – RAP, Rio de Janeiro 52(6): 1237-1257, nov-dez, 2018.
+*   SOUZA, Regina Luna Santos Contratos de gestão na administração pública federal: ainda em transição para uma administração pública gerencial, XVII CONGRESSO DEL CLAD, Cartagena, Colombia, 2012.
+*   TONELLI, D. F., MOREIRA, S.T.B., SILVA, S. R. e VASQUES, M.O.S. Uma proposta de modelo analítico para a inovação na gestão pública, Revista do Serviço Público, Brasília, 67(especial), 59-84, 2016.
+
+## Descrição da Bibliografia Complementar
+*   ANASTASIA, Fátima, Federação e relações intergovernamentais. In: AVELAR, L.; CINTRA, A.O. Sistema político brasileiro: uma introdução, E. Konrad Adenauer, Ed. UNESP, 2005.
+*   BANCO INTERAMERICANO DE DESENVOLVIMENTO – BID Modelo aberto de Gestión para Resultados em el Sector Público. (Disponível no site do Banco).
+*   FLEURY, S. M. T. & OUVERNEY, A. M. Gestão de redes: a estratégia de regionalização da política de saúde. Rio de Janeiro, Editora FGV, 2007.
+*   PEREIRA, Flávio Schettini P. (org). Ações premiadas no 18º Concurso Inovações na Gestão Pública Federal 2013, Brasília Enap, 2013. (Há outras edições do prêmio que também devem ser consultadas até 2017).
+*   Site da ENAP – Escola Nacional de Administração Pública.

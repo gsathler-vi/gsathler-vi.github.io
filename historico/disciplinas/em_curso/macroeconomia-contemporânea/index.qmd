@@ -1,0 +1,119 @@
+---
+title: "MACROECONOMIA CONTEMPORÂNEA"
+subtitle: "Período: 4"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a) Flavius Marcus Lana de Vasconcelos (Mestrado)."
+categories: ["PUC Minas", "Ciencias Economicas", "Teoria Econômica"]
+carga_horaria: 80
+periodo: 4
+toc: true
+---
+
+## Ementa
+Modelos Clássico e Keynesiano. Curva de Phillips nas versões Samuelson-Solow e Friedman-Phelps. Expectativas adaptativas e a hipótese aceleracionista. A nova macroeconomia clássica e a revolução das expectativas racionais. O modelo de ciclos reais de negócios. Novos Keynesianos e as falhas de mercado. Pós keynesianos e a economia monetária de produção. Inconsistência intertemporal de planos ótimos. Teoria Monetária Moderna.
+
+## Objetivos
+O objetivo geral da disciplina é apresentar os modelos teóricos que constituem a denominada macroeconomia contemporânea. Dentre esses modelos destacam-se em um primeiro momento, aqueles que não se vinculam às elaborações teóricas baseadas em fundamentos microeconômicos e, por isso, não fazem parte da corrente principal ("mainstream") como os modelos oriundos da perspectiva pós-keynesiana e da teoria monetária moderna (MMT). Em um segundo momento, as elaborações teóricas que se utilizam de fundamentos microeconômicos e fazem parte do "mainstream" são analisadas, tais como, os modelos novos keynesianos, os modelos da escola monetarista, a teoria presente na escola novo clássica e os ciclos reais de negócios.
+Para que este objetivo geral seja atingido, organiza-se o curso a partir dos seguintes objetivos específicos:
+*   Identificar as raízes metodológicas dos modelos macroeconômicos a serem analisados.
+*   Demonstrar a partir da obra magna de Keynes, "A Teoria Geral do Emprego, do Juro e da Moeda", que duas leituras a respeito da mesma são realizadas. A primeira que tenta aproximar o autor da teoria que o mesmo combateu como aquela presente no modelo IS-LM e em alguns dos modelos desenvolvidos pela escola novo-keynesiana. A segunda que procura preservar as conclusões originais de Keynes e o caráter revolucionário da sua construção teórica que é a leitura realizada no âmbito da escola pós-keynesiana.
+*   Analisar a base da construção teórica da macroeconomia pós-keynesiana, principalmente, a partir das obras de Hyman Minsky e Paul Davidson e a proximidade da mesma com a teoria monetária moderna (MMT).
+*   Descrever as principais elaborações teóricas da escola novo-keynesiana, quais sejam, "custo de menu", salário-eficiência, modelos de barganha salarial (insiders-outsiders) e os modelos de assimetria de informações.
+*   Analisar os modelos macroeconômicos construídos a partir de fundamentos microeconômicos da escola neoclássica e dos seus desdobramentos contemporâneos no âmbito das escolas monetarista e novo clássica.
+
+## Métodos Didáticos
+*   Aulas expositivas presenciais.
+*   Pesquisas bibliográficas orientadas.
+*   Estudos dirigidos individuais e em grupo.
+*   Apresentação de seminários.
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento**
+Revisão dos modelos clássico, keynesiano simples e IS-LM. (2 horas-aula)
+
+**Unidade I - Aspectos metodológicos associados à construção de modelos teóricos vinculados à macroeconomia (8 horas-aula)**
+1.1- Métodos hipotético-dedutivo e histórico-dedutivo.
+1.2- Ciência positiva e ciência normativa.
+1.3- Uma introdução à complexidade.
+
+**Unidade II - A construção da macroeconomia original de Keynes no âmbito da "Teoria Geral do Emprego, do Juro e da Moeda". (12 horas-aula)**
+2.1- A leitura pós-keynesiana.
+2.2- A leitura neoclássica que sustenta o "keynesianismo bastardo" (Joan Robinson)
+
+**Unidade III - Os modelos macroeconômicos pós-keynesianos. (12 horas-aula)**
+3.1- Circuito de financiamento (finance-investimento-poupança-"funding") e incerteza
+3.2- Minsky e o conceito de fragilidade financeira.
+3.3- O ciclo econômico endógeno: uma interpretação Keynes/Minsky.
+3.4- Políticas macroeconômicas anti-cíclicas.
+
+**Unidade IV - Os modelos macroeconômicos da escola novo-keynesiana. (12 horas-aula)**
+4.1- Os fundamentos microeconômicos da macroeconomia novo-keynesiana.
+4.2- A curva de Phillips serve tanto ao novo-keynesianismo quanto às escolas monetarista e novo-clássica.
+4.3- Os modelos novos-keynesianos baseados na rigidez de preços: O custo de menu.
+4.4- Modelos baseados na rigidez de salários: salário-eficiência e Insiders-outsiders.
+4.5- Modelos baseados na assimetria de informações.
+
+**Unidade V - Os modelos macroeconômicos da escola monetarista (12 horas-aula)**
+5.1- Os fundamentos microeconômicos da macroeconomia da escola monetarista.
+5.2- Expectativas adaptativas e neutralidade da moeda no longo prazo.
+5.3- Teoria aceleracionista da inflação, regra de Taylor e regime de metas de inflação.
+
+**Unidade VI - Os modelos macroeconômicos da escola novo-clássica (12 horas-aula)**
+6.1- Os fundamentos microeconômicos da macroeconomia novo-clássica
+6.2- Expectativas racionais e a neutralidade da moeda no curto e no longo prazo.
+6.3- Modelos de ciclos reais de negócios.
+
+**Unidade VII - Considerações sobre a Teoria Monetária Moderna (MMT) (10 horas-aula)**
+
+## Processo de Avaliação
+*   Duas provas parciais de 25 pontos cada uma.
+*   Uma Avaliação Global, envolvendo todas as unidades do Plano de Ensino, de 30 pontos
+*   Uma prova substitutiva de 25 pontos destinada aos alunos que perderam uma das provas parciais.
+*   Uma prova de Reavaliação, que substitui a nota da prova global de 30 pontos.
+*   Dois trabalhos sob a forma de estudos dirigidos, valendo 10 pontos cada um.
+
+## Observações
+As observações a seguir justificam a bibliografia adotada.
+
+*   **BLANCHARD, Olivier. "Macroeconomia" 7 ed.**
+    *Esse manual de macroeconomia aborda de maneira didática os conceitos básicos da macroeconomia contemporânea associada ao "mainstream" monetarista, novo-clássico e novo-keynesiano. Desta maneira, o livro trata dos temas que compõem parte do Plano de Ensino da disciplina, tais como: expectativas adaptativas e racionais; curva de Phillips convencional e ampliada pelas expectativas; progresso tecnológico e ciclos reais de negócios bem como a história da macroeconomia contemporânea.*
+
+*   **DORNBUSCH, Rudiger; FISCHER, Stanley; STARTZ, Richard. "Macroeconomia" 11 ed.**
+    *A edição mais recente deste clássico manual de macroeconomia ganha mais um autor, o Professor Richard Startz e é atualizado abordando temas que se constituem como parte do programa da disciplina nos capítulos 6- "Oferta agregada: salários, preços e desemprego"; 7- Anatomia da inflação e do desemprego; e, sobretudo no capítulo 21, intitulado "Tópicos avançados" onde se aborda a macroeconomia dos microfundamentos que caracteriza o "mainstream" da macroeconomia contemporânea.*
+
+*   **LIMA, Gilberto Tadeu & SICSÚ, João (orgs) "Macroeconomia do Emprego e da Renda: Keynes e o Keynesianismo".**
+    *Este é um livro crítico ao "mainstream" e organizado a partir de ensaios de Professores que fazem parte da escola pós-keynesiana, mas que não abordam apenas esta escola abrindo diálogo com os novos-keynesianos que concentram as suas pesquisas em assimetrias de informação, como Stiglitz. Neste contexto, os ensaios escolhidos para leitura dos alunos são: "Resgatando a Revolução Keynesiana" de Paul Davidson; "Keynes e o Longo Período" de Fernando Cardim Carvalho; "Keynes e os Novos-Keynesianos" de João Sicsú; "Assimetrias de Informação e Ciclos Econômicos: Stiglitz é keynesiano?" elaborado por Otaviano Canuto e Reynaldo Ferreira Jr; "A Teoria do Dinheiro em uma Economia Monetária: A análise de Keynes" de Luiz Antônio de Oliveira Lima.*
+
+*   **Revista de Economia Política - Periódico On-line**
+    *A Revista de Economia Política, cujo editor principal é o Professor Luís Carlos Bresser-Pereira, constitui-se no periódico nacional com características mais plurais em termos teóricos, abordando temas econômicos diversos, dentre eles, vários "papers" publicados em datas diversas abordam os temas da macroeconomia contemporânea, normalmente de forma crítica. É uma excelente fonte de pesquisa para graduandos em economia.*
+
+*   **FROYEN, Richard T. "Macroeconomia: teorias e aplicações"**
+    *Este manual de macroeconomia, de certa maneira, complementa as abordagens referentes à macroeconomia contemporânea "mainstream" a partir de uma perspectiva que que visa tornar construções teóricas abstratas mais compreensíveis em termos de aplicações concretas.*
+
+*   **KEYNES, John Maynard. "Teoria Geral do Emprego, do Juro e da Moeda"**
+    *O livro clássico de Keynes, considerada a obra mais importante de economia do século XX, inaugura a abordagem macroeconômica e por isso deve ser lido, principalmente, para se compreender o debate contemporâneo entre os keynesianos vinculados ao "mainstream" (novos-keynesianos) e os keynesianos heterodoxos (pós-keynesianos), bem como os limites das elaborações teóricas contemporâneas que partem da matriz teórica do modelo clássico. Nesse contexto, exige-se a leitura dos seguintes capítulos do livro: 2- Os Postulados da Economia Clássica; 3- O Princípio da Demanda Efetiva; 11- A Eficiência Marginal do Capital; 12- O Estado de Expectativa de Longo Prazo; 13- A Teoria Geral da Taxa de Juros; 17- As Propriedades Essenciais dos Juros e do Dinheiro; 24- Notas Finais sobre a Filosofia Social a que poderia levar a Teoria Geral.*
+
+*   **OREIRO, José Luís "Macrodinâmica Pós-Keynesiana: Crescimento e Distribuição de Renda".**
+    *O livro organizado em 10 capítulos pelo Professor Oreiro discute a partir da perspectiva teórica pós-keynesiana as distintas visões de mundo que analisam o crescimento econômico e a distribuição de renda. Postam-se como particularmente úteis para o desenvolvimento do curso, a Introdução (A Escola Pós- Keynesiana: Uma Apresentação), o capítulo 1 (A Teoria Clássica do Crescimento e da Distribuição de Renda); o capítulo 2 (A Teoria Neoclássica do Crescimento e da Distribuição da Renda); o capítulo 3 (A Primeira Geração de Modelos Pós-Keynesianos de Crescimento e Distribuição de Renda) e o capítulo 9 (Inflação, Conflito Distributivo e Política Monetária)*
+
+*   **OREIRO, José Luís; DE PAULA, Luís Fernando; SOBREIRA, Rogério. "Moeda e Sistema Financeiro: Ensaios em Homenagem a Fernando Cardim Carvalho"**
+    *O livro constituído por 9 capítulos que são ensaios desenvolvidos por autores diferentes realiza uma homenagem póstuma ao Professor Fernando Cardim Carvalho, talvez o mais importante divulgador da macroeconomia pós-keynesiana no Brasil. Destes ensaios, recomendo para os alunos a leitura do terceiro capítulo elaborado por David Dequech que trata do conceito de convenção, nos termos de Keynes, e dos aspectos institucionais do sistema financeiro; e o quarto capítulo elaborado em conjunto por Adriana Amado e Maria de Lourdes Mollo que argumentam que a agenda de pesquisa do Professor Carvalho não é apenas pós-keynesiana e sim heterodoxa, o que aproximaria as elaborações teóricas do homenageado com as visões presentes no marxismo e no estruturalismo.*
+
+*   **OREIRO, José Luís. Macroeconomia do desenvolvimento: uma perspectiva Keynesiana.**
+    *Esta obra de Oreiro oferece uma análise crítica e abrangente da macroeconomia do desenvolvimento, a partir de uma perspectiva keynesiana. Aborda os principais conceitos e modelos macroeconômicos, auxiliando na compreensão dos desafios do desenvolvimento econômico e na análise dos fundamentos e efeitos das políticas públicas.*
+
+*   **Revista Brasileira de Economia - Periódico On-line**
+    *Este periódico constitui-se em um vasto campo de pesquisa para "papers" que abordam a teoria macroeconômica do "mainstream" como ciclos reais de negócios, modelos sustentados em expectativas racionais, modelos novos-keynesianos de rigidez de preços e salários, aspectos metodológicos da microfundamentação da macroeconomia, etc.*
+
+## Descrição da Bibliografia Básica
+*   BLANCHARD, Olivier. Macroeconomia. 7. ed. São Paulo: Pearson Education do Brasil, c2018. *E-book*. ISBN 9788543020549.
+*   DORNBUSCH, Rudiger; FISCHER, Stanley; STARTZ, Richard. Macroeconomia. 11. ed. Porto Alegre: AMGH, 2013. *E-book*. ISBN 9788580551853.
+*   LIMA, Gilberto Tadeu; SICSÚ, João (org.). Macroeconomia do emprego e da renda: Keynes e o Keynesianismo. São Paulo, SP: Manole, 2003. *E-book*. ISBN 9788520442906.
+*   REVISTA DE ECONOMIA POLÍTICA = BRAZILIAN JOURNAL OF POLITICAL ECONOMY. São Paulo: Centro de Economia Política, 1981-. Trimestral. ISSN 1809-4538 versão on-line. Disponível em: http://www.rep.org.br/. Acesso em: 9 jul. 2018.
+
+## Descrição da Bibliografia Complementar
+*   FROYEN, Richard T.; BARTALOTTI, Celina Camargo. Macroeconomia: teorias e aplicações. 2. ed. São Paulo: Saraiva, 2013. 512 p. ISBN 9788502175211., Nº de Exemplares: 2.
+*   KEYNES, John Maynard. Teoria geral do emprego, do juro e da moeda. São Paulo (SP): Saraiva, 2013. xxv, 383 p. ISBN 9788502180352., Nº de Exemplares: 2.
+*   OREIRO, José Luís. Macrodinâmica pós-keynesiana: crescimento e distribuição de renda. Rio de Janeiro, RJ: Alta Books, 2020. *E-book*. ISBN 9786555201017.
+*   OREIRO, José Luís. Macroeconomia do desenvolvimento: uma perspectiva Keynesiana. Rio de Janeiro, RJ: LTC, 2016. *E-book*. ISBN 9788521631538.
+*   OREIRO, José Luís; PAULA, Luiz Fernando de; SOBREIRA, Rogério (org.). Moeda e sistema financeiro: ensaios em homenagem a Fernando Cardim de Carvalho. Santa Maria, RS: UFSM, 2019. *E-book*. ISBN 9788573913415.
+*   REVISTA BRASILEIRA DE ECONOMIA. Rio de Janeiro: FGV, 1947-. Trimestral. ISSN 1806-9134 versão on-line. Disponível em: http://www.scielo.br/scielo.php?script=sci_serial&pid=0034-7140&lng=en&nrm=iso. Acesso em: 10 set. 2018.

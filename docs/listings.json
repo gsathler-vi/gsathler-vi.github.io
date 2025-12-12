@@ -1,19 +1,5 @@
 [
   {
-    "listing": "/material.html",
-    "items": [
-      "/material/dummies/index.html",
-      "/material/psm/index.html"
-    ]
-  },
-  {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/aula_dummies/index.html",
-      "/posts/apresentacao_pesquisa/index.html"
-    ]
-  },
-  {
     "listing": "/historico_cursadas.html",
     "items": [
       "/historico/disciplinas/cursadas/fundamentos-de-analise-sociologica/index.html",
@@ -26,7 +12,11 @@
       "/historico/disciplinas/cursadas/introdução-a-economia/index.html",
       "/historico/disciplinas/cursadas/fundamentos-de-administração/index.html",
       "/historico/disciplinas/cursadas/cálculo-aplicado-i/index.html",
+      "/historico/disciplinas/cursadas/instituicoes-politicas-comparadas/index.html",
+      "/historico/disciplinas/cursadas/aspectos-legais-da-gestão-pública-b/index.html",
+      "/historico/disciplinas/cursadas/sociologia-das-organizacoes-publicas/index.html",
       "/historico/disciplinas/cursadas/filosofia-razão-e-modernidade/index.html",
+      "/historico/disciplinas/cursadas/politicaeconomia-e-sociedade-no-brasil/index.html",
       "/historico/disciplinas/cursadas/estatística/index.html",
       "/historico/disciplinas/cursadas/sociologia-das-organizações/index.html",
       "/historico/disciplinas/cursadas/cálculo-aplicado-ii/index.html",
@@ -39,7 +29,11 @@
       "/historico/disciplinas/cursadas/economia-brasileira-contemporânea/index.html",
       "/historico/disciplinas/cursadas/estatística-econômica-e-computacional/index.html",
       "/historico/disciplinas/cursadas/macroeconomia/index.html",
+      "/historico/disciplinas/cursadas/microeconomia-contemporânea/index.html",
+      "/historico/disciplinas/cursadas/econometria/index.html",
+      "/historico/disciplinas/cursadas/mercado-financeiro-e-de-capitais/index.html",
       "/historico/disciplinas/cursadas/crescimento-e-desenvolvimento-econômico/index.html",
+      "/historico/disciplinas/cursadas/estatística-multivariada/index.html",
       "/historico/disciplinas/cursadas/teorias-da-administração/index.html",
       "/historico/disciplinas/cursadas/projeto-inteligência-de-mercado/index.html",
       "/historico/disciplinas/cursadas/modelagem-de-negócios/index.html",
@@ -54,16 +48,31 @@
     ]
   },
   {
+    "listing": "/material.html",
+    "items": [
+      "/material/dummies/index.html",
+      "/material/psm/index.html"
+    ]
+  },
+  {
     "listing": "/historico_em_curso.html",
     "items": [
-      "/historico/disciplinas/em_curso/aspectos-legais-da-gestão-pública-b/index.html",
-      "/historico/disciplinas/em_curso/instituicoes-politicas-comparadas/index.html",
-      "/historico/disciplinas/em_curso/politicaeconomia-e-sociedade-no-brasil/index.html",
-      "/historico/disciplinas/em_curso/sociologia-das-organizacoes-publicas/index.html",
-      "/historico/disciplinas/em_curso/microeconomia-contemporânea/index.html",
-      "/historico/disciplinas/em_curso/econometria/index.html",
-      "/historico/disciplinas/em_curso/mercado-financeiro-e-de-capitais/index.html",
-      "/historico/disciplinas/em_curso/estatística-multivariada/index.html"
+      "/historico/disciplinas/em_curso/análise-de-políticas-públicas/index.html",
+      "/historico/disciplinas/em_curso/democracia-digital-e-governo-eletrônico/index.html",
+      "/historico/disciplinas/em_curso/economia-do-bem-estar/index.html",
+      "/historico/disciplinas/em_curso/estado-e-políticas-sociais-a/index.html",
+      "/historico/disciplinas/em_curso/gestão-pública-b/index.html",
+      "/historico/disciplinas/em_curso/economia-monetária/index.html",
+      "/historico/disciplinas/em_curso/formação-econômica-do-brasil/index.html",
+      "/historico/disciplinas/em_curso/macroeconomia-contemporânea/index.html",
+      "/historico/disciplinas/em_curso/noções-de-direito-tributário/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/aula_dummies/index.html",
+      "/posts/apresentacao_pesquisa/index.html"
     ]
   }
 ]
