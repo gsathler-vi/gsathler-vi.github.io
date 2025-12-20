@@ -56,7 +56,7 @@ website:
 
 format:
   html:
-    respect-user-color-scheme: true
+    respect-user-color-scheme: false
     toc: true
     theme:
       light: [cosmo, theme.scss]

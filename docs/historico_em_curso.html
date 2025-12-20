@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,18 +35,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-692be76866f8b32ace51f53d42cd4b1b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d54359e89e64a61ad425a137493bee73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-692be76866f8b32ace51f53d42cd4b1b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a750c6841933c650b97f8e357ca0b6ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-02994d3f57d89881c46d62944340bd1c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a750c6841933c650b97f8e357ca0b6ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -119,7 +120,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -291,8 +292,7 @@ window.Quarto = {
       }
     };
     const authorPrefersDark = false;
-    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-    const darkModeDefault = queryPrefersDark.matches;
+    const darkModeDefault = authorPrefersDark;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -305,14 +305,6 @@ window.Quarto = {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
-    queryPrefersDark.addEventListener("change", e => {
-      if(window.localStorage.getItem("quarto-color-scheme") !== null)
-        return;
-      const alternate = e.matches
-      toggleColorMode(alternate);
-      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
-      toggleGiscusIfUsed(alternate, darkModeDefault);
-    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -327,7 +319,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./arquivos/logo.png" alt="" class="navbar-logo">
+    <img src="./arquivos/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./arquivos/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Gabriel Sathler</span>
@@ -426,7 +419,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1765500769161" data-listing-reading-time-sort="6" data-listing-word-count-sort="1157">
+<div class="g-col-1" data-index="0" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1766252561449" data-listing-reading-time-sort="6" data-listing-word-count-sort="1157">
 <a href="./historico/disciplinas/em_curso/análise-de-políticas-públicas/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -460,7 +453,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1765500769162" data-listing-reading-time-sort="3" data-listing-word-count-sort="479">
+<div class="g-col-1" data-index="1" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1766252561450" data-listing-reading-time-sort="3" data-listing-word-count-sort="479">
 <a href="./historico/disciplinas/em_curso/democracia-digital-e-governo-eletrônico/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -494,7 +487,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ1Rlb3JpYSUyMEVjb24lQzMlQjRtaWNh" data-listing-file-modified-sort="1765500769162" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<div class="g-col-1" data-index="2" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ1Rlb3JpYSUyMEVjb24lQzMlQjRtaWNh" data-listing-file-modified-sort="1766252561450" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
 <a href="./historico/disciplinas/em_curso/economia-do-bem-estar/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -528,7 +521,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1765500769162" data-listing-reading-time-sort="3" data-listing-word-count-sort="560">
+<div class="g-col-1" data-index="3" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1766252561450" data-listing-reading-time-sort="3" data-listing-word-count-sort="560">
 <a href="./historico/disciplinas/em_curso/estado-e-políticas-sociais-a/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -562,7 +555,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1765500769162" data-listing-reading-time-sort="4" data-listing-word-count-sort="668">
+<div class="g-col-1" data-index="4" data-categories="VUZNRyUyQ0dlc3QlQzMlQTNvJTIwUHVibGljYSUyQ0dlc3QlQzMlQTNvJTIwZSUyMFBvbCVDMyVBRHRpY2FzJTIwUCVDMyVCQWJsaWNhcw==" data-listing-file-modified-sort="1766252561450" data-listing-reading-time-sort="4" data-listing-word-count-sort="668">
 <a href="./historico/disciplinas/em_curso/gestão-pública-b/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -596,7 +589,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNUZW9yaWElMjBFY29uJUMzJUI0bWljYQ==" data-listing-file-modified-sort="1765500769163" data-listing-reading-time-sort="9" data-listing-word-count-sort="1756">
+<div class="g-col-1" data-index="5" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNUZW9yaWElMjBFY29uJUMzJUI0bWljYQ==" data-listing-file-modified-sort="1766252561451" data-listing-reading-time-sort="9" data-listing-word-count-sort="1756">
 <a href="./historico/disciplinas/em_curso/economia-monetária/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -630,7 +623,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNDaSVDMyVBQW5jaWFzJTIwU29jaWFpcyUyMGUlMjBIdW1hbmlkYWRlcw==" data-listing-file-modified-sort="1765500769163" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<div class="g-col-1" data-index="6" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNDaSVDMyVBQW5jaWFzJTIwU29jaWFpcyUyMGUlMjBIdW1hbmlkYWRlcw==" data-listing-file-modified-sort="1766252561451" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
 <a href="./historico/disciplinas/em_curso/formação-econômica-do-brasil/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -664,7 +657,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNUZW9yaWElMjBFY29uJUMzJUI0bWljYQ==" data-listing-file-modified-sort="1765500769163" data-listing-reading-time-sort="10" data-listing-word-count-sort="1895">
+<div class="g-col-1" data-index="7" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNUZW9yaWElMjBFY29uJUMzJUI0bWljYQ==" data-listing-file-modified-sort="1766252561451" data-listing-reading-time-sort="10" data-listing-word-count-sort="1895">
 <a href="./historico/disciplinas/em_curso/macroeconomia-contemporânea/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -698,7 +691,7 @@ carga_horaria
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNEaXJlaXRvJTIwZSUyMFJlZ3VsYSVDMyVBNyVDMyVBM28=" data-listing-file-modified-sort="1765500769162" data-listing-reading-time-sort="5" data-listing-word-count-sort="828">
+<div class="g-col-1" data-index="8" data-categories="UFVDJTIwTWluYXMlMkNDaWVuY2lhcyUyMEVjb25vbWljYXMlMkNEaXJlaXRvJTIwZSUyMFJlZ3VsYSVDMyVBNyVDMyVBM28=" data-listing-file-modified-sort="1766252561450" data-listing-reading-time-sort="5" data-listing-word-count-sort="828">
 <a href="./historico/disciplinas/em_curso/noções-de-direito-tributário/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -799,13 +792,14 @@ carga_horaria
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
