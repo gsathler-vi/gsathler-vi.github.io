@@ -669,6 +669,10 @@ body.quarto-dark .timeline {
   border-left-color: #404041;
 }
 
+p {
+  text-align: justify;
+}
+
 /* Ensure proper spacing for timeline items */
 .timeline-item {
   position: relative;
