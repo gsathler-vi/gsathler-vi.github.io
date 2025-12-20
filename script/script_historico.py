@@ -155,8 +155,29 @@ def main():
 
     # 4. Gerar HTML do Acordeão
     accordion_html = ""
-    # Ordenar núcleos alfabeticamente
-    nucleos_ordenados = sorted(por_nucleo.keys())
+    # Ordenar núcleos por relevância estratégica (ordem customizada para recrutadores)
+    ordem_estrategica = [
+        # 1º Grupo: O Core Estratégico (Alta Demanda e Valor Agregado)
+        "Métodos Quantitativos e Computacionais",
+        "Marketing e Inteligência de Mercado",
+        "Finanças e Contabilidade",
+        # 2º Grupo: A Base de Execução (Eficiência e Estrutura)
+        "Fundamentos de Gestão e Organizações",
+        "Empreendedorismo e Inovação",
+        "Teoria Econômica",
+        # 3º Grupo: O Diferencial de Rigor e Contexto (Especialização)
+        "Metodologia Científica",
+        "Gestão e Políticas Públicas",
+        "Direito e Regulação",
+        "Ciências Sociais e Humanidades",
+        "Sem Núcleo"
+    ]
+    
+    # Aplicar ordenação customizada: primeiro os da lista, depois os restantes alfabeticamente
+    nucleos_encontrados = list(por_nucleo.keys())
+    nucleos_ordenados = [n for n in ordem_estrategica if n in nucleos_encontrados]
+    nucleos_extras = sorted([n for n in nucleos_encontrados if n not in ordem_estrategica])
+    nucleos_ordenados.extend(nucleos_extras)
     
     for idx, nucleo in enumerate(nucleos_ordenados):
         disciplinas = por_nucleo[nucleo]
