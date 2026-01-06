@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Gabriel Sathler</title>
+    <style>
+        /* --- Configurações Gerais --- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background-color: #525659; /* Fundo escuro apenas para visualização na tela */
+            color: #000;
+            line-height: 1.4;
+            font-size: 10.5pt;
+            -webkit-print-color-adjust: exact;
+        }
+
+        /* --- A Folha de Papel (A4) --- */
+        .page {
+            background-color: white;
+            width: 210mm;
+            min-height: 297mm;
+            margin: 20px auto;
+            padding: 15mm 20mm;
+            position: relative;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        /* --- Tipografia e Estilos --- */
+        
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 26pt;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-transform: none;
+            color: #000;
+        }
+
+        .header-subtitle {
+            font-size: 12pt;
+            margin-bottom: 8px;
+            font-weight: normal;
+        }
+
+        /* Estilos específicos para os links do contato */
+        .contact-info {
+            font-size: 10pt;
+        }
+
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #333;
+        }
+
+        .separator {
+            margin: 0 5px;
+            color: #000;
+        }
+
+        /* Títulos das Seções */
+        h2 {
+            font-size: 13pt;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-bottom: 2.5px solid #000;
+            padding-bottom: 4px;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Títulos de Cargos/Cursos */
+        h3 {
+            font-size: 11pt;
+            font-weight: bold;
+            margin-top: 12px;
+            margin-bottom: 2px;
+        }
+
+        /* Metadados */
+        .meta {
+            font-style: italic;
+            font-size: 10pt;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        /* Texto corrido */
+        p {
+            margin-bottom: 8px;
+            text-align: justify;
+            font-size: 10.5pt;
+        }
+
+        /* Listas */
+        ul {
+            list-style-type: disc;
+            margin-left: 18px;
+            margin-bottom: 8px;
+        }
+
+        li {
+            margin-bottom: 3px;
+            padding-left: 5px;
+        }
+
+        /* Links gerais do corpo do texto */
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+
+        /* --- Layout de Colunas (Grid) --- */
+        .grid-2-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;
+            row-gap: 10px;
+        }
+
+        .grid-item {
+            margin-bottom: 10px;
+        }
+        
+        .grid-item strong {
+            display: block;
+            font-weight: bold;
+        }
+
+        .no-break {
+            page-break-inside: avoid;
+        }
+
+        /* --- Configurações de Impressão --- */
+        @media print {
+            body {
+                background-color: white;
+            }
+            .page {
+                width: 100%;
+                margin: 0;
+                padding: 15mm 15mm;
+                box-shadow: none;
+            }
+            a {
+                text-decoration: none !important; 
+                color: #000 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        
+        <!-- CABEÇALHO -->
+        <header>
+            <h1>Gabriel Sathler</h1>
+            <div class="contact-info">
+                <a href="https://wa.me/5531998912831" target="_blank">(31) 99891-2831</a>
+                <span class="separator">|</span>
+                <a href="mailto:gabrielsathler.vi@gmail.com">gabrielsathler.vi@gmail.com</a>
+                <span class="separator">|</span>
+                <a href="https://linkedin.com/in/gabriel-sathler" target="_blank">linkedin.com/in/gabriel-sathler</a>
+                <span class="separator">|</span>
+                <a href="https://gsathler-vi.github.io" target="_blank">gsathler-vi.github.io</a>
+            </div>
+        </header>
+
+        <!-- RESUMO -->
+        <section>
+            <h2>RESUMO PROFISSIONAL</h2>
+            <p>
+                Graduando em Ciências Econômicas pela PUC Minas e Gestão Pública pela UFMG, com experiência em análise de dados, gestão de projetos e planejamento estratégico. Já atuei acessorando a tomada de decisão de gestores e diretores com foco nas áreas de comercial/marketing, people analytics juntamente do acompanhamento do planejamento estratégico de uma holding de empresas de tecnologia. Ademais já trabalhei no terceiro setor para modelagem e gestão de projetos sociais. Atualmente trabalho com como pesquisador analisando Microdados do Ministério da Educação (MEC) com uso de algoritimos de predição para avaliação de desempenho.
+            </p>
+        </section>
+
+        <!-- FORMAÇÃO (Movida para cá) -->
+        <section class="no-break">
+            <h2>FORMAÇÃO ACADÊMICA</h2>
+            
+            <div class="no-break">
+                <h3>Bacharelado em Gestão Pública, Ciência Política e Políticas Públicas</h3>
+                <div class="meta">Universidade Federal de Minas Gerais (UFMG) | Conclusão prevista: jan 2030</div>
+            </div>
+
+            <div class="no-break">
+                <h3>Bacharelado em Ciências Econômicas, Economia e Inovação</h3>
+                <div class="meta">Pontifícia Universidade Católica de Minas Gerais (PUC Minas) | Conclusão prevista: dez 2027</div>
+                <div class="meta">Bolsista Integral de 100% na Instituição de Ensino.</div>
+            </div>
+
+        </section>
+        <!-- CERTIFICAÇÕES (2 Colunas) -->
+        <section class="no-break">
+            <h2>CERTIFICAÇÕES E CURSOS RELEVANTES</h2>
+            <div class="grid-2-col">
+                <!-- Coluna Esquerda -->
+                <div>
+                     <div class="grid-item">
+                        <strong>• Análise de Dados em Linguagem R</strong>
+                        <span class="meta">Enap</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• Macroeconomia & Microeconomia</strong>
+                        <span class="meta">Enap</span>
+                    </div>
+                                        <div class="grid-item">
+                        <strong>• Visualização de Dados Aplicada</strong>
+                        <span class="meta">Enap</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• Introdução à Análise de Dados - Power BI</strong>
+                        <span class="meta">Fundação Bradesco</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• O que é Design Thinking?</strong>
+                        <span class="meta">IBM</span>
+                    </div>
+                                        <div class="grid-item">
+                        <strong>• Apresentação de Artigo - I CACES</strong>
+                        <span class="meta">PUC Minas</span>
+                    </div>
+                </div>
+
+                <!-- Coluna Direita -->
+                <div>
+                    <div class="grid-item">
+                        <strong>• ESG: um novo jeito de investir</strong>
+                        <span class="meta">B3</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• Soft Skills na Transformação Digital</strong>
+                        <span class="meta">Enap</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• Resolvendo problemas com pensamento crítico</strong>
+                        <span class="meta">IBM</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• Workshop: Ecossistemas de inovação social</strong>
+                        <span class="meta">PUC Minas</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• Introdução à Administração</strong>
+                        <span class="meta">Fundação Bradesco</span>
+                    </div>
+                    <div class="grid-item">
+                        <strong>• Assessor de tomada de decisão</strong>
+                        <span class="meta">Centro Universitário Una</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- EXPERIÊNCIA -->
+        <section>
+            <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+
+            <div class="no-break">
+                <h3>Pesquisador em Economia - PIBIC</h3>
+                <div class="meta">Fapemig | Belo Horizonte, MG | mar 2025 - Presente</div>
+                <ul>
+                    <li>Condução de pesquisa quantitativa e análise de dados socioeconômicos utilizando Python, R.</li>
+                    <li>Aplicação de métodos estatísticos avançados: Modelagem preditiva (Regressão linear multipla), Teste A/B, Propensity Score Matching e Pareamento.</li>
+                    <li>Avaliação de impacto de políticas públicas e elaboração de relatórios técnicos com estatística descritiva.</li>
+                </ul>
+            </div>
+
+            <div class="no-break">
+                <h3>Vice-Diretor de Articulação e Assuntos Políticos</h3>
+                <div class="meta">Centro Acadêmico de Gestão Pública (UFMG) | Belo Horizonte, MG | mar 2025 - dez 2025</div>
+                <ul>
+                    <li>Liderança e representação estudantil, atuando na articulação entre alunos, docentes e entidades universitárias.</li>
+                    <li>Gestão de stakeholders, negociação e organização de eventos estratégicos e parcerias institucionais.</li>
+                </ul>
+            </div>
+
+            <div class="no-break">
+                <h3>Estagiário de Análise de Dados e Planejamento Estratégico</h3>
+                <div class="meta">Group Software | Belo Horizonte, MG | jan 2024 - fev 2025</div>
+                <ul>
+                    <li>Criação e manutenção de dashboards em Power BI (DAX) e SQL para monitoramento de KPIs e People Analytics.</li>
+                    <li>Análise de indicadores de Marketing e Growth (Inbound/Outbound, Performance de Campanhas) e Inteligência de Mercado.</li>
+                    <li>Condução de diagnósticos de gestão (PDCA), testes de hipóteses e apresentação de recomendações estratégicas à diretoria.</li>
+                </ul>
+            </div>
+
+            <div class="no-break">
+                <h3>Extensionista (Consultoria e Gestão de Projetos)</h3>
+                <div class="meta">Observatório Empresarial | Belo Horizonte, MG | ago 2023 - jan 2024</div>
+                <ul>
+                    <li>Consultoria financeira e de gestão para microempreendedores com foco em Inteligência de Mercado.</li>
+                    <li>Gestão de projetos sociais e gerenciamento de mídias digitais para ampliar o alcance das iniciativas.</li>
+                </ul>
+            </div>
+
+            <div class="no-break">
+                <h3>Estagiário em Gestão de Projetos Socioambientais</h3>
+                <div class="meta">PUC Minas | Belo Horizonte, MG | mar 20                    <div class="grid-item">
+                        <strong>• Visualização de Dados Aplicada</strong>
+                        <span class="meta">Enap</span>
+                    </div>
+                <div class="meta">ERG Engenharia | Belo Horizonte, MG | jul 2021 - out 2022</div>
+                <ul>
+                    <li><strong>Gestão da Qualidade (ago 2022 - out 2022):</strong> Criação de dashboards, gestão de processos, auditoria interna e automatização de planilhas para controle da qualidade.</li>
+                    <li><strong>Recursos Humanos (mai 2022 - ago 2022):</strong> Mapeamento de KPIs, People Analytics, estatística descritiva e dashboards de departamento pessoal para recrutamento e seleção.</li>
+                    <li><strong>Aprendiz Administrativo (jul 2021 - mai 2022):</strong> Suporte a rotinas de escritório e organização de dados e planilhas.</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- COMPETÊNCIAS (2 Colunas) -->
+        <section class="no-break">
+            <h2>PRINCIPAIS COMPETÊNCIAS</h2>
+            <div class="grid-2-col">
+                <div>
+                    <ul>
+                        <li>Análise de Dados (Python, R)</li>
+                        <li>Business Intelligence (Power BI)</li>
+                        <li>Análise Estatística</li>
+                        <li>Gestão Estratégica</li>
+                        <li>Economia & Políticas Públicas</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Machine Learning e Predição</li>
+                        <li>Gestão de Projetos (PDCA)</li>
+                        <li>Design Thinking</li>
+                        <li>Liderança e Articulação</li>
+                        <li>Diagnóstico Organizacional</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFÓLIO -->
+        <section class="no-break">
+            <h2>PORTFÓLIO</h2>
+            <h3>Apresentação dos Resultados Prévios do Projeto de Pesquisa</h3>
+            <div class="meta">Mosaico 2025 – PUC Minas | Belo Horizonte, MG | nov 2025</div>
+            <ul>
+                <li><a href="https://gsathler-vi.github.io/posts/apresentacao_pesquisa/" target="_blank">Link do Vídeo: A Busca pelo Acesso Igualitário a um Ensino Superior de Qualidade</a></li>
+            </ul>
+            <h3>Planejamento estratégico</h3>
+            <div class="meta">Sociologia das Organizações Públicas – UFMG | Belo Horizonte, MG | dez 2025</div>
+            <ul>
+                <li><a href="https://gsathler-vi.github.io/material/estudo-de-caso-CNPq/" target="_blank">Link do Estudo de Caso: PLANEJAMENTO E GESTÃO ESTRATÉGICA - O Caso do CNPq</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 ---
 title: "Sobre Mim"
-subtitle: "Analítico por natureza e gestor por formação. Minha carreira é construída na interseção entre a Economia e a Gestão, buscando sempre traduzir números e teorias em ações práticas. Com dupla graduação em andamento (UFMG e PUC Minas), desenvolvi um perfil analítico forte, apoiado por experiências que vão da pesquisa científica (PIBIC) ao planejamento estratégico corporativo."
+subtitle: "Graduando em Ciências Econômicas pela PUC Minas e Gestão Pública pela UFMG, com experiência em análise de dados, gestão de projetos e planejamento estratégico. Já atuei acessorando a tomada de decisão de gestores e diretores com foco nas áreas de comercial/marketing, people analytics juntamente do acompanhamento do planejamento estratégico de uma holding de empresas de tecnologia. Ademais já trabalhei no terceiro setor para modelagem e gestão de projetos sociais. Atualmente trabalho com como pesquisador analisando Microdados do Ministério da Educação (MEC) com uso de algoritimos de predição para avaliação de desempenho."
 about:
   template: trestles
   image: "arquivos/foto_perfil.png"
@@ -183,13 +183,13 @@ format:
 <h4 class="section-title">Principais Competências</h4>
 <div class="d-flex flex-wrap gap-2">
     <span class="skill-tag"><i class="bi bi-code-slash me-1"></i> Análise de Dados (Python, R)</span>
+    <span class="skill-tag"><i class="bi bi-search me-1"></i> Machine Learning e Predição</span>
     <span class="skill-tag"><i class="bi bi-bar-chart-fill me-1"></i> Business Intelligence (Power BI)</span>
     <span class="skill-tag"><i class="bi bi-calculator me-1"></i> Análise Estatística</span>
     <span class="skill-tag"><i class="bi bi-graph-up-arrow me-1"></i> Gestão Estratégica</span>
     <span class="skill-tag"><i class="bi bi-globe-americas me-1"></i> Economia & Políticas Públicas</span>
     <span class="skill-tag"><i class="bi bi-kanban me-1"></i> Gestão de Projetos (PDCA)</span>
     <span class="skill-tag"><i class="bi bi-lightbulb me-1"></i> Design Thinking</span>
-    <span class="skill-tag"><i class="bi bi-search me-1"></i> Pesquisa Quantitativa</span>
     <span class="skill-tag"><i class="bi bi-people-fill me-1"></i> Liderança e Articulação</span>
     <span class="skill-tag"><i class="bi bi-diagram-3-fill me-1"></i> Diagnóstico Organizacional</span>
 </div>
