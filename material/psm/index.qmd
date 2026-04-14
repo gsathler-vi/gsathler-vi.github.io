@@ -81,7 +81,7 @@ MAP_CURSO = {1: 'Administração', 13: 'Ciências Econômicas', 22: 'Ciências C
 ### Carregamento da Base de Dados
 
 ```{python}
-df_full = pd.read_parquet('material/psm/dataset/01_enade.parquet')
+df_full = pd.read_parquet('/home/gsathler/Nextcloud/Documents/git/gsathler-vi.github.io/material/dummies/dataset/01_enade.parquet')
 display(Markdown(f"✅ **Dados carregados:** {len(df_full):,} observações"))
 
 # Criar subconjuntos
@@ -125,7 +125,7 @@ resultado = 'nt_ger'
 covariates_base = [
     'cod_pessoas_res',
     'genero_fem',
-    'cor_preta', 'cor_parda', 'cor_indi'
+    'cor_preta', 'cor_parda', 'cor_indigena',
     'renda_fx2', 'renda_fx3', 'renda_fx4', 'renda_fx5', 
     'em_metade_pub',  'em_total_priv',
     'esc_resp_f1', 'esc_resp_f2', 'esc_resp_em'

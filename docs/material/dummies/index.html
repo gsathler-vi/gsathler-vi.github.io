@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>Aplicação de Dummies: Desvendando o Desempenho no ENADE com Regressão Múltipla – Gabriel Sathler</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -69,19 +72,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../arquivos/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-06d6313da34375c53d779d788aa288d0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-9730851f5bd7152180dcf87736da57d7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-06d6313da34375c53d779d788aa288d0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-070340afaf1a90d66a04ef10892697c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-bce4c03b9662ed6d96eecd38efd35d54.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-070340afaf1a90d66a04ef10892697c3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,7 +114,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -471,7 +473,7 @@ window.Quarto = {
 <section id="preparação-do-ambiente-e-dos-dados" class="level3">
 <h3 class="anchored" data-anchor-id="preparação-do-ambiente-e-dos-dados">1.2. Preparação do Ambiente e dos Dados</h3>
 <p>Primeiro, carregamos as bibliotecas necessárias e filtramos nossa base de dados para focar no nosso público de interesse.</p>
-<div id="eae60718" class="cell" data-execution_count="1">
+<div id="dd5a2338" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Exibir Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -489,7 +491,7 @@ window.Quarto = {
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Carrega e filtra os dados</span></span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    df_completo <span class="op">=</span> pd.read_parquet(<span class="st">'dataset/01_enade.parquet'</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    df_completo <span class="op">=</span> pd.read_parquet(<span class="st">'/home/gsathler/Nextcloud/Documents/git/gsathler-vi.github.io/material/dummies/dataset/01_enade.parquet'</span>)</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    df_eco <span class="op">=</span> df_completo[df_completo[<span class="st">'cod_grupo'</span>] <span class="op">==</span> <span class="dv">13</span>].copy()</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df_eco[df_eco[<span class="st">'cod_ies_org'</span>] <span class="op">==</span> <span class="dv">1</span>].copy()</span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"O DataFrame final contém </span><span class="sc">{</span>df<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> observações para nossa investigação."</span>)</span>
@@ -749,7 +751,7 @@ Nota_i = \beta_0 &amp; + \alpha_1 \text{PessoasRes}_i \\
 <section id="modelo-1-a-abordagem-correta-com-dummies" class="level3">
 <h3 class="anchored" data-anchor-id="modelo-1-a-abordagem-correta-com-dummies">4.2. Modelo 1: A Abordagem Correta (com Dummies)</h3>
 <p>Primeiro, estimamos o modelo de regressão utilizando o conjunto completo de dummies.</p>
-<div id="b47c6ac6" class="cell" data-execution_count="2">
+<div id="8dc6eb2b" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Exibir Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preparação dos Dados</span></span>
@@ -779,8 +781,8 @@ Nota_i = \beta_0 &amp; + \alpha_1 \text{PessoasRes}_i \\
 Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.090
 Method:                 Least Squares   F-statistic:                     93.19
-Date:                Mon, 17 Nov 2025   Prob (F-statistic):               0.00
-Time:                        17:50:55   Log-Likelihood:            -1.0054e+05
+Date:                Tue, 14 Apr 2026   Prob (F-statistic):               0.00
+Time:                        13:01:46   Log-Likelihood:            -1.0054e+05
 No. Observations:               25077   AIC:                         2.011e+05
 Df Residuals:                   25049   BIC:                         2.014e+05
 Df Model:                          27                                         
@@ -845,7 +847,7 @@ Notes:
 <section id="interpretando-os-coeficientes-de-renda" class="level4">
 <h4 class="anchored" data-anchor-id="interpretando-os-coeficientes-de-renda">4.2.2 Interpretando os Coeficientes de Renda</h4>
 <p>O gráfico abaixo mostra o valor do coeficiente para cada dummy de renda.</p>
-<div id="424e599b" class="cell" data-execution_count="3">
+<div id="13dc308c" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Exibir Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>coefs_renda <span class="op">=</span> resultados_ols.params.<span class="bu">filter</span>(like<span class="op">=</span><span class="st">'renda_fx'</span>) </span>
@@ -882,7 +884,7 @@ Notes:
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/cell-4-output-1.png" width="653" height="368" class="figure-img"></p>
+<p><img src="index_files/figure-html/cell-4-output-1.png" width="653" height="370" class="figure-img"></p>
 </figure>
 </div>
 </div>
@@ -903,7 +905,7 @@ Notes:
 <h3 class="anchored" data-anchor-id="modelo-2-um-erro-didático-renda-como-variável-ordinal">4.3. Modelo 2: Um Erro Didático (Renda como Variável Ordinal)</h3>
 <p>Um erro comum é pensar que as variáveis por apresntarem um comportamento aparentemente ordinal, podem ser analisada como uma variável ordinal conforme feito anteriormente com a vaariável <code>cod_renda</code>. Porém isto é um metódo errado que explicaremos a seguir.</p>
 <p>Para fins de comparação, estimamos o modelo incorreto utilizando variáveis de forma ordinal.</p>
-<div id="6987e37e" class="cell" data-execution_count="4">
+<div id="f7653b3c" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Exibir Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Variáveis para Modelo Ordinal</span></span>
@@ -934,8 +936,8 @@ Notes:
 Dep. Variable:                 nt_ger   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.091
 Method:                 Least Squares   F-statistic:                     189.1
-Date:                Mon, 17 Nov 2025   Prob (F-statistic):               0.00
-Time:                        17:50:55   Log-Likelihood:                -97921.
+Date:                Tue, 14 Apr 2026   Prob (F-statistic):               0.00
+Time:                        13:01:46   Log-Likelihood:                -97921.
 No. Observations:               24448   AIC:                         1.959e+05
 Df Residuals:                   24434   BIC:                         1.960e+05
 Df Model:                          13                                         
@@ -993,7 +995,7 @@ Notes:
 <section id="o-veredito-comparando-os-modelos" class="level2">
 <h2 class="anchored" data-anchor-id="o-veredito-comparando-os-modelos"><strong>5. O Veredito: Comparando os Modelos</strong></h2>
 <p>Os gráficos a seguir ilustram a diferença fundamental entre as duas abordagens, agora empilhados verticalmente para melhor visualização.</p>
-<div id="9f16c63a" class="cell" data-execution_count="5">
+<div id="a5b01943" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Exibir Código</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fig, axes <span class="op">=</span> plt.subplots(<span class="dv">2</span>, <span class="dv">1</span>, figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">8</span>))</span>
@@ -1023,7 +1025,7 @@ Notes:
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/cell-6-output-1.png" width="568" height="752" class="figure-img"></p>
+<p><img src="index_files/figure-html/cell-6-output-1.png" width="570" height="753" class="figure-img"></p>
 </figure>
 </div>
 </div>
