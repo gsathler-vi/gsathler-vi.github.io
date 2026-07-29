@@ -41,7 +41,7 @@ sns.set_theme(style="whitegrid")
 
 # Carrega e filtra os dados
 try:
-    df_completo = pd.read_parquet('/home/gsathler/Nextcloud/Documents/git/gsathler-vi.github.io/material/dummies/dataset/01_enade.parquet')
+    df_completo = pd.read_parquet('/home/gsathler/Nextcloud/Projects/gsathler-vi.github.io/material/dummies/dataset/01_enade.parquet')
     df_eco = df_completo[df_completo['cod_grupo'] == 13].copy()
     df = df_eco[df_eco['cod_ies_org'] == 1].copy()
     print(f"O DataFrame final contém {df.shape[0]} observações para nossa investigação.")

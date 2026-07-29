@@ -1,0 +1,65 @@
+---
+title: "ORGANIZAÇÃO INDUSTRIAL"
+subtitle: "Período: 5"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a)  ()."
+categories: ["PUC Minas", "Ciencias Economicas", "Teoria Econômica"]
+carga_horaria: 80
+periodo: 5
+toc: true
+---
+
+## Ementa
+Oligopólios. Equilíbrio geral com trocas. Equilíbrio geral com produção. As falhas de mercado: assimetria de informações; externalidades e bens públicos. Introdução a teoria dos contratos. Mercados contestáveis. Custos de transação. Falhas de governo. Introdução a regulação e políticas antitruste.
+
+## Objetivos
+**OBJETIVO GERAL**
+Fornecer conhecimento sobre instrumentos de análise das organizações industrial e as falhas de eficiência das estruturas de mercado.
+
+**OBJETIVOS ESPECÍFICOS**
+*   Analisar modelos de oligopólios e seu equilíbrio
+*   Analisar o equilíbrio geral com trocas e com produção
+*   Destacar falhas de mercado e seu tratamento
+*   Desenvolver conhecimentos a cerca da teoria de contrato e mercados contestáveis
+*   Destacar aspectos sobre custos de transação
+*   Destacar falhas de governo
+*   Introduzir conceitos de regulação e políticas antitruste
+*   Instrumentalizar os aspectos abordados de organização industrial no programa de computador Python
+
+## Métodos Didáticos
+*   Aulas expositivas com auxílio de instrumentais multimídia
+*   Exercícios e trabalhos dirigidos
+*   Aulas práticas em laboratório de informática, gameficação com plataformas online
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento - Conceitos Microeconômicos e matemáticos**
+
+**Unidade 1 - Oligopólio**
+
+**Unidade 2 - Equilíbrio Geral**
+
+**Unidade 3 - Falhas de Mercado**
+
+**Unidade 4 - Introdução à teoria dos contratos**
+
+**Unidade 5 - Introdução à regulação e políticas antitruste**
+
+## Processo de Avaliação
+1.  1ª prova parcial: 20 pontos
+2.  2ª prova parcial: 20 pontos
+3.  Trabalhos: 30 pontos
+4.  Prova global: 30 pontos
+5.  Reavaliação: 30 pontos (substitui a nota da prova global, para os alunos que não alcançaram o mínimo necessário para a aprovação)
+
+## Descrição da Bibliografia Básica
+*   KUPFER, David; HASENCLEVER, Lia. Economia industrial: fundamentos teóricos e práticas no Brasil. 3. ed. rev. e ampl. São Paulo, SP: Atlas, 2020. E-book. ISBN 9788595157194.
+*   PINDYCK, Robert S.; RUBINFELD, Daniel L. Microeconomia. 8. ed. São Paulo, SP: Pearson Education do Brasil, c2014. E-book. ISBN 9788543000282.
+*   REVISTA BRASILEIRA DE ECONOMIA DE EMPRESAS. Brasília: UCB, Pró-Reitoria de Pós-Graduação e Pesquisa, 2001-. Quadrimestral. ISSN 2236-9775 versão on-line.
+*   VASCONCELLOS, Marco Antonio Sandoval de; OLIVEIRA, Roberto Guena de; BARBIERI, Fábio. Manual de microeconomia. 3. ed. São Paulo: Atlas, 2011. xiv, 374 p. ISBN 9788522463664, Nº de Exemplares: 7.
+
+## Descrição da Bibliografia Complementar
+*   PARKIN, Michael. Economia. 8. ed. São Paulo, SP: Pearson Prentice Hall, 2009. E-book. ISBN 9788588639324.
+*   PINHO, Diva Benevides et al. (org.). Manual de economia. 7. ed. São Paulo: Saraiva, 2017. E-book. ISBN 9788547220303.
+*   REVISTA BRASILEIRA DE ECONOMIA. Rio de Janeiro: FGV, 1947-. Trimestral. ISSN 1806-9134 versão on-line.
+*   TIMM, Luciano Benetti (coord.). Direito e economia no Brasil: estudos sobre a análise econômica do direito. 5. ed. Indaiatuba, SP: Foco, 2023. E-book. ISBN 9786555157734.
+*   VARIAN, Hal R.; MACEDO, Regina Coeli Moura de. Microeconomia: uma abordagem moderna. 9. ed. Rio de Janeiro: Elsevier, c2015. E-book. ISBN 9788595155107.
+*   VASCONCELLOS, Marco Antonio Sandoval de; BRAGA, Márcio Bobik. Economia: micro e macro: teoria, exercícios e casos. 7. ed. rev. e atual. Barueri, SP: Atlas, 2023. E-book. ISBN 9786559774968.

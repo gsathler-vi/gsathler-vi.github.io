@@ -3797,3 +3797,524 @@ Regressão Multivariável. Regressão Múltipla. Regressão Logística. Análise
 *   LOESCH, Claudio; HOELTGEBAUM, Marianne. Métodos estatísticos multivariados. São Paulo, SP: Saraiva, 2012. *E-book*. ISBN 9788502146105.
 *   MORETTIN, Pedro Alberto. Econometria financeira: um curso em séries temporais financeiras. 2. ed. rev. e ampl. São Paulo: Blucher, 2011. *E-book*. ISBN 9788521211310.
 *   SCHMULLER, Joseph. Análise estatística com R para leigos. Rio de Janeiro: Alta Books, 2019. *E-book*. ISBN 9788550807850."
+3,UFMG,ANÁLISE DE POLÍTICAS PÚBLICAS,Gestão e Políticas Públicas,Gestão Publica,60,75,Natália Guimarães Duarte Sátyro,Doutorado,"# Disciplina: DCP037 - ANÁLISE DE POLÍTICAS PÚBLICAS
+
+**Período:** 3º
+
+**Carga Horária:**
+*   TEÓRICA 60 horas
+*   PRÁTICA --
+*   **TOTAL 60 horas**
+
+---
+
+## Ementa
+O conceito e classificação de políticas públicas e a relação entre ação governamental e processos políticos. Teorias e modelos de análise das políticas públicas, que abordam com distintas ênfases as relações entre instituições, atores, ideias e contexto político. Exemplificação dos modelos na análise de políticas públicas. O ciclo de políticas públicas e teorias da implementação. A avaliação de políticas públicas.
+
+## Descrição da Bibliografia Básica
+*   BACHRACH, Peter. BARATZ, Morton S. Duas faces do poder. Rev. Sociol. Polít., Curitiba, v. 19, n. 40, p. 149-157, out. 2011. Disponível em: http://dx.doi.org/10.1590/S0104-44782011000300011
+*   CAPELLA, Ana Cláudia. Perspectivas teóricas sobre o processo de formulação de políticas públicas. BIB, São Paulo, nº 61, 1º semestre de 2006. Disponível em: http://www.anpocs.org.br/portal/images/bib61.pdf
+*   COELHO, Vera. S. P. Interesses e instituições na política de saúde. Revista Brasileira de Ciências Sociais, volume 13, número 37, páginas 115-128. Junho 1998. Disponível em: http://dx.doi.org/10.1590/S0102-69091998000200007
+*   FARIA, Carlos Aurélio Pimenta. A política da avaliação de políticas públicas. RBCS, V. 20, Nº 59, outubro de 2005. Disponível em: http://www.ufpa.br/epdir/images/docs/paper44.pdf
+*   FARIA, Carlos Aurélio Pimenta. Ideias, conhecimento e políticas públicas: um inventário sucinto das principais vertentes analíticas recentes. RBCS, V. 18, Nº 51. Disponível em: http://dx.doi.org/10.1590/S0102-69092003000100004
+*   FERRAREZI, Elisabete (org.). Políticas Públicas – Coletânea – Volume 1. Brasília: ENAP, 2006. Disponível em: http://www.enap.gov.br/documents/586010/601525/160425_coletanea_pp_v1.pdf/ee7a8ffe-d904-441f-a897-c4a2252a2f23
+*   FUKS, Mario. Arenas de ação e debate públicos: conflitos ambientais e a emergência do meio ambiente enquanto problema social no Rio de Janeiro. Dados, 41 (1): 230-245, 1998. Disponível em: http://dx.doi.org/10.1590/S0011-52581998000100003
+*   IMMERGUT, Ellen M. As regras do jogo: a lógica da política de saúde na França, na Suíça e na Suécia. Revista Brasileira de Ciências Sociais. N° 30, ano 11, fev. de 1996. Disponível em: http://www.anpocs.com/index.php/universo/acervo/biblioteca/periodicos/rbcs/207-rbcs-30
+*   MENICUCCI, Telma M. G. BRASIL, Flávia de P. D. Construção de agendas e inovações institucionais: análise comparativa da reforma sanitária e da reforma urbana. Estudos de Sociologia. UNESP – Araraquara, v. 15, Nº 29, 2º semestre de 2010. Disponível em: http://seer.fclar.unesp.br/estudos/article/view/2971
+*   MIGUEL, Luís Felipe. “Representação Política em 3-D: elementos para uma teoria ampliada da representação política”. Revista Brasileira de Ciências Sociais, vol.18, nº 51, p. 123-140, 2003. Disponível em: http://dx.doi.org/10.1590/S0102-69092003000100009
+*   SILVA, Pedro Luiz Barros. MELO, Marcus André Barreto. O processo de implementação de políticas públicas no Brasil: características e determinantes da avaliação de programas e projetos. NEPP/UNICAMP, Caderno de Pesquisa n° 48, 2000. Disponível em: http://www.nepp.unicamp.br/images/cadernos-e-livros/cadernos-do-nepp/pdfs/caderno48.pdf
+*   SOUZA, Celina. Políticas públicas: uma revisão da literatura. Sociologias – sociedade e políticas públicas. Ano 8, nº 16, jul/dez 2006. Disponível em: http://www.scielo.br/pdf/soc/n16/a03n16.pdf
+*   SUBIRATS, Joan. Definición del problema. Relevancia pública y formación de la agenda de actuación de los poderes públicos. SARAVIA, Enrique e FERRAREZI, Elisabete (org.). Políticas Públicas – Coletânea – Volume 1. Brasília: ENAP, 2006. Disponível em: http://www.enap.gov.br/documents/586010/601525/160425_coletanea_pp_v1.pdf/ee7a8ffe-d904-441f-a897-c4a2252a2f23
+*   SUBIRATS, Joan. El papel de la burocracia en el proceso de determinación e implementación de las políticas públicas. In: SARAVIA, Enrique e FERRAREZI, Elisabete. Políticas Públicas – Coletânea – Volume 2. Brasília: ENAP, 2006. Disponível em: http://www.enap.gov.br/web/pt-br/livros/-/asset_publisher/pUSHqxkzYHsx/content/coletanea-de-politicas-publicas-volume2/586010;jsessionid=E0336280B58077D94EEB8EF34BB9F3B9
+
+## Descrição da Bibliografia Complementar
+*   ARRETCHE, Marta T. S. “Tendências no estudo sobre avaliação”. In: RICO, Elizabeth Melo (org.). Avaliação de Políticas Sociais: uma questão em debate. São Paulo: Cortez: Instituto de Estudos Especiais, 1998.
+*   ARRETCHE, Marta Teresa da Silva. Democracia, federalismo e centralização no Brasil. Rio de Janeiro: Editora FGV e Fiocruz, 2012. 232p.
+*   CÔRTES, Soraya Vargas. Viabilizando a participação em Conselhos de Política Pública Municipais: arcabouço institucional, organização do movimento popular e policy communities. In: HOCHMAN, Gilberto, ARRETCHE, Marta e MARQUES, Eduardo (org.). Políticas públicas no Brasil. Rio de Janeiro: Editora FIOCRUZ, 2007.
+*   CUNHA, Eleonora. “A reinvenção do Estado brasileiro: a criação de instituições que articulam participação e deliberação”. Efetividade Deliberativa: estudo comparado de Conselhos Municipais de Assistência Social (1997 / 2006). Tese de Doutorado em Ciência Política, UFMG, 2009, p. 61-74.
+*   DAHL, Robert A. Sobre a Democracia. Brasília: Editora Universidade de Brasília, 2001. Capítulos: 13,14 e 15.
+*   FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   HELD, David. Participação, liberdade e democracia”. Modelos de Democracia. Belo Horizonte: Paideia, 1987 (segunda parte do capítulo 7).
+*   HILL, Michael. Implementação: uma visão geral. In: SARAVIA, Enrique e FERRAREZI, Elisabete. Políticas Públicas, Coletânea. Vol. 2. Brasília: ENAP, 2006.
+*   KINGDON, John. Como chega a hora de uma ideia? SARAVIA, Enrique e FERRAREZI, Elisabete (org.). Políticas Públicas. Brasília: ENAP, 2006.
+*   KINGDON, John. Juntando as coisas. SARAVIA, Enrique e FERRAREZI, Elisabete (org.). Políticas Públicas. Brasília: ENAP, 2006.
+*   LEANDRO, J. G. Coordenação, cooperação e políticas públicas: organizando percepções e conceitos sobre um tema caro à implementação. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   LEANDRO, J. G. Relação Executivo-Legislativo e Processo de Retração de Provisões Sociais: as reformas da previdência de 1998 e 2003 no Brasil. Política Hoje (UFPE. Impresso), v. 21, p. 113-149, 2012.
+*   LIMA, Luciana Leite. A implementação da regulação dos prestadores privados no sistema municipal de saúde: os casos de Belo Horizonte/MG e Porto Alegre/RS. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   LIPSKY, Michael. Los empleados de base en la elaboración de políticas públicas. In: BRUGÉ, Q. & SUBIRATS, J. Lecturas de gestión pública. Madrid: MAP, 1996.
+*   LOTTA, Gabriela Espanghero. Desvendando o papel dos burocratas de nível de rua no processo de implementação: o caso dos agentes comunitários de saúde. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   MEYERS, Márcia K. E VORSANGER, Susan. Burocratas de nível de rua e a implementação de políticas públicas. In: PETERS, Guy e PIERRE, Jon (orgs.). Administração Pública – Coletânea. São Paulo: Editora UNESP; Brasília: ENAP, 2010.
+*   OLIVEIRA, Vanessa Elias. Judiciário e privatizações no Brasil: existe uma Judicialização da Política? Dados – Revista de Ciências Sociais, Rio de Janeiro, Vol. 48, nº 3, 2005, pp. 559 a 587.
+*   PIERSON, Paul. SKOCPOL, T. El Institucionalismo Histórico en la Ciencia Política Contemporánea. Revista Uruguaya de Ciencia Política, vol. 17, diciembre, 2008, pp. 7-38.
+*   PIRES, Roberto Rocha C. Burocracias, gerentes e suas “histórias de implementação”: narrativas do sucesso e fracasso de programas federais. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   PIRES, Roberto Rocha C. Estilos de implementação e resultados de políticas públicas: fiscais do trabalho e o cumprimento da lei trabalhista no Brasil. In: FARIA, Carlos Aurélio Pimenta de. Implementação de Políticas Públicas: teoria e prática. Belo Horizonte: Ed. PUC Minas, 2012.
+*   SABATIER, Paul A. e Jenkins-Smith, Hank. The advocacy coalition framework: an assessment. In: Sabatier, P. A (edit.). Theories of the policy process. Colorado – Oxford: Westview Press, 1999."
+3,UFMG,ECONOMIA DO BEM-ESTAR,Teoria Econômica,Gestão Publica,60,92,Sibelle Cornélio Diniz da Costa,Doutorado,"# Disciplina: ECN044 - ECONOMIA DO BEM ESTAR
+
+**Período:** 3º
+
+**Carga Horária:**
+*   TEÓRICA 60 horas
+*   PRÁTICA --
+*   **TOTAL 60 horas**
+
+---
+
+## Ementa
+Função de Bem Estar. Equidade e Eficiência. Análise Custo-Benefício. O financiamento do Setor Público. Sistemas de Tributação. Políticas Sociais: Sistemas de Seguridade, Sistemas de Saúde e Sistemas de educação.
+
+## Descrição da Bibliografia Básica
+*   BIDERMAN, C.; ARVATE, P. (Orgs.). Economia do Setor Público no Brasil. Rio de Janeiro: Campus, 2005.
+*   PIKETTY, T. O Capital no Século XXI. Rio de Janeiro: Intrínseca, 2013
+*   PINDYCK, R. S.; RUBINFELD, D.L. Microeconomia (7ª ed.). São Paulo: Pearson, 2010.
+*   SEN, A. Desenvolvimento como liberdade. São Paulo: Companhia das Letras, 2000.
+*   SEN, A. Sobre ética e economia. São Paulo: Companhia das Letras, 1999.
+*   VARIAN, H. Microeconomia: uma abordagem moderna. Rio de Janeiro: Elsevier, 2012.
+
+## Descrição da Bibliografia Complementar
+*   CMESP: Comission on the Measurement of Economic Performance and Social Progress. Report of the Commission on the Measurement of Economic Performance and Social Progress, 2009. Disponível em http://www.stiglitz-sen-fitoussi.fr/
+*   HAUGHTON, J.; KHANDKER, S. R. Handbook on poverty and inequality. The World Bank. 2009. Disponível em http://go.worldbank.org/4WJH9JQ350
+*   IPEA. Políticas Sociais: acompanhamento e análise - Vinte Anos da Constituição Federal, nº 17, Volumes 1-3, 2009.
+*   MEDEIROS, M. et al. O Topo da Distribuição de Renda no Brasil: Primeiras Estimativas com Dados Tributários e Comparação com Pesquisas Domiciliares (2006-2012), DADOS – Revista de Ciências Sociais, Rio de Janeiro, vol. 58, n. 1, 2015.
+*   SEN, A. Desigualdade reexaminada. São Paulo: Record, 2001.
+*   UNITED NATIONS DEVELOPMENT PROGRAM. International Human Development Indicators. Disponível em: http://hdr.undp.org/en/statistics/"
+3,UFMG,DEMOCRACIA DIGITAL E GOVERNO ELETRÔNICO,Gestão e Políticas Públicas,Gestão Publica,60,90,Julião Gonçalves Amaral,Doutorado,"# Disciplina: DCP132 - DEMOCRACIA DIGITAL E GOVERNO ELETRÔNICO
+
+**Período:** 3º
+
+**Carga Horária:**
+*   TEÓRICA 60 horas
+*   PRÁTICA --
+*   **TOTAL 60 horas**
+
+---
+
+## Ementa
+Democracia e internet. Governo eletrônico. Participação e representação digital. Governança eletrônica. Accountability e transparência no governo eletrônico. Inclusão e exclusão digital. Avaliação de portais governamentais. Deliberação on line. Gestão estratégica da informação: democratização, participação, controle interno / externo. Lei de Acesso à Informação.
+
+## Descrição da Bibliografia Básica
+*   CARDON, D. A democracia internet - promessas e limites. Rio de Janeiro: Editora Forense, 2012.
+*   CASTELLS, Manuel. A galáxia da internet: reflexões sobre internet, negócios e sociedade. Rio de Janeiro: Jorge Zahar, 2003.
+*   GILLESPIE, Tarleton. A relevância dos algoritmos. Parágrafo, vol. 6, nº 1, p. 95-121, 2018.
+*   LEMOS, A.; LÉVY, P. O futuro da internet - em direção a uma ciberdemocracia planetária. São Paulo: Ed. Paulus, 2010.
+*   LÉVY, Pierre. As tecnologias da inteligência: o futuro do pensamento na era da informática. Rio de Janeiro: Editora 34, 1993.
+*   MAIA, R; GOMES, W; MARQUES, F. P. J. Internet e Participação Política no Brasil. Porto Alegre: Sulina, 2011.
+*   MEHL, J. P.; SILVA, S. P. (Orgs.). Cultura digital, internet e apropriações políticas: experiências, desafios e horizontes. Rio de Janeiro: Folio Digital, 2017.
+*   MENDONÇA, Ricardo F.; PEREIRA, Marcus A.; FILGUEIRAS, F. (Orgs.). Democracia, tecnologia e redes: ação social, movimentos e transparência. Belo Horizonte: Ed. UFMG, 2016
+*   PIMENTA, M. S; CANABARRO, D. R. (Orgs.) Governança Digital. Porto Alegre: UFRGS, 2014
+*   SILVA, Sivaldo P.; BRAGATTO, Rachel C.; SAMPAIO, Rafael C. (Orgs.). Democracia digital, comunicação política e redes: Teoria e Prática. Rio de Janeiro: Folio Digital, 2016.
+*   SILVEIRA, Sergio Amadeu. Democracia e códigos invisíveis. Edições Sesc, 2019.
+*   THOMPSON, John. A mídia e a modernidade: uma teoria social da mídia. 5. ed. Petrópolis: Vozes, 2002.
+*   VAN DIJCK, José. Datafication, dataism and dataveillance: Big Data between scientific paradigm and ideology. Surveillance & society, v. 12, n. 2, p. 197-208, 2014
+
+## Descrição da Bibliografia Complementar
+*   Arthur Ituassu, Sérgio Lifschitz e Luiz Leo INTERNET E DEMOCRACIA NOS MUNICÍPIOS BRASILEIROS: a oferta de e-transparência e e-participação nos websites das maiores prefeituras do país. TRABALHO APRESENTADO NO SÉTIMO CONGRESSO COMPOLÍTICA, 2017
+*   GOMES, Wilson. A democracia no mundo digital: História, problemas e temas. [S.l.]: Edições Sesc, 2018.
+*   MENDONÇA, Ricardo F.; AMARAL, Ernesto F. L. Deliberação online em consultas públicas? O caso da assembleia legislativa de Minas Gerais. Revista de Sociologia e Política, v. 22, n. 49, p. 177–203, 2014.
+*   MENDONÇA, Ricardo F.; PEREIRA, Marcus A. Democracia digital e deliberação online: um estudo de caso sobre o VotenaWeb. TRABALHO APRESENTADO NO IV CONGRESSO LATINO AMERICANO DE OPINIÃO PÚBLICAWAPOR, p. 1–37, 2011.
+*   PARISER, Eli. O que a internet está escondendo de você. Rio de Janeiro: Zahar, 2012.
+*   POSSAMAI, Ana Júlia. Governo eletrônico: uma análise institucional. In: PIMENTA, M. S; CANABARRO, D. R. (Orgs.). Governança Digital. Porto Alegre: UFRGS, 2014. p. 48-79."
+3,UFMG,GESTÃO PÚBLICA B,Gestão e Políticas Públicas,Gestão Publica,60,100,Bruno Dias Magalhaes,Doutorado,"# Disciplina: DCP127 - GESTÃO PÚBLICA B
+
+**Período:** 3º
+
+**Carga Horária:**
+*   TEÓRICA 60 horas
+*   PRÁTICA --
+*   **TOTAL 60 horas**
+
+---
+
+## Ementa
+Novas tendências e paradigmas da gestão pública contemporânea: características para a provisão de serviços e dilemas quanto à eficácia e eficiência. Temas para pensar o Brasil: ideia de governança; eficiência versus equidade; tipos e mecanismos de accountability; parcerias e relação público-privado; processos e instrumentos de regulação, contratualização e agencificação; gestão em redes; descentralização, relações intergovenamentais; intersetorialidade, integração e transversalidade; flexibilidade versus controle; gestão de pessoas nas organizações públicas. Experiências inovadoras de gestão pública no Brasil. Outras inovações.
+
+## Descrição da Bibliografia Básica
+*   AVRICHIR, A. S. Uma análise de incentivos contratuais em arranjos de parceria de atendimento ao cidadão, Revista de Administração Pública-RAP, Rio de Janeiro 52(6) 1214-1236, nov-dez, 2018.
+*   BICHIR, Renata, CANATO, P. Solucionando problemas complexos? Desafios da implementação de políticas intersetoriais. In PIRES, Roberto Rocha C. (Org). Implementando Desigualdades: Reprodução de desigualdades na implementação de políticas públicas, Brasília, CEPAL/IPEA, 2019. Capítulo 9, p. 243-266
+*   CAVALCANTE, Pedro, Gestão Pública Contemporânea: Do movimento gerencialista ao pós-NPM, Texto para Discussão 2319, IPEA, Brasília, agosto, 2017.
+*   DI PIETRO, Maria Sylvia Z. Parcerias na Administração Pública: Concessão, permissão, franquia, terceirização, parceria público-privada e outras formas, São Paulo, Ed. Atlas, 2014. (cap 7 e cap 12 até p. 282)
+*   FARAH, Marta, F. S. Parcerias, novos arranjos institucionais e políticas públicas no nível local de governo. Revista de Administração Pública - RAP, Rio de Janeiro 35(1), jan./fev. 2001, p. 119-44.
+*   HEINRICH, Carolyn J. Como avaliar o desempenho e a efetividade do setor público. In PETERS, B. Guy; PIERRE, Jon (org.) Administração Pública Coletânea, Ed. UNESP/ENAP, Brasília, 2010, Cap. 2, p. 53-75.
+*   KISSLER, L.; HEIDEMANN, F. G. Governança pública: novo modelo regulatório para as relações entre Estado, mercado e sociedade? Revista de Administração Pública - RAP, Rio de Janeiro, v. 40, n. 3, mai./jun. 2006.
+*   LOTTA, Gabriela, PIRES, Roberto R. C. e OLIVEIRA, Vanessa E. Burocratas de médio escalão: novos olhares sobre velhos atores da produção de políticas públicas. Revista do Serviço Público, Brasília, 65 (4), p. 463-492, out/dez 2014.
+*   MENDES, Marcos A política de pessoal do governo federal In ALMEIDA, M. & SALTO, F. Finanças Públicas, São Paulo, cap. 2, Ed. Record, 2016.
+*   PACHECO, Regina Silvia, Mensuração do desempenho no setor público: os termos do debate Cadernos de Gestão Pública e Cidadania, v. 14, n. 55 –jul/dez, 2009.
+*   PECI, Alketa; SOBRAL, Filipe Parcerias público-privadas: análise comparativa das experiências britânica e brasileira. Cadernos EBAPE, Jun, vol.5, no.2, 2007. p.01-14.
+*   PECI, A.; FIGALE, J.; OLIVEIRA, F. et all. Oscips e termos de parceria com a sociedade civil: um olhar sobre o modelo de gestão por resultados do governo de Minas Gerais. Revista de Administração Pública-RAP, 42(6):1137-62, nov./dez.2008
+*   RODRIGUES, Bruno, ZUCCO, C. Uma comparação direta do desempenho de uma PPP com o modelo tradicional de contratação pública. Revista de Administração Pública – RAP, Rio de Janeiro 52(6): 1237-1257, nov-dez, 2018.
+*   SOUZA, Regina Luna Santos Contratos de gestão na administração pública federal: ainda em transição para uma administração pública gerencial, XVII CONGRESSO DEL CLAD, Cartagena, Colombia, 2012.
+*   TONELLI, D. F., MOREIRA, S.T.B., SILVA, S. R. e VASQUES, M.O.S. Uma proposta de modelo analítico para a inovação na gestão pública, Revista do Serviço Público, Brasília, 67(especial), 59-84, 2016.
+
+## Descrição da Bibliografia Complementar
+*   ANASTASIA, Fátima, Federação e relações intergovernamentais. In: AVELAR, L.; CINTRA, A.O. Sistema político brasileiro: uma introdução, E. Konrad Adenauer, Ed. UNESP, 2005.
+*   BANCO INTERAMERICANO DE DESENVOLVIMENTO – BID Modelo aberto de Gestión para Resultados em el Sector Público. (Disponível no site do Banco).
+*   FLEURY, S. M. T. & OUVERNEY, A. M. Gestão de redes: a estratégia de regionalização da política de saúde. Rio de Janeiro, Editora FGV, 2007.
+*   PEREIRA, Flávio Schettini P. (org). Ações premiadas no 18º Concurso Inovações na Gestão Pública Federal 2013, Brasília Enap, 2013. (Há outras edições do prêmio que também devem ser consultadas até 2017).
+*   Site da ENAP – Escola Nacional de Administração Pública."
+3,UFMG,ESTADO E POLÍTICAS SOCIAIS A,Gestão e Políticas Públicas,Gestão Publica,60,90,Eduardo Meira Zauli,Doutorado,"# Disciplina: DCP126 - ESTADO E POLÍTICAS SOCIAIS A
+
+**Período:** 3º
+
+**Carga Horária:**
+*   TEÓRICA 60 horas
+*   PRÁTICA --
+*   **TOTAL 60 horas**
+
+---
+
+## Ementa
+Teorias explicativas da emergência e evolução dos sistemas de proteção social e ou dos estados de bem-estar social, a partir de análises comparadas, considerando: a relação entre Estado e mercado; o conceito de política social, o estado de bem-estar e o de regime de bem-estar; a evolução do conceito de cidadania e sua relação com as políticas sociais. Estudo do caso brasileiro desde as primeiras políticas sociais até o fim da ditadura militar.
+
+## Descrição da Bibliografia Básica
+*   ABRUCIO, Fernando. Coordenação e cooperação no federalismo brasileiro: avanços e desafios. In: Estado, Instituições e Democracia: República. IPEA, Livro 9, vol. 1, 2010, p. 177- 212.
+*   ARRETCHE, Marta T. S. Emergência e Desenvolvimento do Welfare State: teorias explicativas. BIB Boletim Informativo e Bibliográfico, n.3 9, 1995.
+*   BOBBIO, Norberto. (1992). A Era dos Direitos. Editora Campus. Rio de Janeiro. Primeira parte, p. 35-97.
+*   CARDOSO Jr, José C.; JACCOUD, Luciana. (2005). Políticas Sociais no Brasil: Organização, Abrangência e Tensões da Ação Estatal. In: Questão Social e Políticas Sociais no Brasil Contemporâneo.
+*   CARVALHO, José M. Cidadania no Brasil: O Longo Caminho. Editora Civilização Brasileira. Rio de Janeiro, 2001.
+*   CASTEL, Robert. A Metamorfose da Questão Social: Uma Crônica da Questão Social. Vozes. Petrópolis, 1999. Introdução e cap. 1 e 3.
+*   DRAIBE, Sônia; HENRIQUE, Wilnês. ‘Welfare State', Crise e Gestão da Crise: um Balanço da Literatura Internacional"". In: Revista Brasileira de Ciências Sociais, n.6, v.3, 1988.
+*   ESPING-ANDERSEN, Gösta. As Três Economias Políticas do Welfare State. Lua Nova, n. 24, 1991.
+*   ESPING-ANDERSEN, Gosta. O Futuro do Welfare State na Nova Ordem Mundial. Lua Nova, n. 35, 1995.
+*   MARSHALL, T. H. Cidadania, Classe Social e Status. RJ: Zahar Editores, 1967. Cap. 3
+*   POLANYI, Karl. A Grande Transformação: As origens da nossa época. Rio de Janeiro: Ed. Campus. 1980. Cap. 1, 2 e 7.
+*   SANTOS, Wanderley G. Cidadania e Justiça: A Política Social na Ordem Brasileira. Rio de Janeiro: Campus, 1979. Cap. 4 e 5.
+
+## Descrição da Bibliografia Complementar
+*   ARRETCHE, Marta T. S. Políticas Sociais no Brasil: Descentralização em um Estado Federativo. In: Revista Brasileira de Ciências Sociais, n. 40, 1999.
+*   BARROS, Ricardo P. et al. A Importância da Queda Recente da Desigualdade na Redução da Pobreza. IPEA, TD n. 1256, 2007.
+*   BARROS, Ricardo P. et al. A Queda Recente da Desigualdade de Renda no Brasil. IPEA, TD n. 1258, 2007.
+*   BARROS, Ricardo P.; HENRIQUES, Ricardo. A Estabilidade Inaceitável: Desigualdade e Pobreza no Brasil. IPEA, Texto para Discussão nº 800, 2001.
+*   CASTEL. Robert. A Dinâmica dos Processos de Marginalização: da Vulnerabilidade a “Desfiliação”. Salvador: Caderno CRH, n. 26/27, 1997.
+*   DRAIBE, Sonia M. O Sistema Brasileiro de Proteção Social: O Legado Desenvolvimentista e a Agenda Recente de Reformas. UNICAMP/NEPP: Caderno de Pesquisa, n. 32, 1998.
+*   FILGUEIRAS, Cristina A. C. Exclusão, Risco e Vulnerabilidade: Desafios para a Política Social. In: CARNEIRO, Carla B. L.; COSTA, Bruno L. D. Gestão Social: O Que há de novo.
+*   MEDEIROS, Marcelo; SOUZA, Pedro H. G. F. A estabilidade da desigualdade no Brasil entre 2006 e 2012: resultados adicionais. IPEA, Texto para Discussão nº 2170, 2016.
+*   SILVA, Maria O. S. Teorias Explicativas sobre a Emergência e o Desenvolvimento do Welfare State. Revista Política e Trabalho, 1999."
+6,PUC Minas,NOÇÕES DE DIREITO TRIBUTÁRIO,Direito e Regulação,Ciencias Economicas,40,70,Antonio Carlos Lúcio Macedo de Castro,Doutorado,"# Disciplina: 60645 - NOÇÕES DE DIREITO TRIBUTÁRIO
+
+**Período:** 6
+
+**Turno:** MANHÃ
+
+**Carga Horária:**
+*   TEÓRICA 40 horas (GRADE 40)
+*   **TOTAL 40 horas**
+
+---
+
+## Ementa
+Conceito, espécies e classificação dos tributos; Princípios tributários; Imunidades tributárias; Competência tributária: União, Estados, Municípios; Repartição das receitas tributárias; Legislação tributária: vigência, aplicação, interpretação e integração; Obrigação tributária: principal e acessória, fato gerador, sujeição ativa e passiva, capacidade tributária, solidariedade, domicílio tributário; Responsabilidade tributária; Crédito tributário: conceito, constituição, lançamento, hipóteses de alteração do lançamento; Suspensão da exigibilidade, exclusão e extinção do crédito tributário; Garantias e privilégios do crédito tributário.
+
+## Objetivos
+**Objetivo geral:** apresentar o Sistema Tributário Nacional e descrever e analisar as espécies tributárias existentes no ordenamento jurídico e as normas que regulam seu regime de aplicação e fiscalização.
+
+**Objetivos específicos:**
+*   Situar o tributo e o direito tributário no contexto da atividade financeira do Estado e das finanças públicas brasileiras atuais;
+*   Definir o tributo e distinguir as espécies tributárias;
+*   Analisar as limitações constitucionais do poder de tributar;
+*   Identificar as principais normas do sistema tributário nacional;
+*   Sintetizar as normas gerais presentes no Código Tributário Nacional.
+
+## Métodos Didáticos
+Aulas expositivas com participação e dos alunos. Aulas invertidas. Trabalhos e atividades avaliativas em grupo. Discussão sobre textos postados na plataforma Canvas.
+
+## Unidades de Ensino
+**Unidade 0 (Zero) Nivelamento**
+
+**Unidade I Introdução**
+*   Direito Tributário, Direito Financeiro, Direito Econômico, Finanças Públicas
+*   Significado social do tributo e do poder de tributar no Brasil
+*   Carga tributária brasileira e sua destinação
+
+**Unidade II Tributo e sistema tributário nacional**
+*   Conceito de tributo. Espécies tributárias
+*   Competência tributária e sua divisão
+*   Repartição de receitas tributárias
+*   Princípios tributários e limitações constitucionais do poder de tributar
+
+**Unidade III Normas gerais de direito tributário (Código Tributário Nacional)**
+*   Legislação Tributária: conceito, vigência, aplicação, interpretação
+*   Obrigação tributária: fato gerador, sujeito ativo, sujeito passivo, solidariedade, responsabilidade, substituição tributária
+*   Lançamento tributário: conceito e modalidades
+*   Crédito tributário: suspensão, exclusão, extinção, garantias e privilégios
+
+## Processo de Avaliação
+*   Prova intermediária 1: 25 pontos
+*   Prova intermediária 2: 25 pontos
+*   Trabalho em grupo: 10 pontos
+*   Exercícios: 10 pontos
+*   Exame Global: 30 pontos
+*   Exame de reavaliação: 30 pontos
+
+## Observações
+**Observações sobre Bibliografias Cadastradas:**
+
+1.  Curso de direito financeiro e tributário. Livro que possui abordagem introdutória a respeito das finanças públicas e atividade arrecadatória do Estado.
+2.  Direito tributário. Apresentação do sistema tributário nacional, possibilitando a compreensão do poder de tributar, a distribuição das competências tributárias e a legislação tributária.
+3.  Direito tributário brasileiro (Luciano Amaro). Apresentação do sistema tributário nacional, possibilitando a compreensão do poder de tributar, a distribuição das competências tributárias e a legislação tributária.
+4.  Crítica à jurisprudência atual do STF em matéria tributária. Análise crítica das decisões judiciais proferidas pelo STF em matéria tributária.
+5.  Direito tributário brasileiro (Aliomar Baleeiro). Obra clássica do direito tributário que permite apreender os pressupostos teóricos do sistema tributário nacional.
+6.  Limitações constitucionais ao poder de tributar. Obra clássica do direito tributário brasileiro que permite a compreensão das garantias constitucionais do contribuinte.
+7.  Código tributário nacional. Legislação comentada.
+8.  Contribuições no sistema tributário brasileiro. Conhecimento sobre as fontes de custeio da seguridade social.
+9.  REVISTA DE DIREITO INTERNACIONAL ECONÔMICO E TRIBUTÁRIO: A Revista de Direito Internacional Econômico e Tributário publica estudos relevantes sobre a intersecção entre economia, direito e tributação em contextos nacionais e internacionais. Sua abordagem acadêmica e interdisciplinar é valiosa para a compreensão crítica dos impactos econômicos das normas e acordos tributários globais.
+
+## Descrição da Bibliografia Básica
+*   BALEEIRO, Aliomar. Direito tributário brasileiro. 14. ed. rev., atual. e ampl. Rio de Janeiro, RJ: Forense, 2018. *E-book*. ISBN 9788530980726.
+*   AMARO, Luciano da Silva. Direito tributário brasileiro. 26. ed. São Paulo, SP: Saraiva Jur, 2025. *E-book*. ISBN 9788553625635.
+*   REVISTA FÓRUM DE DIREITO TRIBUTÁRIO. Belo Horizonte: Editora Fórum ,2003-. Bimestral. ISSN 1984-4131 versão on-line. Disponível em: https://www.forumconhecimento.com.br/v2/revista/P142/E52409. Acesso em: 24 nov. 2016.
+*   SCHOUERI, Luís Eduardo. Direito tributário. 13. ed. São Paulo, SP: Saraiva Jur, 2024. *E-book*. ISBN 9788553620586.
+
+## Descrição da Bibliografia Complementar
+*   BALEEIRO, Aliomar. Limitações constitucionais ao poder de tributar. 8. ed. Rio de Janeiro: Forense, 2010. xxxvi, 1377 p. ISBN 9788530904715., Nº de Exemplares: 3.
+*   FERRAZ, Luciano; GODOI, Marciano Seabra de; SPAGNOL, Werther Botelho. Curso de direito financeiro e tributário. 2. ed. rev. e atual. Belo Horizonte, MG: Fórum, 2017. 468 p. ISBN 9788545002062., Nº de Exemplares: 2.
+*   GODOI, Marciano Seabra de. Crítica à jurisprudência atual do STF em matéria tributária. São Paulo: Dialética, 2011. 239 p. ISBN 9788575002209., Nº de Exemplares: 3.
+*   MACHADO SEGUNDO, Hugo de Brito. Código Tributário Nacional. 7. ed., rev e atual. São Paulo: Atlas, 2018. *E-book*. ISBN 9788597015720.
+*   PAULSEN, Leandro; VELLOSO, Andrei Pitten. Contribuições no sistema tributário brasileiro. 4. ed., rev. e atual. São Paulo, SP: Saraiva Jur, 2019. *E-book*. ISBN 9788553612932.
+*   REVISTA DE DIREITO INTERNACIONAL ECONÔMICO E TRIBUTÁRIO. Brasilia (DF): Universidade Catolica de Brasilia, Curso de Mestrado em Direito, 2006-. Semestral. ISSN 2318-8529 versão on-line. Disponível em: https://portalrevistas.ucb.br/index.php/RDIET. Acesso em: 9 jul. 2018."
+4,PUC Minas,MACROECONOMIA CONTEMPORÂNEA,Teoria Econômica,Ciencias Economicas,80,67,Flavius Marcus Lana de Vasconcelos,Mestrado,"# Disciplina: 60632 - MACROECONOMIA CONTEMPORÂNEA
+
+**Período:** 4
+
+**Turno:** MANHÃ
+
+**Carga Horária:**
+*   TEÓRICA 80 horas (GRADE 80)
+*   **TOTAL 80 horas**
+
+---
+
+## Ementa
+Modelos Clássico e Keynesiano. Curva de Phillips nas versões Samuelson-Solow e Friedman-Phelps. Expectativas adaptativas e a hipótese aceleracionista. A nova macroeconomia clássica e a revolução das expectativas racionais. O modelo de ciclos reais de negócios. Novos Keynesianos e as falhas de mercado. Pós keynesianos e a economia monetária de produção. Inconsistência intertemporal de planos ótimos. Teoria Monetária Moderna.
+
+## Objetivos
+O objetivo geral da disciplina é apresentar os modelos teóricos que constituem a denominada macroeconomia contemporânea. Dentre esses modelos destacam-se em um primeiro momento, aqueles que não se vinculam às elaborações teóricas baseadas em fundamentos microeconômicos e, por isso, não fazem parte da corrente principal (""mainstream"") como os modelos oriundos da perspectiva pós-keynesiana e da teoria monetária moderna (MMT). Em um segundo momento, as elaborações teóricas que se utilizam de fundamentos microeconômicos e fazem parte do ""mainstream"" são analisadas, tais como, os modelos novos keynesianos, os modelos da escola monetarista, a teoria presente na escola novo clássica e os ciclos reais de negócios.
+Para que este objetivo geral seja atingido, organiza-se o curso a partir dos seguintes objetivos específicos:
+*   Identificar as raízes metodológicas dos modelos macroeconômicos a serem analisados.
+*   Demonstrar a partir da obra magna de Keynes, ""A Teoria Geral do Emprego, do Juro e da Moeda"", que duas leituras a respeito da mesma são realizadas. A primeira que tenta aproximar o autor da teoria que o mesmo combateu como aquela presente no modelo IS-LM e em alguns dos modelos desenvolvidos pela escola novo-keynesiana. A segunda que procura preservar as conclusões originais de Keynes e o caráter revolucionário da sua construção teórica que é a leitura realizada no âmbito da escola pós-keynesiana.
+*   Analisar a base da construção teórica da macroeconomia pós-keynesiana, principalmente, a partir das obras de Hyman Minsky e Paul Davidson e a proximidade da mesma com a teoria monetária moderna (MMT).
+*   Descrever as principais elaborações teóricas da escola novo-keynesiana, quais sejam, ""custo de menu"", salário-eficiência, modelos de barganha salarial (insiders-outsiders) e os modelos de assimetria de informações.
+*   Analisar os modelos macroeconômicos construídos a partir de fundamentos microeconômicos da escola neoclássica e dos seus desdobramentos contemporâneos no âmbito das escolas monetarista e novo clássica.
+
+## Métodos Didáticos
+*   Aulas expositivas presenciais.
+*   Pesquisas bibliográficas orientadas.
+*   Estudos dirigidos individuais e em grupo.
+*   Apresentação de seminários.
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento**
+Revisão dos modelos clássico, keynesiano simples e IS-LM. (2 horas-aula)
+
+**Unidade I - Aspectos metodológicos associados à construção de modelos teóricos vinculados à macroeconomia (8 horas-aula)**
+1.1- Métodos hipotético-dedutivo e histórico-dedutivo.
+1.2- Ciência positiva e ciência normativa.
+1.3- Uma introdução à complexidade.
+
+**Unidade II - A construção da macroeconomia original de Keynes no âmbito da ""Teoria Geral do Emprego, do Juro e da Moeda"". (12 horas-aula)**
+2.1- A leitura pós-keynesiana.
+2.2- A leitura neoclássica que sustenta o ""keynesianismo bastardo"" (Joan Robinson)
+
+**Unidade III - Os modelos macroeconômicos pós-keynesianos. (12 horas-aula)**
+3.1- Circuito de financiamento (finance-investimento-poupança-""funding"") e incerteza
+3.2- Minsky e o conceito de fragilidade financeira.
+3.3- O ciclo econômico endógeno: uma interpretação Keynes/Minsky.
+3.4- Políticas macroeconômicas anti-cíclicas.
+
+**Unidade IV - Os modelos macroeconômicos da escola novo-keynesiana. (12 horas-aula)**
+4.1- Os fundamentos microeconômicos da macroeconomia novo-keynesiana.
+4.2- A curva de Phillips serve tanto ao novo-keynesianismo quanto às escolas monetarista e novo-clássica.
+4.3- Os modelos novos-keynesianos baseados na rigidez de preços: O custo de menu.
+4.4- Modelos baseados na rigidez de salários: salário-eficiência e Insiders-outsiders.
+4.5- Modelos baseados na assimetria de informações.
+
+**Unidade V - Os modelos macroeconômicos da escola monetarista (12 horas-aula)**
+5.1- Os fundamentos microeconômicos da macroeconomia da escola monetarista.
+5.2- Expectativas adaptativas e neutralidade da moeda no longo prazo.
+5.3- Teoria aceleracionista da inflação, regra de Taylor e regime de metas de inflação.
+
+**Unidade VI - Os modelos macroeconômicos da escola novo-clássica (12 horas-aula)**
+6.1- Os fundamentos microeconômicos da macroeconomia novo-clássica
+6.2- Expectativas racionais e a neutralidade da moeda no curto e no longo prazo.
+6.3- Modelos de ciclos reais de negócios.
+
+**Unidade VII - Considerações sobre a Teoria Monetária Moderna (MMT) (10 horas-aula)**
+
+## Processo de Avaliação
+*   Duas provas parciais de 25 pontos cada uma.
+*   Uma Avaliação Global, envolvendo todas as unidades do Plano de Ensino, de 30 pontos
+*   Uma prova substitutiva de 25 pontos destinada aos alunos que perderam uma das provas parciais.
+*   Uma prova de Reavaliação, que substitui a nota da prova global de 30 pontos.
+*   Dois trabalhos sob a forma de estudos dirigidos, valendo 10 pontos cada um.
+
+## Observações
+As observações a seguir justificam a bibliografia adotada.
+
+*   **BLANCHARD, Olivier. ""Macroeconomia"" 7 ed.**
+    *Esse manual de macroeconomia aborda de maneira didática os conceitos básicos da macroeconomia contemporânea associada ao ""mainstream"" monetarista, novo-clássico e novo-keynesiano. Desta maneira, o livro trata dos temas que compõem parte do Plano de Ensino da disciplina, tais como: expectativas adaptativas e racionais; curva de Phillips convencional e ampliada pelas expectativas; progresso tecnológico e ciclos reais de negócios bem como a história da macroeconomia contemporânea.*
+
+*   **DORNBUSCH, Rudiger; FISCHER, Stanley; STARTZ, Richard. ""Macroeconomia"" 11 ed.**
+    *A edição mais recente deste clássico manual de macroeconomia ganha mais um autor, o Professor Richard Startz e é atualizado abordando temas que se constituem como parte do programa da disciplina nos capítulos 6- ""Oferta agregada: salários, preços e desemprego""; 7- Anatomia da inflação e do desemprego; e, sobretudo no capítulo 21, intitulado ""Tópicos avançados"" onde se aborda a macroeconomia dos microfundamentos que caracteriza o ""mainstream"" da macroeconomia contemporânea.*
+
+*   **LIMA, Gilberto Tadeu & SICSÚ, João (orgs) ""Macroeconomia do Emprego e da Renda: Keynes e o Keynesianismo"".**
+    *Este é um livro crítico ao ""mainstream"" e organizado a partir de ensaios de Professores que fazem parte da escola pós-keynesiana, mas que não abordam apenas esta escola abrindo diálogo com os novos-keynesianos que concentram as suas pesquisas em assimetrias de informação, como Stiglitz. Neste contexto, os ensaios escolhidos para leitura dos alunos são: ""Resgatando a Revolução Keynesiana"" de Paul Davidson; ""Keynes e o Longo Período"" de Fernando Cardim Carvalho; ""Keynes e os Novos-Keynesianos"" de João Sicsú; ""Assimetrias de Informação e Ciclos Econômicos: Stiglitz é keynesiano?"" elaborado por Otaviano Canuto e Reynaldo Ferreira Jr; ""A Teoria do Dinheiro em uma Economia Monetária: A análise de Keynes"" de Luiz Antônio de Oliveira Lima.*
+
+*   **Revista de Economia Política - Periódico On-line**
+    *A Revista de Economia Política, cujo editor principal é o Professor Luís Carlos Bresser-Pereira, constitui-se no periódico nacional com características mais plurais em termos teóricos, abordando temas econômicos diversos, dentre eles, vários ""papers"" publicados em datas diversas abordam os temas da macroeconomia contemporânea, normalmente de forma crítica. É uma excelente fonte de pesquisa para graduandos em economia.*
+
+*   **FROYEN, Richard T. ""Macroeconomia: teorias e aplicações""**
+    *Este manual de macroeconomia, de certa maneira, complementa as abordagens referentes à macroeconomia contemporânea ""mainstream"" a partir de uma perspectiva que que visa tornar construções teóricas abstratas mais compreensíveis em termos de aplicações concretas.*
+
+*   **KEYNES, John Maynard. ""Teoria Geral do Emprego, do Juro e da Moeda""**
+    *O livro clássico de Keynes, considerada a obra mais importante de economia do século XX, inaugura a abordagem macroeconômica e por isso deve ser lido, principalmente, para se compreender o debate contemporâneo entre os keynesianos vinculados ao ""mainstream"" (novos-keynesianos) e os keynesianos heterodoxos (pós-keynesianos), bem como os limites das elaborações teóricas contemporâneas que partem da matriz teórica do modelo clássico. Nesse contexto, exige-se a leitura dos seguintes capítulos do livro: 2- Os Postulados da Economia Clássica; 3- O Princípio da Demanda Efetiva; 11- A Eficiência Marginal do Capital; 12- O Estado de Expectativa de Longo Prazo; 13- A Teoria Geral da Taxa de Juros; 17- As Propriedades Essenciais dos Juros e do Dinheiro; 24- Notas Finais sobre a Filosofia Social a que poderia levar a Teoria Geral.*
+
+*   **OREIRO, José Luís ""Macrodinâmica Pós-Keynesiana: Crescimento e Distribuição de Renda"".**
+    *O livro organizado em 10 capítulos pelo Professor Oreiro discute a partir da perspectiva teórica pós-keynesiana as distintas visões de mundo que analisam o crescimento econômico e a distribuição de renda. Postam-se como particularmente úteis para o desenvolvimento do curso, a Introdução (A Escola Pós- Keynesiana: Uma Apresentação), o capítulo 1 (A Teoria Clássica do Crescimento e da Distribuição de Renda); o capítulo 2 (A Teoria Neoclássica do Crescimento e da Distribuição da Renda); o capítulo 3 (A Primeira Geração de Modelos Pós-Keynesianos de Crescimento e Distribuição de Renda) e o capítulo 9 (Inflação, Conflito Distributivo e Política Monetária)*
+
+*   **OREIRO, José Luís; DE PAULA, Luís Fernando; SOBREIRA, Rogério. ""Moeda e Sistema Financeiro: Ensaios em Homenagem a Fernando Cardim Carvalho""**
+    *O livro constituído por 9 capítulos que são ensaios desenvolvidos por autores diferentes realiza uma homenagem póstuma ao Professor Fernando Cardim Carvalho, talvez o mais importante divulgador da macroeconomia pós-keynesiana no Brasil. Destes ensaios, recomendo para os alunos a leitura do terceiro capítulo elaborado por David Dequech que trata do conceito de convenção, nos termos de Keynes, e dos aspectos institucionais do sistema financeiro; e o quarto capítulo elaborado em conjunto por Adriana Amado e Maria de Lourdes Mollo que argumentam que a agenda de pesquisa do Professor Carvalho não é apenas pós-keynesiana e sim heterodoxa, o que aproximaria as elaborações teóricas do homenageado com as visões presentes no marxismo e no estruturalismo.*
+
+*   **OREIRO, José Luís. Macroeconomia do desenvolvimento: uma perspectiva Keynesiana.**
+    *Esta obra de Oreiro oferece uma análise crítica e abrangente da macroeconomia do desenvolvimento, a partir de uma perspectiva keynesiana. Aborda os principais conceitos e modelos macroeconômicos, auxiliando na compreensão dos desafios do desenvolvimento econômico e na análise dos fundamentos e efeitos das políticas públicas.*
+
+*   **Revista Brasileira de Economia - Periódico On-line**
+    *Este periódico constitui-se em um vasto campo de pesquisa para ""papers"" que abordam a teoria macroeconômica do ""mainstream"" como ciclos reais de negócios, modelos sustentados em expectativas racionais, modelos novos-keynesianos de rigidez de preços e salários, aspectos metodológicos da microfundamentação da macroeconomia, etc.*
+
+## Descrição da Bibliografia Básica
+*   BLANCHARD, Olivier. Macroeconomia. 7. ed. São Paulo: Pearson Education do Brasil, c2018. *E-book*. ISBN 9788543020549.
+*   DORNBUSCH, Rudiger; FISCHER, Stanley; STARTZ, Richard. Macroeconomia. 11. ed. Porto Alegre: AMGH, 2013. *E-book*. ISBN 9788580551853.
+*   LIMA, Gilberto Tadeu; SICSÚ, João (org.). Macroeconomia do emprego e da renda: Keynes e o Keynesianismo. São Paulo, SP: Manole, 2003. *E-book*. ISBN 9788520442906.
+*   REVISTA DE ECONOMIA POLÍTICA = BRAZILIAN JOURNAL OF POLITICAL ECONOMY. São Paulo: Centro de Economia Política, 1981-. Trimestral. ISSN 1809-4538 versão on-line. Disponível em: http://www.rep.org.br/. Acesso em: 9 jul. 2018.
+
+## Descrição da Bibliografia Complementar
+*   FROYEN, Richard T.; BARTALOTTI, Celina Camargo. Macroeconomia: teorias e aplicações. 2. ed. São Paulo: Saraiva, 2013. 512 p. ISBN 9788502175211., Nº de Exemplares: 2.
+*   KEYNES, John Maynard. Teoria geral do emprego, do juro e da moeda. São Paulo (SP): Saraiva, 2013. xxv, 383 p. ISBN 9788502180352., Nº de Exemplares: 2.
+*   OREIRO, José Luís. Macrodinâmica pós-keynesiana: crescimento e distribuição de renda. Rio de Janeiro, RJ: Alta Books, 2020. *E-book*. ISBN 9786555201017.
+*   OREIRO, José Luís. Macroeconomia do desenvolvimento: uma perspectiva Keynesiana. Rio de Janeiro, RJ: LTC, 2016. *E-book*. ISBN 9788521631538.
+*   OREIRO, José Luís; PAULA, Luiz Fernando de; SOBREIRA, Rogério (org.). Moeda e sistema financeiro: ensaios em homenagem a Fernando Cardim de Carvalho. Santa Maria, RS: UFSM, 2019. *E-book*. ISBN 9788573913415.
+*   REVISTA BRASILEIRA DE ECONOMIA. Rio de Janeiro: FGV, 1947-. Trimestral. ISSN 1806-9134 versão on-line. Disponível em: http://www.scielo.br/scielo.php?script=sci_serial&pid=0034-7140&lng=en&nrm=iso. Acesso em: 10 set. 2018."
+4,PUC Minas,ECONOMIA MONETÁRIA,Teoria Econômica,Ciencias Economicas,60,91,"	
+Erich Vale e Sousa",Mestrado,"# Disciplina: 60633 - ECONOMIA MONETÁRIA
+
+**Período:** 4
+
+**Turno:** MANHÃ
+
+**Carga Horária:**
+*   TEÓRICA 60 horas (GRADE 60)
+*   **TOTAL 60 horas**
+
+---
+
+## Ementa
+Conceito de moeda. Padrões monetários. Origens e evolução do sistema monetário. Banco Central e Sistema Financeiro Nacional. Objetivos e instrumentos de política monetária. Operacionalidade da política monetária e formação da taxa de juros. Oferta e Demanda por moeda: teoria quantitativa, keynesiana, neoclássica, monetarista e austríaca. Teorias de Inflação. Independência do Banco Central. Sistema de Metas Inflacionárias e Estratégias de Política Monetária. Inovações monetárias recentes. Atividades de integração entre conhecimentos acadêmicos e saberes de outros setores da sociedade, unindo teoria e prática, por meio das modalidades de extensão.
+
+## Objetivos
+**Objetivos Gerais:** Proporcionar ao aluno o conhecimento das características fundamentais de uma economia monetária e suas implicações para o funcionamento da macroeconomia, bem como identificar a origem das falhas de coordenação das atividades econômicas e a análise das alternativas de política econômica corretivas.
+
+**Objetivos Específicos:** Preparar o aluno para identificar fluxos inflacionários, deflacionários, capacitando-os para trocar de reserva de valor, investir em outras moedas, prepará-los para prever e prevenir ciclos de alargamento de base monetária, restrição de crédito, aumento de liquidez, antever a curva de juros permitindo-o analisar os cenários macro e micro fundamentados nos conhecimentos que a Economia Monetária lhes permite.
+
+## Métodos Didáticos
+Tendo em vista as características da disciplina a didática do curso prevê a conjugação de aulas expositivas com utilização de recursos áudio - visuais, bem como de seminários em sala de aula conduzidos pelo professor, apresentados pelos alunos e exercícios de fixação.
+A disciplina contempla atividade de extensão conforme o Planejamento Pedagógico do Curso e item 6 do programa.
+
+## Unidades de Ensino
+**0. Nivelamento. Introdução ao estudo da moeda**
+*   O papel do sistema monetário-financeiro.
+*   Funções e características físicas e econômicas da moeda.
+*   Sistemas monetários alternativos.
+*   Noções de cálculo com Limites aplicados ao multiplicador.
+
+**1. A moeda e o sistema monetário**
+*   Definições da Moeda
+*   A Criação da Moeda: Banco Central e Bancos Comerciais
+*   O Multiplicador Bancário
+*   A Base Monetária
+*   Contas Típicas dos Bancos Comerciais, Autoridades Monetárias e Sistema Monetário-Financeiro
+*   Multiplicadores Monetários
+*   Instrumentos de Controle Monetário
+*   A Interação Entre Demanda e Oferta de Moeda
+
+**2. A interação entre os setores real e monetário da economia**
+*   A Teoria Quantitativa da Moeda
+*   Wicksell: Desequilíbrios e Dinâmica de Ajustes
+*   O Modelo Keynesiano: Rigidez ou Inflexibilidade de Alguns Preços Básicos
+*   Keynes: A Teoria Monetária de Determinação da Produção e a Coordenação das Atividades Econômicas em uma Economia Monetária
+*   Simulações: Clássicos X Keynesianos
+*   Friedman: A Teoria Monetária da Renda Nominal
+
+**3. Política monetária I: políticas de combate ao desemprego**
+*   A eficácia das políticas monetárias e fiscais segundo:
+    *   Os Clássicos
+    *   Os Keynesianos (Expectativas Estáticas)
+    *   Os Monetaristas (Expectativas Adaptativas)
+    *   Os Novos Clássicos (Expectativas Racionais)
+
+**4. Política monetária II: Inflação e políticas anti inflacionária**
+*   Definição, Medidas, Efeitos e Consequências da Inflação
+*   Causas e Terapias: Principais Escolas
+*   Elementos para uma Política antiinflacionária
+
+**5. Regime de Metas para a Inflação e Independência do Banco Central**
+*   Regime de metas para a inflação: experiências internacionais e o caso do Brasil.
+*   Independência do Banco Central: teoria, justificativa e críticas
+*   A independência do Banco Central: uma análise do caso brasileiro
+*   Elementos e pressupostos básicos da MMT (Moderna Teoria Monetária)
+
+**6. Atividade extensionista.**
+*   As moedas sociais e mitigação das vulnerabilidades comunitárias
+*   Iniciativas dos Bancos Comunitários
+*   Sistemas de utilização e repasses das moedas sociais.
+
+## Processo de Avaliação
+*   Primeira avaliação: 25 pontos
+*   Segunda avaliação: 25 pontos
+*   Avaliação Global: 30 pontos
+*   Atividades de fixação, exercícios e trabalho extensionista previsto no Plano Pedagógico do Curso: 20 pontos.
+*   Reavaliação no valor de 30 pontos com o conteúdo cumulativo, em substituição a avaliação global, para os alunos(as) que não obtiveram o mínimo de 60 pontos ao final do semestre.
+*   *A substituição de uma das etapas de avaliação poderá ser realizadas somente nos casos previstos no regimento do curso.*
+
+## Observações
+**Trabalho de caráter extensionista.**
+Plano de trabalho detalhado consta do SGE - Sistema de Gestão de Extensão
+1-Etapa de discussão teórica sobre o tema: Moeda Social
+2-Promoção de encontro com parceiros externos para o reconhecimento das iniciativas e formas de operacionalização.
+
+**Justificativa das obras utilizadas na bibliografia:**
+
+*   **""Economia monetária e financeira: teoria e política"", de Fernando J. Cardim de Carvalho et al.,** publicada em 2015 pela editora Elsevier, trata de temas relacionados à economia monetária e financeira, abordando tanto aspectos teóricos quanto políticos. O livro oferece uma análise sobre o funcionamento da moeda e dos sistemas financeiros em uma economia. Por ser uma obra coletiva, com múltiplos autores, ela pode apresentar diversas perspectivas e especializações dentro do campo, abordando questões como crises financeiras, inovações em políticas monetárias ou mudanças nos sistemas financeiros globais. Trata-se da obra principal abordada nesta disciplina.
+*   **""O mito do déficit: teoria monetária e o nascimento da economia do povo"", de Stephanie Kelton,** publicada em 2023 pela Alta Cult, Rio de Janeiro, aborda temas centrais da Teoria Monetária Moderna (MMT) e suas implicações para a política econômica. A utilização da obra destina-se, neste caso, a promoção da discussão sobre a atuação dos governos. Implica que esses governos podem financiar seus gastos diretamente pela emissão de moeda, sem depender exclusivamente de arrecadação de impostos ou endividamento, desde que a inflação seja mantida sob controle. Neste sentido, é possível discutir como os orçamentos públicos podem limitar o uso de políticas fiscais e monetárias para alcançar objetivos sociais e econômicos mais amplos.
+*   **""Moeda, bancos e mercados financeiros"", de Frederic S. Mishkin,** publicada na 5ª edição em 2000 pela LTC, Rio de Janeiro, RJ. O livro aborda temas essenciais relacionados à moeda, ao sistema bancário e aos mercados financeiros, com os seguintes tópicos revisitados ao longo do planejamento da disciplina: Teoria da moeda: Exploração da natureza da moeda, os fatores que determinam sua oferta e demanda, e seu papel central na economia; Sistema bancário: Detalhamento do funcionamento dos bancos, como a criação de moeda e o papel dos bancos centrais na regulação do sistema financeiro; Política monetária: Estudo das estratégias e instrumentos usados para regular a economia, como taxas de juros e operações de mercado aberto. Ainda que a obra faça referência aos instrumentos utilizados nos mercados de capitais, tais conteúdos são abordados por meio de outras obras, como o primeiro livro listado nesta bibliografia; Na perspectiva das interações econômicas, ainda trata da explicação sobre como esses elementos se inter-relacionam para influenciar variáveis como crescimento econômico, inflação e emprego.
+*   **ECONOMIA & GESTÃO:** Por se tratar de periódico permitem a discussão dos temas trabalhados durante o semestre, conferindo ao alunado a possibilidade de discussão dos aspectos tratados na perspectiva de resultados e análises, produzidas por pesquisadores brasileiros, quando possível.
+*   **""Macroeconomia"" de Dornbusch, Fischer e Startz** é uma obra de referência para compreender os fundamentos e as aplicações da macroeconomia, destacando-se a relevância no campo e na exploração da teoria macroeconômica associada a economia monetária. A obra é requerida em termos do pré-requisito oriundos da macroeconomia I, cursada pelos alunos.
+*   **""Introdução ao sistema financeiro nacional"", escrita por Henrique Avelino Rodrigues de Paula Lana** é uma publicação recente (2021), PUC Minas. O formato introdutório e acessível é ideal para os alunos que buscam uma visão geral, e principalmente, voltado para o sistema financeiro brasileiro.
+*   A obra **""Economia monetária: a macroeconomia no contexto monetário"", de Ernani Teixeira,** publicada em 2002 pela Saraiva, em São Paulo (SP), utiliza exemplos e ilustrações para facilitar a compreensão dos temas abordados. A obra equilibra rigor teórico e aplicabilidade prática, sendo necessária neste programa para o aprendizado e a pesquisa nas áreas de teoria monetária, macroeconomia monetária e economia monetária internacional.
+*   **""ANÁLISE ECONÔMICA""** é uma publicação acadêmica da Faculdade de Ciências Econômicas da Universidade Federal do Rio Grande do Sul (UFRGS. Por se tratar de periódico relevante na área, permite a discussão dos temas trabalhados durante o semestre, conferindo ao alunado a possibilidade de discussão dos aspectos tratados na perspectiva de resultados e análises, produzidas por pesquisadores brasileiros, quando possível.
+*   **""Regimes monetários: teoria e a experiência do real, .de André de Melo MODENESI,** traz uma análise abrangente dos regimes monetários, com foco na teoria e na experiência do Real no Brasil. O livro explora os principais conceitos e modelos de política monetária, auxiliando na compreensão da conjuntura econômica brasileira e na análise de políticas públicas.
+*   **BARROS, Ev'Ângela Batista Rodrigues de (org.). Extensão PUC Minas: caminhos para o fortalecimento da cidadania e da Democracia no Brasil;** Obra pode ser utilizada, condicionada ao desenvolvimento da temática extensionista na disciplina. Possibilita a discussão de iniciativas para a construção de uma cidadania participativa, ativa e inclusiva.
+
+## Descrição da Bibliografia Básica
+*   CARVALHO, Fernando J. Cardim de *et al.* Economia monetária e financeira: teoria e política. 3. ed. rev. e atual. Rio de Janeiro: Elsevier, 2015. *E-book*. ISBN 9788595154896.
+*   DORNBUSCH, Rudiger; FISCHER, Stanley; STARTZ, Richard. Macroeconomia. 11. ed. Porto Alegre: AMGH, 2013. *E-book*. ISBN 9788580551853.
+*   ECONOMIA E GESTÃO. Belo Horizonte: Ed. PUC Minas, 2001-. 2005-. ISSN 1984-6606 versão on-line. Disponível em: http://periodicos.pucminas.br/index.php/economiaegestao. Acesso em: 27 ago. 2018.
+*   KELTON, Stephanie. O mito do déficit: teoria monetária e o nascimento da economia do povo. Rio de Janeiro, RJ: Alta Books, 2023. *E-book*. ISBN 9788550818290.
+
+## Descrição da Bibliografia Complementar
+*   ANÁLISE ECONÔMICA. Porto Alegre: UFRGS, Faculdade de Ciências Econômicas ,2009-. Semestral. ISSN 2176-5456 versão on-line. Disponível em: https://seer.ufrgs.br/AnaliseEconomica/index. Acesso em: 11 mar. 2020.
+*   BARROS, Ev'Ângela Batista Rodrigues de (org.). Extensão PUC Minas: caminhos para o fortalecimento da cidadania e da democracia no Brasil. Belo Horizonte, MG: PUC Minas, 2019. *E-book*. ISBN 978-85-8239-114-3. Disponível em: http://bib.pucminas.br:8080/pergamumweb/vinculos/000058/0000582f.pdf. Acesso em: 10 dez. 2019.
+*   LANA, Henrique Avelino Rodrigues de Paula. Introdução ao sistema financeiro nacional. Belo Horizonte, MG: PUC Minas, 2021. *E-book*. ISBN 9786588331316. Disponível em: https://bib.pucminas.br/pergamumweb/vinculos/000000/0000003a.pdf. Acesso em: 9 fev. 2022.
+*   MISHKIN, Frederic S.. Moeda, bancos e mercados financeiros. 5. ed. Rio de Janeiro, RJ: LTC - Livros Técnicos e Científicos, c2000. xxii, 474 p. ISBN 8521611927., Nº de Exemplares: 2.
+*   MODENESI, André de Melo. Regimes monetários: teoria e a experiência do real. Barueri, SP: Manole, 2005. *E-book*. ISBN 9788520464533.
+*   TEIXEIRA, Ernani. Economia monetária: a macroeconomia no contexto monetário. São Paulo (SP): Saraiva, 2002. xv, 248 p. ISBN 8502035576., Nº de Exemplares: 4."
+4,PUC Minas,FORMAÇÃO ECONÔMICA DO BRASIL,Ciências Sociais e Humanidades,Ciencias Economicas,80,95,Tania Maria Ferreira de Souza,Doutorado,"# 
+
+**Período:** 4
+
+**Turno:** MANHÃ
+
+**Carga Horária:**
+*   TEÓRICA 80 horas
+
+---
+
+## Ementa
+As características gerais do sistema colonial. O Brasil no período colonial. Expansão e consolidação do capital cafeeiro. Transição do trabalho escravo ao trabalho livre. Origem e evolução do capital industrial e bancário na República Velha. A crise da economia cafeeira. O período 1930-45 e o processo de implementação do modelo de industrialização por substituição de importações. A era Vargas e a construção do Estado Moderno no Brasil. O contexto internacional e a política econômica: 1945 a 1955. Síntese do processo de industrialização por substituição de importações em bases técnicas e financeiras restritas (1933-1955)."

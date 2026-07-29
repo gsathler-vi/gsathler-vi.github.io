@@ -1,0 +1,74 @@
+---
+title: "CULTURA RELIGIOSA: FENÔMENO RELIGIOSO"
+subtitle: "Período: 6"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a)  ()."
+categories: ["PUC Minas", "Ciencias Economicas", "Ciências Sociais e Humanidades"]
+carga_horaria: 40
+periodo: 6
+toc: true
+---
+
+## Ementa
+O fenômeno religioso: experiência e linguagem. O fenômeno religioso como experiência específica: limites e possibilidades da experiência de Deus. As categorias fundamentais de interpretação e de linguagem do fenômeno religioso. Narrativas sagradas. A Bíblia em sua formação histórica, cultural e literária; os critérios de interpretação, os temas e as perspectivas de estudo e da experiência mística. O cristianismo e os desafios do diálogo ecumênico e inter-religioso no contexto de um mundo globalizado. História e fundamentos da cultura e tradições religiosas Afro Brasileira e Indígenas. Cenários religiosos contemporâneos.
+
+## Objetivos
+**OBJETIVO GERAL**
+Analisar a dimensão religiosa do ser humano, reconhecendo a sua importância em favorecer experiências fundamentais nos âmbitos pessoal e social, em vista da construção de sentido existencial, e da promoção de valores morais e éticos do humanismo cristão.
+
+**OBJETIVOS ESPECÍFICOS**
+*   Investigar o fenômeno religioso, dentro e fora das tradições religiosas, como experiência pessoal de abertura à transcendência, e como processo de institucionalização e de representação simbólica da fé coletiva.
+*   Caracterizar as narrativas e os textos sagrados, apresentados como fonte de estudo, de experiência espiritual e de encontro entre pessoas e tradições religiosas; em particular a Bíblia, por sua relevância na cultura ocidental.
+*   Reconhecer a contribuição das tradições e lideranças religiosas, em particular do Cristianismo e de Jesus de Nazaré; como também do diálogo ecumênico e inter-religioso para uma cultura da paz.
+
+## Métodos Didáticos
+*   Aulas expositivas dialogadas
+*   Estudos de obras e textos
+*   Seminário Temático
+*   Avaliação Individual e grupo
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento**
+Diagnóstico e sondagem sobre os conceitos fundamentais de fenômeno religioso
+
+**Introdução (4h)**
+1. Por que Cultura Religiosa na Universidade? Expectativas, Objetivos, Programa, Critérios de Avaliação
+2. O *homo religiosus* e a construção do sentido da existência humana
+
+**Unidade I - O Fenômeno Religioso: Experiência e Linguagem (12h)**
+1.1. Categorias antropológicas para o estudo do fenômeno religioso: sagrado e profano, símbolo, mito e rito
+1.2. Religiosidade: experiência religiosa e experiência de Deus
+1.3. Fé, religião e espiritualidade
+1.4. As religiões no diálogo com as ciências
+
+**Unidade II - Textos Sagrados: Fontes de Estudo e Experiência Espiritual (12h)**
+2.1. Tradições oral e escrita
+2.2. Abordagens histórico-crítica e fundamentalista dos textos sagrados
+2.3. Formação histórica da Bíblia: 1º e 2º Testamentos
+2.4. Hermenêutica e gêneros textuais da Bíblia
+
+**Unidade III - Diálogo Ecumênico e Inter-Religioso: Desafios e Perspectivas (12h)**
+3.1. Pluralismo e sincretismo religioso: religiões de matrizes abraâmica, oriental, indígena, africana e afro-brasileira e novos movimentos religiosos
+3.2. Trânsito religioso e o fenômeno dos sem religião no Brasil
+3.3. Ecumenismo e diálogo inter-religioso: disposições e formas
+3.4. Cristianismo no cenário religioso e cultural contemporâneo
+
+## Processo de Avaliação
+1.  Trabalho em grupo: 20 pontos
+2.  Prova individual da 1ª Unidade: 25 pontos
+3.  Prova individual da 2ª Unidade: 25 pontos
+4.  Prova final individual: 30 pontos
+5.  Reavaliação: 100 pontos (estudantes que não conseguirem o total de 60 pontos, tendo aferido mais que 30 pontos, poderão realizar a Reavaliação no valor de 100 pontos)
+
+## Descrição da Bibliografia Básica
+*   ANDRADE, Joachim. Relações ecumênicas e inter-religiosas: construindo uma ponte entre as religiões. Curitiba: Intersaberes, 2019. E-book. ISBN 9788559729368.
+*   HORIZONTE: revista de estudos de teologia e ciências da religião da Pontifícia Universidade Católica de Minas Gerais. Belo Horizonte: Ed. PUC Minas, 1997-. 2010-. ISSN 2175-5841 versão on-line.
+*   KONINGS, Johan. A palavra se fez livro. 5. ed. São Paulo, SP: Loyola, 2014. 102 p. ISBN 9788515020218, Nº de Exemplares: 34.
+*   MEDEIROS, Eduardo Luiz de. Cultura da fé: elementos de comparação entre religiões. Curitiba: Intersaberes, 2020. E-book. ISBN 9786555170214.
+
+## Descrição da Bibliografia Complementar
+*   ALVES, Luiz Alberto Souza. Cultura religiosa: caminhos para a construção do conhecimento. Curitiba, PR: Ibpex, 2009. 221 p. ISBN 9788578381882, Nº de Exemplares: 1.
+*   BERGER, Peter L. Os múltiplos altares da modernidade: rumo a um paradigma da religião numa época pluralista. Petrópolis, RJ: Vozes, 2017. E-book. ISBN 9788532653604.
+*   GERONE JUNIOR, Acyr de. Sociologia da religião: introdução, história, perspectivas e desafios contemporâneos. Curitiba: Intersaberes, 2017. E-book. ISBN 9788559724455.
+*   GIL FILHO, Sylvio Fausto. Espaço sagrado: estudos em geografia da religião. Curitiba: Intersaberes, 2012. E-book. ISBN 9788582123447.
+*   INTERAÇÕES: cultura e comunidade. Belo Horizonte, MG: PUC Minas, Departamento de Ciências da Religião, 2006-. Semestral. ISSN 1983-2478 versão on-line.
+*   SWEETMAN, Brendan. Religião: conceitos-chave em filosofia. Porto Alegre, RS: Penso, 2013. E-book. ISBN 9788565848343.

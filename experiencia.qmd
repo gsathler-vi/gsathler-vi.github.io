@@ -120,26 +120,43 @@ toc: false
 
 <div class="timeline">
 
-    <!-- Item 1: Pesquisador -->
+    <!-- Item 1: Novo Estágio no TCE-MG -->
     <div class="timeline-item">
+        <div class="timeline-title">Estagiário de Controle Externo e Políticas Públicas</div>
+        <div class="timeline-meta">
+            <i class="bi bi-shield-check me-1"></i> Tribunal de Contas do Estado de Minas Gerais (TCE-MG)
+            <span class="mx-2">|</span>
+            <i class="bi bi-geo-alt-fill me-1"></i> Belo Horizonte, MG
+            <span class="d-block mt-1 text-primary fw-bold" style="font-size: 0.8em;">
+                <i class="bi bi-calendar-check me-1"></i> abr 2026 - Presente
+            </span>
+        </div>
+        <ul class="resume-list">
+            <li>Atuação no Programa Nacional de Transparência Pública (PNTP), auxiliando no monitoramento, avaliação e aplicação de diretrizes de transparência nos portais públicos.</li>
+        </ul>
+    </div>
+
+    <!-- Item 2: Pesquisador (Atualizado para Concluído) -->
+
+         <div class="timeline-item">
         <div class="timeline-title">Pesquisador em Economia - PIBIC</div>
         <div class="timeline-meta">
             <i class="bi bi-bank2 me-1"></i> Fapemig
             <span class="mx-2">|</span>
             <i class="bi bi-geo-alt-fill me-1"></i> Belo Horizonte, MG
-            <span class="d-block mt-1 text-primary fw-bold" style="font-size: 0.8em;">
-                <i class="bi bi-calendar-check me-1"></i> mar 2025 - Presente
-            </span>
+            <span class="mx-2">|</span>
+            <i class="bi bi-calendar3 me-1"></i> mar 2025 - abr 2026
         </div>
         <ul class="resume-list">
-            <li>Condução de pesquisa quantitativa e análise de dados socioeconômicos utilizando Python, R.</li>
-            <li>Aplicação de métodos estatísticos avançados: Modelagem preditiva (Regressão linear multipla), Teste A/B, Propensity Score Matching e Pareamento.</li>
+            <li>Condução de pesquisa quantitativa e análise de dados socioeconômicos utilizando Python e R.</li>
+            <li>Aplicação de métodos estatísticos avançados: Modelagem preditiva (Regressão Linear Múltipla), Teste A/B, Propensity Score Matching e Pareamento.</li>
             <li>Avaliação de impacto de políticas públicas e elaboração de relatórios técnicos com estatística descritiva.</li>
         </ul>
     </div>
 
-    <!-- Item 2: Vice-Diretor -->
-    <div class="timeline-item">
+    
+    <!-- Item 3: Vice-Diretor -->
+<div class="timeline-item">
         <div class="timeline-title">Vice-Diretor de Articulação e Assuntos Políticos</div>
         <div class="timeline-meta">
             <i class="bi bi-people-fill me-1"></i> Centro Acadêmico de Gestão Pública (UFMG)
@@ -154,7 +171,8 @@ toc: false
         </ul>
     </div>
 
-    <!-- Item 3: Group Software -->
+
+    <!-- Item 4: Group Software -->
     <div class="timeline-item">
         <div class="timeline-title">Estagiário de Análise de Dados e Planejamento Estratégico</div>
         <div class="timeline-meta">
@@ -171,7 +189,7 @@ toc: false
         </ul>
     </div>
 
-    <!-- Item 4: Observatório -->
+    <!-- Item 5: Observatório -->
     <div class="timeline-item">
         <div class="timeline-title">Extensionista (Consultoria e Gestão de Projetos)</div>
         <div class="timeline-meta">
@@ -187,7 +205,7 @@ toc: false
         </ul>
     </div>
 
-    <!-- Item 5: PUC Minas -->
+    <!-- Item 6: PUC Minas -->
     <div class="timeline-item">
         <div class="timeline-title">Estagiário em Gestão de Projetos Socioambientais</div>
         <div class="timeline-meta">
@@ -204,7 +222,7 @@ toc: false
         </ul>
     </div>
 
-    <!-- Item 6: ERG Engenharia (Agrupado) -->
+    <!-- Item 7: ERG Engenharia (Agrupado) -->
     <div class="timeline-item">
         <div class="timeline-title">Experiências na ERG Engenharia</div>
         <div class="timeline-meta">
@@ -221,11 +239,11 @@ toc: false
         </ul>
     </div>
 
-    <!-- Item 7: Autônomo -->
+    <!-- Item 8: Autônomo -->
     <div class="timeline-item">
         <div class="timeline-title">Vendedor de Rua</div>
         <div class="timeline-meta">
-            <i class="bi bi-shop me-1"></i> Autonomo
+            <i class="bi bi-shop me-1"></i> Autônomo
             <span class="mx-2">|</span>
             <i class="bi bi-geo-alt-fill me-1"></i> Belo Horizonte, MG
             <span class="mx-2">|</span>

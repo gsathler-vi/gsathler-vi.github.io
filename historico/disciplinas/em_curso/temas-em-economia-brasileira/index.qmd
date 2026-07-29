@@ -1,0 +1,59 @@
+---
+title: "TEMAS EM ECONOMIA BRASILEIRA"
+subtitle: "Período: 8"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a)  ()."
+categories: ["PUC Minas", "Ciencias Economicas", "Teoria Econômica"]
+carga_horaria: 80
+periodo: 8
+toc: true
+---
+
+## Ementa
+Abordagem teórica, histórica e institucional de temas relevantes em Economia Brasileira, considerando sua estrutura produtiva, a demanda do mercado interno e sua inserção no mercado internacional. 1- Estado x Mercado: o debate contextualizado; 2- Privatização; 3- Dinâmica recente do mercado de trabalho; 4- Transição demográfica e seus impactos; 5- Sistema Previdenciário e equilíbrio fiscal; 6- Sistema Nacional de Inovação; 7- Abertura econômica e padrão do comércio internacional; 8- Internacionalização de empresas; 9- Blocos Econômicos e o caso do Mercosul.
+
+## Objetivos
+*   Sintetizar os impactos das transformações institucionais, demográficas e produtivas da economia brasileira sobre sua inserção internacional, o equilíbrio fiscal e as estratégias de desenvolvimento econômico.
+*   Analisar os principais temas da Economia Brasileira contemporânea, tais como o debate Estado versus mercado, a dinâmica do mercado de trabalho, as políticas econômicas, o histórico de inflação persistente, a evolução do déficit público, dentre outros.
+
+## Métodos Didáticos
+*   Fórum com questões atuais da economia brasileira
+*   Trabalhos individuais
+*   Trabalho em grupo
+*   Aula expositiva por meio de vídeos
+*   Pesquisa orientada
+
+## Unidades de Ensino
+**Unidade 1 (25 horas-aula)**
+1. Estado x Mercado: o debate contextualizado
+2. Privatização
+3. Dinâmica recente do mercado de trabalho
+4. Transição demográfica e seus impactos
+
+**Unidade 2 (30 horas-aula)**
+5. Sistema Previdenciário e equilíbrio fiscal
+6. Sistema Nacional de Inovação
+7. Abertura econômica e padrão do comércio internacional
+
+**Unidade 3 (25 horas-aula)**
+8. Internacionalização de empresas
+9. Blocos Econômicos e o caso do Mercosul
+
+## Processo de Avaliação
+1.  Atividades avaliativas intermediárias: 40,00 pontos
+2.  Provas intermediárias (2 provas): 15,00 pontos cada uma (Total: 30,00 pontos)
+3.  Prova Global: 30,00 pontos
+4.  Reavaliação: 100,00 pontos (aplicada a todos os alunos que não conseguiram atingir os 60,00 pontos após a prova global)
+
+## Descrição da Bibliografia Básica
+*   GREMAUD, Amaury Patrick et al. Economia brasileira contemporânea. 9. ed. Rio de Janeiro, RJ: Atlas, 2024. E-book. ISBN 9786559776450.
+*   KON, Anita; BORELLI, Elizabeth (org.). Aportes ao desenvolvimento da economia brasileira. São Paulo, SP: Blucher, 2015. E-book. ISBN 9788580391237.
+*   NOVA ECONOMIA. Belo Horizonte: UFMG, Departamento de Ciências Econômicas, 1990-. Semestral. ISSN 1980-5381 versão on-line.
+*   SOUZA, Jobson Monteiro de; MACHADO, Luiz Henrique Mourão (org.). Economia brasileira. 2. ed. São Paulo, SP: Pearson, c2020. E-book. ISBN 9788570160577.
+
+## Descrição da Bibliografia Complementar
+*   BRUM, Argemiro J. Desenvolvimento econômico brasileiro. 30. ed. Ijuí, RS: Unijuí; Petrópolis, RJ: Vozes, 2020. E-book. ISBN 9786586074468.
+*   MARQUES, Rosa Maria; FERREIRA, Mariana Ribeiro Jansen (org.). O Brasil sob a nova ordem: a economia brasileira contemporânea: uma análise dos governos Collor a Lula. São Paulo: Saraiva, 2010. E-book. ISBN 9788502125551.
+*   MELLO, João Manuel Cardoso de. O capitalismo tardio: contribuição a revisão critica da formação e do desenvolvimento da economia brasileira. 3a ed. São Paulo: Brasiliense, 1984. 182 p. Nº de Exemplares: 2.
+*   REVISTA BRASILEIRA DE ECONOMIA. Rio de Janeiro: FGV, 1947-. Trimestral. ISSN 1806-9134 versão on-line.
+*   SA, Jayme Magrassi de. Aspectos da economia brasileira. Rio de Janeiro: Alba, 1970. 198 p. Nº de Exemplares: 1.
+*   VELOSO, Fernando A. et al. (org.). Desenvolvimento econômico: uma perspectiva brasileira. Rio de Janeiro, RJ: Atlas, c2013. E-book. ISBN 9788595154759.

@@ -1,0 +1,101 @@
+---
+title: "Introdução à Análise de Dados e Estatística nas Políticas Públicas"
+subtitle: "Um Guia de Estudos para Calouros de Gestão Pública"
+date: 11-12-2025
+author: "Gabriel Sathler Victer Itaborahy"
+lang: pt-BR
+section-divs: true
+---
+
+Fala, pessoal! Bem-vindos e bem-vindas à Gestão Pública! 🚀
+
+Meu nome é Gabriel mas podem me chamar de Sathler, preparei este material especialmente para vocês que estão chegando agora no curso e queriam saber mais sobre analise de Politicas Publicas. Eu sei que o começo pode parecer muita informação de uma vez só, principalmente quando começamos a falar de dados, estatística e governo. 
+
+A ideia desta página é ser um atalho seguro para vocês. Separei os materiais em três grandes áreas. **Vocês não precisam seguir uma ordem entre elas, é apenas uma sugestão** — fiquem à vontade para clicar primeiro no assunto que acharem mais legal.
+
+::: {.callout-important icon=false}
+## Dica
+Você pode escolher qual aba abrir primeiro, mas **quando entrar nas pastas do Drive ou nos cursos, siga a ordem numérica que eu coloquei lá**. O conhecimento é uma escadinha, e pular degraus agora pode te deixar confuso lá na frente! Mas nada te impede de ver algo na frente e voltar para aprender, o aprendizado nem sempre é algo linear.
+:::
+
+---
+
+::: {.panel-tabset}
+
+## 🏛️ 1. Políticas Públicas
+
+Aqui é o coração do nosso curso. Antes de a gente querer analisar qualquer dado, precisamos entender como o Estado funciona, quem toma as decisões e o que de fato é uma política pública.
+
+Separei alguns textos introdutórios excelentes para vocês não chegarem perdidos nas aulas teóricas.
+
+::: {.callout-tip}
+## Como estudar esta parte:
+Acesse o link abaixo e faça a leitura seguindo a ordem das pastas:
+:::
+
+1. **01 - O que são?:** Para nivelar todo mundo.
+2. **02 - Atores envolvidos:** Quem são as pessoas e instituições que fazem a política acontecer (ou travarem).
+3. **03 - Tipos de políticas:** Como classificar as ações do governo.
+4. **04 - IA nas políticas públicas:** Textos bem bacanas sobre como as novas tecnologias e a automação estão sendo usadas na prática dentro dos governos hoje.
+
+🔗 **[Acessar a Pasta de Políticas Públicas no Google Drive](https://drive.google.com/drive/folders/10x8KK00eBmrSS4JfRYYq2INh_3qcfHsT?usp=sharing){target="_blank"}**
+
+## 📊 2. Estatística Básica
+
+Eu sei que muita gente vem para a Gestão Pública querendo fugir de exatas, mas confiem em mim: entender dados faz toda a diferença para formular boas políticas. 
+
+Nesta seção, coloquei o material de uma disciplina de introdução à estatística, com arquivos disponibilizados pelo professor na disciplina. Tem um livro base muito bom e pastas divididas pelos tópicos que vocês mais vão precisar.
+
+::: {.callout-tip}
+## Como estudar esta parte:
+Abra o link do Drive e vá abrindo as pastas exatamente nesta sequência:
+:::
+
+1. **01 - Estatística Descritiva:** O básico para organizar e ler dados sem se assustar.
+2. **02 - Probabilidades:** Entendendo as chances das coisas acontecerem.
+3. **03 - Inferência:** Como olhar para uma amostra pequena e entender a população inteira (muito usado em pesquisas de opinião e censo).
+4. **Livro de Estatística:** Deixem salvo para consultar sempre que precisarem.
+
+🔗 **[Acessar a Pasta de Estatística Básica no Google Drive](https://drive.google.com/drive/folders/1Zh0mKEtufCmqbZbQZ-sYr7pKRB3VRIF7?usp=sharing){target="_blank"}**
+
+## 💻 3. Cursos Práticos (R e Python)
+
+Se eu pudesse dar um único conselho para quem quer se destacar na área pública hoje, seria: **aprendam R e Python**. Não é mais um "diferencial", é uma ferramenta de trabalho essencial.
+
+Para ajudar, organizei uma trilha de cursos gratuitos da Escola Virtual de Governo (EVG). Diferente das outras abas, **aqui a ordem é muito importante**. Façam um de cada vez, no tempo de vocês:
+
+::: {.callout-note}
+## Trilha de Capacitação Sugerida
+Clique nos links para se inscrever.
+:::
+
+**Passo 1: O primeiro contato**
+🐍 [Aprendendo com Python (Introdutório)](https://www.escolavirtual.gov.br/curso/629){target="_blank"}
+*Ótimo para pegar a lógica de programação do zero, sem pressa.*
+
+**Passo 2: Juntando as peças**
+📈 [Estatística para Análise de Dados na Administração Pública](https://www.escolavirtual.gov.br/curso/930){target="_blank"}
+*Aqui você conecta o que viu na aba de Estatística com a realidade do setor público.*
+
+**Passo 3: A ferramenta principal**
+🔵 [Análise de Dados em Linguagem R](https://www.escolavirtual.gov.br/curso/325){target="_blank"}
+*O R é a linguagem mais usada por pesquisadores e analistas no governo. Vale muito a pena.*
+
+**Passo 4: Preparação para o futuro**
+🔮 [Soluções Preditivas Baseadas em Dados com o Uso do R e do Python](https://www.escolavirtual.gov.br/curso/1049){target="_blank"}
+*Dica de amigo: façam este curso! Ele vai salvar a vida de vocês quando forem estudar Econometria mais para frente no curso.*
+
+**Passo 5: Um passo além**
+📄 [Introdução ao Processamento de Linguagem Natural](https://www.escolavirtual.gov.br/curso/1043){target="_blank"}
+*Um plus muito interessante para entender como computadores conseguem ler e analisar grandes volumes de textos e documentos oficiais além de desmistificar o que é IA.*
+
+:::
+
+---
+
+Espero que esse material ajude vocês a começarem o curso com o pé direito. A Gestão Pública é uma área incrível e cheia de oportunidades para quem sabe olhar para os dados da forma certa.
+
+Bons estudos e aproveitem a faculdade! 
+
+Um abraço,  
+**Gabriel Sathler**

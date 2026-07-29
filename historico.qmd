@@ -263,7 +263,7 @@ format:
     <div class="stat-card" style="border-left-color: var(--success-color);">
       <div class="stat-content">
         <h2>Média Geral</h2>
-        <div class="stat-value" style="color: var(--success-color);">84.2</div>
+        <div class="stat-value" style="color: var(--success-color);">84.4</div>
         <small class="text-muted">Média ponderada</small>
       </div>
       <div class="stat-icon" style="color: var(--success-color);"><i class="bi bi-graph-up-arrow"></i></div>
@@ -273,7 +273,7 @@ format:
     <div class="stat-card" style="border-left-color: var(--primary-color);">
       <div class="stat-content">
         <h2>Disciplinas Cursadas</h2>
-        <div class="stat-value" style="color: var(--primary-color);">43</div>
+        <div class="stat-value" style="color: var(--primary-color);">52</div>
         <small class="text-muted">Concluídas com aprovação</small>
       </div>
       <div class="stat-icon" style="color: var(--primary-color);"><i class="bi bi-check-circle-fill"></i></div>
@@ -283,7 +283,7 @@ format:
     <div class="stat-card" style="border-left-color: var(--warning-color);">
       <div class="stat-content">
         <h2>Disciplinas Ativas</h2>
-        <div class="stat-value" style="color: var(--warning-color);">9</div>
+        <div class="stat-value" style="color: var(--warning-color);">7</div>
         <small class="text-muted">Em andamento</small>
       </div>
       <div class="stat-icon" style="color: var(--warning-color);"><i class="bi bi-hourglass-split"></i></div>
@@ -396,7 +396,7 @@ format:
             <span class="nota-valor">74</span>
           </div>
         </div>
-    </a>
+    </a><a href="historico/disciplinas/em_curso/econometria-de-séries-temporais-e-painel/" class="card-link">
         <div class="disciplina-card">
           <h4>ECONOMETRIA DE SÉRIES TEMPORAIS E PAINEL</h4>
           <div class="disciplina-meta">
@@ -405,11 +405,11 @@ format:
             <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-a-cursar">A Cursar</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
-    
+    </a>
         <div class="disciplina-card">
           <h4>ESTATÍSTICA BAYESIANA</h4>
           <div class="disciplina-meta">
@@ -514,7 +514,7 @@ format:
             <span class="nota-valor">80</span>
           </div>
         </div>
-    </a>
+    </a><a href="historico/disciplinas/em_curso/fundamentos-de-finanças-corporativas/" class="card-link">
         <div class="disciplina-card">
           <h4>FUNDAMENTOS DE FINANÇAS CORPORATIVAS</h4>
           <div class="disciplina-meta">
@@ -523,11 +523,11 @@ format:
             <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-a-cursar">A Cursar</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
-    
+    </a>
         <div class="disciplina-card">
           <h4>AVALIAÇÃO ECONÔMICA DE EMPRESAS</h4>
           <div class="disciplina-meta">
@@ -795,7 +795,7 @@ format:
             <span class="nota-valor">73</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/economia-do-bem-estar/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/economia-do-bem-estar/" class="card-link">
         <div class="disciplina-card">
           <h4>ECONOMIA DO BEM-ESTAR</h4>
           <div class="disciplina-meta">
@@ -804,11 +804,11 @@ format:
             <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">92</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/macroeconomia-contemporânea/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/macroeconomia-contemporânea/" class="card-link">
         <div class="disciplina-card">
           <h4>MACROECONOMIA CONTEMPORÂNEA</h4>
           <div class="disciplina-meta">
@@ -817,11 +817,11 @@ format:
             <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">67</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/economia-monetária/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/economia-monetária/" class="card-link">
         <div class="disciplina-card">
           <h4>ECONOMIA MONETÁRIA</h4>
           <div class="disciplina-meta">
@@ -830,11 +830,11 @@ format:
             <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">91</span>
           </div>
         </div>
-    </a>
+    </a><a href="historico/disciplinas/em_curso/organização-industrial/" class="card-link">
         <div class="disciplina-card">
           <h4>ORGANIZAÇÃO INDUSTRIAL</h4>
           <div class="disciplina-meta">
@@ -843,30 +843,30 @@ format:
             <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-a-cursar">A Cursar</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
-    
+    </a><a href="historico/disciplinas/em_curso/temas-em-economia-brasileira/" class="card-link">
+        <div class="disciplina-card">
+          <h4>TEMAS EM ECONOMIA BRASILEIRA</h4>
+          <div class="disciplina-meta">
+            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
+            <span><i class="bi bi-calendar3"></i> 8º Período</span>
+            <span><i class="bi bi-clock"></i> 80h</span>
+          </div>
+          <div class="disciplina-footer">
+            <span class="badge-status bg-em-curso">Em Curso</span>
+            
+          </div>
+        </div>
+    </a>
         <div class="disciplina-card">
           <h4>ECONOMIA INTERNACIONAL</h4>
           <div class="disciplina-meta">
             <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
             <span><i class="bi bi-calendar3"></i> 6º Período</span>
             <span><i class="bi bi-clock"></i> 60h</span>
-          </div>
-          <div class="disciplina-footer">
-            <span class="badge-status bg-a-cursar">A Cursar</span>
-            
-          </div>
-        </div>
-    
-        <div class="disciplina-card">
-          <h4>TEMAS CONTEMPORÂNEOS EM ECONOMIA</h4>
-          <div class="disciplina-meta">
-            <span><i class="bi bi-building"></i> PUC Minas (Ciencias Economicas)</span>
-            <span><i class="bi bi-calendar3"></i> 8º Período</span>
-            <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
             <span class="badge-status bg-a-cursar">A Cursar</span>
@@ -939,7 +939,7 @@ format:
             <span class="nota-valor">93</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/análise-de-políticas-públicas/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/análise-de-políticas-públicas/" class="card-link">
         <div class="disciplina-card">
           <h4>ANÁLISE DE POLÍTICAS PÚBLICAS</h4>
           <div class="disciplina-meta">
@@ -948,11 +948,11 @@ format:
             <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">75</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/democracia-digital-e-governo-eletrônico/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/democracia-digital-e-governo-eletrônico/" class="card-link">
         <div class="disciplina-card">
           <h4>DEMOCRACIA DIGITAL E GOVERNO ELETRÔNICO</h4>
           <div class="disciplina-meta">
@@ -961,11 +961,11 @@ format:
             <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">90</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/gestão-pública-b/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/gestão-pública-b/" class="card-link">
         <div class="disciplina-card">
           <h4>GESTÃO PÚBLICA B</h4>
           <div class="disciplina-meta">
@@ -974,11 +974,11 @@ format:
             <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">100</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/estado-e-políticas-sociais-a/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/estado-e-políticas-sociais-a/" class="card-link">
         <div class="disciplina-card">
           <h4>ESTADO E POLÍTICAS SOCIAIS A</h4>
           <div class="disciplina-meta">
@@ -987,11 +987,11 @@ format:
             <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">90</span>
           </div>
         </div>
-    </a>
+    </a><a href="historico/disciplinas/em_curso/finanças-públicas/" class="card-link">
         <div class="disciplina-card">
           <h4>FINANÇAS PÚBLICAS</h4>
           <div class="disciplina-meta">
@@ -1000,11 +1000,11 @@ format:
             <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-a-cursar">A Cursar</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
-    
+    </a><a href="historico/disciplinas/em_curso/estado-e-políticas-sociais-b/" class="card-link">
         <div class="disciplina-card">
           <h4>ESTADO E POLÍTICAS SOCIAIS B</h4>
           <div class="disciplina-meta">
@@ -1013,11 +1013,11 @@ format:
             <span><i class="bi bi-clock"></i> 60h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-a-cursar">A Cursar</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
-    
+    </a>
         <div class="disciplina-card">
           <h4>FINANÇAS PÚBLICAS</h4>
           <div class="disciplina-meta">
@@ -1128,7 +1128,7 @@ format:
             <span class="nota-valor">95</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/noções-de-direito-tributário/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/noções-de-direito-tributário/" class="card-link">
         <div class="disciplina-card">
           <h4>NOÇÕES DE DIREITO TRIBUTÁRIO</h4>
           <div class="disciplina-meta">
@@ -1137,8 +1137,8 @@ format:
             <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">70</span>
           </div>
         </div>
     </a>
@@ -1252,7 +1252,7 @@ format:
             <span class="nota-valor">100</span>
           </div>
         </div>
-    </a><a href="historico/disciplinas/em_curso/formação-econômica-do-brasil/" class="card-link">
+    </a><a href="historico/disciplinas/cursadas/formação-econômica-do-brasil/" class="card-link">
         <div class="disciplina-card">
           <h4>FORMAÇÃO ECONÔMICA DO BRASIL</h4>
           <div class="disciplina-meta">
@@ -1261,11 +1261,11 @@ format:
             <span><i class="bi bi-clock"></i> 80h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-em-curso">Em Curso</span>
-            
+            <span class="badge-status bg-cursada">Cursada</span>
+            <span class="nota-valor">95</span>
           </div>
         </div>
-    </a>
+    </a><a href="historico/disciplinas/em_curso/cultura-religiosa-fenômeno-religioso/" class="card-link">
         <div class="disciplina-card">
           <h4>CULTURA RELIGIOSA: FENÔMENO RELIGIOSO</h4>
           <div class="disciplina-meta">
@@ -1274,11 +1274,11 @@ format:
             <span><i class="bi bi-clock"></i> 40h</span>
           </div>
           <div class="disciplina-footer">
-            <span class="badge-status bg-a-cursar">A Cursar</span>
+            <span class="badge-status bg-em-curso">Em Curso</span>
             
           </div>
         </div>
-    
+    </a>
         <div class="disciplina-card">
           <h4>HISTÓRIA DO PENSAMENTO ECONÔMICO</h4>
           <div class="disciplina-meta">

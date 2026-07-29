@@ -1,0 +1,62 @@
+---
+title: "FINANÇAS PÚBLICAS"
+subtitle: "Período: 7"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a)  ()."
+categories: ["PUC Minas", "Ciencias Economicas", "Gestão e Políticas Públicas"]
+carga_horaria: 40
+periodo: 7
+toc: true
+---
+
+## Ementa
+Funções de Governo. Teoria dos Bens Públicos. O setor público e os instrumentos de política econômica. A elaboração, a execução e a avaliação do orçamento público. A ação governamental no sistema econômico e as repercussões sobre os agentes e segmentos da economia (consumidores, produtores e mercado), atividades setoriais e a economia global. Financiamento e Eficiência do Gasto Público. Déficit Público. Dívida Pública. Previdência Pública.
+
+## Objetivos
+*   Analisar as principais teorias contemporâneas sobre as finanças públicas e sua relação com os demais ramos da ciência econômica
+*   Relacionar a teoria das finanças públicas com problemas e políticas públicas concretas no Brasil e no mundo
+*   Descrever os problemas e desafios das finanças públicas brasileiras atuais
+*   Incentivar que os discentes proponham estratégias para enfrentar questões concretas das finanças públicas nacionais
+
+## Métodos Didáticos
+*   Aulas invertidas como metodologia ativa
+*   Exposição oral/aulas participativas com formulação de perguntas individuais aos alunos
+*   Leitura de textos durante a aula com formulação de perguntas individuais aos alunos
+*   Trabalhos em grupo (com atividades extraclasse e em sala de aula) envolvendo pesquisa, diagnóstico e formulação de soluções para problemas concretos de políticas e finanças públicas
+
+## Unidades de Ensino
+**Unidade de Nivelamento**
+Nivelamento, na qual será revista e reforçada a maneira pela qual o estudo das finanças públicas se insere no campo mais amplo das ciências econômicas e na qual será brevemente descrita a estrutura federativa do governo e das finanças públicas brasileiras.
+
+**Unidade I - Atividade Financeira do Estado e Introdução às Finanças Públicas**
+
+**Unidade II - Funções de governo**
+
+**Unidade III - Bens públicos**
+
+**Unidade IV - Orçamento Público**
+
+**Unidade V - Despesas públicas e o Arcabouço Fiscal da Lei Complementar 200/2023**
+
+**Unidade VI - Dívida Pública e o Programa de Pleno Pagamento de Dívidas dos Estados (Lei Complementar n.º 212/2025)**
+
+**Unidade VII - Previdência Pública**
+
+## Processo de Avaliação
+1.  1ª prova individual: 25 pontos
+2.  2ª prova individual: 25 pontos
+3.  Prova global individual: 30 pontos
+4.  Trabalho em grupo: 20 pontos
+5.  Reavaliação: 30 pontos (Prova individual de reavaliação em substituição à prova de menor valor ou aquela perdida no semestre)
+
+## Descrição da Bibliografia Básica
+*   GIACOMONI, James. Orçamento público. 19. ed. Rio de Janeiro, RJ: Atlas, c2023. E-book. ISBN 9786559775149.
+*   GIAMBIAGI, Fabio; ALEM, Ana Claudia. Finanças públicas: teoria e prática no Brasil. 5. ed. rev. e atual. Rio de Janeiro, RJ: Elsevier, 2016. E-book. ISBN 9788595154773.
+*   REVISTA TRIBUTÁRIA E DE FINANÇAS PÚBLICAS. São Paulo: Revista dos Tribunais, 2000-. Bimestral. ISSN 1415-6296.
+*   RIANI, Flávio. Economia do setor público: uma abordagem introdutória. 6. ed. Rio de Janeiro, RJ: LTC, 2016. E-book. ISBN 9788521632320.
+
+## Descrição da Bibliografia Complementar
+*   GIACOMONI, James. Orçamento governamental: teoria, sistema, processo. Rio de Janeiro, RJ: Atlas, 2019. E-book. ISBN 9788597019018.
+*   GIAMBIAGI, Fabio; TAFNER, Paulo. A reforma inacabada: o futuro da previdência social no Brasil. Rio de Janeiro, RJ: Alta Books, 2024. E-book. ISBN 9788550823089.
+*   MARQUES, Euvaldo. Finanças públicas: administração financeira e orçamentária. São Paulo, SP: Saraiva, 2015. E-book. ISBN 9788502621916.
+*   REVISTA BRASILEIRA DE FINANÇAS. Rio de Janeiro: Sociedade Brasileira de Finanças, 2003-. ISSN 1984-5146 versão on-line.
+*   ROSEN, Harvey S; GAYER, Ted. Finanças públicas. 10. ed. Porto Alegre, RS: AMGH, 2015. E-book. ISBN 9788580555011.

@@ -1,0 +1,91 @@
+---
+title: "ECONOMETRIA DE SÉRIES TEMPORAIS E PAINEL"
+subtitle: "Período: 5"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a)  ()."
+categories: ["PUC Minas", "Ciencias Economicas", "Métodos Quantitativos e Computacionais"]
+carga_horaria: 80
+periodo: 5
+toc: true
+---
+
+## Ementa
+Modelos multiequacionais de equações simultâneas. Modelos autorregressivos e de defasagens distribuídas. Modelos univariados de séries temporais (ARIMA- autoregressive integrated moving average). Modelos multivariados de séries temporais (VAR- Vetorial Autorregressivo e VEC-Vetorial de Correção de Erros). Causalidade de Granger. Utilização de softwares na modelagem de dados de séries temporais, na estimação de modelos de equações simultâneas e nos modelos autorregressivos e de defasagens distribuídas. Estimativa de dados em painel. Principais testes de especificação para dados em painel.
+
+## Objetivos
+O curso tem como objetivo capacitar os alunos a compreender e aplicar técnicas econométricas para a análise de séries temporais e dados em painel. Além disso, os alunos terão a oportunidade de utilizar softwares estatísticos (ex: Python) para aplicar esses métodos em problemas econômicos reais, desenvolvendo habilidades analíticas e críticas essenciais para a pesquisa empírica em economia.
+
+## Métodos Didáticos
+O curso adotará métodos didáticos diversificados, incluindo aulas expositivas teóricas e práticas com aplicação em softwares como Python, trabalhos individuais e em grupo para análise de dados reais e apresentação de resultados, pesquisas orientadas em artigos utilizando métodos econométricos e relatórios técnicos, além de exercícios de fixação.
+
+## Unidades de Ensino
+**Unidade 0 - Nivelamento**
+0.1. Revisão modelo de regressão linear Múltipla sob a ótica da álgebra linear (MQO)
+0.2. Método de estimação por Máxima Verossimilhança (MV)
+0.3. Outros métodos de estimação, aplicação prática computacional dos métodos de MQO e MV
+
+**Unidade 1 - Introdução às séries temporais**
+1.1. Introdução à séries temporais e exemplos de séries temporais em Economia
+1.2. Revisão de variáveis aleatórias multivariadas, valor esperado, covariância e correlação
+1.3. Função de Autocorrelação (FAC) e Função de Autocorrelação Parcial (FACP)
+1.4. Processos estocásticos e estacionariedade (fraca e forte)
+
+**Unidade 2 - Séries Temporais Univariadas**
+2.1. Introdução a séries univariadas, ruído branco e passeio aleatório
+2.2. Modelo AR(1)
+2.3. Modelo AR(p)
+2.4. Modelo MA(1)
+2.5. Modelo MA(q)
+2.6. Modelo ARMA(p,q)
+2.7. O problema da identificação e uso da FAC e FACP
+2.8. O problema do processo ARMA não estacionário e o teste de raíz unitária (ADF)
+2.9. Modelo ARIMA
+2.10. Métodos de Estimação, estimação computacional e previsão usando Python
+
+**Unidade 3 - Modelos de Equações Simultâneas**
+3.1. Introdução à equações Simultâneas
+3.2. Variáveis endógenas versus exógenas
+3.3. O problema da identificação do sistema linear
+3.4. Impondo restrições e estimação por 2 estágios (2SLS)
+3.5. Estimação computacional e previsão usando Python
+
+**Unidade 4 - Séries temporais Multivariadas**
+4.1. Introdução a modelos VAR
+4.2. Var estrutural e aplicação na equação de PIB e oferta de moeda
+4.3. Combinação Linear e séries Cointegradas
+4.4. Modelo de Vetor de Correção de Erros (VECM)
+4.5. Ilustração do VECM aplicado à Economia e estimação computacional usando Python
+
+**Unidade 5 - Modelos autorregressivos e de defasagens distribuídas**
+5.1. Modelo de Koyck
+5.2. Modelo de expectativa adaptativa
+5.3. Modelo de ajustamento parcial
+5.4. Métodos de estimação e aplicação computacional em economia usando Python
+
+**Unidade 6 - Modelos de dados em painel**
+6.1. Efeitos fixos
+6.2. Efeitos aleatórios
+6.3. Teste de Hausman
+6.4. Aplicação computacional em economia usando Python
+
+## Processo de Avaliação
+1.  Listas de exercícios: 10 pontos
+2.  Trabalho final: 10 pontos
+3.  Primeira Prova: 25 pontos
+4.  Segunda Prova: 25 pontos
+5.  Prova Final: 30 pontos
+6.  Reavaliação: 30 pontos (a prova de reavaliação substitui a Prova Final ou aquela anterior de menor nota e é destinada a alunos que obtiveram pontuação total entre 30 e 59 pontos ao longo do semestre)
+
+## Descrição da Bibliografia Básica
+*   BUENO, Rodrigo de Losso da Silveira. Econometria de séries temporais. 2. ed., rev. e ampl. São Paulo, SP: Cengage Learning, 2012. E-book. ISBN 9788522128259.
+*   ECONOMIA APLICADA. São Paulo: USP, Departamento de Economia, 1997-. Trimestral. ISSN 1980-5330 versão on-line.
+*   GUJARATI, Damodar N.; PORTER, Dawn C. Econometria básica. 5. ed. Porto Alegre, RS: AMGH, 2011. E-book. ISBN 9788580550511.
+*   MORETTIN, Pedro Alberto; TOLOI, Clelia Maria de Castro. Análise de séries temporais: volume 1: modelos lineares univariados. 3. ed. São Paulo: Blucher, 2018. E-book. ISBN 9788521213529.
+*   WOOLDRIDGE, Jeffrey M. Introdução à econometria: uma abordagem moderna. 7. ed. São Paulo, SP: Cengage Learning, 2023. E-book. ISBN 9786555584530.
+
+## Descrição da Bibliografia Complementar
+*   FERREIRA, Pedro Guilherme Costa (org.). Análise de séries temporais em R: curso introdutório. Rio de Janeiro, RJ: Elsevier, 2018. E-book. ISBN 9788595154902.
+*   HILL, R. Carter; GRIFFITHS, William E.; JUDGE, George G. Econometria. 2. ed. São Paulo: Saraiva, 2003. 471 p. ISBN 8502039040, Nº de Exemplares: 2.
+*   MORETTIN, Pedro Alberto. Econometria financeira: um curso em séries temporais financeiras. 2. ed. rev. e ampl. São Paulo: Blucher, 2011. E-book. ISBN 9788521211310.
+*   MORETTIN, Pedro Alberto; TOLOI, Clelia Maria de Castro. Análise de séries temporais: volume 2: modelos multivariados e não lineares. São Paulo, SP: Blucher, 2020. E-book. ISBN 9786555060065.
+*   REVISTA BRASILEIRA DE ECONOMIA. Rio de Janeiro: FGV, 1947-. Trimestral. ISSN 1806-9134 versão on-line.
+*   STOCK, James H.; WATSON, Mark W. Econometria. São Paulo, SP: Pearson, 2004. E-book. ISBN 8588639149.

@@ -1,0 +1,13 @@
+---
+title: "FUNDAMENTOS DE FINANÇAS CORPORATIVAS"
+subtitle: "Período: 5"
+description: "Disciplina em andamento na PUC Minas como parte do currículo de Ciencias Economicas, sob a orientação do(a) professor(a)  ()."
+categories: ["PUC Minas", "Ciencias Economicas", "Finanças e Contabilidade"]
+carga_horaria: 80
+periodo: 5
+toc: true
+---
+
+### Ementa
+
+*Aguardando o plano de ensino detalhado.*

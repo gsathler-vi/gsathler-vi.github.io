@@ -1,0 +1,13 @@
+---
+title: "ESTADO E POLÍTICAS SOCIAIS B"
+subtitle: "Período: 4"
+description: "Disciplina em andamento na UFMG como parte do currículo de Gestão Publica, sob a orientação do(a) professor(a) Geralda Luiza de Miranda (Doutorado)."
+categories: ["UFMG", "Gestão Publica", "Gestão e Políticas Públicas"]
+carga_horaria: 60
+periodo: 4
+toc: true
+---
+
+### Ementa
+
+*Aguardando o plano de ensino detalhado.*
