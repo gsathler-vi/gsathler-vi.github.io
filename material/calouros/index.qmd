@@ -54,13 +54,22 @@ Abra o link do Drive e vá abrindo as pastas exatamente nesta sequência:
 1. **01 - Estatística Descritiva:** O básico para organizar e ler dados sem se assustar.
 2. **02 - Probabilidades:** Entendendo as chances das coisas acontecerem.
 3. **03 - Inferência:** Como olhar para uma amostra pequena e entender a população inteira (muito usado em pesquisas de opinião e censo).
-4. **Livro de Estatística:** Deixem salvo para consultar sempre que precisarem.
+4. **Livro de Estatística:** Material do professor para consultar sempre que precisarem.
+
+> **NOVIDADE - Estatística Básica com suporte computacional em R:** Lançaram esse livro recentemente e ele é sensacional! Ele ensina os conceitos de forma clara, estruturada e conectada à prática, usando a linguagem R (o que já ajuda muito para a nossa aba de cursos). **Deixei o PDF dele solto na raiz da pasta do Drive para facilitar.**
+
+>  Se quiserem acessar o site oficial do livro, [cliquem aqui](https://cemeai.icmc.usp.br/livro-estatistica-basica/){target="_blank"}.
+
+>  Se preferirem o link direto do PDF original, [cliquem aqui](https://cemeai.icmc.usp.br/wp-content/uploads/2026/07/Livro-Estatistica-Basica-R-Portugues.pdf){target="_blank"}.
 
 🔗 **[Acessar a Pasta de Estatística Básica no Google Drive](https://drive.google.com/drive/folders/1Zh0mKEtufCmqbZbQZ-sYr7pKRB3VRIF7?usp=sharing){target="_blank"}**
 
 ## 💻 3. Cursos Práticos (R e Python)
 
 Se eu pudesse dar um único conselho para quem quer se destacar na área pública hoje, seria: **aprendam R e Python**. Não é mais um "diferencial", é uma ferramenta de trabalho essencial.
+
+> 📘 **Material de Apoio:** Lembra do livro **"Estatística Básica com suporte computacional em R"** que coloquei antes? Ele é o companheiro perfeito para estes cursos! Usem ele para consultar os comandos e ver como a estatística funciona na prática dentro do R. 
+>  [Site oficial do livro](https://cemeai.icmc.usp.br/livro-estatistica-basica/){target="_blank"} | [PDF direto](https://cemeai.icmc.usp.br/wp-content/uploads/2026/07/Livro-Estatistica-Basica-R-Portugues.pdf){target="_blank"}
 
 Para ajudar, organizei uma trilha de cursos gratuitos da Escola Virtual de Governo (EVG). Diferente das outras abas, **aqui a ordem é muito importante**. Façam um de cada vez, no tempo de vocês:
 
