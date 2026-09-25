@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gsathler-vi.github.io/index.html</loc>
-    <lastmod>2026-07-29T13:20:07.751Z</lastmod>
+    <lastmod>2026-08-08T16:18:00.421Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/material.html</loc>
-    <lastmod>2026-01-12T20:34:28.000Z</lastmod>
+    <lastmod>2026-08-08T16:22:11.434Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/historico.html</loc>
-    <lastmod>2026-07-29T12:00:10.704Z</lastmod>
+    <lastmod>2026-07-29T12:00:10.000Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/material/dummies/index.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/material/psm/index.html</loc>
-    <lastmod>2026-07-29T12:27:19.071Z</lastmod>
+    <lastmod>2026-08-02T16:17:16.000Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/posts.html</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/historico/disciplinas/em_curso/econometria-de-séries-temporais-e-painel/index.html</loc>
-    <lastmod>2026-07-29T12:00:01.332Z</lastmod>
+    <lastmod>2026-07-29T12:00:01.000Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/material/calouros/index.html</loc>
@@ -34,10 +34,34 @@
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/experiencia.html</loc>
-    <lastmod>2026-07-29T13:18:45.141Z</lastmod>
+    <lastmod>2026-07-29T13:18:45.000Z</lastmod>
   </url>
   <url>
     <loc>https://gsathler-vi.github.io/certificacoes.html</loc>
     <lastmod>2026-01-12T20:34:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/historico/disciplinas/cursadas/fundamentos-de-gestão-de-pessoas/index.html</loc>
+    <lastmod>2026-07-29T12:00:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/historico/disciplinas/cursadas/laboratório-de-iniciação-a-programação/index.html</loc>
+    <lastmod>2026-07-29T12:00:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/historico/disciplinas/cursadas/projeto-inteligência-de-mercado/index.html</loc>
+    <lastmod>2026-07-29T12:00:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/historico/disciplinas/em_curso/fundamentos-de-finanças-corporativas/index.html</loc>
+    <lastmod>2026-07-29T12:00:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/historico/disciplinas/em_curso/organização-industrial/index.html</loc>
+    <lastmod>2026-07-29T12:00:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gsathler-vi.github.io/historico/disciplinas/em_curso/temas-em-economia-brasileira/index.html</loc>
+    <lastmod>2026-07-29T12:00:01.000Z</lastmod>
   </url>
 </urlset>
